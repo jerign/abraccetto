@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--  -->
+        <!--    Document Title-->
+        <!-- =============================================-->
+        <title>Hideaway</title>
+        <!--  -->
+        <!--    Favicons-->
+        <!--    =============================================-->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicons/favicon.ico">
+        <link rel="manifest" href="assets/images/favicons/manifest.json">
+        <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-150x150.png">
+        <meta name="theme-color" content="#ffffff">
+        <!--  -->
+        <!--    Stylesheets-->
+        <!--    =============================================-->
+        <!-- Default stylesheets-->
+        <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template specific stylesheets-->
+        <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+        <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/lib/prism/prism.css" rel="stylesheet">
+        <!-- Main stylesheet and color file-->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet"> </head>
+    <body data-spy="scroll" data-target=".inner-link" data-offset="60">
+        <main>
+            <div class="loading" id="preloader">
+                <div class="h-100vh d-flex align-items-center justify-content-center background-1">
+                    <div class="loader">
+                        <div class="line-scale-pulse-out">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="znav-container znav-transparent mt-4" id="znav-container">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand overflow-hidden pr-3 fs-3" href="index.html">Hideaway
+                            <span class="d-none d-lg-inline-block">Resort</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="hamburger hamburger--emphatic">
+                                <div class="hamburger-box">
+                                    <div class="hamburger-inner"></div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav font-2 fs-0">
+                                <li>
+                                    <a href="JavaScript:void(0)">Home</a>
+                                    <ul class="dropdown fs--1">
+                                        <li>
+                                            <a href="index.html">Slider Header</a>
+                                        </li>
+                                        <li>
+                                            <a href="index--header-slider-classic.html">Slider Classic</a>
+                                        </li>
+                                        <li>
+                                            <a href="index--header-static.html">Static Header</a>
+                                        </li>
+                                        <li>
+                                            <a href="index--header-static-classic.html">Static Classic</a>
+                                        </li>
+                                        <li>
+                                            <a href="index--header-youtube-video.html">Youtube Background </a>
+                                        </li>
+                                        <li>
+                                            <a href="index--header-youtube-video-classic.html">Youtube Classic</a>
+                                        </li>
+                                        <li>
+                                            <a href="index--header-selfhosted-video.html">Self-hosted Video</a>
+                                        </li>
+                                        <li>
+                                            <a href="index--header-selfhosted-video-classic.html">Self-hosted Classic</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="JavaScript:void(0)">Pages</a>
+                                    <ul class="dropdown fs--1">
+                                        <li>
+                                            <a href="gallery.html">Gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="amenities.html">Amenities</a>
+                                        </li>
+                                        <li>
+                                            <a href="packages.html">Packages</a>
+                                        </li>
+                                        <li>
+                                            <a href="history.html">Our History</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="JavaScript:void(0)">Elements</a>
+                                    <ul class="dropdown fs--1">
+                                        <li>
+                                            <a href="components-buttons.html">Buttons</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-colors.html">Colors</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-googlemap.html">Google Map</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-grid.html">Grid</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-icons.html">Icons</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-layouthelpers.html">Layout Helpers</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-modal-video.html">Modal Video</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-owlcarousal.html">Owl Carousal</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-slider.html">Slider</a>
+                                        </li>
+                                        <li>
+                                            <a href="components-typography.html">Typography</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="text-center">
+                                    <a class="pl-3 pl-lg-0 d-inline-block" href="#">
+                                        <span class="fa fa-facebook"></span>
+                                    </a>
+                                    <a class="pl-3 pl-lg-1 d-inline-block" href="#">
+                                        <span class="fa fa-twitter"></span>
+                                    </a>
+                                    <a class="pl-3 pl-lg-1 d-inline-block" href="#">
+                                        <span class="fa fa-google-plus"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-outline-white btn-sm border-2x fw-700" href="#" target="Blank">Book Now</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <section class="py-0 overflow-hidden">
+                <div class="background-holder overlay overlay-2 parallax" style="background-image:url(assets/images/elements-header.jpg);"> </div>
+                <!--/.background-holder-->
+                <div class="container">
+                    <div class="row align-items-center justify-content-center text-center pt-8 pb-6" style="height: 50vh; min-height: 300px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="col">
+                            <div class="overflow-hidden">
+                                <h6 class="text-uppercase color-white fs--1 fs-lg-0 font-2 ls" data-zanim='{"delay":0.2}'>Modular elements</h6>
+                            </div>
+                            <div class="overflow-hidden">
+                                <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>Typography</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <h4>Font Family</h4>
+                            <p> You have two sets of <code>font-family</code> available to use in Hideaway.</p>
+                            <div class="my-4"></div>
+                            <div class="fs-2">
+                                <div class="font-1">Playfair Display</div>
+                                <div class="font-2">Hind Madurai</div>
+                            </div> <pre><code class="language-html">&lt;div class=&quot;font-1&quot;&gt;Playfair Display&lt;/div&gt;
+&lt;div class=&quot;font-2&quot;&gt;Hind Madurai&lt;/div&gt;
+</code></pre>
+                            <div class="my-6"></div>
+                            <h4>Headings</h4>
+                            <p>
+                                <strong>Hideaway </strong>has all the html headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, styled for you. Also you can use<code>.h1</code> through <code>.h6</code> classes when you want to match the font styling
+                                of a heading but still want your text to be displayed inline.</p>
+                            <div class="my-5"></div>
+                            <h1>Heading 1</h1>
+                            <h2>Heading 2</h2>
+                            <h3>Heading 3</h3>
+                            <h4>Heading 4</h4>
+                            <h5>Heading 5</h5>
+                            <h6>Heading 6</h6>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+</code></pre>
+                            <div class="my-6"></div>
+                            <h4>Paragraphs</h4>
+                            <p>This is a paragraph text. Following text are dummy copy text. Donec feugiat lorem dolor, eu fringilla urna tincidunt quis. In vitae dignissim lectus. Maecenas varius libero non metus rhoncus sagittis. Proin posuere iaculis
+                                auctor. Vivamus orci lorem, sollicitudin at convallis in, feugiat eget felis. Integer maximus, metus sit amet imperdiet semper, erat felis vulputate odio, nec malesuada metus.</p>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;p&gt;
+	Your paragraph text goes here.
+&lt;/p&gt;
+</code></pre>
+                            <div class="my-6"></div>
+                            <h4>Lead Paragraph and Drop cap</h4>
+                            <div class="my-4"></div>
+                            <p>Make a paragraph stand out by adding <code>.lead</code> and for drop cap, use <code>.dropcap</code> class.</p>
+                            <div class="my-4"></div>
+                            <p class="dropcap lead">Aliquam a fermentum tortor, nec fringilla eros. Donec molestie lorem elit, eget eleifend neque dignissim nec. Suspendisse ullamcorper dapibus dolor eget auctor. Etiam tempor dui nec eros blandit tincidunt.</p>
+                            <p class="lead">Curabitur ut sapien pretium nulla porttitor porta sit amet eu neque. Nunc nec erat odio. Praesent tristique pulvinar erat, quis cursus sem ultricies sed. Suspendisse ullamcorper dapibus dolor eget auctor. Ut quis egestas nibh.
+                                Aliquam a fermentum tortor, nec fringilla eros. Donec molestie lorem elit, eget eleifend neque dignissim nec. Etiam tempor dui nec eros blandit tincidunt.</p>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;p class=&quot;dropcap lead&quot;&gt;
+	Your paragraph goes here.
+&lt;/p&gt;
+&lt;p class=&quot;lead&quot;&gt;
+	Your paragraph goes here.
+&lt;/p&gt;
+</code></pre>
+                            <div class="my-6"></div>
+                            <h4>Font styles</h4>
+                            <div class="my-5"></div>
+                            <h5>Font weights</h5> <pre><code class="lang-css">.fw-100{font-weight: 100 !important;}
+.fw-200{font-weight: 200 !important;}
+.fw-300{font-weight: 300 !important;}
+.fw-400{font-weight: 400 !important;}
+.fw-500{font-weight: 500 !important;}
+.fw-600{font-weight: 600 !important;}
+.fw-700{font-weight: 700 !important;}
+.fw-800{font-weight: 800 !important;}
+.fw-900{font-weight: 900 !important;}</code></pre>
+                            <div class="my-5"></div>
+                            <h5>Colors</h5>
+                            <p>Use the folloing classes to change the text color.</p>
+                            <div class="my-4"></div>
+                            <h5 class="color-primary">.color-primary</h5>
+                            <h5 class="color-info">.color-info</h5>
+                            <h5 class="color-success">.color-success</h5>
+                            <h5 class="color-warning">.color-warning</h5>
+                            <h5 class="color-danger">.color-danger</h5>
+                            <h5 class="color-black">.color-black</h5>
+                            <h5 class="color-1">.color-1</h5>
+                            <h5 class="color-2">.color-2</h5>
+                            <h5 class="color-3">.color-3</h5>
+                            <h5 class="color-4">.color-4</h5>
+                            <h5 class="color-5">.color-5</h5>
+                            <h5 class="color-6">.color-6</h5>
+                            <h5 class="color-7">.color-7</h5>
+                            <h5 class="color-8">.color-8</h5>
+                            <h5 class="color-9">
+                                <span class="background-0">.color-9</span>
+                            </h5>
+                            <h5 class="color-10">
+                                <span class="background-1">.color-10</span>
+                            </h5>
+                            <h5 class="color-11">
+                                <span class="background-2">.color-11</span>
+                            </h5>
+                            <h5 class="color-white">
+                                <span class="background-2">.color-white</span>
+                            </h5>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;h5 class=&quot;color-primary&quot;&gt;.color-primary&lt;/h5&gt;
+</code></pre>
+                            <div class="my-5"></div>
+                            <h5>Sizes</h5>
+                            <p>If you want different sizes of fonts, you may use the folloing classes.</p>
+                            <div class="my-4"></div>
+                            <h6 class="fs--1">.fs--1</h6>
+                            <h6 class="fs-0">.fs-0</h6>
+                            <h6 class="fs-1">.fs-1</h6>
+                            <h6 class="fs-2">.fs-2</h6>
+                            <h6 class="fs-4">.fs-4</h6>
+                            <h6 class="fs-5">.fs-5</h6>
+                            <h6 class="fs-6">.fs-6</h6>
+                            <h6 class="fs-7">.fs-7</h6>
+                            <h6 class="fs-8">.fs-8</h6>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;h6 class=&quot;fs--1&quot;&gt;.fs--1&lt;/h6&gt;
+&lt;h6 class=&quot;fs-0&quot;&gt;.fs-0&lt;/h6&gt;
+</code></pre>
+                            <div class="my-5"></div>
+                            <h5>Alignments</h5>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="my-4"></div>
+                                    <div class="text-left">
+                                        <h6>Left aligned</h6>
+                                        <p>Pellentesque cursus placerat hendrerit. Donec sed erat nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vitae consequat erat. Quisque faucibus felis et fringilla
+                                            imperdiet. Etiam at porttitor elit, quis convallis massa. Ut id risus sapien. Praesent sit amet arcu a eros laoreet facilisis id eget risus.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="my-4"></div>
+                                    <div class="text-right">
+                                        <h6>Right aligned</h6>
+                                        <p>Pellentesque cursus placerat hendrerit. Donec sed erat nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vitae consequat erat. Quisque faucibus felis et fringilla
+                                            imperdiet. Etiam at porttitor elit, quis convallis massa. Ut id risus sapien. Praesent sit amet arcu a eros laoreet facilisis id eget risus.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="my-4"></div>
+                                    <div class="text-center">
+                                        <h6>Center aligned</h6>
+                                        <p>Pellentesque cursus placerat hendrerit. Donec sed erat nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vitae consequat erat. Quisque faucibus felis et fringilla
+                                            imperdiet. Etiam at porttitor elit, quis convallis massa. Ut id risus sapien. Praesent sit amet arcu a eros laoreet facilisis id eget risus.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="my-4"></div>
+                                    <div class="text-justify">
+                                        <h6>Justified</h6>
+                                        <p>Pellentesque cursus placerat hendrerit. Donec sed erat nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vitae consequat erat. Quisque faucibus felis et fringilla
+                                            imperdiet. Etiam at porttitor elit, quis convallis massa. Ut id risus sapien. Praesent sit amet arcu a eros laoreet facilisis id eget risus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;p class=&quot;text-left&quot;&gt;
+	Your paragraph goes here.
+&lt;/p&gt;
+&lt;p class=&quot;text-right&quot;&gt;
+	Your paragraph goes here.
+&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;
+	Your paragraph goes here.
+&lt;/p&gt;
+&lt;p class=&quot;text-justify&quot;&gt;
+	Your paragraph goes here.
+&lt;/p&gt;
+</code></pre>
+                            <div class="my-5"></div>
+                            <h5>Transformation</h5>
+                            <div class="my-4"></div>
+                            <h6 class="text-lowercase">Lowercased text</h6>
+                            <h6 class="text-uppercase">Uppercased text</h6>
+                            <h6 class="text-capitalize">Capitalized text</h6>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;h5 class=&quot;text-lowercase&quot;&gt;Lowercased text.&lt;/h5&gt;
+&lt;h5 class=&quot;text-uppercase&quot;&gt;Uppercased text.&lt;/h5&gt;
+&lt;h5 class=&quot;text-capitalize&quot;&gt;Capitalized text.&lt;/h5&gt;
+</code></pre>
+                            <div class="my-5"></div>
+                            <h5>Inline styles</h5>
+                            <p> Use these tags for inline styling. Feel free to use <code>&lt;b&gt;</code> and <code>&lt;em&gt;</code> tags insted of <code>&lt;strong&gt;</code> and <code>&lt;i&gt;</code> tags.</p>
+                            <div class="my-4"></div>
+                            <div class="row">
+                                <div class="col-sm-5 l-h-0">
+                                    <p>
+                                        <mark>Highlight text</mark>
+                                    </p>
+                                    <p>
+                                        <del>Deleted text</del>
+                                    </p>
+                                    <p>
+                                        <u>Underlined text</u>
+                                    </p>
+                                    <p>
+                                        <small>Small text</small>
+                                    </p>
+                                    <p>
+                                        <strong>Bold text</strong>
+                                    </p>
+                                    <p>
+                                        <i>Italic text</i>
+                                    </p>
+                                </div>
+                                <div class="col-sm-6 col-sm-offset-1"> <pre><code class="language-html">&lt;mark&gt;mark&lt;/mark&gt; text
+&lt;del&gt;Deleted text&lt;/del&gt;
+&lt;u&gt;Underlined text&lt;/u&gt;
+&lt;small&gt;Small text&lt;/small&gt;
+&lt;strong&gt;Bold text&lt;/strong&gt;
+&lt;i&gt;Italic text&lt;/i&gt;
+</code></pre> </div>
+                            </div>
+                            <div class="my-6"></div>
+                            <h4>Blockquotes</h4>
+                            <div class="my-4"></div>
+                            <blockquote class="blockquote my-5 font-2">
+                                <p class="fs-2 color-4 lh-2 font-italic">Racing is life, everything before or after is just waiting.”</p>
+                                <footer class="blockquote-footer">Unknown</footer>
+                            </blockquote>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;blockquote class=&quot;blockquote my-5 font-2&quot;&gt;
+	&lt;p class=&quot;fs-2 color-4 lh-2 font-italic&quot;&gt;Racing is life, everything before or after is just waiting.”&lt;/p&gt;
+	&lt;footer class=&quot;blockquote-footer&quot;&gt;Frank Zappa&lt;/footer&gt;
+&lt;/blockquote&gt;
+</code></pre>
+                            <div class="my-4"></div>
+                            <h5>Alternate displays</h5>
+                            <div class="my-4"></div>
+                            <p>Add <code>.blockquote-reverse</code> for a blockquote with right-aligned content.</p>
+                            <div class="my-4"></div>
+                            <blockquote class="blockquote-reverse my-5 font-2">
+                                <p class="fs-2 color-4 lh-2 font-italic">If you want to get laid, go to college. If you want an education, go to the library ”</p>
+                                <footer class="blockquote-footer">Frank Zappa</footer>
+                            </blockquote>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;blockquote class=&quot;blockquote-reverse my-5 font-2&quot;&gt;
+	&lt;p class=&quot;fs-2 color-4 lh-2 font-italic&quot;&gt;If you want to get laid, go to college. If you want an education, go to the library.”&lt;/p&gt;
+	&lt;footer class=&quot;blockquote-footer&quot;&gt;Frank Zappa&lt;/footer&gt;
+&lt;/blockquote&gt;
+</code></pre>
+                            <div class="my-6"></div>
+                            <h4>Lists</h4>
+                            <div class="my-5"></div>
+                            <h5>Unordered</h5>
+                            <p>A list of items in which the order does not explicitly matter.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ul>
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                    </ul>
+                                </li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                            </ul>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;ul&gt;
+	&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+	&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+	&lt;li&gt;Nulla volutpat aliquam velit
+		&lt;ul&gt;
+			&lt;li&gt;Phasellus iaculis neque&lt;/li&gt;
+			&lt;li&gt;Purus sodales ultricies&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Faucibus porta lacus fringilla vel&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+                            <div class="my-5"></div>
+                            <h5>Ordered</h5>
+                            <p>A list of items in which the order does explicitly matter.</p>
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ol>
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                    </ol>
+                                </li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                            </ol>
+                            <div class="my-4"></div> <pre><code class="language-html">&lt;ol&gt;
+	&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+	&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+	&lt;li&gt;Nulla volutpat aliquam velit
+		&lt;ol&gt;
+			&lt;li&gt;Phasellus iaculis neque&lt;/li&gt;
+			&lt;li&gt;Purus sodales ultricies&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Faucibus porta lacus fringilla vel&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+                            <div class="my-5"></div>
+                            <h5>No Style</h5>
+                            <p>A list of items in which the order does not explicitly matter.</p>
+                            <ul class="no-style">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ul class="no-style">
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                    </ul>
+                                </li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                            </ul>
+                            <div class="my-5"></div>
+                            <h5>Styled Checkmark</h5>
+                            <p>A list of items in which the order does not explicitly matter.</p>
+                            <ul class="style-check">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ul class="no-style">
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                    </ul>
+                                </li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </section>
+            <section class="text-center pb-3">
+                <div class="background-holder overlay overlay-2" style="background-image:url(assets/images/footer-bg.jpg);background-position: top;"> </div>
+                <!--/.background-holder-->
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h4 class="mb-2 color-white">Join the
+                                <em>Hideaway </em>Newsletters</h4>
+                            <p class="mb-0 color-9">Subscribe to our mailing list to receive updates and promotional offers.</p>
+                        </div>
+                        <div class="col-md-10 col-lg-7 col-xl-5 mt-4">
+                            <form method="post">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col-md-8 px-2">
+                                        <input class="form-control" type="hidden" name="to" value="username@domain.extension" />
+                                        <input class="form-control border-color-white" type="text" placeholder="Enter Email Here" /> </div>
+                                    <div class="col-md-4 px-2 mt-3 mt-md-0">
+                                        <button class="btn btn-block btn-white" type="submit">
+                                            <span>Submit</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row mt-8 fs--1">
+                        <div class="col-lg-auto ml-lg-auto order-lg-2 mb-2 mb-lg-0">
+                            <a class="d-inline-block mx-2 color-8" href="#">Home</a>
+                            <a class="d-inline-block mx-2 color-8" href="#">Book Now</a>
+                            <a class="d-inline-block mx-2 color-8" href="#">Contact</a>
+                            <a class="d-inline-block mx-2 color-8" href="#">Events</a>
+                            <a class="d-inline-block mx-2 color-8" href="#">Policies</a>
+                            <a class="d-inline-block mx-2 color-8" href="#">Term + Conditions</a>
+                        </div>
+                        <div class="col-lg text-lg-left">
+                            <div class="color-8">&copy; Hideaway 2018 | Template crafted by
+                                <a class="color-8" href="https://themewagon.com/" target="_blank">Themewagon</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </section>
+        </main>
+        <!--  -->
+        <!--    JavaScripts-->
+        <!--    =============================================-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="assets/lib/jquery/dist/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="assets/js/googlemap.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoK8GIrOHzHwnzHCyqrdtmTpUWcdrTTD8&callback=initMap" async></script>
+        <script src="assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/lib/jquery-menu-aim/jquery.menu-aim.js"></script>
+        <script src="assets/lib/gsap/src/minified/TweenMax.min.js"></script>
+        <script src="assets/lib/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+        <script src="assets/lib/CustomEase.min.js"></script>
+        <script src="assets/js/config.js"></script>
+        <script src="assets/lib/rellax/rellax.min.js"></script>
+        <script src="assets/js/zanimation.js"></script>
+        <script src="assets/js/inertia.js"></script>
+        <script src="assets/lib/prism/prism.js"></script>
+        <script src="assets/js/core.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

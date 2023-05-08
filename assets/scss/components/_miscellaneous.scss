@@ -1,0 +1,104 @@
+// Video modal background color fix
+// #videoModalIframeWrapper {
+//     background: black;
+// }
+
+/////////////////////////////
+//  icon alignment fix
+/////////////////////////////
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+}
+.icon-position-fix{
+    transform: translateY(0.1em);
+}
+
+
+/////////////////////////////
+// And We hate IE too
+/////////////////////////////
+.sticky-top{
+    z-index: 1029;
+    position: relative;
+    position: sticky;
+}
+
+.ie{
+    @include mq($from: wide) {
+        .h-full{
+            height: 100vh;
+        }
+        .h-half{
+            height: 50vh;
+        }
+    }
+    .background-holder{
+        video{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+}
+.edge{
+    .background-holder{
+        video{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+::selection{
+    color: white;
+    background-color: map-get($colors, primary);
+}
+
+////////////////////////////////////
+// Modal Video Background color Fix
+////////////////////////////////////
+#videoModal .embed-responsive {
+    background-color: black;
+}
+
+
+/////////////////////////////
+// Zanimation
+/////////////////////////////
+.zopacity, *[data-zanim]{opacity: 0;}
+.elixir-zanim-scale{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/////////////////////////////
+// One Page Nav
+/////////////////////////////
+// .navs{
+//     width: 100%;
+//     &.fixed{
+//         left: 0;
+//         top: 0;
+//     }
+//     @include navigation-bar();
+// }
+
+
+// ////////////////////////////
+// // Object Helper
+// ////////////////////////////
+// .object-fit-fill {
+//     object-fit: fill;
+// }
+// .object-fit-contain {
+//     object-fit: contain;
+// }
+// .object-fit-cover {
+//     object-fit: cover;
+// }
+// .object-fit-none {
+//     object-fit: none;
+// }
+// .object-fit-scale-down {
+//     object-fit: scale-down;
+// }
