@@ -29,6 +29,7 @@ a:hover, a:focus {
 
 .container {
   z-index: 1;
+  padding-left: 1em;
 }
 
 .card {

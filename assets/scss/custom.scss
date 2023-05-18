@@ -1,1 +1,6 @@
 // Your Custom style goes here..
+@font-face { font-family: tanlib; src: url('/abraccetto/assets/font/TAN_LIEBE.otf'); } 
+@font-face { font-family: tanlib2; src: url('/abraccetto/assets/font/TAN_LIEBE.ttf'); } 
+#tanlib {
+    font-family: tanlib, tanlib2;
+}
