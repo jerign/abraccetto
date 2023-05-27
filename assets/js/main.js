@@ -17,3 +17,18 @@ $(window).on('load', function(){
         $(this).inertia();
     });
 });
+
+var navbarfade = document.getElementById('navbarfade');
+// navbarfade.style.backgroundColor = '#82828200';
+
+// trigger this function every time the user scrolls
+window.onscroll = function (event) {
+    var scroll = window.pageYOffset;
+    if (scroll < 200) {
+        // green
+        navbarfade.style.backgroundColor = '#82828200';
+    } else if (scroll > 200) {
+        // yellow
+        navbarfade.style.backgroundColor = 'rgba(17, 17, 17, 0.9)';
+    }
+}

@@ -255,7 +255,8 @@ a:hover, a:focus {
   font-weight: 600;
   font-size: 0.83333rem;
   letter-spacing: 0.01em;
-  border-radius: 3px;
+  /* margin: 2em; */
+  /* border-radius: 3px; */
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -8187,18 +8188,18 @@ hr.short {
 }
 
 body {
-  margin: 13px;
+  /* margin: 13px; */
 }
 
 @media (min-width: 36em) {
   body {
-    margin: 26px;
+    /* margin: 26px; */
   }
 }
 
 @media (min-width: 48em) {
   body {
-    margin: 52px;
+    /* margin: 52px; */
   }
 }
 
@@ -8261,7 +8262,8 @@ body {
 }
 
 .h-box {
-  min-height: calc(100vh - 104px);
+  min-height: 100vh
+  /* min-height: calc(112vh - 104px); */
 }
 
 .h-classic-box {
