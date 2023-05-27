@@ -22,7 +22,16 @@
     width: 6em;  
     height: auto;  
 }
-#navbarfade{
+
+#topnav{
+    position: fixed !important;
     padding: 2em;
     transition: background 1s ease;
 }
+#navbarfade{
+    /* position: fixed !important; */
+    /* padding: 2em;
+    transition: background 1s ease;
+     */
+}
+.navbar-collapse { max-height: calc(100vh - 60px)!important; overflow-y: auto !important; }
