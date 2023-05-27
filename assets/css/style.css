@@ -4379,6 +4379,8 @@ hr.short {
 
 .color-white {
   color: white !important;
+  font-size: larger;
+  font-weight: 600;
 }
 
 .background-white {
