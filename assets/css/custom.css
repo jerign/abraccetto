@@ -25,7 +25,9 @@
 
 #topnav{
     position: fixed !important;
-    padding: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-left: 1em;
     transition: background 1s ease;
 }
 #navbarfade{
