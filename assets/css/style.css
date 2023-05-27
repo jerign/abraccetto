@@ -874,6 +874,7 @@ a:hover, a:focus {
 
 .znav-transparent.znav-container .navbar-nav > li > a:not(.btn) {
   color: rgba(255, 255, 255, 0.8);
+  font-size: larger;
 }
 
 .hamburger {
@@ -1118,6 +1119,7 @@ a:hover, a:focus {
 
 .hoverbox .hoverbox-primary-content {
   position: absolute;
+  font-size: larger;
   top: 0;
   left: 0;
   width: 100%;
