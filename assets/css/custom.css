@@ -37,3 +37,7 @@
      */
 }
 .navbar-collapse { max-height: calc(100vh - 60px)!important; overflow-y: auto !important; }
+
+#gallery{
+    margin: 0.7em;
+}
