@@ -9,7 +9,7 @@
 
 		$from		= "user@domain.com";
 		$name		= "Website User";
-		$subject	= "New Email from Website";
+		$subject	= "Nouvelle prise de contact venant du site web";
 		$message	= "";
 
 
