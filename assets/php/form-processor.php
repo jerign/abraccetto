@@ -27,8 +27,9 @@
 			$subject 	= $_POST['subject']; 	
 			unset($_POST['subject']); 
 		}
+
 		if(isset($_POST['message'])){ 
-			$subject 	= $_POST['message']; 	
+			$message 	= $_POST['message']; 	
 			unset($_POST['message']); 
 		}
 
