@@ -9,7 +9,7 @@
 
 		$from		= "user@domain.com";
 		$name		= "Website User";
-		$subject	= "New Email from My Website";
+		$subject	= "New Email from Website";
 
 
 		if(isset($_POST['from'])){ 
