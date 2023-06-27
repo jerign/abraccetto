@@ -10,6 +10,7 @@
 		$from		= "user@domain.com";
 		$name		= "Website User";
 		$subject	= "New Email from Website";
+		$message	= "";
 
 
 		if(isset($_POST['from'])){ 
@@ -26,11 +27,13 @@
 			$subject 	= $_POST['subject']; 	
 			unset($_POST['subject']); 
 		}
+		if(isset($_POST['message'])){ 
+			$subject 	= $_POST['message']; 	
+			unset($_POST['message']); 
+		}
 
 
 
-
-		$message = "";
 		foreach ($_POST as $field => $data){
 
 	   		$message = "<html><head><title>$subject</title></head><body>\n";
