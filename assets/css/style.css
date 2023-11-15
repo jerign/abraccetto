@@ -1417,7 +1417,8 @@ h5, .h5 {
 }
 
 p, .p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-family: "Playfair Display", serif;
 }
 
 p.lead, .p.lead {
@@ -8435,7 +8436,7 @@ body {
 p {
   line-height: 1.6;
   margin-bottom: 1.6rem;
-  color: #7F7F7F;
+  color: #353535;
 }
 
 .dropcap::first-letter {
