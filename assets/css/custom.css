@@ -41,3 +41,10 @@
 #gallery{
     margin: 0.7em;
 }
+#lang{
+    background-color: #7e7e7e; 
+    font-family: "Hind Madurai", sans-serif;
+    color: white;
+    border-color: white;
+  }
+  
