@@ -163,12 +163,14 @@ var translator = new Translator({
   filesLocation: "assets/i18n"
 });
 
+var lang = get_cookie("lang")
+
 translator.load(get_cookie("lang"));
 
-document.getElementById('lang').value = get_cookie("lang")
-
-console.log(get_cookie("lang"))
-
+if(lang !=null){
+  console.log(get_cookie("lang"))
+  document.getElementById('lang').value = lang
+}
 
 document.getElementById('lang').addEventListener('change', function() {
   document.cookie = "lang="+this.value;
