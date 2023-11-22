@@ -3044,7 +3044,7 @@ label, legend {
   font-weight: 600;
 }
 
-label, input, textarea, legend {
+label, input, textarea, legend, select{
   font-family: "Playfair Display", serif;
 }
 

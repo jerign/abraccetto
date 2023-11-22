@@ -4,7 +4,7 @@
 
 	if ( array_key_exists('to', $_POST) ){
 	   
-		$to 		= $_POST['to']; 	
+		$to 		= "contact@abraccettoparis.com"; 	
 		unset($_POST['to']);
 
 		$from		= "user@domain.com";
@@ -24,7 +24,12 @@
 		}
 
 		if(isset($_POST['subject'])){ 
-			$subject 	= $_POST['subject']; 	
+			$subject	= $_POST['subject']; 
+
+			if($subject == "Evénementiel - Groupes"){
+				$to = "event@abraccetto.fr"; 	
+			}	
+
 			unset($_POST['subject']); 
 		}
 
