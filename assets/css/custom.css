@@ -47,3 +47,5 @@
     color: white;
     border-color: white;
 }
+
+select {-webkit-appearance:none;}
