@@ -2,5 +2,66 @@
     "Menu":"Menu",
     "Galerie": "Galerie",
     "Contact": "Contact",
-    "Reservez-Maintenant": "Réservez maintenant"
+    "Reservez-Maintenant": "Réservez maintenant",
+    "Dolce-vita": "Dolce <em>vita</em> et art de <em> vivre</em> à la française",
+    "p1": "A Braccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients frais.",
+    "p2": "Notre aventure culinaire est le fruit d'une colla- boration harmonieuse entre une équipe franco-italienne dévouée et passionnée, toujours désireuse d'aller plus loin pour satisfaire notre clientèle.",
+    "p3": "Que ce soit pour un dîner romantique, un déjeuner d'affaires ou un rassemblement en famille, notre restaurant offre un environnement convivial et sophistiqué, où la dolce vita rencontre l'art de vivre à la française. Nous vous invitons à découvrir notre passion pour la cuisine, notre service attentionné et notre ambiance chaleureuse.",
+    "Infos-pratiques": "Infos pratiques",
+    "Cuisine": "Cuisine",
+    "Type-cuisine": "Italienne - Méditérranéenne",
+    "Service": "Service",
+    "Continu": "Continu",
+    "Type-restaurant": "Type de restaurant",
+    "Description-restaurant": "Bar - Café - Restaurant",
+    "Ouvertures":{
+        "Description": "Ouvertures",
+        "Lundi": "Lundi ~ 10h00 - 02h00",
+        "Mardi": "Mardi ~ 10h00 - 02h00",
+        "Mercredi": "Mercredi ~ 10h00 - 02h00",
+        "Jeudi": "Jeudi ~ 10h00 - 02h00",
+        "Vendredi": "Vendredi ~ 10h00 - 02h00",
+        "Samedi": "Samedi ~ 09h00 - 02h00",
+        "Dimanche": "Dimanche ~ 09h00 - 02h00"
+    },
+    "Paiement": {
+        "Description": "Paiement",
+        "Sans-contact" : "Sans contact",
+        "Carte-Bancaire": "Carte Bancaire",
+        "Especes": "Espèces",
+        "Titres-restaurant": "Titres restaurant",
+        "Amex": "Amex"
+    },
+    "Acces": {
+        "Description" : "Accès",
+        "Rer" : "RER B - Luxembourg (~100m)",
+        "Bus" : "BUS - Luxembourg (~100m) - Panthéon (~150m)",
+        "Lignes" : "Lignes 21, 27, 24, 82, 84, 89, 38, N21, N14, N122 - 75",
+        "Metro" : " Metro - Cluny-La Sorbonne (~500m) - Odéon (~600m)",
+        "Velib" : "Velib - Le Goff - Gay-Lussac (~50m) - Cujas - Saint-Michel (~50m)"
+    },
+    "Rejoignez":"Rejoignez les <em>membres priviligiés</em> de la famille a braccetto",
+    "Ne-Ratez": "Ne ratez aucune soirée ou évenement en vous abonnant à la newsletter.",
+    "Entrer": "Entrer",
+
+    "Cliquer-menu": "&#8593; Cliquez ci dessus pour télécharger le menu &#8593;",
+
+    "Reseaux": "Réseaux sociaux",
+    "Form": {
+        "Nom": "Nom",
+        "Email": "Email",
+        "Objet": {
+            "Retour": "Retour d'experience",
+            "Objets-perdus": "Objets perdus",
+            "Evenementiel": "Evénementiel - Groupes",
+            "Recrutement": "Recrutement",
+            "Presse": "Demande presse"
+        },
+        "Envoyer": "Envoyer"
+    },
+
+
+
+
+
 }

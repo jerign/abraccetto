@@ -11,13 +11,13 @@
 		$message	= "";
 
 
-		if(isset($_POST['from'])){ 
+		if(isset($_POST['from'])){
 			$from 	= $_POST['from']; 	
 			unset($_POST['from']); 
 		}
 
 		if(isset($_POST['name'])){ 
-			$name 	= $_POST['name']; 	
+			$name 	= $_POST['name'];
 			unset($_POST['name']); 
 		}
 
@@ -26,7 +26,7 @@
 
 			if($subject == "Evénementiel - Groupes"){
 				$to = "event@abraccettoparis.com"; 	
-			}	
+			}
 			if($subject == "Recrutement"){
 				$to = "recrutement.abraccetto@outlook.com"; 	
 			}	

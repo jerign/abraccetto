@@ -81,7 +81,7 @@
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li class="text-center">
-                            <a class="pl-3 pl-lg-1 d-inline-block invisible">
+                            <a class="pl-3 pl-lg-1 d-inline-block">
                                 <form class="fa fa-language">
                                     <select class="pl-2 pr-2 pl-lg-1 d-inline-block" id="lang">
                                         <option value="fr" name="lang">Français</option>
@@ -115,7 +115,7 @@
                     style="height: 50vh; min-height: 300px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="col">
                         <div class="overflow-hidden">
-                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>Contact</h1>
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="Contact">Contact</h1>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 col-lg-12">
-                                <h4 class="mb-2">Réseaux sociaux</h4>
+                                <h4 class="mb-2" data-i18n="Reseaux">Réseaux sociaux</h4>
                                 <a class="d-inline-block mt-2" href="https://instagram.com/abraccettoparis">
                                     <span class="fa fa-instagram fs-2 mx-2 color-primary"></span>
                                 </a>
@@ -160,18 +160,18 @@
                                 <div class="col-12">
                                     <input class="form-control" type="hidden" name="to"
                                         value="contact@abraccettoparis.com" />
-                                    <input class="form-control" type="text" name="name" placeholder="Nom" required="required" />
+                                    <input class="form-control" type="text" name="name" placeholder="Nom" required="required"/>
                                 </div>
                                 <div class="col-12 mt-4">
                                     <input class="form-control" type="email" name="from" placeholder="Email" required="required" />
                                 </div>
                                 <div class="col-12 mt-4">
-                                    <select class="" type="text" name="subject" placeholder="Objet" required="required">
-                                        <option value="Retour d'experience">Retour d'experience</option>
-                                        <option value="Objets perdus">Objets perdus</option>
-                                        <option value="Evénementiel - Groupes">Evénementiel - Groupes</option>
-                                        <option value="Recrutement">Recrutement</option>
-                                        <option value="Demande presse">Demande presse</option>
+                                    <select class="" id="select-contact" type="text" name="subject" placeholder="Objet" required="required">
+                                        <option value="Retour d'experience" data-i18n="Form.Objet.Retour">Retour d'experience</option>
+                                        <option value="Objets perdus" data-i18n="Form.Objet.Objets-perdus">Objets perdus</option>
+                                        <option value="Evénementiel - Groupes" data-i18n="Form.Objet.Evenementiel">Evénementiel - Groupes</option>
+                                        <option value="Recrutement" data-i18n="Form.Objet.Recrutement">Recrutement</option>
+                                        <option value="Demande presse" data-i18n="Form.Objet.Presse">Demande presse</option>
                                     </select>
                                 </div>
                                 <div class="col-12 mt-4">
@@ -182,7 +182,7 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <button class="btn btn-md-lg btn-primary" type="Submit">
-                                                <span class="color-white fw-600">Envoyer</span>
+                                                <span class="color-white fw-600" data-i18n="Envoyer">Envoyer</span>
                                             </button>
                                         </div>
                                         <div class="col">
