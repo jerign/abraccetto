@@ -42,10 +42,16 @@
     margin: 0.7em;
 }
 #lang{
-    background-color: #7e7e7e; 
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat #ddd;
+    background-position: right 6px top 6px;
+    background-size: 13%;
+    -webkit-appearance: none;
+    background-color: #7e7e7e;
     font-family: "Hind Madurai", sans-serif;
     color: white;
     border-color: white;
+    height: 26px;
+    width: 91px;
 }
 
 #select-contact {
@@ -69,6 +75,4 @@
     font-weight: 500;
     color: grey;
     width: 100%;
-
-
 }
