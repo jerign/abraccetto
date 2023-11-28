@@ -168,7 +168,7 @@ var lang = get_cookie("lang")
 translator.load(get_cookie("lang"));
 
 if(lang !=null){
-  console.log(get_cookie("lang"))
+  console.log(lang)
   document.getElementById('lang').value = lang
 }
 
