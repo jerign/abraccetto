@@ -4,7 +4,8 @@
 
 	if ( array_key_exists('to', $_POST) ){
 	   
-		$to 		= "contact@abraccettoparis.com"; 	
+		$to 		= "jeremyigonin@gmail.com"; 	
+		// $to 		= "contact@abraccettoparis.com"; 	
 		$from		= "user@domain.com";
 		$name		= "Website User";
 		$subject	= "Nouvelle prise de contact venant du site web";
@@ -25,10 +26,12 @@
 			$subject	= $_POST['subject']; 
 
 			if($subject == "Evénementiel - Groupes"){
-				$to = "event@abraccettoparis.com"; 	
+				$to = "j.igonin.63@gmail.com"; 	
+				// $to = "event@abraccettoparis.com"; 	
 			}
 			if($subject == "Recrutement"){
-				$to = "recrutement.abraccetto@outlook.com"; 	
+				$to = "sas.igonin@gmail.com"; 	
+				// $to = "recrutement.abraccetto@outlook.com"; 	
 			}	
 
 			unset($_POST['subject']); 
