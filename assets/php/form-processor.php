@@ -38,9 +38,9 @@
 
 		foreach ($_POST as $field => $data){
 
-	   		$message = "<html><head><title>$subject</title></head><body>\n";
+	   		$message = "<html><head><title> utf8_encode($subject)</title></head><body>\n";
 	   		foreach($_POST as $field => $data){	            
-	   			$message .= "<div style='border-bottom:1px solid #dadada; padding-bottom:15px;margin-bottom:15px;'><strong>".ucwords($field)."</strong><br/>".stripslashes($data)."</div>\n";
+	   			$message .= "<div style='border-bottom:1px solid #dadada; padding-bottom:15px;margin-bottom:15px;'><br/>".stripslashes($data)."</div>\n";
 	   		}
 	   		$message .= "</body></html>";
 
@@ -50,13 +50,13 @@
 		// To send HTML mail, the Content-type header must be set
 		define('HEADER_TRAIL', "\r\n");
 	   	$headers  = 'MIME-Version: 1.0' . HEADER_TRAIL;
-	   	$headers .= ( ! EMAIL_HTML) ? 'Content-type: text;' . HEADER_TRAIL : 'Content-type: text/html; charset=iso-8859-1' . HEADER_TRAIL ;
+	   	$headers .= ( ! EMAIL_HTML) ? 'Content-type: text;' . HEADER_TRAIL : 'Content-type: text/html; charset=UTF-8' . HEADER_TRAIL ;
 
 	   	// Additional headers
 	   	$headers .= "From: ".$name." <".$from.">" . HEADER_TRAIL;
 
 
-	   	if(!mail($to, $subject, $message, $headers)){
+	   	if(!mail($to, utf8_encode($subject), utf8_encode($message), $headers)){
 	   		$error = 
 	   		'<div class="alert alert-danger alert-dismissible fade show" role="alert">
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
