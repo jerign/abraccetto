@@ -15,9 +15,9 @@ function ChangePlaceHolder(lang){
       if (typeof document.getElementById("email") != "undefined") {
         document.getElementById("email").placeholder = "Email"
      }
-      if (typeof document.getElementById("email2") != "undefined") {
-        document.getElementById("email2").placeholder = "Email"
-      }
+      // if (typeof document.getElementById("email2") != "undefined") {
+      //   document.getElementById("email2").placeholder = "Email"
+      // }
       if (typeof document.getElementById("text") != "undefined") {
         document.getElementById("text").placeholder = "Entrez votre demande ici..."
       }
@@ -29,9 +29,9 @@ function ChangePlaceHolder(lang){
       if (typeof document.getElementById("email") != "undefined") {
         document.getElementById("email").placeholder = "Correo electrónico"
      }
-      if (typeof document.getElementById("email2") != "undefined") {
-        document.getElementById("email2").placeholder = "Correo electrónico"
-      }
+      // if (typeof document.getElementById("email2") != "undefined") {
+      //   document.getElementById("email2").placeholder = "Correo electrónico"
+      // }
       if (typeof document.getElementById("text") != "undefined") {
         document.getElementById("text").placeholder = "Ingrese su solicitud aquí..."
       }
@@ -43,9 +43,9 @@ function ChangePlaceHolder(lang){
       if (typeof document.getElementById("email") != "undefined") {
         document.getElementById("email").placeholder = "Email"
      }
-      if (typeof document.getElementById("email2") != "undefined") {
-        document.getElementById("email2").placeholder = "Email"
-      }
+      // if (typeof document.getElementById("email2") != "undefined") {
+      //   document.getElementById("email2").placeholder = "Email"
+      // }
       if (typeof document.getElementById("text") != "undefined") {
         document.getElementById("text").placeholder = "Enter your request here..."
       }
