@@ -32,6 +32,8 @@
         rel="stylesheet">
     <link href="assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
     <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
@@ -71,7 +73,7 @@
                             <a href="menu.html" data-i18n="Menu">Menu</a>
                         </li>
                         <li>
-                            <a href="menu_nouvel_an.html" data-i18n="Menu nouvel an">Menu nouvel an</a>
+                            <a href="menu_nouvel_an.html" data-i18n="Menu-nouvel-an">Menu nouvel an</a>
                         </li>
                         <li>
                             <a href="gallery.html" data-i18n="Galerie">Galerie</a>
@@ -116,7 +118,7 @@
                     style="height: 50vh; min-height: 300px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="col">
                         <div class="overflow-hidden">
-                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n=Galerie>Galerie</h1>
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="Menu-nouvel-an">Menu</h1>
                         </div>
                     </div>
                 </div>
@@ -124,85 +126,28 @@
             </div>
             <!--/.container-->
         </section>
-        <section class="sortable pt-4 pb-0">
-            <div class="container-fluid.px-0" id="gallery">
-                <div class="row">
-                    <div class="col-lg-8 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov236352.jpg" alt="" />
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov230873.jpg" alt="" />
+        <section class="text-center text-lg-left py-9 background-white" id="target-down-indicator">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="">
+                        <a href="assets/pdf/menu_nouvel_an.pdf" target="_blank">
+                            <div class="hoverbox">
+                                <img src="assets/images/menu petit.png" alt="" />
+                                <div
+                                    class="hoverbox-primary-content as-hoverbox-content d-flex align-items-center justify-content-center h-100">
+                                    <!-- <h3 class="color-white">Télécharger le Menu</h3> -->
+                                </div>
+                                <div class="hoverbox-content p-4">
+                                    <div class="hoverbox-bg d-flex align-items-center justify-content-center h-100">
+                                    </div>
+                                </div>
+                                
+                                <h3 class="color-black d-flex align-items-center justify-content-center h-100" data-i18n="Cliquer-menu-nouvel-an">&#8593; Cliquez ci dessus
+                                    pour télécharger le menu&#8593; </h3>
                             </div>
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov231444.jpg" alt="" />
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov230869.jpg" alt="" />
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov231963.jpg" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov232128.jpg" alt="" />
-                            </div>
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov231944.jpg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov231416.jpg" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov237711.jpg" alt="" />
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov231073.jpg" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov231924.jpg" alt="" />
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov231400 1.jpg" alt="" />
-                            </div>
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov234131.jpg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov231082.jpg" alt="" />
-                            </div>
-                            <div class="col-lg-12 mb-4">
-                                <img src="assets/images/Gallery2_f/A_Braccetto_Nov230889.jpg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 mb-4">
-                        <img src="assets/images/Gallery2_f/A_Braccetto_Nov231469.jpg" alt="" />
-                    </div>
-                </div>
-                <!--/.row-->
             </div>
             <!--/.container-->
         </section>
@@ -214,7 +159,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <h4 class="mb-2 color-white" data-i18n="Rejoignez">Rejoignez les
+                        <h4 class="mb-2 color-white" data-i18n="Rejoingnez">Rejoignez les
                             <em>membres priviligiés </em> de la famille a braccetto</h4>
                         <p class="mb-0 color-9" data-i18n="Ne-Ratez">Ne ratez aucune soirée ou évenement en vous abonnant à la newsletter.
                         </p>
@@ -268,12 +213,11 @@
     <script src="assets/lib/rellax/rellax.min.js"></script>
     <script src="assets/js/zanimation.js"></script>
     <script src="assets/js/inertia.js"></script>
-    <script src="assets/lib/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/lib/lightbox2/dist/js/lightbox.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider-min.js"></script>
     <script src="assets/js/core.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 <script type="module" src="assets/js/index.js"></script>
 <script type="module" src="assets/js/trad_customs_basic.js"></script>
-
-
 </html>

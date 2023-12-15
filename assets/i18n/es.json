@@ -1,5 +1,6 @@
 {
     "Menu":"Menú",
+    "Menu-nouvel-an":"Menú de año nuevo",
     "Galerie": "Galería",
     "Contact": "Contactar",
     "Reservez-Maintenant": "Reservar ahora",
@@ -45,6 +46,7 @@
     "Entrer": "Entregar",
 
     "Cliquer-menu": "&#8593; Haga clic arriba para descargar el menú &#8593;",
+    "Cliquer-menu-nouvel-an": "&#8593; Haga clic arriba para descargar el menú de año nuevo &#8593;",
 
     "Reseaux": "Redes sociales",
     "Form": {
