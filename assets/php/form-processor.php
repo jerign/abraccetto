@@ -1,5 +1,11 @@
 <?php
 
+	function imap_utf8_fix($string) {
+
+		return iconv_mime_decode($string,0,"UTF-8");
+
+	}
+	
 	$error = '';
 
 	if ( array_key_exists('to', $_POST) ){
@@ -38,7 +44,7 @@
 
 		foreach ($_POST as $field => $data){
 
-	   		$message = "<html><head><title> utf8_encode($subject)</title></head><body>\n";
+	   		$message = "<html><head><title> $subject</title></head><body>\n";
 	   		foreach($_POST as $field => $data){	            
 	   			$message .= "<div style='border-bottom:1px solid #dadada; padding-bottom:15px;margin-bottom:15px;'><br/>".stripslashes($data)."</div>\n";
 	   		}
@@ -56,7 +62,7 @@
 	   	$headers .= "From: ".$name." <".$from.">" . HEADER_TRAIL;
 
 
-	   	if(!mail($to, utf8_encode($subject), utf8_encode($message), $headers)){
+	   	if(!mail($to, imap_utf8_fix($subject), imap_utf8_fix($message), $headers)){
 	   		$error = 
 	   		'<div class="alert alert-danger alert-dismissible fade show" role="alert">
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
