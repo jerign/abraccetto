@@ -1,11 +1,5 @@
 <?php
 
-	function imap_utf8_fix($string) {
-
-		return iconv_mime_decode($string,0,"UTF-8");
-
-	}
-	
 	$error = '';
 
 	if ( array_key_exists('to', $_POST) ){
@@ -62,7 +56,7 @@
 	   	$headers .= "From: ".$name." <".$from.">" . HEADER_TRAIL;
 
 
-	   	if(!mail($to, imap_utf8_fix($subject), imap_utf8_fix($message), $headers)){
+	   	if(!mail($to, $subject, $message, $headers)){
 	   		$error = 
 	   		'<div class="alert alert-danger alert-dismissible fade show" role="alert">
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
