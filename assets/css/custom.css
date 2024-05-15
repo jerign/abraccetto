@@ -42,7 +42,7 @@
     margin: 0.7em;
 }
 #lang{
-    background: url(./assets/images/v2/br_down_white.jpg) no-repeat #ddd;
+    background: url(../../assets/images/v2/br_down_white.jpg) no-repeat #ddd;
     background-position: right 5px top 7px;
     background-size: 13%;
     -webkit-appearance: none;
