@@ -99,6 +99,10 @@
         padding-left: 4%;
         padding-right: 1%;
     }
+    #zform-p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }   
 @media only screen and (max-width: 991px) and (min-width: 487px){
     .privatisation{
@@ -116,6 +120,10 @@
         margin-top: -35%;
         padding-left: inherit;
         padding-right: inherit;
+    }
+    #zform-p{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media only screen and (max-width: 1180px) and (min-width: 991px){
@@ -136,7 +144,9 @@
     }
     #zform-p{
         padding-bottom: 14%;
-      }
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 }
 @media only screen and (max-width: 1269px) and (min-width: 1180px){
@@ -156,7 +166,9 @@
         padding-right: inherit;
     }
     #zform-p{
-      padding-bottom: 4%;
+        padding-bottom: 4%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media only screen and (max-width: 1390px) and (min-width: 1269px){
@@ -175,6 +187,10 @@
         padding-left: inherit;
         padding-right: inherit;
     }
+    #zform-p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 @media only screen and (max-width: 2390px) and (min-width: 1390px){
     .privatisation{
@@ -192,6 +208,17 @@
         padding-left: inherit;
         padding-right: inherit;
     }
+    #zform-p{
+        /* padding-top: 10%; */
+        padding-bottom: 4%;
+        padding-right: 2%;
+        padding-left: 4%;
+    }
+    #titre-form-p{
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+    
 }
 
 .p-privatisation {
@@ -213,7 +240,6 @@
 }
 
 body { 
-    /* overflow: auto; */
     padding-right: inherit;
 }
 
@@ -244,8 +270,4 @@ footer{
     justify-content: center;
     background: black;
     opacity: 0.6;
-}
-#zform-p{
-    padding-left: 10px;
-    padding-right: 10px;
 }
