@@ -42,8 +42,8 @@
     margin: 0.7em;
 }
 #lang{
-    background: url(../../assets/images/v2/br_down_white.jpg) no-repeat #ddd;
-    background-position: right 5px top 7px;
+    /* background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat #ddd; */
+    /* background-position: right 5px top 7px; */
     background-size: 13%;
     -webkit-appearance: none;
     background-color: inherit;
@@ -52,7 +52,7 @@
     border: 1.5px solid;
     margin: 1px;
     height: 30px;
-    width: 92px;
+    width: auto;
     font-family: "Hind Madurai", sans-serif;
 }
 
