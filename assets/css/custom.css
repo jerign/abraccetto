@@ -42,16 +42,18 @@
     margin: 0.7em;
 }
 #lang{
-    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat #ddd;
-    background-position: right 6px top 6px;
+    background: url(/assets/images/v2/br_down_white.webp) no-repeat #ddd;
+    background-position: right 5px top 7px;
     background-size: 13%;
     -webkit-appearance: none;
-    background-color: #7e7e7e;
-    font-family: "Hind Madurai", sans-serif;
+    background-color: inherit;
     color: white;
     border-color: white;
-    height: 26px;
-    width: 91px;
+    border: 1.5px solid;
+    margin: 1px;
+    height: 30px;
+    width: 92px;
+    font-family: "Hind Madurai", sans-serif;
 }
 
 #select-contact {
@@ -93,6 +95,10 @@
         padding-left: inherit;
         padding-right: inherit;
     }
+    #text-top{
+        padding-left: 4%;
+        padding-right: 1%;
+    }
 }   
 @media only screen and (max-width: 991px) and (min-width: 487px){
     .privatisation{
@@ -102,6 +108,9 @@
     }
     #text-top{
         /* padding-top: 2.5rem; */
+        padding-left: 2%;
+        padding-right: 1%;
+
     }
     #image-top{
         margin-top: -35%;
@@ -117,12 +126,17 @@
     }
     #text-top{
         padding-top: 7.5rem;
+        padding-left: 2%;
+        padding-right: 1%;
     }
     #image-top{
         /* margin-top: -5%; */
         padding-left: inherit;
         padding-right: inherit;
     }
+    #zform-p{
+        padding-bottom: 14%;
+      }
 
 }
 @media only screen and (max-width: 1269px) and (min-width: 1180px){
@@ -133,11 +147,16 @@
     }
     #text-top{
         padding-top: 9.5rem;
-    }
+        padding-left: 2%;
+        padding-right: 1%;
+}
     #image-top{
         margin-top: -5%;
         padding-left: inherit;
         padding-right: inherit;
+    }
+    #zform-p{
+      padding-bottom: 4%;
     }
 }
 @media only screen and (max-width: 1390px) and (min-width: 1269px){
@@ -148,9 +167,11 @@
     }
     #text-top{
         padding-top: 9.5rem;
+        padding-left: 2%;
+        padding-right: 1%;
     }
     #image-top{
-        margin-top: -20%;
+        margin-top: -13%;
         padding-left: inherit;
         padding-right: inherit;
     }
@@ -163,9 +184,11 @@
     }
     #text-top{
         padding-top: 9.5rem;
+        padding-left: 2%;
+        padding-right: 1%;
     }
     #image-top{
-        margin-top: -30%;
+        margin-top: -23%;
         padding-left: inherit;
         padding-right: inherit;
     }
@@ -181,11 +204,6 @@
     padding-bottom: 3%;
 }
 
-/* .formulaire-privatisation{
-    margin: 3%;
-} */
-.text-privatisation{
-}
 .p_p{
     line-height: 1.2;
     font-size: 1.1rem;
@@ -220,10 +238,14 @@ footer{
     font-family: sans-serif;
     font-size: 24px;
     color: white;
-    height: $footer-height;
+    height: footer-height;
     display: flex;
     align-items: center;
     justify-content: center;
     background: black;
     opacity: 0.6;
+}
+#zform-p{
+    padding-left: 10px;
+    padding-right: 10px;
 }
