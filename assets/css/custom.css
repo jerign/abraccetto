@@ -103,6 +103,9 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    #titre-form-p{
+        padding-bottom: 7%;
+    }
 }   
 @media only screen and (max-width: 991px) and (min-width: 487px){
     .privatisation{
@@ -125,6 +128,9 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    #titre-form-p{
+        padding-bottom: 7%;
+    }
 }
 @media only screen and (max-width: 1180px) and (min-width: 991px){
     .privatisation{
@@ -146,6 +152,10 @@
         padding-bottom: 14%;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    #titre-form-p{
+        padding-top: 4%;
+        padding-bottom: 6%;
     }
 
 }
@@ -170,6 +180,10 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    #titre-form-p{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 }
 @media only screen and (max-width: 1390px) and (min-width: 1269px){
     .privatisation{
@@ -191,6 +205,11 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    #titre-form-p{
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+    
 }
 @media only screen and (max-width: 2390px) and (min-width: 1390px){
     .privatisation{
@@ -215,7 +234,7 @@
         padding-left: 4%;
     }
     #titre-form-p{
-        padding-top: 5%;
+        padding-top: 7%;
         padding-bottom: 7%;
     }
     
