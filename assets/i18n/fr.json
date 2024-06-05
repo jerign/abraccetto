@@ -61,22 +61,20 @@
             "Petitdejeuner":"Petit-déjeuner",
             "Dejeuner":"Déjeuner",
             "Diner":"Diner",
-            "Cocktail":"Déjeuner"
+            "Cocktail":"Cocktail"
         }
     },
-    "Ils-parlent": "Ils parlent de nous",
     "p1": "A Braccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients frais.",
     "p2": "Notre aventure culinaire est le fruit d'une collaboration harmonieuse entre une équipe franco-italienne dévouée et passionnée, toujours désireuse d'aller plus loin pour satisfaire notre clientèle.",
     "p3": "Que ce soit pour un dîner romantique, un déjeuner d'affaires ou un rassemblement en famille, notre restaurant offre un environnement convivial et sophistiqué, où la dolce vita rencontre l'art de vivre à la française. Nous vous invitons à découvrir notre passion pour la cuisine, notre service attentionné et notre ambiance chaleureuse.",
-    "p4": "Niché au cœur du prestigieux cinquième arrondissement de Paris, le restaurant A Bracetto s'impose comme une destination de choix pour les événements corporatifs. Réputé pour sa cuisine italienne raffinée, cet établissement offre une expérience culinaire inégalée, où chaque repas promet d'être mémorable. Sous la direction d'un chef passionné et créatif, le menu soigneusement élaboré met en valeur les saveurs authentiques de l'Italie.",
-    "p5": "Avec ses vastes espaces, A Bracetto est en mesure d'accueillir confortablement des groupes, offrant ainsi un cadre idéal pour les dîners d'affaires, les lancements de produits et les célébrations de fin d'année. Son ambiance chaleureuse et son décor élégant en font un lieu propice à la convivialité et à la réussite de tout événement. Le personnel dévoué assure un service attentionné, veillant à ce que chaque détail contribue à la satisfaction de vos convives.",
-    "p6": "En plus des événements d'entreprise, A Bracetto est également une option privilégiée pour les réunions informelles. Son cadre accueillant et son service personnalisé créent une atmosphère où chacun se sent comme chez soi. De plus, l'équipe du restaurant est en mesure d'adapter le menu selon vos besoins spécifiques, garantissant ainsi une expérience culinaire sur mesure.",
-    "p7": "Pour les événements d'envergure, A Bracetto dispose également d'une capacité d'accueil importante, en faisant ainsi un choix judicieux pour les grandes célébrations et les manifestations d'entreprise d'ampleur.",
-    "p8": "Nous vous invitons à découvrir par vous-même comment A Bracetto peut sublimer votre prochain événement d'entreprise en une expérience gastronomique exceptionnelle. Qu'il s'agisse d'un petit rassemblement ou d'une grande réunion, notre établissement vous offre un service impeccable, une cuisine exquise et une ambiance inoubliable.",
+    "Ils-parlent": "Ils parlent de nous",
+    "p4": "Situé dans le cinquième arrondissement de Paris, le restaurant Abracetto est parfait pour les événements corporatifs. Réputé pour sa cuisine italienne, il offre une expérience culinaire mémorable sous la direction d'un chef créatif.",
+    "p5": "Avec ses vastes espaces, A Bracetto accueille confortablement des groupes pour dîners d'affaires et célébrations. Son ambiance chaleureuse et son service attentionné garantissent la satisfaction de vos convives. Pour les réunions informelles, le cadre accueillant et le service personnalisé offrent une expérience sur mesure.",
+    "p6": "Découvrez comment Abracetto peut sublimer votre prochain événement avec une cuisine exquise et une ambiance inoubliable.",
     "Event" : "Évènements & Privatisations",
     "Titre-Privatisation": "Ma demande de Privatisation",
-    "titre-image-1":"Bar",
-    "titre-image-2":"Salon Verriere",
-    "titre-image-3":"Verriere",
-    "titre-image-4":"Salon Bar"
+    "titre-image-4":"Salon Bar",
+    "titre-image-1":"Capacité de 30 places assises / Cocktail 60 personnes",
+    "titre-image-3":"Verrière",
+    "titre-image-2":"Capacité de 55 places assises / Cocktail 70 personnes"
 }

@@ -57,8 +57,24 @@
             "Recrutement": "Recruitment",
             "Presse": "Press request"
         },
-        "Envoyer": "Send"
+        "Envoyer": "Send",
+        "ObjetPrivatisation":{
+            "Petitdejeuner":"Breakfast",
+            "Dejeuner":"Lunch",
+            "Diner":"Dinner",
+            "Cocktail":"Cocktail"
+        }
     },
-    "Ils-parlent": "They talk about us"
+    "Ils-parlent": "They talk about us",
+    "p4": "Located in the fifth arrondissement of Paris, the Abracetto restaurant is perfect for corporate events. Renowned for its Italian cuisine, it offers a memorable culinary experience under the direction of a creative chef.",
+    "p5": "With its vast spaces, A Bracetto comfortably accommodates groups for business dinners and celebrations. Its warm ambience and attentive service guarantee your guests' satisfaction. For informal meetings, the welcoming setting and personalized service offer a tailor-made experience.",
+    "p6": "Discover how Abracetto can enhance your next event with exquisite cuisine and an unforgettable ambience.",
+    "Event" : "Events & Privatizations",
+    "Titre-Privatisation": "My Privatization request",
+    "titre-image-4":"Salon Bar",
+    "titre-image-1":"Seating capacity 30 / Cocktail 60 persons",
+    "titre-image-3":"Glass roof",
+    "titre-image-2":"Seating capacity 55 / Cocktail 70 persons"
+
 
 }

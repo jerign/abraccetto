@@ -57,7 +57,22 @@
             "Recrutement": "Reclutamiento",
             "Presse": "Solicitud de prensa"
         },
-        "Envoyer": "Entregar"
+        "Envoyer": "Entregar",
+        "ObjetPrivatisation":{
+            "Petitdejeuner":"Desayuno",
+            "Dejeuner":"Comida",
+            "Diner":"Cena",
+            "Cocktail":"Cóctel"
+        }
     },
-    "Ils-parlent": "Hablan de nosotros"
+    "Ils-parlent": "Hablan de nosotros",
+    "p4": "Situado en el quinto distrito de París, el restaurante Abracetto es perfecto para eventos corporativos. Conocido por su cocina italiana, ofrece una experiencia culinaria memorable bajo la dirección de un chef creativo.",
+    "p5": "Con sus amplios espacios, ABracetto acoge cómodamente a grupos para cenas de negocios y celebraciones. Su ambiente cálido y su servicio atento garantizan la satisfacción de sus invitados. Para reuniones informales, el ambiente acogedor y el servicio personalizado ofrecen una experiencia a medida.",
+    "p6": "Descubra cómo Abracetto puede realzar su próximo evento con una cocina exquisita y un ambiente inolvidable.",
+    "Event" : "Eventos & Privatizaciones",
+    "Titre-Privatisation": "Mi demanda de privatización",
+    "titre-image-4":"Salón Bar",
+    "titre-image-1":"Asientos para 30 personas / Cóctel para 60 personas",
+    "titre-image-3":"Techo de cristal",
+    "titre-image-2":"Aforo 55 personas / Cóctel 70 personas"
 }
