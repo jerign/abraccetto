@@ -32,6 +32,10 @@
 			$date 	= $_POST['date'];
 			unset($_POST['date']); 
 		}
+		if(isset($_POST['content'])){ 
+			$content 	= $_POST['content'];
+			unset($_POST['content']); 
+		}
 
 		if(isset($_POST['subject'])){ 
 			$subject	= $_POST['subject']; 
@@ -42,8 +46,9 @@
 
 
 		
-
-		$message = "<html><head><title> $subject</title></head><body>\n";
+		$entete = "Form Submission - Réservations évnements";
+		
+		$message = "<html><head><title> Form Submission - Réservations évnements </title></head><body>\n";
 		$message .="<div> Nom : ".stripslashes($name)."</div> <br/>\n";
 		$message .="<div> Entreprise : ".stripslashes($ets)."</div> <br/>\n";
 		$message .="<div> Telephone : ".stripslashes($phone)."</div> <br/>\n";
@@ -66,7 +71,7 @@
 	   	$headers .= "From: ".$name." <".$from.">" . HEADER_TRAIL;
 
 
-	   	if(!mail($to, $subject, $message, $headers)){
+	   	if(!mail($to, $entete, $message, $headers)){
 	   		$error = 
 	   		'<div class="alert alert-danger alert-dismissible fade show" role="alert">
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
