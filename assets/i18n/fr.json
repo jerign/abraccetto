@@ -1,16 +1,17 @@
 {
-    "Menu":"La carte",
-    "Menu brunch":"Brunch",
+    "Menu":"LA CARTE",
+    "Menu brunch":"BRUNCH",
     "Menu-nouvel-an":"Menu nouvel an",
-    "Galerie": "Galerie",
-    "Contact": "Contact",
+    "Galerie": "GALERIE",
+    "Contact": "CONTACT",
     "Reservez-Maintenant": "Réservez maintenant",
     "Dolce-vita": "Dolce <em>vita</em> et art de <em> vivre</em> à la française",
     "Infos-pratiques": "Infos pratiques",
     "Cuisine": "Cuisine",
     "Type-cuisine": "Italienne - Méditérranéenne",
     "Service": "Service",
-    "Continu": "Continu",
+    "Service-Brunch": "Brunch ~ Vendredi Samedi Dimanche Lundi ~ 12H00-17h00",
+    "Continu": "Brasserie ~ Continu",
     "Type-restaurant": "Type de restaurant",
     "Description-restaurant": "Bar - Café - Restaurant",
     "Ouvertures":{
@@ -39,7 +40,7 @@
         "Metro" : " Metro - Cluny-La Sorbonne (~500m) - Odéon (~600m)",
         "Velib" : "Velib - Le Goff - Gay-Lussac (~50m) - Cujas - Saint-Michel (~50m)"
     },
-    "Rejoignez":"Rejoignez les <em>membres priviligiés</em> de la famille a braccetto",
+    "Rejoignez":"Rejoignez les <em>membres priviligiés</em> de la famille abraccetto",
     "Ne-Ratez": "Ne ratez aucune soirée ou évenement en vous abonnant à la newsletter.",
     "Entrer": "Entrer",
 
@@ -65,12 +66,12 @@
             "Cocktail":"Cocktail"
         }
     },
-    "p1": "A Braccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients frais.",
+    "p1": "Abraccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients frais.",
     "p2": "Notre aventure culinaire est le fruit d'une collaboration harmonieuse entre une équipe franco-italienne dévouée et passionnée, toujours désireuse d'aller plus loin pour satisfaire notre clientèle.",
     "p3": "Que ce soit pour un dîner romantique, un déjeuner d'affaires ou un rassemblement en famille, notre restaurant offre un environnement convivial et sophistiqué, où la dolce vita rencontre l'art de vivre à la française. Nous vous invitons à découvrir notre passion pour la cuisine, notre service attentionné et notre ambiance chaleureuse.",
     "Ils-parlent": "Ils parlent de nous",
     "p4": "Situé dans le cinquième arrondissement de Paris, le restaurant Abracetto est parfait pour les événements corporatifs. Réputé pour sa cuisine italienne, il offre une expérience culinaire mémorable sous la direction d'un chef créatif.",
-    "p5": "Avec ses vastes espaces, A Bracetto accueille confortablement des groupes pour dîners d'affaires et célébrations. Son ambiance chaleureuse et son service attentionné garantissent la satisfaction de vos convives. Pour les réunions informelles, le cadre accueillant et le service personnalisé offrent une expérience sur mesure.",
+    "p5": "Avec ses vastes espaces, Abracetto accueille confortablement des groupes pour dîners d'affaires et célébrations. Son ambiance chaleureuse et son service attentionné garantissent la satisfaction de vos convives. Pour les réunions informelles, le cadre accueillant et le service personnalisé offrent une expérience sur mesure.",
     "p6": "Découvrez comment Abracetto peut sublimer votre prochain événement avec une cuisine exquise et une ambiance inoubliable.",
     "Event" : "Évènements & Privatisations",
     "Titre-Privatisation": "Ma demande de Privatisation",
@@ -78,5 +79,5 @@
     "titre-image-1":"Capacité de 30 places assises / Cocktail 60 personnes",
     "titre-image-3":"Verrière",
     "titre-image-2":"Capacité de 55 places assises / Cocktail 70 personnes",
-    "Privatisation": "Privatisation"
+    "Privatisation": "PRIVATISATION"
 }

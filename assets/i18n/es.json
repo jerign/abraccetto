@@ -1,19 +1,20 @@
 {
-    "Menu":"La carta",
-    "Menu brunch":"Brunch",
+    "Menu":"LA CARTA",
+    "Menu brunch":"BRUNCH",
     "Menu-nouvel-an":"Menú de año nuevo",
-    "Galerie": "Galería",
-    "Contact": "Contactar",
+    "Galerie": "GALERIA",
+    "Contact": "CONTACTAR",
     "Reservez-Maintenant": "Reservar ahora",
     "Dolce-vita": "Dolce <em>vita</em> y el arte francés de <em>vivir</em>",
-    "p1": "A Braccetto, ubicado entre el Panteón y los Jardines de Luxemburgo, le invita a una experiencia marcada por la elegancia. En un ambiente refinado, los auténticos sabores de Italia florecen a través de platos cuidadosamente preparados con ingredientes frescos.",
+    "p1": "Abraccetto, ubicado entre el Panteón y los Jardines de Luxemburgo, le invita a una experiencia marcada por la elegancia. En un ambiente refinado, los auténticos sabores de Italia florecen a través de platos cuidadosamente preparados con ingredientes frescos.",
     "p2": "Nuestra aventura culinaria es fruto de una colaboración armoniosa entre un equipo franco-italiano dedicado y apasionado, siempre dispuesto a ir más allá para satisfacer a nuestros clientes.",
     "p3": "Ya sea para una cena romántica, un almuerzo de negocios o una reunión familiar, nuestro restaurante ofrece un ambiente amigable y sofisticado, donde la dolce vita se encuentra con el arte de vivir francés. Le invitamos a descubrir nuestra pasión por la cocina, nuestro atento servicio y nuestro cálido ambiente.",
     "Infos-pratiques": "Información práctica",
     "Cuisine": "Cocina",
     "Type-cuisine": "Italiano - Mediterráneo",
     "Service": "Servicio",
-    "Continu": "Continuo",
+    "Service-Brunch": "Brunch ~ Viernes Sábado Domingo Lunes ~ 12H00-17h00",
+    "Continu": "Restaurante ~ Continuo",
     "Type-restaurant": "Tipo de restaurante",
     "Description-restaurant": "Bar - Cafetería - Restaurante",
     "Ouvertures":{
@@ -42,7 +43,7 @@
         "Metro" : " Metro - Cluny-La Sorbonne (~500m) - Odéon (~600m)",
         "Velib" : "Velib - Le Goff - Gay-Lussac (~50m) - Cujas - Saint-Michel (~50m)"
     },
-    "Rejoignez":"Únase a los <em>miembros privilegiados</em> de la familia a braccetto",
+    "Rejoignez":"Únase a los <em>miembros privilegiados</em> de la familia abraccetto",
     "Ne-Ratez": "No te pierdas ninguna velada o evento suscribiéndote a la newsletter.",
     "Entrer": "Entregar",
 
@@ -76,5 +77,5 @@
     "titre-image-1":"Asientos para 30 personas / Cóctel para 60 personas",
     "titre-image-3":"Techo de cristal",
     "titre-image-2":"Aforo 55 personas / Cóctel 70 personas",
-    "Privatisation": "Privatización"
+    "Privatisation": "PRIVATIZACIÓN"
 }
