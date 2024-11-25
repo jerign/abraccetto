@@ -13,7 +13,7 @@
     "Cuisine": "Cocina",
     "Type-cuisine": "Italiano - Mediterráneo",
     "Service": "Servicio",
-    "Service-Brunch": "Brunch ~ Viernes Sábado Domingo Lunes ~ 12H00-17h00",
+    "Service-Brunch": "Brunch ~ Lunes Viernes Sábado Domingo ~ 12H00-17h00",
     "Continu": "Restaurante ~ Continuo",
     "Type-restaurant": "Tipo de restaurante",
     "Description-restaurant": "Bar - Cafetería - Restaurante",
@@ -48,6 +48,8 @@
     "Entrer": "Entregar",
 
     "Cliquer-menu": "&#8593; Haga clic arriba para descargar el menú &#8593;",
+    "Cliquer-menu-brunch": "&#8593; Haga clic arriba para descargar el menú del brunch &#8593;",
+    "Cliquer-carte-vins": "&#8593; Haga clic arriba para descargar la lista de vinos y licores &#8593;",
     "Cliquer-menu-nouvel-an": "&#8593; Haga clic arriba para descargar el menú de año nuevo &#8593;",
 
     "Reseaux": "Redes sociales",

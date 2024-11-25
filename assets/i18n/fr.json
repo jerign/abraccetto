@@ -10,7 +10,7 @@
     "Cuisine": "Cuisine",
     "Type-cuisine": "Italienne - Méditérranéenne",
     "Service": "Service",
-    "Service-Brunch": "Brunch ~ Vendredi Samedi Dimanche Lundi ~ 12H00-17h00",
+    "Service-Brunch": "Brunch ~ Lundi Vendredi Samedi Dimanche ~ 12H00-17h00",
     "Continu": "Brasserie ~ Continu",
     "Type-restaurant": "Type de restaurant",
     "Description-restaurant": "Bar - Café - Restaurant",
@@ -45,6 +45,9 @@
     "Entrer": "Entrer",
 
     "Cliquer-menu": "&#8593; Cliquez ci dessus pour télécharger le menu &#8593;",
+    "Cliquer-menu-brunch": "&#8593; Cliquez ci dessus pour télécharger le menu brunch &#8593;",
+    "Cliquer-carte-vins": "&#8593; Cliquez ci dessus pour télécharger",
+    "Cliquer-carte-et-spiritueux": "la carte des vins et spiritueux &#8593;",
     "Cliquer-menu-nouvel-an": "&#8593; Cliquez ci dessus pour télécharger le menu du nouvel an &#8593;",
 
     "Reseaux": "Réseaux sociaux",

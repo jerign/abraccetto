@@ -13,7 +13,7 @@
     "Cuisine": "Cuisine",
     "Type-cuisine": "Italian - Mediterranean",
     "Service": "Service",
-    "Service-Brunch": "Brunch ~ Friday Saturday Sunday Monday ~ 12H00-17h00",
+    "Service-Brunch": "Brunch ~ Monday Friday Saturday Sunday ~ 12:00 a.m. - 05h00 p.m.",
     "Continu": "Brasserie ~ Continuous",
     "Type-restaurant": "Type of restaurant",
     "Description-restaurant": "Bar - Café - Restaurant",
@@ -48,6 +48,8 @@
     "Entrer": "Enter",
 
     "Cliquer-menu": "&#8593; Click above to download the menu &#8593;",
+    "Cliquer-menu-brunch": "&#8593; Click above to download the brunch menu &#8593;",
+    "Cliquer-carte-vins": "&#8593; Click above to download the wine and spirits list &#8593;",
     "Cliquer-menu-nouvel-an": "&#8593; Click above to download the new year's menu &#8593;",
 
     "Reseaux": "Social networks",
