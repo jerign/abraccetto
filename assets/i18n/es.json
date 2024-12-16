@@ -1,7 +1,7 @@
 {
     "Menu":"LA CARTA",
     "Menu brunch":"BRUNCH",
-    "Menu-nouvel-an":"Menú de año nuevo",
+    "Menu-nouvel-an":"MENÙ DE AÑO NUEVO",
     "Galerie": "GALERIA",
     "Contact": "CONTACTAR",
     "Reservez-Maintenant": "Reservar ahora",
@@ -80,5 +80,8 @@
     "titre-image-1":"Asientos para 30 personas / Cóctel para 60 personas",
     "titre-image-3":"Techo de cristal",
     "titre-image-2":"Aforo 55 personas / Cóctel 70 personas",
-    "Privatisation": "PRIVATIZACIÓN"
+    "Privatisation": "PRIVATIZACIÓN",
+    "Menu-nouvel-an-petit": "Menú de Año Nuevo",
+    "Menu-nouvel-an-desc": "¡Únete a nosotros para celebrar y descubre nuestros platos especiales para la Nochevieja!",
+    "Voir-menu": "Ver el menú"
 }

@@ -1,7 +1,7 @@
 {
     "Menu":"LA CARTE",
     "Menu brunch":"BRUNCH",
-    "Menu-nouvel-an":"Menu nouvel an",
+    "Menu-nouvel-an":"MENU NOUVEL AN",
     "Galerie": "GALERIE",
     "Contact": "CONTACT",
     "Reservez-Maintenant": "Réservez maintenant",
@@ -82,5 +82,8 @@
     "titre-image-1":"Capacité de 30 places assises / Cocktail 60 personnes",
     "titre-image-3":"Verrière",
     "titre-image-2":"Capacité de 55 places assises / Cocktail 70 personnes",
-    "Privatisation": "PRIVATISATION"
+    "Privatisation": "PRIVATISATION",
+    "Menu-nouvel-an-petit": "Menu du Nouvel An",
+    "Menu-nouvel-an-desc": "Venez célébrer avec nous et découvrez nos plats d'exceptions pour le réveillon !",
+    "Voir-menu": "Voir le menu"
 }

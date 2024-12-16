@@ -5,17 +5,22 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-67KPXJ721C"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-67KPXJ721C');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-67KPXJ721C');
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="A Braccetto, Bar-Restaurant Italien">
-    <meta name="description" content="Bar-Restaurant Italien située Paris 5e et Paris 6e entre le jardin du luxembourg et le panthéon. Abraccetto propose une cuisine préparée avec soin à partir d'ingrédients frais et d'exception dans un lieux design et chaleureux.">
-    <meta name="keywords" content="restaurant, italien, bar, cocktails, café, brasserie, paris, 5e arrondissement, 6e arrondissement, pizzeria, pizza, pattes, jardin du luxembourg, panthéon, restauration">
+    <meta name="description"
+        content="Bar-Restaurant Italien située Paris 5e et Paris 6e entre le jardin du luxembourg et le panthéon. Abraccetto propose une cuisine préparée avec soin à partir d'ingrédients frais et d'exception dans un lieux design et chaleureux.">
+    <meta name="keywords"
+        content="restaurant, italien, bar, cocktails, café, brasserie, paris, 5e arrondissement, 6e arrondissement, pizzeria, pizza, pattes, jardin du luxembourg, panthéon, restauration">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="French">
@@ -55,8 +60,8 @@
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJ3PL9TW"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJ3PL9TW" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <main>
         <div class="loading" id="preloader">
@@ -93,6 +98,9 @@
                             <a href="menu.html" data-i18n="Menu">LA CARTE</a>
                         </li>
                         <li>
+                            <a href="menu_nouvel_an.html" data-i18n="Menu-nouvel-an">MENU NOUVEL AN</a>
+                        </li>
+                        <li>
                             <a href="menu_brunch.html" data-i18n="Menu brunch">BRUNCH</a>
                         </li>
                         <li>
@@ -125,7 +133,8 @@
                         </li>
                         <li>
                             <a class="btn btn-outline-white btn-sm border-2x fw-700"
-                                href="https://module.lafourchette.com/fr_FR/module/754389-65b09" target="Blank" data-i18n="Reservez-Maintenant">Réservez
+                                href="https://module.lafourchette.com/fr_FR/module/754389-65b09" target="Blank"
+                                data-i18n="Reservez-Maintenant">Réservez
                                 maintenant</a>
                         </li>
                     </ul>
@@ -147,10 +156,113 @@
             <!--/.container-->
         </section>
 
+        <div>
+            <div class="banner">
+                <div class="fireworks">
+                    <!-- Firework effects -->
+                    <span style="top: 30%; left: 40%; animation-delay: 0s;"></span>
+                    <span style="top: 50%; left: 60%; animation-delay: 0.5s;"></span>
+                    <span style="top: 20%; left: 70%; animation-delay: 0.8s;"></span>
+                </div>
+                <h1 data-i18n="Menu-nouvel-an-petit">Menu du Nouvel An</h1>
+                <p data-i18n="Menu-nouvel-an-desc">Venez célébrer avec nous et découvrez nos plats spéciaux pour le réveillon !</p>
+                <a href="menu_nouvel_an.html" class="cta" data-i18n="Voir-menu">Voir le menu</a>
+            </div>
+            <style>
+                body {
+                    margin: 0;
+                    font-family: 'Arial', sans-serif;
+                    background-color: #000;
+                    /* Fond noir */
+                    color: #fff;
+                    /* Texte blanc */
+                }
+
+                .banner {
+                    background: linear-gradient(135deg, #333, #111);
+                    /* Dégradé de gris vers noir */
+                    color: white;
+                    text-align: center;
+                    padding: 50px 20px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+                    position: relative;
+                }
+
+                .banner h1 {
+                    font-size: 3rem;
+                    margin: 0;
+                    color: #fff;
+                    /* Titre blanc pur */
+                }
+
+                .banner p {
+                    font-size: 1.2rem;
+                    margin: 10px 0 20px;
+                    color: #ccc;
+                    /* Texte en gris clair */
+                }
+
+                .banner .cta {
+                    display: inline-block;
+                    background-color: #fff;
+                    /* Bouton blanc */
+                    color: #000;
+                    /* Texte noir */
+                    padding: 15px 30px;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    text-decoration: none;
+                    border-radius: 25px;
+                    transition: background-color 0.3s, color 0.3s;
+                }
+
+                .banner .cta:hover {
+                    background-color: #000;
+                    /* Fond noir au survol */
+                    color: #fff;
+                    /* Texte blanc au survol */
+                    border: 1px solid #fff;
+                    /* Bordure blanche au survol */
+                }
+
+                .fireworks {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    pointer-events: none;
+                    z-index: 1;
+                }
+
+                .fireworks span {
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    background: rgba(255, 255, 255, 0.5);
+                    /* Points en blanc semi-transparent */
+                    border-radius: 50%;
+                    animation: fireworks 1.5s linear infinite;
+                }
+
+                @keyframes fireworks {
+                    0% {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+
+                    100% {
+                        transform: scale(5);
+                        opacity: 0;
+                    }
+                }
+            </style>
+            <!--/.container-->
+        </div>
         <section class="text-center text-lg-left pb-9 pt-2 background-white" id="target-down-indicator">
             <div class="container">
                 <div class="row mt-6" align="center" style="align-items: center;">
-                    <div class="col-lg-4" >
+                    <div class="col-lg-4">
                         <h3 class="color-primary ls" data-i18n="Dolce-vita"> Dolce <em>vita</em> et art de
                             <em> vivre</em> à la française</h3>
                     </div>
@@ -160,16 +272,21 @@
                     <br>
                     <div class="col-lg-8">
                         <p data-i18n="p1">
-                            A Braccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques
-                            de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients frais.
+                            A Braccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une
+                            expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques
+                            de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients
+                            frais.
                         </p>
                         <p data-i18n="p2">
-                            Notre aventure culinaire est le fruit d'une colla- boration harmonieuse entre une équipe franco-italienne dévouée et passionnée,
+                            Notre aventure culinaire est le fruit d'une colla- boration harmonieuse entre une équipe
+                            franco-italienne dévouée et passionnée,
                             toujours désireuse d'aller plus loin pour satisfaire notre clientèle.
                         </p>
                         <p data-i18n="p3">
-                            Que ce soit pour un dîner romantique, un déjeuner d'affaires ou un rassemblement en famille, notre restaurant offre un environnement convivial et sophistiqué, où la
-                            dolce vita rencontre l'art de vivre à la française. Nous vous invitons à découvrir notre passion pour la cuisine, notre service attentionné et notre ambiance chaleureuse.
+                            Que ce soit pour un dîner romantique, un déjeuner d'affaires ou un rassemblement en famille,
+                            notre restaurant offre un environnement convivial et sophistiqué, où la
+                            dolce vita rencontre l'art de vivre à la française. Nous vous invitons à découvrir notre
+                            passion pour la cuisine, notre service attentionné et notre ambiance chaleureuse.
                         </p>
                     </div>
                 </div>
@@ -362,18 +479,18 @@
                                 </li>
                                 <li data-i18n="Acces.Bus">
                                     BUS - Luxembourg (~100m)
-                                        - Panthéon (~150m)
+                                    - Panthéon (~150m)
                                 </li>
                                 <li data-i18n="Acces.Lignes">
                                     Lignes 21, 27, 24, 82, 84, 89, 38, N21, N14, N122 - 75
                                 </li>
                                 <li data-i18n="Acces.Metro">
                                     Metro - Cluny-La Sorbonne (~500m)
-                                          - Odéon (~600m)
+                                    - Odéon (~600m)
                                 </li>
                                 <li data-i18n="Acces.Velib">
                                     Velib - Le Goff - Gay-Lussac (~50m)
-                                          - Cujas - Saint-Michel (~50m)
+                                    - Cujas - Saint-Michel (~50m)
                                 </li>
                             </ul>
                         </div>
@@ -394,9 +511,11 @@
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-xl-6 mt-6 mt-xl-0">
-                        <a class="d-inline-block mx-1 mx-lg-2 font-1 color-primary mb-lg-4" href="https://instagram.com/abraccettoparis">Instagram</a>
+                        <a class="d-inline-block mx-1 mx-lg-2 font-1 color-primary mb-lg-4"
+                            href="https://instagram.com/abraccettoparis">Instagram</a>
                         <span>/</span>
-                        <a class="d-inline-block mx-1 mx-lg-2 font-1 color-primary mb-lg-4" href="https://goo.gl/maps/MacCEm5QgS1EkpDs8">Google</a>
+                        <a class="d-inline-block mx-1 mx-lg-2 font-1 color-primary mb-lg-4"
+                            href="https://goo.gl/maps/MacCEm5QgS1EkpDs8">Google</a>
                         <div class="row no-gutters mt-4 mt-lg-0">
                             <div class="col-md-6 col-lg-4 p-1">
                                 <a href="assets/images/Gallery2_f/A_Braccetto_Nov236352.jpg" data-lightbox="image">
@@ -451,7 +570,9 @@
                                         <div class="row align-itmes-center">
                                             <div class="col">
                                                 <br>
-                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto" target="_blank"><img src="assets/images/logo_gm.png" style="height:auto; max-width: fit-content; margin: auto;"></a>
+                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto"
+                                                    target="_blank"><img src="assets/images/logo_gm.png"
+                                                        style="height:auto; max-width: fit-content; margin: auto;"></a>
                                             </div>
                                         </div>
                                     </div>

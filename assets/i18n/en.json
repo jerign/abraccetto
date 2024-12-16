@@ -1,7 +1,7 @@
 {
     "Menu":"MENU",
     "Menu brunch":"BRUNCH",
-    "Menu-nouvel-an":"New year's menu",
+    "Menu-nouvel-an":"NEW YEAR'S MENU",
     "Galerie": "GALLERY",
     "Contact": "CONTACT",
     "Reservez-Maintenant": "Book now",
@@ -80,7 +80,10 @@
     "titre-image-1":"Seating capacity 30 / Cocktail 60 persons",
     "titre-image-3":"Glass roof",
     "titre-image-2":"Seating capacity 55 / Cocktail 70 persons",
-    "Privatisation": "PRIVATIZATION"
+    "Privatisation": "PRIVATIZATION",
+    "Menu-nouvel-an-petit": "New Year's Menu",
+    "Menu-nouvel-an-desc": "Join us to celebrate and discover our special dishes for the New Year's Eve!",
+    "Voir-menu": "View the menu"
 
 
 }
