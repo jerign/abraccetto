@@ -1,31 +1,37 @@
-function get_cookie(cookie_name) {
-  var results = document.cookie.match('(^|;) ?' + cookie_name + '=([^;]*)(;|$)');
-  if (results)
-    return (unescape(results[2]));
-  else
-    return null;
-}
+document.addEventListener("DOMContentLoaded", function () {
+  
+  
 
-function ChangePlaceHolder(lang) {
-  // if (lang == "fr" || lang === "") {
-  //   document.querySelector('[data-testid="bookings-btn"]').textContent = "Nouveau Texte";
-  // }
-  // if (lang == "es") {
-  //   document.querySelector('[data-testid="bookings-btn"]').textContent = "Reservar una mesa";
-  // }
-  // if (lang == "en") {
-  //   document.querySelector('[data-testid="bookings-btn"]').textContent = "Book a table";
-  // }
-}
+  function get_cookie(cookie_name) {
+    var results = document.cookie.match('(^|;) ?' + cookie_name + '=([^;]*)(;|$)');
+    if (results)
+      return (unescape(results[2]));
+    else
+      return null;
+  }
 
-var lang = get_cookie("lang")
+  function ChangePlaceHolder(lang) {
+    console.log("this is the script for zenchef")
+    
+    const zenchefWidget = document.querySelector(".zc-widget-config");
+    if (zenchefWidget) {
+        zenchefWidget.setAttribute("data-lang", lang);
+    }
 
-ChangePlaceHolder(lang)
+  }
 
-if (lang != null) {
+  var lang = get_cookie("lang")
+
   ChangePlaceHolder(lang)
-}
 
-document.getElementById('lang').addEventListener('change', function () {
-  ChangePlaceHolder(this.value)
+  if (lang != null) {
+    ChangePlaceHolder(lang)
+  }
+
+  document.getElementById('lang').addEventListener('change', function () {
+    ChangePlaceHolder(this.value);
+
+    document.getElementsByClassName("ZC_sdk__zc-iframe_k5FE3 ZC_sdk__opened_MKywu ZC_sdk__position-right_HkYTz ZC_sdk__zc-width-numeral_MRI1B").src += '';
+    window.location.reload();
+  });
 });
