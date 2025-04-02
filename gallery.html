@@ -3,6 +3,10 @@
 
     <head>
     <meta charset="utf-8">
+    <!-- Initialize dataLayer before GTM -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -59,6 +63,14 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- Zenchef Widget SDK -->
+    <script>;(function (d, s, id) {const el = d.getElementsByTagName(s)[0]; if (d.getElementById(id) || el.parentNode == null) {return;} var js = d.createElement(s); js.id = id; js.async = true; js.src = 'https://sdk.zenchef.com/v1/sdk.min.js'; el.parentNode.insertBefore(js, el); })(document, 'script', 'zenchef-sdk')</script>
+    <div
+        class="zc-widget-config"
+        data-restaurant="372763"
+        data-lang="fr">
+    </div>
+    <!-- End Zenchef Widget SDK -->
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -292,14 +304,6 @@
     <script src="assets/lib/isotope-layout/dist/isotope.pkgd.min.js"></script>
     <script src="assets/js/core.js"></script>
     <script src="assets/js/main.js"></script>
-    <!-- Zenchef Widget SDK -->
-    <script>;(function (d, s, id) {const el = d.getElementsByTagName(s)[0]; if (d.getElementById(id) || el.parentNode == null) {return;} var js = d.createElement(s); js.id = id; js.async = true; js.src = 'https://sdk.zenchef.com/v1/sdk.min.js'; el.parentNode.insertBefore(js, el); })(document, 'script', 'zenchef-sdk')</script>
-    <div
-        class="zc-widget-config"
-        data-restaurant="372763"
-        data-lang="fr">
-    </div>
-    <!-- End Zenchef Widget SDK -->
 </body>
 <script type="module" src="assets/js/index.js"></script>
 <script type="module" src="assets/js/trad_zenchef.js"></script>
