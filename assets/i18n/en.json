@@ -83,7 +83,24 @@
     "Privatisation": "PRIVATIZATION",
     "Menu-nouvel-an-petit": "New Year's Menu",
     "Menu-nouvel-an-desc": "Join us to celebrate and discover our special dishes for the New Year's Eve!",
-    "Voir-menu": "View the menu"
+    "Voir-menu": "View the menu",
 
-
+    "CookieConsent": {
+        "Text": "We use cookies to improve your experience.",
+        "AcceptAll": "Accept",
+        "AcceptNecessary": "Necessary",
+        "Preferences": "Preferences"
+    },
+    "CookiePreferences": {
+        "Title": "Cookie Preferences",
+        "Description": "Customize your cookie preferences below:",
+        "Necessary": "Necessary cookies (required)",
+        "NecessaryDescription": "These cookies are essential for the functioning of the website and cannot be disabled.",
+        "Analytics": "Analytics cookies",
+        "AnalyticsDescription": "These cookies allow us to analyze website usage to improve its performance and user experience.",
+        "Marketing": "Marketing cookies",
+        "MarketingDescription": "These cookies are used to show you relevant advertisements on other sites.",
+        "Cancel": "Cancel",
+        "Save": "Save preferences"
+    }
 }

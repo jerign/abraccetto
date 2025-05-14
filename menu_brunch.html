@@ -232,6 +232,99 @@
             <!--/.container-->
         </section>
     </main>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; z-index: 9999; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
+        <div>
+            <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;" data-i18n="CookieConsent.Text">
+                Nous utilisons des cookies pour améliorer votre expérience.
+            </p>
+            <div style="display: flex; justify-content: space-between;">
+                <button id="accept-all-cookies" class="btn btn-sm btn-primary" data-i18n="CookieConsent.AcceptAll" style="font-size: 11px; padding: 3px 6px; margin-right: 5px;">Accepter</button>
+                <button id="accept-necessary-cookies" class="btn btn-sm btn-outline-secondary" data-i18n="CookieConsent.AcceptNecessary" style="font-size: 11px; padding: 3px 6px; margin-right: 5px;">Nécessaires</button>
+                <button id="cookie-preferences" class="btn btn-link btn-sm text-primary" data-i18n="CookieConsent.Preferences" style="font-size: 11px; padding: 3px 6px;">Préférences</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Preferences Modal -->
+    <div class="modal fade" id="cookie-preferences-modal" tabindex="-1" role="dialog" aria-labelledby="cookiePreferencesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cookiePreferencesModalLabel" data-i18n="CookiePreferences.Title">Préférences de cookies</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p data-i18n="CookiePreferences.Description">Personnalisez vos préférences de cookies ci-dessous :</p>
+                    
+                    <style>
+                    .custom-control-input:checked ~ .custom-control-label::before {
+                        color: #fff;
+                        border-color: #007bff;
+                        background-color: #007bff;
+                    }
+                    .custom-control-label::before {
+                        position: absolute;
+                        top: 0.25rem;
+                        left: -1.5rem;
+                        display: block;
+                        width: 1rem;
+                        height: 1rem;
+                        pointer-events: none;
+                        content: "";
+                        background-color: #fff;
+                        border: 1px solid #adb5bd;
+                    }
+                    .custom-control-label::after {
+                        position: absolute;
+                        top: 0.25rem;
+                        left: -1.5rem;
+                        display: block;
+                        width: 1rem;
+                        height: 1rem;
+                        content: "";
+                        background: no-repeat 50%/50% 50%;
+                    }
+                    .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+                    }
+                    </style>
+                    
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="necessary-cookies" checked disabled>
+                            <label class="custom-control-label" for="necessary-cookies" data-i18n="CookiePreferences.Necessary">Cookies nécessaires (obligatoires)</label>
+                            <p class="text-muted small" data-i18n="CookiePreferences.NecessaryDescription">Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="analytics-cookies">
+                            <label class="custom-control-label" for="analytics-cookies" data-i18n="CookiePreferences.Analytics">Cookies analytiques</label>
+                            <p class="text-muted small" data-i18n="CookiePreferences.AnalyticsDescription">Ces cookies nous permettent d'analyser l'utilisation du site pour en améliorer les performances et l'expérience utilisateur.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="marketing-cookies">
+                            <label class="custom-control-label" for="marketing-cookies" data-i18n="CookiePreferences.Marketing">Cookies marketing</label>
+                            <p class="text-muted small" data-i18n="CookiePreferences.MarketingDescription">Ces cookies sont utilisés pour vous montrer des publicités pertinentes sur d'autres sites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" data-i18n="CookiePreferences.Cancel">Annuler</button>
+                    <button type="button" class="btn btn-primary" id="save-preferences" data-i18n="CookiePreferences.Save">Enregistrer les préférences</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--  -->
     <!--    JavaScripts-->
     <!--    =============================================-->
@@ -260,5 +353,86 @@
     <script type="module" src="assets/js/index.js"></script>
     <script type="module" src="assets/js/trad_zenchef.js"></script>
     <!-- <script type="module" src="assets/js/trad_customs_basic.js"></script> -->
+
+    <!-- Cookie Consent Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if consent was already given
+            const cookieConsent = localStorage.getItem('cookieConsent');
+            
+            if (!cookieConsent) {
+                // Show the banner if no consent was given yet
+                document.getElementById('cookie-consent-banner').style.display = 'block';
+            } else {
+                // Apply saved preferences
+                const preferences = JSON.parse(cookieConsent);
+                applyPreferences(preferences);
+            }
+            
+            // Accept all cookies
+            document.getElementById('accept-all-cookies').addEventListener('click', function() {
+                const preferences = {
+                    necessary: true,
+                    analytics: true,
+                    marketing: true
+                };
+                savePreferences(preferences);
+                document.getElementById('cookie-consent-banner').style.display = 'none';
+            });
+            
+            // Accept only necessary cookies
+            document.getElementById('accept-necessary-cookies').addEventListener('click', function() {
+                const preferences = {
+                    necessary: true,
+                    analytics: false,
+                    marketing: false
+                };
+                savePreferences(preferences);
+                document.getElementById('cookie-consent-banner').style.display = 'none';
+            });
+            
+            // Open preferences modal
+            document.getElementById('cookie-preferences').addEventListener('click', function() {
+                // Set checkboxes based on current preferences
+                const savedPreferences = localStorage.getItem('cookieConsent');
+                if (savedPreferences) {
+                    const preferences = JSON.parse(savedPreferences);
+                    document.getElementById('analytics-cookies').checked = preferences.analytics;
+                    document.getElementById('marketing-cookies').checked = preferences.marketing;
+                }
+                
+                $('#cookie-preferences-modal').modal('show');
+            });
+            
+            // Save preferences from modal
+            document.getElementById('save-preferences').addEventListener('click', function() {
+                const preferences = {
+                    necessary: true,
+                    analytics: document.getElementById('analytics-cookies').checked,
+                    marketing: document.getElementById('marketing-cookies').checked
+                };
+                savePreferences(preferences);
+                $('#cookie-preferences-modal').modal('hide');
+                document.getElementById('cookie-consent-banner').style.display = 'none';
+            });
+            
+            function savePreferences(preferences) {
+                localStorage.setItem('cookieConsent', JSON.stringify(preferences));
+                applyPreferences(preferences);
+            }
+            
+            function applyPreferences(preferences) {
+                // Disable Google Analytics if analytics cookies are not accepted
+                if (!preferences.analytics) {
+                    window['ga-disable-GTM-KKWRCBNB'] = true;
+                }
+                
+                // Disable Facebook Pixel if marketing cookies are not accepted
+                if (!preferences.marketing) {
+                    fbq = function() {}; // Replace the fbq function with an empty function
+                }
+            }
+        });
+    </script>
 </body>
 </html>

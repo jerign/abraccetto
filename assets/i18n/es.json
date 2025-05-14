@@ -14,7 +14,7 @@
     "Type-cuisine": "Italiano - Mediterráneo",
     "Service": "Servicio",
     "Service-Brunch": "Brunch ~ Lunes Viernes Sábado Domingo ~ 12H00-17h00",
-    "Continu": "Restaurante ~ Continuo",
+    "Continu": "Restaurante ~ Continuo",
     "Type-restaurant": "Tipo de restaurante",
     "Description-restaurant": "Bar - Cafetería - Restaurante",
     "Ouvertures":{
@@ -83,5 +83,24 @@
     "Privatisation": "PRIVATIZACIÓN",
     "Menu-nouvel-an-petit": "Menú de Año Nuevo",
     "Menu-nouvel-an-desc": "¡Únete a nosotros para celebrar y descubre nuestros platos especiales para la Nochevieja!",
-    "Voir-menu": "Ver el menú"
+    "Voir-menu": "Ver el menú",
+    
+    "CookieConsent": {
+        "Text": "Utilizamos cookies para mejorar su experiencia.",
+        "AcceptAll": "Aceptar",
+        "AcceptNecessary": "Necesarias",
+        "Preferences": "Preferencias"
+    },
+    "CookiePreferences": {
+        "Title": "Preferencias de cookies",
+        "Description": "Personalice sus preferencias de cookies a continuación:",
+        "Necessary": "Cookies necesarias (obligatorias)",
+        "NecessaryDescription": "Estas cookies son esenciales para el funcionamiento del sitio web y no se pueden desactivar.",
+        "Analytics": "Cookies analíticas",
+        "AnalyticsDescription": "Estas cookies nos permiten analizar el uso del sitio web para mejorar su rendimiento y la experiencia del usuario.",
+        "Marketing": "Cookies de marketing",
+        "MarketingDescription": "Estas cookies se utilizan para mostrarle anuncios relevantes en otros sitios.",
+        "Cancel": "Cancelar",
+        "Save": "Guardar preferencias"
+    }
 }
