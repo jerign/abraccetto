@@ -81,16 +81,7 @@
     </div>
     <!-- End Zenchef Widget SDK -->
     
-    <!-- Force cookie banner position -->
-    <style>
-        #cookie-consent-banner {
-            position: fixed !important;
-            bottom: 110px !important;
-            right: 10px !important;
-            left: auto !important;
-            max-width: 280px !important;
-        }
-    </style>
+    <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -505,12 +496,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-8 fs--1">
+                <div class="row mt-6 fs--1">
                     <div class="col-lg">
                         <div class="color-8">
-                            &copy;A Braccetto 2024 all right reserved | 
-                            <a href="privacy-policy.html" class="color-8">Politique de confidentialité</a> | 
-                            <a href="legal-notice.html" class="color-8">Mentions légales</a>
+                            &copy;A Braccetto 2024 all right reserved
+                            <div class="footer-links mt-2">
+                                <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
+                                <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
+                                <a href="privacy-policy.html" class="mr-3 color-white" data-i18n="FooterLinks.PrivacyPolicy">Politique de confidentialité</a>
+                                <a href="cookie-policy.html" class="color-white" data-i18n="FooterLinks.CookiePolicy">Politique de cookies</a>
+                            </div>
                         </div>
                     </div>
                 </div>
