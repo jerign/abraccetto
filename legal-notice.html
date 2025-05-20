@@ -175,30 +175,35 @@
                 <div class="row">
                     <div class="col-12">
                         <h2 class="mb-4">Mentions légales</h2>
-                        <p>Dernière mise à jour : <span id="current-date">1 Juillet 2024</span></p>
+                        <p>Dernière mise à jour : <span id="current-date">1 Juillet 2025</span></p>
                         <script>
                             document.getElementById('current-date').textContent = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
                         </script>
 
-                        <h3 class="mt-5">1. Informations légales</h3>
-                        <p>Ce site web est édité par :</p>
+                        <h3 class="mt-5">1. Éditeur du site</h3>
+                        <p>Le site www.abraccettoparis.com est édité par :</p>
                         <ul>
-                            <li><strong>Dénomination sociale</strong> : A Braccetto</li>
-                            <li><strong>Forme juridique</strong> : [Forme juridique à compléter] au capital de [montant à compléter] euros</li>
-                            <li><strong>Adresse du siège social</strong> : 19 Rue Soufflot, 75005 Paris</li>
-                            <li><strong>SIRET</strong> : [Numéro SIRET à compléter]</li>
-                            <li><strong>N° TVA intracommunautaire</strong> : [Numéro TVA à compléter]</li>
-                            <li><strong>Téléphone</strong> : [Numéro de téléphone à compléter]</li>
+                            <li><strong>Société</strong> : ABRACCETTO</li>
+                            <li><strong>Forme juridique</strong> : Société par actions simplifiée</li>
+                            <li><strong>SIREN</strong> : 401 200 134</li>
+                            <li><strong>SIRET</strong> : 401 200 134 00013</li>
+                            <li><strong>TVA Intracommunautaire</strong> : FR67401200134</li>
+                            <li><strong>Capital social</strong> : 155 000 €</li>
+                            <li><strong>Adresse</strong> : 19 rue Soufflot, 75005 Paris, France</li>
                             <li><strong>Email</strong> : contact@abraccettoparis.com</li>
-                            <li><strong>Directeur de la publication</strong> : [Nom du directeur de publication à compléter]</li>
+                            <li><strong>Directeur de la publication</strong> :</li>
                         </ul>
 
-                        <h3 class="mt-4">2. Hébergement</h3>
+                        <h3 class="mt-4">2. Hébergeur</h3>
                         <p>Ce site est hébergé par :</p>
                         <ul>
-                            <li><strong>Dénomination sociale</strong> : [Nom de l'hébergeur à compléter]</li>
-                            <li><strong>Adresse</strong> : [Adresse de l'hébergeur à compléter]</li>
-                            <li><strong>Téléphone</strong> : [Téléphone de l'hébergeur à compléter]</li>
+                            <li><strong>Société</strong> : OVH SAS</li>
+                            <li><strong>Forme juridique</strong> : SAS au capital de 50 000 000 €</li>
+                            <li><strong>RCS</strong> : Lille Métropole 424 761 419 00045</li>
+                            <li><strong>Code APE</strong> : 2620Z</li>
+                            <li><strong>N° TVA</strong> : FR 22 424 761 419</li>
+                            <li><strong>Adresse</strong> : 2 rue Kellermann, 59100 Roubaix, France</li>
+                            <li><strong>Téléphone</strong> : +33 9 72 10 10 07</li>
                         </ul>
 
                         <h3 class="mt-4">3. Propriété intellectuelle</h3>
@@ -232,7 +237,7 @@
                 <div class="row mt-8 fs--1">
                     <div class="col-lg">
                         <div class="color-8">
-                            &copy;A Braccetto 2024 all right reserved
+                            &copy;A Braccetto 2025 all right reserved
                             <div class="footer-links mt-2">
                                 <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
                                 <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
@@ -254,10 +259,12 @@
             <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;" data-i18n="CookieConsent.Text">
                 Nous utilisons des cookies pour améliorer votre expérience.
             </p>
-            <div style="display: flex; justify-content: space-between;">
-                <button id="accept-all-cookies" class="btn btn-sm btn-primary" data-i18n="CookieConsent.AcceptAll" style="font-size: 11px; padding: 3px 6px; margin-right: 5px;">Accepter</button>
-                <button id="accept-necessary-cookies" class="btn btn-sm btn-outline-secondary" data-i18n="CookieConsent.AcceptNecessary" style="font-size: 11px; padding: 3px 6px; margin-right: 5px;">Nécessaires</button>
-                <button id="cookie-preferences" class="btn btn-link btn-sm text-primary" data-i18n="CookieConsent.Preferences" style="font-size: 11px; padding: 3px 6px;">Préférences</button>
+            <div style="display: flex; flex-direction: column; gap: 6px;">
+                <button id="accept-all-cookies" class="btn btn-sm btn-primary" data-i18n="CookieConsent.AcceptAll" style="font-size: 14px; padding: 8px 10px; margin-bottom: 5px; font-weight: bold; width: 100%;">Accepter</button>
+                <div style="display: flex; justify-content: space-between;">
+                    <button id="accept-necessary-cookies" class="btn btn-sm btn-outline-secondary" data-i18n="CookieConsent.AcceptNecessary" style="font-size: 11px; padding: 3px 6px; margin-right: 5px;">Nécessaires</button>
+                    <button id="cookie-preferences" class="btn btn-link btn-sm text-primary" data-i18n="CookieConsent.Preferences" style="font-size: 11px; padding: 3px 6px;">Préférences</button>
+                </div>
             </div>
         </div>
     </div>

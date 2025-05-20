@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -33,12 +33,12 @@
     <!-- End Meta Pixel Code -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Politique de confidentialité - A Braccetto">
-    <meta name="description" content="Politique de confidentialité et protection des données personnelles du restaurant A Braccetto à Paris.">
+    <meta name="title" content="Politique de Cookies - A Braccetto">
+    <meta name="description" content="Politique de cookies du restaurant A Braccetto à Paris. Découvrez comment nous utilisons les cookies pour améliorer votre expérience.">
     <!--  -->
     <!--    Document Title-->
     <!-- =============================================-->
-    <title>Politique de confidentialité - a braccetto</title>
+    <title>Politique de Cookies - a braccetto</title>
     <!--  -->
     <!--    Favicons-->
     <!--    =============================================-->
@@ -75,8 +75,80 @@
         data-lang="fr">
     </div>
     <!-- End Zenchef Widget SDK -->
-    
-    <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
+    <style>
+        /* Styles de fallback pour la modal si Bootstrap échoue */
+        #cookie-consent-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 15px;
+            z-index: 9999;
+            text-align: center;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        
+        #cookie-consent-banner p {
+            margin-bottom: 10px;
+        }
+        
+        #cookie-consent-banner button {
+            margin: 5px;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        #cookie-consent-banner .btn-dark {
+            background-color: #333;
+            color: white;
+        }
+        
+        #cookie-consent-banner .btn-light {
+            background-color: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+        
+        #cookie-consent-banner .btn-link {
+            background: none;
+            color: #007bff;
+            text-decoration: underline;
+        }
+        
+        #cookie-preferences-modal.modal-fallback {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 10000;
+        }
+        
+        .modal-fallback .modal-dialog {
+            position: relative;
+            width: 90%;
+            max-width: 500px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            #cookie-consent-banner button {
+                display: block;
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -161,7 +233,7 @@
                     style="height: 30vh; min-height: 200px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="col">
                         <div class="overflow-hidden">
-                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>Politique de confidentialité</h1>
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>Politique de Cookies</h1>
                         </div>
                     </div>
                 </div>
@@ -174,91 +246,61 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="mb-4">Politique de confidentialité</h2>
-                        <p>Dernière mise à jour : <span id="current-date">1 Juillet 2025</span></p>
-                        <script>
-                            document.getElementById('current-date').textContent = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-                        </script>
+                        <h2 class="mb-4">Politique relative aux Cookies</h2>
+                        <p>A Braccetto</p>
+                        <p>En vigueur depuis le : 26 Mai 2018</p>
 
-                        <h3 class="mt-5">1. Introduction</h3>
-                        <p>Bienvenue sur le site web d'A Braccetto. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette politique de confidentialité vous informe sur la manière dont nous traitons vos données personnelles lorsque vous visitez notre site web (indépendamment de l'endroit d'où vous le consultez) et vous informe de vos droits en matière de protection des données et de la protection légale dont vous bénéficiez.</p>
+                        <p>La présente politique relative aux cookies (ci-après, la « Cookie Policy ») décrit les différents types de cookies que nous utilisons sur nos sites / bookings.zenchef.com (ci-après, le « Site ») et la manière dont vous pouvez paramétrer ces cookies.</p>
 
-                        <h3 class="mt-4">2. Responsable du traitement</h3>
-                        <p>A Braccetto (ci-après dénommé "nous", "notre", "nos") est responsable de vos données personnelles.</p>
-                        <p>Coordonnées :</p>
-                        <ul>
-                            <li>Nom de l'établissement : A Braccetto</li>
-                            <li>Adresse : 19 Rue Soufflot, 75005 Paris</li>
-                            <li>Email : contact@abraccettoparis.com</li>
-                        </ul>
+                        <p>Nous appliquons une politique de confidentialité stricte et nous nous engageons à être transparents quant aux technologies qui sont utilisées sur notre Site.</p>
 
-                        <h3 class="mt-4">3. Données que nous collectons</h3>
-                        <p>Nous pouvons collecter, utiliser, stocker et transférer différents types de données personnelles vous concernant, que nous avons regroupées comme suit :</p>
-                        
-                        <ul>
-                            <li><strong>Données d'identité</strong> : nom, prénom.</li>
-                            <li><strong>Données de contact</strong> : adresse email, numéro de téléphone.</li>
-                            <li><strong>Données techniques</strong> : adresse IP, type et version du navigateur, fuseau horaire et localisation, types et versions des plug-ins du navigateur, système d'exploitation et plateforme, et autres technologies sur les appareils que vous utilisez pour accéder à ce site web.</li>
-                            <li><strong>Données d'utilisation</strong> : informations sur la façon dont vous utilisez notre site web, produits et services.</li>
-                            <li><strong>Données de marketing et de communication</strong> : vos préférences pour recevoir des communications marketing de notre part et de nos tiers et vos préférences de communication.</li>
-                        </ul>
+                        <p>Dans la mesure où les informations recueillies à l'aide des cookies constituent des données personnelles, les dispositions de la Politique de confidentialité s'appliquent et complètent la présente Cookie Policy.</p>
 
-                        <h3 class="mt-4">4. Comment nous collectons vos données personnelles</h3>
-                        <p>Nous utilisons différentes méthodes pour collecter des données vous concernant, notamment :</p>
-                        
-                        <ul>
-                            <li><strong>Interactions directes</strong> : Vous pouvez nous communiquer vos données d'identité, de contact et financières en remplissant des formulaires ou en nous contactant par courrier, téléphone, email ou autre.</li>
-                            <li><strong>Technologies ou interactions automatisées</strong> : Lors de votre interaction avec notre site web, nous pouvons collecter automatiquement des données techniques sur votre équipement, vos actions et habitudes de navigation. Nous collectons ces données personnelles en utilisant des cookies et autres technologies similaires.</li>
-                        </ul>
+                        <h3 class="mt-5">1. QU'EST-CE QU'UN COOKIE ?</h3>
+                        <p>Un « cookie » est un petit fichier texte contenant des informations sauvegardées par un site web sur un ordinateur ou par une application mobile sur le smartphone d'un utilisateur.</p>
 
-                        <h3 class="mt-4">5. Comment nous utilisons vos données personnelles</h3>
-                        <p>Nous n'utiliserons vos données personnelles que lorsque la loi nous le permet. Le plus souvent, nous utiliserons vos données personnelles dans les circonstances suivantes :</p>
-                        
-                        <ul>
-                            <li>Lorsque nous devons exécuter le contrat que nous sommes sur le point de conclure ou que nous avons conclu avec vous (par exemple pour une réservation).</li>
-                            <li>Lorsque cela est nécessaire pour nos intérêts légitimes (ou ceux d'un tiers) et que vos intérêts et droits fondamentaux ne l'emportent pas sur ces intérêts.</li>
-                            <li>Lorsque nous devons nous conformer à une obligation légale ou réglementaire.</li>
-                        </ul>
+                        <p>Les cookies offrent la possibilité de vous identifier et de mémoriser différentes informations aux fins de vous faciliter la navigation sur un site/une application mobile, d'assurer le bon fonctionnement de ceux-ci ou de les rendre plus efficace, par exemple en mémorisant vos préférences linguistiques.</p>
 
-                        <h3 class="mt-4">6. Cookies</h3>
-                        <p>Notre site web utilise des cookies pour vous distinguer des autres utilisateurs. Cela nous aide à vous offrir une bonne expérience lorsque vous naviguez sur notre site web et nous permet également d'améliorer notre site. Vous pouvez configurer votre navigateur pour refuser tous ou certains cookies, ou pour vous alerter lorsque des sites web définissent ou accèdent à des cookies. Si vous désactivez ou refusez les cookies, veuillez noter que certaines parties de ce site web peuvent devenir inaccessibles ou ne pas fonctionner correctement.</p>
+                        <h3 class="mt-5">2. QUELS COOKIES SONT UTILISES SUR NOTRE SITE ET POURQUOI ?</h3>
+                        <p>Nous utilisons différents types de cookies pour différentes raisons.</p>
 
-                        <h3 class="mt-4">7. Partage de vos données personnelles</h3>
-                        <p>Nous pouvons être amenés à partager vos données personnelles avec les tiers suivants :</p>
-                        
-                        <ul>
-                            <li>Des prestataires de services qui fournissent des services de traitement de données.</li>
-                            <li>Des conseillers professionnels, y compris des avocats, des banquiers, des auditeurs et des assureurs.</li>
-                            <li>L'administration fiscale, les autorités de régulation et autres autorités.</li>
-                        </ul>
+                        <div class="table-responsive mt-4">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>COOKIE</th>
+                                        <th>FINALITE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>COOKIES NECESSAIRES</td>
+                                        <td>Ces cookies sont essentiels au bon fonctionnement du site. Ils ne peuvent pas être désactivés.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COOKIES ANALYTIQUES</td>
+                                        <td>Ces cookies nous permettent d'analyser l'utilisation du site pour en améliorer les performances et l'expérience utilisateur.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COOKIES MARKETING</td>
+                                        <td>Ces cookies sont utilisés pour vous montrer des publicités pertinentes sur d'autres sites et réseaux sociaux.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
-                        <p>Nous exigeons de tous les tiers qu'ils respectent la sécurité de vos données personnelles et qu'ils les traitent conformément à la loi. Nous ne permettons pas à nos prestataires de services tiers d'utiliser vos données personnelles à leurs propres fins et nous ne les autorisons à traiter vos données personnelles qu'à des fins spécifiques et conformément à nos instructions.</p>
+                        <h3 class="mt-5">3. COMMENT PARAMETRER LES COOKIES ?</h3>
+                        <p>Vous pouvez facilement supprimer, désactiver ou accepter à tout moment les cookies de notre Site en configurant les paramètres de votre navigateur.</p>
 
-                        <h3 class="mt-4">8. Sécurité des données</h3>
-                        <p>Nous avons mis en place des mesures de sécurité appropriées pour empêcher que vos données personnelles ne soient accidentellement perdues, utilisées ou consultées de manière non autorisée, modifiées ou divulguées. De plus, nous limitons l'accès à vos données personnelles aux employés, agents, contractants et autres tiers qui ont un besoin professionnel de les connaître. Ils ne traiteront vos données personnelles que sur nos instructions et ils sont soumis à une obligation de confidentialité.</p>
+                        <p>Chaque navigateur (Internet Explorer, Safari, Firefox, Google Chrome etc.) à son propre mode de configuration de cookies. Pour connaître la procédure à suivre concernant votre navigateur rendez-vous sur le site : <a href="http://www.allaboutcookies.org/fr/gerer-les-cookies/" target="_blank">http://www.allaboutcookies.org/fr/gerer-les-cookies/</a>.</p>
 
-                        <h3 class="mt-4">9. Vos droits légaux</h3>
-                        <p>Dans certaines circonstances, vous avez des droits en vertu des lois sur la protection des données en ce qui concerne vos données personnelles, notamment le droit de :</p>
-                        
-                        <ul>
-                            <li>Demander l'accès à vos données personnelles.</li>
-                            <li>Demander la correction de vos données personnelles.</li>
-                            <li>Demander l'effacement de vos données personnelles.</li>
-                            <li>S'opposer au traitement de vos données personnelles.</li>
-                            <li>Demander la limitation du traitement de vos données personnelles.</li>
-                            <li>Demander le transfert de vos données personnelles.</li>
-                            <li>Droit de retirer votre consentement.</li>
-                        </ul>
+                        <p>Si vous utilisez différents ordinateurs, smartphones et/ou tablettes n'oubliez pas de configurer chaque équipement de manière à ce que chacun d'eux corresponde à vos préférences en termes de cookies.</p>
 
-                        <p>Si vous souhaitez exercer l'un des droits énoncés ci-dessus, veuillez nous contacter à contact@abraccettoparis.com.</p>
+                        <h3 class="mt-5">4. NOTRE SITE FONCTIONNERA-T-IL TOUJOURS SANS COOKIES ?</h3>
+                        <p>Vous pourrez toujours consulter notre Site mais certaines interactions pourraient ne pas fonctionner normalement.</p>
 
-                        <h3 class="mt-4">10. Modifications de la politique de confidentialité</h3>
-                        <p>Nous nous réservons le droit de mettre à jour cette politique de confidentialité à tout moment. Nous publierons toute modification mise à jour sur notre site web.</p>
-
-                        <h3 class="mt-4">11. Contact</h3>
-                        <p>Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de confidentialité, veuillez nous contacter à :</p>
-                        <p>Email : contact@abraccettoparis.com<br>
-                        Adresse : A Braccetto, 19 Rue Soufflot, 75005 Paris</p>
+                        <h3 class="mt-5">5. D'AUTRES QUESTIONS ?</h3>
+                        <p>Si vous avez d'autres questions, contactez-nous : <a href="mailto:contact@abraccettoparis.com">contact@abraccettoparis.com</a></p>
                     </div>
                 </div>
             </div>
@@ -270,10 +312,13 @@
             </div>
             <!--/.background-holder-->
             <div class="container">
-                <div class="row mt-6 fs--1">
+                <div class="row mt-8 fs--1">
                     <div class="col-lg">
                         <div class="color-8">
-                            &copy;A Braccetto 2025 all right reserved
+                            &copy;A Braccetto <span id="current-year">2025</span> - Tous droits réservés
+                            <script>
+                                document.getElementById('current-year').textContent = new Date().getFullYear();
+                            </script>
                             <div class="footer-links mt-2">
                                 <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
                                 <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
@@ -491,20 +536,12 @@
         </div>
     </div>
 
-    <!--  -->
-    <!--    JavaScripts-->
-    <!--    =============================================-->
+    <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="assets/lib/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/googlemap.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoK8GIrOHzHwnzHCyqrdtmTpUWcdrTTD8&callback=initMap"
-        async></script>
     <script src="assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/lib/jquery-menu-aim/jquery.menu-aim.js"></script>
     <script src="assets/lib/gsap/src/minified/TweenMax.min.js"></script>
     <script src="assets/lib/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
     <script src="assets/lib/CustomEase.min.js"></script>
@@ -512,86 +549,179 @@
     <script src="assets/lib/rellax/rellax.min.js"></script>
     <script src="assets/js/zanimation.js"></script>
     <script src="assets/js/inertia.js"></script>
-    <script src="assets/lib/lightbox2/dist/js/lightbox.js"></script>
     <script src="assets/js/core.js"></script>
     <script src="assets/js/main.js"></script>
-    <script type="module" src="assets/js/index.js"></script>
-    <script type="module" src="assets/js/trad_zenchef.js"></script>
 
     <!-- Cookie Consent Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Vérifier si les éléments existent avant d'ajouter des event listeners
+            var cookieBanner = document.getElementById('cookie-consent-banner');
+            var acceptAllBtn = document.getElementById('accept-all-cookies');
+            var acceptNecessaryBtn = document.getElementById('accept-necessary-cookies');
+            var preferencesBtn = document.getElementById('cookie-preferences');
+            var savePreferencesBtn = document.getElementById('save-preferences');
+            
             // Check if consent was already given
             const cookieConsent = localStorage.getItem('cookieConsent');
             
-            if (!cookieConsent) {
+            if (!cookieConsent && cookieBanner) {
                 // Show the banner if no consent was given yet
-                document.getElementById('cookie-consent-banner').style.display = 'block';
+                cookieBanner.style.display = 'block';
                 // Désactiver les cookies analytiques et marketing par défaut
                 disableAnalytics();
                 disableMarketing();
-            } else {
+            } else if (cookieConsent) {
                 // Apply saved preferences
-                const preferences = JSON.parse(cookieConsent);
-                applyPreferences(preferences);
+                applyPreferences(JSON.parse(cookieConsent));
             }
             
             // Accept all cookies
-            document.getElementById('accept-all-cookies').addEventListener('click', function() {
-                const preferences = {
-                    necessary: true,
-                    analytics: true,
-                    marketing: true
-                };
-                savePreferences(preferences);
-                document.getElementById('cookie-consent-banner').style.display = 'none';
-            });
+            if (acceptAllBtn) {
+                acceptAllBtn.addEventListener('click', function() {
+                    const preferences = {
+                        necessary: true,
+                        analytics: true,
+                        marketing: true
+                    };
+                    savePreferences(preferences);
+                    if (cookieBanner) cookieBanner.style.display = 'none';
+                });
+            }
             
             // Accept only necessary cookies
-            document.getElementById('accept-necessary-cookies').addEventListener('click', function() {
-                const preferences = {
-                    necessary: true,
-                    analytics: false,
-                    marketing: false
-                };
-                savePreferences(preferences);
-                document.getElementById('cookie-consent-banner').style.display = 'none';
-            });
+            if (acceptNecessaryBtn) {
+                acceptNecessaryBtn.addEventListener('click', function() {
+                    const preferences = {
+                        necessary: true,
+                        analytics: false,
+                        marketing: false
+                    };
+                    savePreferences(preferences);
+                    if (cookieBanner) cookieBanner.style.display = 'none';
+                });
+            }
             
-            // Open preferences modal
-            document.getElementById('cookie-preferences').addEventListener('click', function() {
-                // Hide the cookie consent banner when opening preferences
-                document.getElementById('cookie-consent-banner').style.display = 'none';
-                
-                // Set checkboxes based on current preferences
-                const savedPreferences = localStorage.getItem('cookieConsent');
-                if (savedPreferences) {
-                    const preferences = JSON.parse(savedPreferences);
-                    document.getElementById('analytics-cookies').checked = preferences.analytics;
-                    document.getElementById('marketing-cookies').checked = preferences.marketing;
-                }
-                
-                $('#cookie-preferences-modal').modal('show');
-            });
+            // Open preferences modal - utilisation de l'API jQuery si disponible
+            if (preferencesBtn) {
+                preferencesBtn.addEventListener('click', function() {
+                    // Hide the cookie consent banner when opening preferences
+                    if (cookieBanner) cookieBanner.style.display = 'none';
+                    
+                    // Set checkboxes based on current preferences
+                    const savedPreferences = localStorage.getItem('cookieConsent');
+                    if (savedPreferences) {
+                        const preferences = JSON.parse(savedPreferences);
+                        var analyticsCookies = document.getElementById('analytics-cookies');
+                        var marketingCookies = document.getElementById('marketing-cookies');
+                        
+                        if (analyticsCookies) analyticsCookies.checked = preferences.analytics;
+                        if (marketingCookies) marketingCookies.checked = preferences.marketing;
+                    }
+                    
+                    // Afficher la modal avec jQuery si disponible, sinon en HTML pur
+                    try {
+                        if (typeof $ !== 'undefined' && $.fn.modal) {
+                            $('#cookie-preferences-modal').modal('show');
+                        } else {
+                            var modal = document.getElementById('cookie-preferences-modal');
+                            if (modal) {
+                                modal.style.display = 'block';
+                                modal.classList.add('show');
+                                document.body.classList.add('modal-open');
+                                
+                                // Créer un backdrop si nécessaire
+                                var backdrop = document.createElement('div');
+                                backdrop.className = 'modal-backdrop fade show';
+                                document.body.appendChild(backdrop);
+                            }
+                        }
+                    } catch (e) {
+                        console.error("Erreur lors de l'affichage de la modal:", e);
+                        var modal = document.getElementById('cookie-preferences-modal');
+                        if (modal) {
+                            modal.style.display = 'block';
+                            modal.classList.add('show');
+                        }
+                    }
+                });
+            }
             
             // When modal is closed without saving, show the banner again if no consent was stored
-            $('#cookie-preferences-modal').on('hidden.bs.modal', function () {
-                if (!localStorage.getItem('cookieConsent')) {
-                    document.getElementById('cookie-consent-banner').style.display = 'block';
-                }
-            });
+            // Ajouter un gestionnaire pour le bouton Cancel/Annuler
+            var cancelBtn = document.querySelector('button[data-dismiss="modal"]');
+            if (cancelBtn) {
+                cancelBtn.addEventListener('click', function() {
+                    try {
+                        if (typeof $ !== 'undefined' && $.fn.modal) {
+                            $('#cookie-preferences-modal').modal('hide');
+                        } else {
+                            var modal = document.getElementById('cookie-preferences-modal');
+                            if (modal) {
+                                modal.style.display = 'none';
+                                modal.classList.remove('show');
+                                document.body.classList.remove('modal-open');
+                                
+                                // Supprimer backdrop si présent
+                                var backdrop = document.querySelector('.modal-backdrop');
+                                if (backdrop) {
+                                    backdrop.parentNode.removeChild(backdrop);
+                                }
+                            }
+                        }
+                        
+                        // Show the banner again if no consent was stored
+                        if (!localStorage.getItem('cookieConsent') && cookieBanner) {
+                            cookieBanner.style.display = 'block';
+                        }
+                    } catch (e) {
+                        console.error("Erreur lors de la fermeture de la modal:", e);
+                        var modal = document.getElementById('cookie-preferences-modal');
+                        if (modal) modal.style.display = 'none';
+                    }
+                });
+            }
             
             // Save preferences from modal
-            document.getElementById('save-preferences').addEventListener('click', function() {
-                const preferences = {
-                    necessary: true, // Always required
-                    analytics: document.getElementById('analytics-cookies').checked,
-                    marketing: document.getElementById('marketing-cookies').checked
-                };
-                savePreferences(preferences);
-                document.getElementById('cookie-consent-banner').style.display = 'none';
-                $('#cookie-preferences-modal').modal('hide');
-            });
+            if (savePreferencesBtn) {
+                savePreferencesBtn.addEventListener('click', function() {
+                    var analyticsCookies = document.getElementById('analytics-cookies');
+                    var marketingCookies = document.getElementById('marketing-cookies');
+                    
+                    const preferences = {
+                        necessary: true,
+                        analytics: analyticsCookies ? analyticsCookies.checked : false,
+                        marketing: marketingCookies ? marketingCookies.checked : false
+                    };
+                    
+                    savePreferences(preferences);
+                    if (cookieBanner) cookieBanner.style.display = 'none';
+                    
+                    // Fermer la modal avec jQuery si disponible, sinon en HTML pur
+                    try {
+                        if (typeof $ !== 'undefined' && $.fn.modal) {
+                            $('#cookie-preferences-modal').modal('hide');
+                        } else {
+                            var modal = document.getElementById('cookie-preferences-modal');
+                            if (modal) {
+                                modal.style.display = 'none';
+                                modal.classList.remove('show');
+                                document.body.classList.remove('modal-open');
+                                
+                                // Supprimer backdrop si présent
+                                var backdrop = document.querySelector('.modal-backdrop');
+                                if (backdrop) {
+                                    backdrop.parentNode.removeChild(backdrop);
+                                }
+                            }
+                        }
+                    } catch (e) {
+                        console.error("Erreur lors de la fermeture de la modal:", e);
+                        var modal = document.getElementById('cookie-preferences-modal');
+                        if (modal) modal.style.display = 'none';
+                    }
+                });
+            }
             
             function savePreferences(preferences) {
                 localStorage.setItem('cookieConsent', JSON.stringify(preferences));
@@ -622,76 +752,88 @@
                 deleteCookie('_gid');
                 
                 // Bloquer les futurs appels à dataLayer
-                window.dataLayer = window.dataLayer || [];
-                window.dataLayer.push = function() {
-                    // Ne pas exécuter les événements analytics si désactivés
-                    const args = arguments[0];
-                    if (!args.event || args.event === 'gtm.js' || args.event.indexOf('gtm.') === 0) {
-                        return;
-                    }
-                    // Autoriser les autres événements qui ne sont pas liés à l'analytique
-                    Array.prototype.push.apply(this, arguments);
-                };
+                try {
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push = function() {
+                        // Ne pas exécuter les événements analytics si désactivés
+                        const args = arguments[0];
+                        if (args && (!args.event || args.event === 'gtm.js' || args.event.indexOf('gtm.') === 0)) {
+                            return;
+                        }
+                        // Autoriser les autres événements qui ne sont pas liés à l'analytique
+                        Array.prototype.push.apply(this, arguments);
+                    };
+                } catch (e) {
+                    console.error("Erreur lors de la désactivation de l'analytique:", e);
+                }
             }
             
             function enableAnalytics() {
-                // Réactiver Google Analytics/GTM
-                window['ga-disable-GTM-KKWRCBNB'] = false;
-                
-                // Restaurer le dataLayer
-                window.dataLayer = window.dataLayer || [];
-                // Réinitialiser la méthode push originale
-                delete window.dataLayer.push;
-                
-                // Recharger GTM si nécessaire
-                if (!window.google_tag_manager) {
-                    // Si GTM n'est pas chargé, on peut le recharger ici
-                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','GTM-KKWRCBNB');
+                try {
+                    // Réactiver Google Analytics/GTM
+                    window['ga-disable-GTM-KKWRCBNB'] = false;
+                    
+                    // Restaurer le dataLayer
+                    window.dataLayer = window.dataLayer || [];
+                    // Réinitialiser la méthode push originale
+                    delete window.dataLayer.push;
+                    
+                    // Recharger GTM si nécessaire
+                    if (!window.google_tag_manager) {
+                        // Si GTM n'est pas chargé, on peut le recharger ici
+                        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                        })(window,document,'script','dataLayer','GTM-KKWRCBNB');
+                    }
+                } catch (e) {
+                    console.error("Erreur lors de l'activation de l'analytique:", e);
                 }
             }
             
             function disableMarketing() {
-                // Désactiver Facebook Pixel
-                if (window.fbq) {
-                    window.fbq = function() {};
+                try {
+                    // Désactiver Facebook Pixel
+                    if (window.fbq) {
+                        window.fbq = function() {};
+                    }
+                    
+                    // Supprimer les cookies de FB existants
+                    deleteCookie('_fbp');
+                    deleteCookie('_fbc');
+                } catch (e) {
+                    console.error("Erreur lors de la désactivation du marketing:", e);
                 }
-                
-                // Supprimer les cookies de FB existants
-                deleteCookie('_fbp');
-                deleteCookie('_fbc');
-                
-                // Bloquer les scripts de remarketing
-                blockMarketingScripts();
             }
             
             function enableMarketing() {
-                // Réactiver Facebook Pixel si nécessaire
-                if (!window._fbq) {
-                    !function(f,b,e,v,n,t,s)
-                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                    n.queue=[];t=b.createElement(e);t.async=!0;
-                    t.src=v;s=b.getElementsByTagName(e)[0];
-                    s.parentNode.insertBefore(t,s)}(window, document,'script',
-                    'https://connect.facebook.net/en_US/fbevents.js');
-                    fbq('init', '769331374559096');
-                    fbq('track', 'PageView');
+                try {
+                    // Réactiver Facebook Pixel si nécessaire
+                    if (!window._fbq) {
+                        !function(f,b,e,v,n,t,s)
+                        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                        n.queue=[];t=b.createElement(e);t.async=!0;
+                        t.src=v;s=b.getElementsByTagName(e)[0];
+                        s.parentNode.insertBefore(t,s)}(window, document,'script',
+                        'https://connect.facebook.net/en_US/fbevents.js');
+                        fbq('init', '769331374559096');
+                        fbq('track', 'PageView');
+                    }
+                } catch (e) {
+                    console.error("Erreur lors de l'activation du marketing:", e);
                 }
             }
             
-            function blockMarketingScripts() {
-                // Cette fonction peut être étendue pour bloquer d'autres scripts marketing
-                // comme le remarketing Google ou autres pixels publicitaires
-            }
-            
             function deleteCookie(name) {
-                document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-                document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.' + window.location.hostname + ';';
+                try {
+                    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+                    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.' + window.location.hostname + ';';
+                } catch (e) {
+                    console.error("Erreur lors de la suppression du cookie:", e);
+                }
             }
         });
     </script>
