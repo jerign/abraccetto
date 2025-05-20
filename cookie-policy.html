@@ -233,7 +233,7 @@
                     style="height: 30vh; min-height: 200px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="col">
                         <div class="overflow-hidden">
-                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>Politique de Cookies</h1>
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="CookiePolicy.Title">Politique de Cookies</h1>
                         </div>
                     </div>
                 </div>
@@ -246,61 +246,40 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="mb-4">Politique relative aux Cookies</h2>
-                        <p>A Braccetto</p>
-                        <p>En vigueur depuis le : 26 Mai 2018</p>
+                        <h2 class="mb-4" data-i18n="CookiePolicy.Title">Politique de Cookies</h2>
+                        <p><span data-i18n="CookiePolicy.LastUpdated">Dernière mise à jour</span> : <span id="current-date">1 Juillet 2025</span></p>
+                        <script>
+                            document.getElementById('current-date').textContent = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+                        </script>
 
-                        <p>La présente politique relative aux cookies (ci-après, la « Cookie Policy ») décrit les différents types de cookies que nous utilisons sur nos sites / bookings.zenchef.com (ci-après, le « Site ») et la manière dont vous pouvez paramétrer ces cookies.</p>
+                        <p data-i18n="CookiePolicy.P1">La présente politique en matière de cookies explique ce que sont les cookies et comment nous les utilisons. Vous devez lire cette politique pour comprendre ce que sont les cookies, comment nous les utilisons, les types de cookies que nous utilisons, c'est-à-dire les informations que nous collectons à l'aide des cookies et comment ces informations sont utilisées, et comment contrôler les préférences en matière de cookies. Pour plus d'informations sur la manière dont nous utilisons, stockons et protégeons vos données personnelles, consultez notre Politique de confidentialité.</p>
+                        <p data-i18n="CookiePolicy.P2">Vous pouvez à tout moment modifier ou retirer votre consentement à la Déclaration relative aux cookies sur notre site web.</p>
+                        <p data-i18n="CookiePolicy.P3">Apprenez-en davantage sur qui nous sommes, comment vous pouvez nous contacter et comment nous traitons les données personnelles dans notre Politique de confidentialité.</p>
+                        <p data-i18n="CookiePolicy.P4">Votre consentement s'applique aux domaines suivants : www.abraccettoparis.com</p>
 
-                        <p>Nous appliquons une politique de confidentialité stricte et nous nous engageons à être transparents quant aux technologies qui sont utilisées sur notre Site.</p>
+                        <h3 class="mt-5" data-i18n="CookiePolicy.WhatAreCookies.Title">Que sont les cookies ?</h3>
+                        <p data-i18n="CookiePolicy.WhatAreCookies.P1">Les cookies sont de petits fichiers texte qui sont utilisés pour stocker de petites informations. Les cookies sont stockés sur votre appareil lorsque le site web est chargé sur votre navigateur. Ces cookies nous aident à faire fonctionner le site web correctement, à le rendre plus sûr, à offrir une meilleure expérience utilisateur et à comprendre comment le site web fonctionne et à analyser ce qui fonctionne et où il doit être amélioré.</p>
 
-                        <p>Dans la mesure où les informations recueillies à l'aide des cookies constituent des données personnelles, les dispositions de la Politique de confidentialité s'appliquent et complètent la présente Cookie Policy.</p>
+                        <h3 class="mt-4" data-i18n="CookiePolicy.HowWeUseCookies.Title">Comment utilisons-nous les cookies ?</h3>
+                        <p data-i18n="CookiePolicy.HowWeUseCookies.P1">Comme la plupart des services en ligne, notre site web utilise des cookies propriétaires et des cookies tiers à plusieurs fins. Les cookies propriétaires sont principalement nécessaires au bon fonctionnement du site web et ne collectent aucune de vos données personnelles identifiables.</p>
+                        <p data-i18n="CookiePolicy.HowWeUseCookies.P2">Les cookies tiers utilisés sur nos sites web le sont principalement pour comprendre comment le site web fonctionne, comment vous interagissez avec notre site web, assurer la sécurité de nos services, fournir des publicités pertinentes pour vous et, dans l'ensemble, vous offrir une expérience utilisateur meilleure et améliorée et aider à accélérer vos interactions futures avec notre site web.</p>
 
-                        <h3 class="mt-5">1. QU'EST-CE QU'UN COOKIE ?</h3>
-                        <p>Un « cookie » est un petit fichier texte contenant des informations sauvegardées par un site web sur un ordinateur ou par une application mobile sur le smartphone d'un utilisateur.</p>
+                        <h3 class="mt-4" data-i18n="CookiePolicy.TypesOfCookies.Title">Quels types de cookies utilisons-nous ?</h3>
+                        <p data-i18n="CookiePolicy.TypesOfCookies.P1">Les cookies utilisés sur notre site sont regroupés dans les catégories suivantes.</p>
+                        
+                        <h4 class="mt-3" data-i18n="CookiePolicy.TypesOfCookies.Necessary.Title">Nécessaires</h4>
+                        <p data-i18n="CookiePolicy.TypesOfCookies.Necessary.P1">Les cookies nécessaires sont absolument essentiels au bon fonctionnement du site web. Ces cookies assurent les fonctionnalités de base et les dispositifs de sécurité du site web, de manière anonyme.</p>
 
-                        <p>Les cookies offrent la possibilité de vous identifier et de mémoriser différentes informations aux fins de vous faciliter la navigation sur un site/une application mobile, d'assurer le bon fonctionnement de ceux-ci ou de les rendre plus efficace, par exemple en mémorisant vos préférences linguistiques.</p>
+                        <h4 class="mt-3" data-i18n="CookiePolicy.TypesOfCookies.Analytics.Title">Analytiques</h4>
+                        <p data-i18n="CookiePolicy.TypesOfCookies.Analytics.P1">Les cookies analytiques sont utilisés pour comprendre comment les visiteurs interagissent avec le site web. Ces cookies aident à fournir des informations sur les mesures du nombre de visiteurs, du taux de rebond, de la source du trafic, etc.</p>
 
-                        <h3 class="mt-5">2. QUELS COOKIES SONT UTILISES SUR NOTRE SITE ET POURQUOI ?</h3>
-                        <p>Nous utilisons différents types de cookies pour différentes raisons.</p>
+                        <h4 class="mt-3" data-i18n="CookiePolicy.TypesOfCookies.Marketing.Title">Marketing</h4>
+                        <p data-i18n="CookiePolicy.TypesOfCookies.Marketing.P1">Les cookies marketing sont utilisés pour fournir aux visiteurs des publicités et des campagnes marketing pertinentes. Ces cookies suivent les visiteurs sur les sites web et collectent des informations pour fournir des publicités personnalisées.</p>
 
-                        <div class="table-responsive mt-4">
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th>COOKIE</th>
-                                        <th>FINALITE</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>COOKIES NECESSAIRES</td>
-                                        <td>Ces cookies sont essentiels au bon fonctionnement du site. Ils ne peuvent pas être désactivés.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>COOKIES ANALYTIQUES</td>
-                                        <td>Ces cookies nous permettent d'analyser l'utilisation du site pour en améliorer les performances et l'expérience utilisateur.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>COOKIES MARKETING</td>
-                                        <td>Ces cookies sont utilisés pour vous montrer des publicités pertinentes sur d'autres sites et réseaux sociaux.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <h3 class="mt-5">3. COMMENT PARAMETRER LES COOKIES ?</h3>
-                        <p>Vous pouvez facilement supprimer, désactiver ou accepter à tout moment les cookies de notre Site en configurant les paramètres de votre navigateur.</p>
-
-                        <p>Chaque navigateur (Internet Explorer, Safari, Firefox, Google Chrome etc.) à son propre mode de configuration de cookies. Pour connaître la procédure à suivre concernant votre navigateur rendez-vous sur le site : <a href="http://www.allaboutcookies.org/fr/gerer-les-cookies/" target="_blank">http://www.allaboutcookies.org/fr/gerer-les-cookies/</a>.</p>
-
-                        <p>Si vous utilisez différents ordinateurs, smartphones et/ou tablettes n'oubliez pas de configurer chaque équipement de manière à ce que chacun d'eux corresponde à vos préférences en termes de cookies.</p>
-
-                        <h3 class="mt-5">4. NOTRE SITE FONCTIONNERA-T-IL TOUJOURS SANS COOKIES ?</h3>
-                        <p>Vous pourrez toujours consulter notre Site mais certaines interactions pourraient ne pas fonctionner normalement.</p>
-
-                        <h3 class="mt-5">5. D'AUTRES QUESTIONS ?</h3>
-                        <p>Si vous avez d'autres questions, contactez-nous : <a href="mailto:contact@abraccettoparis.com">contact@abraccettoparis.com</a></p>
+                        <h3 class="mt-4" data-i18n="CookiePolicy.ManagePreferences.Title">Comment puis-je contrôler les préférences en matière de cookies ?</h3>
+                        <p data-i18n="CookiePolicy.ManagePreferences.P1">Vous pouvez gérer vos préférences en matière de cookies en cliquant sur le bouton « Préférences » et en activant ou désactivant les catégories de cookies dans la fenêtre contextuelle selon vos préférences.</p>
+                        <p data-i18n="CookiePolicy.ManagePreferences.P2">Si vous décidez de modifier vos préférences ultérieurement au cours de votre session de navigation, vous pouvez cliquer sur l'onglet « Gérer votre consentement » sur votre écran. Cela affichera à nouveau l'avis de consentement vous permettant de modifier vos préférences ou de retirer votre consentement entièrement.</p>
+                        <p data-i18n="CookiePolicy.ManagePreferences.P3">En outre, différents navigateurs proposent différentes méthodes pour bloquer et supprimer les cookies utilisés par les sites web. Vous pouvez modifier les paramètres de votre navigateur pour bloquer/supprimer les cookies. Pour en savoir plus sur la gestion et la suppression des cookies, visitez wikipedia.org, www.allaboutcookies.org.</p>
                     </div>
                 </div>
             </div>
@@ -315,7 +294,7 @@
                 <div class="row mt-8 fs--1">
                     <div class="col-lg">
                         <div class="color-8">
-                            &copy;A Braccetto <span id="current-year">2025</span> - Tous droits réservés
+                            &copy;A Braccetto <span id="current-year">2025</span> <span data-i18n="FooterLinks.Copyright">- Tous droits réservés</span>
                             <script>
                                 document.getElementById('current-year').textContent = new Date().getFullYear();
                             </script>
@@ -551,10 +530,32 @@
     <script src="assets/js/inertia.js"></script>
     <script src="assets/js/core.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/index.js"></script>
+    <script type="module" src="assets/js/trad_zenchef.js"></script>
 
     <!-- Cookie Consent Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Initialisation du sélecteur de langue
+            const langSelect = document.getElementById('lang');
+            if (langSelect) {
+                // Définir la langue initiale basée sur le cookie
+                const currentLang = document.cookie.replace(/(?:(?:^|.*;\s*)lang\s*\=\s*([^;]*).*$)|^.*$/, "$1") || 'fr';
+                langSelect.value = currentLang;
+
+                // Gérer le changement de langue
+                langSelect.addEventListener('change', function() {
+                    const lang = this.value;
+                    document.cookie = "lang=" + lang;
+                    if (window.translator && typeof window.translator.load === 'function') {
+                        window.translator.load(lang);
+                    } else {
+                        // Recharger la page si le traducteur n'est pas disponible
+                        window.location.reload();
+                    }
+                });
+            }
+            
             // Vérifier si les éléments existent avant d'ajouter des event listeners
             var cookieBanner = document.getElementById('cookie-consent-banner');
             var acceptAllBtn = document.getElementById('accept-all-cookies');

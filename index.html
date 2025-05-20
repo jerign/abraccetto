@@ -541,6 +541,9 @@
     <script type="module" src="assets/js/index.js"></script>
     <script type="module" src="assets/js/trad_zenchef.js"></script>
 <!-- <script type="module" src="assets/js/trad_customs_basic.js"></script> -->
+    
+    <!-- Script pour les traductions des cookies -->
+    <script src="assets/js/cookie-translations.js"></script>
 
     <!-- Cookie Consent Banner -->
     <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; z-index: 9999; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
@@ -756,6 +759,11 @@
                 // Désactiver les cookies analytiques et marketing par défaut
                 disableAnalytics();
                 disableMarketing();
+                
+                // Traduire explicitement les éléments du widget des cookies
+                if (typeof translateCookieElements === 'function') {
+                    translateCookieElements();
+                }
             } else {
                 // Apply saved preferences
                 const preferences = JSON.parse(cookieConsent);
@@ -798,6 +806,11 @@
                 }
                 
                 $('#cookie-preferences-modal').modal('show');
+                
+                // Traduire explicitement les éléments du modal
+                if (typeof translateCookieElements === 'function') {
+                    translateCookieElements();
+                }
             });
             
             // When modal is closed without saving, show the banner again if no consent was stored

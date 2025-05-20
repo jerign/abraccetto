@@ -161,7 +161,7 @@
                     style="height: 30vh; min-height: 200px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="col">
                         <div class="overflow-hidden">
-                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>Mentions légales</h1>
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="LegalNotice.Title">Mentions légales</h1>
                         </div>
                     </div>
                 </div>
@@ -174,55 +174,54 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="mb-4">Mentions légales</h2>
-                        <p>Dernière mise à jour : <span id="current-date">1 Juillet 2025</span></p>
+                        <h2 class="mb-4" data-i18n="LegalNotice.Title">Mentions légales</h2>
+                        <p><span data-i18n="LegalNotice.LastUpdated">Dernière mise à jour</span> : <span id="current-date">1 Juillet 2025</span></p>
                         <script>
                             document.getElementById('current-date').textContent = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
                         </script>
 
-                        <h3 class="mt-5">1. Éditeur du site</h3>
-                        <p>Le site www.abraccettoparis.com est édité par :</p>
+                        <h3 class="mt-5" data-i18n="LegalNotice.SiteEditor.Title">1. Éditeur du site</h3>
+                        <p data-i18n="LegalNotice.SiteEditor.P1">Le site www.abraccettoparis.com est édité par :</p>
                         <ul>
-                            <li><strong>Société</strong> : ABRACCETTO</li>
-                            <li><strong>Forme juridique</strong> : Société par actions simplifiée</li>
-                            <li><strong>SIREN</strong> : 401 200 134</li>
-                            <li><strong>SIRET</strong> : 401 200 134 00013</li>
-                            <li><strong>TVA Intracommunautaire</strong> : FR67401200134</li>
-                            <li><strong>Capital social</strong> : 155 000 €</li>
-                            <li><strong>Adresse</strong> : 19 rue Soufflot, 75005 Paris, France</li>
-                            <li><strong>Email</strong> : contact@abraccettoparis.com</li>
-                            <li><strong>Directeur de la publication</strong> :</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Company">Société</strong> : ABRACCETTO</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.LegalForm">Forme juridique</strong> : Société par actions simplifiée</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Siren">SIREN</strong> : 401 200 134</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Siret">SIRET</strong> : 401 200 134 00013</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Vat">TVA Intracommunautaire</strong> : FR67401200134</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.ShareCapital">Capital social</strong> : 155 000 €</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Address">Adresse</strong> : 19 rue Soufflot, 75005 Paris, France</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Email">Email</strong> : contact@abraccettoparis.com</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.PublicationDirector">Directeur de la publication</strong> :</li>
                         </ul>
 
-                        <h3 class="mt-4">2. Hébergeur</h3>
-                        <p>Ce site est hébergé par :</p>
+                        <h3 class="mt-4" data-i18n="LegalNotice.Host.Title">2. Hébergeur</h3>
+                        <p data-i18n="LegalNotice.Host.P1">Ce site est hébergé par :</p>
                         <ul>
-                            <li><strong>Société</strong> : OVH SAS</li>
-                            <li><strong>Forme juridique</strong> : SAS au capital de 50 000 000 €</li>
-                            <li><strong>RCS</strong> : Lille Métropole 424 761 419 00045</li>
-                            <li><strong>Code APE</strong> : 2620Z</li>
-                            <li><strong>N° TVA</strong> : FR 22 424 761 419</li>
-                            <li><strong>Adresse</strong> : 2 rue Kellermann, 59100 Roubaix, France</li>
-                            <li><strong>Téléphone</strong> : +33 9 72 10 10 07</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Company">Société</strong> : OVH SAS</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.LegalForm">Forme juridique</strong> : SAS au capital de 50 000 000 €</li>
+                            <li><strong data-i18n="LegalNotice.Host.Rcs">RCS</strong> : Lille Métropole 424 761 419 00045</li>
+                            <li><strong data-i18n="LegalNotice.Host.ApeCode">Code APE</strong> : 2620Z</li>
+                            <li><strong data-i18n="LegalNotice.Host.VatNumber">N° TVA</strong> : FR 22 424 761 419</li>
+                            <li><strong data-i18n="LegalNotice.SiteEditor.Address">Adresse</strong> : 2 rue Kellermann, 59100 Roubaix, France</li>
+                            <li><strong data-i18n="LegalNotice.Host.Phone">Téléphone</strong> : +33 9 72 10 10 07</li>
                         </ul>
 
-                        <h3 class="mt-4">3. Propriété intellectuelle</h3>
-                        <p>L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.</p>
-                        <p>La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication.</p>
+                        <h3 class="mt-4" data-i18n="LegalNotice.IntellectualProperty.Title">3. Propriété intellectuelle</h3>
+                        <p data-i18n="LegalNotice.IntellectualProperty.P1">L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.</p>
+                        <p data-i18n="LegalNotice.IntellectualProperty.P2">La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication.</p>
 
-                        <h3 class="mt-4">4. Limitation de responsabilité</h3>
-                        <p>Les informations contenues sur ce site sont aussi précises que possible et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email à contact@abraccettoparis.com en décrivant le problème de la manière la plus précise possible.</p>
-                        <p>Les liens hypertextes mis en place dans le cadre du présent site internet en direction d'autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité d'A Braccetto.</p>
+                        <h3 class="mt-4" data-i18n="LegalNotice.PersonalData.Title">4. Données personnelles</h3>
+                        <p data-i18n="LegalNotice.PersonalData.P1">Pour plus d'informations sur la manière dont nous traitons vos données personnelles, veuillez consulter notre <a href="privacy-policy.html" data-i18n="PrivacyPolicyLink">Politique de confidentialité</a>.</p>
 
-                        <h3 class="mt-4">5. Litiges</h3>
-                        <p>Les présentes conditions sont régies par les lois françaises et toute contestation ou litiges qui pourraient naître de l'interprétation ou de l'exécution de celles-ci seront de la compétence exclusive des tribunaux dont dépend le siège social de la société. La langue de référence, pour le règlement de contentieux éventuels, est le français.</p>
+                        <h3 class="mt-4" data-i18n="LegalNotice.Cookies.Title">5. Cookies</h3>
+                        <p data-i18n="LegalNotice.Cookies.P1">Pour plus d'informations sur l'utilisation des cookies sur notre site, veuillez consulter notre <a href="cookie-policy.html" data-i18n="CookiePolicyLink">Politique de cookies</a>.</p>
 
-                        <h3 class="mt-4">6. Données personnelles</h3>
-                        <p>De façon générale, vous n'êtes pas tenu de nous communiquer vos données personnelles lorsque vous visitez notre site Internet.</p>
-                        <p>Cependant, ce principe comporte certaines exceptions. En effet, vous pouvez être amenés à nous communiquer certaines données telles que : votre nom, votre fonction, le nom de votre société, votre adresse électronique, et votre numéro de téléphone. Dans tous les cas, vous pouvez refuser de fournir vos données personnelles. Dans ce cas, vous ne pourrez pas utiliser les services du site.</p>
-                        <p>Enfin, nous pouvons collecter de manière automatique certaines informations vous concernant lors d'une simple navigation sur notre site Internet, notamment : des informations concernant l'utilisation de notre site, comme les zones que vous visitez et les services auxquels vous accédez, votre adresse IP, le type de votre navigateur, vos temps d'accès.</p>
-                        <p>De telles informations sont utilisées exclusivement à des fins de statistiques internes, de manière à améliorer la qualité des services qui vous sont proposés. Les bases de données sont protégées par les dispositions de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données.</p>
-                        <p>Pour plus d'informations sur la façon dont nous traitons vos données personnelles, veuillez consulter notre <a href="privacy-policy.html">Politique de confidentialité</a>.</p>
+                        <h3 class="mt-4" data-i18n="LegalNotice.Liability.Title">6. Limitation de responsabilité</h3>
+                        <p data-i18n="LegalNotice.Liability.P1">ABRACCETTO s'efforce d'assurer au mieux de ses possibilités, l'exactitude et la mise à jour des informations diffusées sur ce site, dont elle se réserve le droit de corriger, à tout moment et sans préavis, le contenu. Toutefois, ABRACCETTO ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à la disposition sur ce site.</p>
+                        <p data-i18n="LegalNotice.Liability.P2">En conséquence, ABRACCETTO décline toute responsabilité pour toute interruption du site, problèmes techniques, pour toute inexactitude ou omission sur des informations disponibles sur le site, pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à la disposition sur le site.</p>
+
+                        <h3 class="mt-4" data-i18n="LegalNotice.ApplicableLaw.Title">7. Droit applicable</h3>
+                        <p data-i18n="LegalNotice.ApplicableLaw.P1">Le présent site et ses mentions légales sont soumis au droit français.</p>
                     </div>
                 </div>
             </div>
@@ -237,7 +236,7 @@
                 <div class="row mt-8 fs--1">
                     <div class="col-lg">
                         <div class="color-8">
-                            &copy;A Braccetto 2025 all right reserved
+                            &copy;A Braccetto <span id="current-year">2025</span> <span data-i18n="FooterLinks.AllRightsReserved">all right reserved</span>
                             <div class="footer-links mt-2">
                                 <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
                                 <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>

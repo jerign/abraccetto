@@ -355,6 +355,7 @@
     <script type="module" src="assets/js/index.js"></script>
     <script type="module" src="assets/js/trad_zenchef.js"></script>
     <!-- <script type="module" src="assets/js/trad_customs_basic.js"></script> -->
+    <script src="assets/js/cookie-translations.js"></script>
 
     <!-- Cookie Consent Script -->
     <script>
@@ -365,6 +366,10 @@
             if (!cookieConsent) {
                 // Show the banner if no consent was given yet
                 document.getElementById('cookie-consent-banner').style.display = 'block';
+                // Traduire explicitement les éléments du widget des cookies
+                if (typeof translateCookieElements === 'function') {
+                    translateCookieElements();
+                }
             } else {
                 // Apply saved preferences
                 const preferences = JSON.parse(cookieConsent);
@@ -404,6 +409,11 @@
                 }
                 
                 $('#cookie-preferences-modal').modal('show');
+                
+                // Traduire explicitement les éléments du modal
+                if (typeof translateCookieElements === 'function') {
+                    translateCookieElements();
+                }
             });
             
             // Save preferences from modal

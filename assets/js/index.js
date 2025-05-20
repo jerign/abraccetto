@@ -57,10 +57,16 @@ class Translator {
   }
 
   async load(lang) {
+    if (!lang) {
+      lang = this._options.defaultLanguage;
+    }
+    
     if (!this._options.languages.includes(lang)) {
       return;
     }
 
+    this._elements = document.querySelectorAll("[data-i18n]");
+    
     this._translate(await this._getResource(lang));
 
     document.documentElement.lang = lang;
@@ -163,13 +169,20 @@ var translator = new Translator({
   filesLocation: "assets/i18n"
 });
 
-var lang = get_cookie("lang")
+// Rendre le traducteur accessible globalement
+window.translator = translator;
 
-translator.load(get_cookie("lang"));
+var lang = get_cookie("lang");
 
-if(lang !=null){
-  console.log(lang)
-  document.getElementById('lang').value = lang
+// Assurez-vous qu'une langue est toujours chargée, même si le cookie n'existe pas
+if (lang) {
+  translator.load(lang);
+} else {
+  translator.load("fr");
+}
+
+if (lang != null) {
+  document.getElementById('lang').value = lang;
 }
 
 document.getElementById('lang').addEventListener('change', function() {
