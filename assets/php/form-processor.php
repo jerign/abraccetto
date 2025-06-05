@@ -25,7 +25,7 @@
 			$subject	= $_POST['subject']; 
 
 			if($subject == "Evénementiel - Groupes"){
-				$to = "event@abraccettoparis.com"; 	
+				$to = "event19@abraccettoparis.com"; 	
 			}
 			if($subject == "Recrutement"){
 				$to = "recrutement.abraccetto@outlook.com"; 	

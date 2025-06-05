@@ -4,7 +4,7 @@
 
 	if ( array_key_exists('to', $_POST) ){
 	   
-		$to 		= "event@abraccettoparis.com"; 	
+		$to 		= "event19@abraccettoparis.com"; 	
 		$from		= "user@domain.com";
 		$name		= "Website User";
 		$subject	= "Nouvelle prise de contact venant du site web";
