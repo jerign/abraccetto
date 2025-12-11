@@ -75,6 +75,38 @@
     <!-- End Zenchef Widget SDK -->
     
     <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
+    <style>
+        .menu-preview-image {
+            max-width: 100%;
+            max-height: 70vh;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 1rem auto;
+        }
+        
+        .hoverbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        @media (max-width: 768px) {
+            .menu-preview-image {
+                max-height: 50vh;
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .menu-preview-image {
+                max-height: 40vh;
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -124,6 +156,9 @@
                             <a href="gallery.html" data-i18n="Galerie">Galerie</a>
                         </li>
                         <li>
+                            <a href="privatisation.html" data-i18n="Privatisation">PRIVATISATION</a>
+                        </li>
+                        <li>
                             <a href="contact.html" data-i18n="Contact">Contact</a>
                         </li>
                     </ul>
@@ -170,9 +205,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="">
-                        <a href="assets/pdf/Menu_nouvel_an_2025.pdf" target="_blank">
+                        <a href="assets/pdf/Menu_nouvel_an_2026.pdf" target="_blank">
                             <div class="hoverbox">
-                                <img src="assets/images/menu petit.png" alt="" />
+                                <img src="assets/images/preview_nouvel_an_2026.png" alt="" class="menu-preview-image" />
                                 <div
                                     class="hoverbox-primary-content as-hoverbox-content d-flex align-items-center justify-content-center h-100">
                                     <!-- <h3 class="color-white">Télécharger le Menu</h3> -->
