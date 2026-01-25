@@ -80,6 +80,36 @@
     <!-- End Zenchef Widget SDK -->
     
     <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
+    <style>
+        .hoverbox {
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .hoverbox img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+        
+        .hoverbox h3 {
+            margin-top: 1rem;
+            padding: 0.5rem;
+            text-align: center;
+            white-space: normal;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+        
+        .menu-section .row > div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -121,6 +151,9 @@
                         </li>
                         <li>
                             <a href="menu_brunch.html" data-i18n="Menu brunch">BRUNCH</a>
+                        </li>
+                        <li>
+                            <a href="menu_degustation_pizza.html" data-i18n="Menu-degustation-pizza-nav">DÉGUSTATION PIZZA</a>
                         </li>
                         <li>
                             <a href="gallery.html" data-i18n="Galerie">GALERIE</a>
@@ -171,13 +204,13 @@
             </div>
             <!--/.container-->
         </section>
-        <section class="text-center text-lg-left py-9 background-white" id="target-down-indicator">
+        <section class="text-center text-lg-left py-9 background-white menu-section" id="target-down-indicator">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="">
-                        <a href="assets/pdf/Menu Classic.pdf" target="_blank">
+                <div class="row justify-content-center align-items-start">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <a href="assets/pdf/INTERNET_MEN_HIVER.pdf" target="_blank">
                             <div class="hoverbox">
-                                <img src="assets/images/menu petit.png" alt="" />
+                                <img src="assets/images/menu_hiver_2026.png" alt="" />
                                 <div
                                     class="hoverbox-primary-content as-hoverbox-content d-flex align-items-center justify-content-center h-100">
                                     <!-- <h3 class="color-white">Télécharger le Menu</h3> -->
@@ -187,12 +220,12 @@
                                     </div>
                                 </div>
                                 
-                                <h3 class="color-black d-flex align-items-center justify-content-center h-100" data-i18n="Cliquer-menu">&#8593; Cliquez ci dessus
+                                <h3 class="color-black" data-i18n="Cliquer-menu">&#8593; Cliquez ci dessus
                                     pour télécharger le menu &#8593; </h3>
                             </div>
                         </a>
                     </div>
-                    <div class="">
+                    <div class="col-lg-6">
                         <a href="assets/pdf/Menu Vin et Spritueux Hiver.pdf" target="_blank">
                             <div class="hoverbox">
                                 <img src="assets/images/menu petit vins.png" alt="" />
@@ -205,9 +238,9 @@
                                     </div>
                                 </div>
                                 
-                                <h3 class="color-black d-flex align-items-center justify-content-center h-100" data-i18n="Cliquer-carte-vins">&#8593; Cliquez ci dessus
+                                <h3 class="color-black" data-i18n="Cliquer-carte-vins">&#8593; Cliquez ci dessus
                                     pour télécharger </h3>
-                                <h3 class="color-black d-flex align-items-center justify-content-center h-100" data-i18n="Cliquer-carte-et-spiritueux">la carte des vins et spiritueux &#8593; </h3>
+                                <h3 class="color-black" data-i18n="Cliquer-carte-et-spiritueux">la carte des vins et spiritueux &#8593; </h3>
                             </div>
                         </a>
                     </div>

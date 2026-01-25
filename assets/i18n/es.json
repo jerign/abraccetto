@@ -2,6 +2,7 @@
     "Menu": "MENÚ",
     "Menu brunch": "BRUNCH",
     "Menu-nouvel-an": "MENÚ DE AÑO NUEVO",
+    "Menu-degustation-pizza-nav": "DEGUSTACIÓN PIZZA",
     "Galerie": "GALERÍA",
     "Contact": "CONTACTO",
     "Reservez-Maintenant": "Reservar ahora",
@@ -51,6 +52,15 @@
     "Cliquer-carte-vins": "&#8593; Haga clic arriba para descargar",
     "Cliquer-carte-et-spiritueux": "la carta de vinos y licores &#8593;",
     "Cliquer-menu-nouvel-an": "&#8593; Haga clic arriba para descargar el menú de Año Nuevo &#8593;",
+    "Cliquer-menu-degustation-pizza": "&#8593; Haga clic arriba para descargar el menú &#8593;",
+    
+    "Menu-degustation-pizza": "Menú de Degustación de Pizza",
+    "Degustation-pizza-description": "Esta fórmula de degustación está pensada para un momento de descubrimiento y compartir. Descubra una selección de nuestras pizzas artesanales preparadas con cuidado a partir de ingredientes frescos y excepcionales.",
+    "Degustation-pizza-disponibilite": "Disponibilidad:",
+    "Degustation-pizza-disponibilite-text": "Todas las noches de la semana, excepto viernes y sábado.",
+    "Degustation-pizza-reservations": "Reservas:",
+    "Degustation-pizza-reservations-text": "Abiertas de 18:00 a 21:45.",
+
     "Reseaux": "Redes Sociales",
     "Form": {
         "Nom": "Nombre",

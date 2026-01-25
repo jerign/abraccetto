@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Initialize dataLayer before GTM -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KKWRCBNB');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '769331374559096');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=769331374559096&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu Dégustation Pizza - a braccetto</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon_io/favicon.ico">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- Zenchef Widget SDK -->
+    <script>;(function (d, s, id) {const el = d.getElementsByTagName(s)[0]; if (d.getElementById(id) || el.parentNode == null) {return;} var js = d.createElement(s); js.id = id; js.async = true; js.src = 'https://sdk.zenchef.com/v1/sdk.min.js'; el.parentNode.insertBefore(js, el); })(document, 'script', 'zenchef-sdk')</script>
+    <div
+        class="zc-widget-config"
+        data-restaurant="372763"
+        data-lang="fr">
+    </div>
+    <!-- End Zenchef Widget SDK -->
+    
+    <style>
+        .menu-preview-image {
+            max-width: 100%;
+            max-height: 70vh;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 1rem auto;
+        }
+        
+        .hoverbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hoverbox {
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .hoverbox img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+        
+        .hoverbox h3 {
+            margin-top: 1rem;
+            padding: 0.5rem;
+            text-align: center;
+            white-space: normal;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+        
+        .degustation-photos {
+            margin-top: 0;
+        }
+        
+        .degustation-photos img {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .degustation-photos img:hover {
+            transform: scale(1.02);
+        }
+        
+        /* Alignement des photos pour former un carré */
+        .photos-gallery-row {
+            align-items: stretch;
+        }
+        
+        .photos-gallery-row .col-lg-4 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .photos-gallery-row .col-lg-4 .row {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .photos-gallery-row .col-lg-4 .col-lg-12 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .photos-gallery-row .col-lg-4 .col-lg-12 a,
+        .photos-gallery-row .col-lg-8 a {
+            display: flex;
+            height: 100%;
+            flex: 1;
+        }
+        
+        .photos-gallery-row .col-lg-4 img,
+        .photos-gallery-row .col-lg-8 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .photos-gallery-row .col-lg-8 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        @media (max-width: 991px) {
+            .photos-gallery-row .col-lg-4 .col-lg-12,
+            .photos-gallery-row .col-lg-8 {
+                margin-bottom: 1rem;
+            }
+            
+            .photos-gallery-row .col-lg-4 img,
+            .photos-gallery-row .col-lg-8 img {
+                height: auto;
+                object-fit: contain;
+            }
+        }
+        
+        .presentation-text {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .presentation-text h3 {
+            color: #351606;
+            margin-bottom: 1rem;
+        }
+        
+        .presentation-text p {
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 0.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .menu-preview-image {
+                max-height: 50vh;
+                width: 100%;
+            }
+            
+            .degustation-photos {
+                margin-top: 1rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .menu-preview-image {
+                max-height: 40vh;
+                width: 100%;
+            }
+            
+            .presentation-text {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".inner-link" data-offset="60">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKWRCBNB"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <main>
+        <div class="loading" id="preloader">
+            <div class="h-100vh d-flex align-items-center justify-content-center background-1">
+                <div class="loader">
+                    <div class="line-scale-pulse-out">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="znav-container znav-transparent" id="topnav">
+            <nav id="navbarfade" class="navbar navbar-expand-lg ">
+                <a class="navbar-brand overflow-hidden pr-3 fs-3 tanlib" href="index.html">
+                    <img class="logo" src="assets/images/chozen/resize/logo_det-resize.png" alt="a braccetto">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger hamburger--emphatic">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav font-2 fs-0">
+                        <li>
+                            <a href="menu.html" data-i18n="Menu">LA CARTE</a>
+                        </li>
+                        <li>
+                            <a href="menu_brunch.html" data-i18n="Menu brunch">BRUNCH</a>
+                        </li>
+                        <li>
+                            <a href="menu_degustation_pizza.html" data-i18n="Menu-degustation-pizza-nav">DÉGUSTATION PIZZA</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html" data-i18n="Galerie">GALERIE</a>
+                        </li>
+                        <li>
+                            <a href="privatisation.html" data-i18n="Privatisation">PRIVATISATION</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" data-i18n="Contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="text-center">
+                            <a class="pl-3 pl-lg-1 d-inline-block">
+                                <form class="fa fa-language">
+                                    <select class="pl-2 pr-2 pl-lg-1 d-inline-block" id="lang">
+                                        <option value="fr" name="lang">Français</option>
+                                        <option value="en" name="lang">English</option>
+                                        <option value="es" name="lang">Español</option>
+                                    </select>
+                                </form>
+                            </a>
+                            <a class="pl-3 pl-lg-1 d-inline-block" href="https://instagram.com/abraccettoparis">
+                                <span class="fa fa-instagram"></span>
+                            </a>
+                            <a class="pl-3 pl-lg-1 d-inline-block" href="https://goo.gl/maps/MacCEm5QgS1EkpDs8">
+                                <span class="fa fa-google-plus"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <section class="py-0 overflow-hidden">
+            <div class="background-holder overlay overlay-2 parallax"
+                style="background-image:url(assets/images/chozen/resize/A_BRACCETTO_1669.jpg);"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row align-items-center justify-content-center text-center pt-8 pb-6"
+                    style="height: 50vh; min-height: 300px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="Menu-degustation-pizza">Menu Dégustation Pizza</h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="text-center text-lg-left background-white" id="target-down-indicator" style="padding-top: 2rem; padding-bottom: 3rem;">
+            <div class="container">
+                <!-- Texte de présentation -->
+                <div class="row mb-5">
+                    <div class="col-lg-10 mx-auto">
+                        <div class="presentation-text text-center">
+                            <h3 data-i18n="Menu-degustation-pizza">Menu Dégustation Pizza</h3>
+                            <p data-i18n="Degustation-pizza-description">
+                                Cette formule de dégustation est pensée pour un moment de découverte et de partage. 
+                                Découvrez une sélection de nos pizzas artisanales préparées avec soin à partir d'ingrédients 
+                                frais et d'exception.
+                            </p>
+                            <p>
+                                <strong data-i18n="Degustation-pizza-disponibilite">Disponibilité :</strong> <span data-i18n="Degustation-pizza-disponibilite-text">Tous les soirs de la semaine, sauf le vendredi et le samedi.</span>
+                            </p>
+                            <p>
+                                <strong data-i18n="Degustation-pizza-reservations">Réservations :</strong> <span data-i18n="Degustation-pizza-reservations-text">Ouvertes de 18h00 à 21h45.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu centré -->
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <a href="assets/pdf/INTERNET_DEGUSTATION_PIZZA.pdf" target="_blank">
+                            <div class="hoverbox">
+                                <img src="assets/images/menu_degustation_pizza.png" alt="Menu Dégustation Pizza" />
+                                <div
+                                    class="hoverbox-primary-content as-hoverbox-content d-flex align-items-center justify-content-center h-100">
+                                    <!-- <h3 class="color-white">Télécharger le Menu</h3> -->
+                                </div>
+                                <div class="hoverbox-content p-4">
+                                    <div class="hoverbox-bg d-flex align-items-center justify-content-center h-100">
+                                    </div>
+                                </div>
+                                
+                                <h3 class="color-black" data-i18n="Cliquer-menu-degustation-pizza">&#8593; Cliquez ci-dessus
+                                    pour télécharger le menu &#8593; </h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Photos en bloc comme gallery -->
+                <div class="row align-items-stretch photos-gallery-row">
+                    <div class="col-lg-4">
+                        <div class="row h-100">
+                            <div class="col-lg-12">
+                                <a href="assets/images/degustation_pizza/PHOTO-2025-11-15-14-08-37 5.jpg" data-lightbox="degustation">
+                                    <img src="assets/images/degustation_pizza/PHOTO-2025-11-15-14-08-37 5.jpg" alt="Dégustation Pizza" />
+                                </a>
+                            </div>
+                            <div class="col-lg-12">
+                                <a href="assets/images/degustation_pizza/PHOTO-2025-11-15-14-08-39 6.jpg" data-lightbox="degustation">
+                                    <img src="assets/images/degustation_pizza/PHOTO-2025-11-15-14-08-39 6.jpg" alt="Dégustation Pizza" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <a href="assets/images/degustation_pizza/PHOTO-2025-11-15-14-08-41 2.jpg" data-lightbox="degustation">
+                            <img src="assets/images/degustation_pizza/PHOTO-2025-11-15-14-08-41 2.jpg" alt="Dégustation Pizza" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="text-center pb-3">
+            <div class="background-holder overlay overlay-2"
+                style="background-image:url(assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;">
+            </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h4 data-i18n="Ils-parlent" style="color: white;"><strong>Ils parlent de nous </strong></h4>
+                        <div class="flexslider flexslider-simple" style="background-color: transparent;">
+                            <ul class="slides" style="list-style-type: none;">
+                                <li>
+                                    <div class="container text-center">
+                                        <div class="row align-itmes-center">
+                                            <div class="col">
+                                                <br>
+                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto" target="_blank"><img src="assets/images/logo_gm.png" style="height:auto; max-width: fit-content; margin: auto;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-6 fs--1">
+                    <div class="col-lg">
+                        <div class="color-8">&copy;A Braccetto 2025 all right reserved
+                            <div class="footer-links mt-2">
+                                <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
+                                <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
+                                <a href="privacy-policy.html" class="mr-3 color-white" data-i18n="FooterLinks.PrivacyPolicy">Politique de confidentialité</a>
+                                <a href="cookie-policy.html" class="color-white" data-i18n="FooterLinks.CookiePolicy">Politique de cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+    </main>
+    <!-- JavaScripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="assets/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
+    </script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/lib/jquery-menu-aim/jquery.menu-aim.js"></script>
+    <script src="assets/lib/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="assets/lib/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+    <script src="assets/lib/CustomEase.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/lib/rellax/rellax.min.js"></script>
+    <script src="assets/js/zanimation.js"></script>
+    <script src="assets/js/inertia.js"></script>
+    <script src="assets/lib/lightbox2/dist/js/lightbox.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider-min.js"></script>
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/index.js"></script>
+    <script type="module" src="assets/js/trad_zenchef.js"></script>
+</body>
+</html>

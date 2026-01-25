@@ -2,6 +2,7 @@
     "Menu":"LA CARTE",
     "Menu brunch":"BRUNCH",
     "Menu-nouvel-an":"MENU NOUVEL AN",
+    "Menu-degustation-pizza-nav": "DÉGUSTATION PIZZA",
     "Galerie": "GALERIE",
     "Contact": "CONTACT",
     "Reservez-Maintenant": "Réservez maintenant",
@@ -49,6 +50,14 @@
     "Cliquer-carte-vins": "&#8593; Cliquez ci dessus pour télécharger",
     "Cliquer-carte-et-spiritueux": "la carte des vins et spiritueux &#8593;",
     "Cliquer-menu-nouvel-an": "&#8593; Cliquez ci dessus pour télécharger le menu du nouvel an &#8593;",
+    "Cliquer-menu-degustation-pizza": "&#8593; Cliquez ci-dessus pour télécharger le menu &#8593;",
+    
+    "Menu-degustation-pizza": "Menu Dégustation Pizza",
+    "Degustation-pizza-description": "Cette formule de dégustation est pensée pour un moment de découverte et de partage. Découvrez une sélection de nos pizzas artisanales préparées avec soin à partir d'ingrédients frais et d'exception.",
+    "Degustation-pizza-disponibilite": "Disponibilité :",
+    "Degustation-pizza-disponibilite-text": "Tous les soirs de la semaine, sauf le vendredi et le samedi.",
+    "Degustation-pizza-reservations": "Réservations :",
+    "Degustation-pizza-reservations-text": "Ouvertes de 18h00 à 21h45.",
 
     "Reseaux": "Réseaux sociaux",
     "Form": {
