@@ -90,7 +90,13 @@ class Translator {
   }
 
   _getValueFromJSON(key, json, fallback) {
-    var text = key.split(".").reduce((obj, i) => obj[i], json);
+    if (!json || typeof json !== "object") {
+      if (fallback && this._options.defaultLanguage && this._cache.get(this._options.defaultLanguage)) {
+        return this._getValueFromJSON(key, JSON.parse(this._cache.get(this._options.defaultLanguage)), false);
+      }
+      return null;
+    }
+    var text = key.split(".").reduce((obj, i) => obj && obj[i], json);
 
     if (!text && this._options.defaultLanguage && fallback) {
       let fallbackTranslation = JSON.parse(
@@ -127,10 +133,10 @@ class Translator {
           const [key, property] = pair;
           var text = this._getValueFromJSON(key, translation, true);
 
-          if (text) {
+          if (text && text !== key) {
             element[property] = text;
             element.setAttribute(property, text);
-          } else {
+          } else if (!text) {
             console.error(`Could not find text for attribute "${key}".`);
           }
         });
