@@ -41,15 +41,20 @@ class Translator {
   }
 
   async _getResource(lang) {
-    if (this._cache.has(lang)) {
-      return JSON.parse(this._cache.get(lang));
+    var cached = this._cache.get(lang);
+    if (cached != null && typeof cached === "string") {
+      try {
+        return JSON.parse(cached);
+      } catch (e) {
+        this._cache.delete(lang);
+      }
     }
 
     var translation = await this._fetch(
       `${this._options.filesLocation}/${lang}.json`
     );
 
-    if (!this._cache.has(lang)) {
+    if (translation != null && typeof translation === "object") {
       this._cache.set(lang, JSON.stringify(translation));
     }
 
@@ -66,8 +71,11 @@ class Translator {
     }
 
     this._elements = document.querySelectorAll("[data-i18n]");
-    
-    this._translate(await this._getResource(lang));
+
+    var translation = await this._getResource(lang);
+    if (translation && typeof translation === "object") {
+      this._translate(translation);
+    }
 
     document.documentElement.lang = lang;
 
@@ -91,20 +99,32 @@ class Translator {
 
   _getValueFromJSON(key, json, fallback) {
     if (!json || typeof json !== "object") {
-      if (fallback && this._options.defaultLanguage && this._cache.get(this._options.defaultLanguage)) {
-        return this._getValueFromJSON(key, JSON.parse(this._cache.get(this._options.defaultLanguage)), false);
+      if (fallback && this._options.defaultLanguage) {
+        var cachedDefault = this._cache.get(this._options.defaultLanguage);
+        if (cachedDefault != null && typeof cachedDefault === "string") {
+          try {
+            return this._getValueFromJSON(key, JSON.parse(cachedDefault), false);
+          } catch (e) {
+            // ignore invalid cache
+          }
+        }
       }
       return null;
     }
     var text = key.split(".").reduce((obj, i) => obj && obj[i], json);
 
     if (!text && this._options.defaultLanguage && fallback) {
-      let fallbackTranslation = JSON.parse(
-        this._cache.get(this._options.defaultLanguage)
-      );
-
-      text = this._getValueFromJSON(key, fallbackTranslation, false);
-    } else if (!text) {
+      var cachedDefault = this._cache.get(this._options.defaultLanguage);
+      if (cachedDefault != null && typeof cachedDefault === "string") {
+        try {
+          var fallbackTranslation = JSON.parse(cachedDefault);
+          text = this._getValueFromJSON(key, fallbackTranslation, false);
+        } catch (e) {
+          // ignore invalid cache
+        }
+      }
+    }
+    if (!text) {
       text = key;
       console.warn(`Could not find text for attribute "${key}".`);
     }
@@ -117,11 +137,13 @@ class Translator {
     var nullSafeSplit = (str, separator) => (str ? str.split(separator) : null);
 
     var replace = element => {
-      var keys = nullSafeSplit(element.getAttribute("data-i18n"), " ") || [];
-      var properties = nullSafeSplit(
-        element.getAttribute("data-i18n-attr"),
-        " "
-      ) || ["innerHTML"];
+      var i18nRaw = element.getAttribute("data-i18n");
+      var attrRaw = element.getAttribute("data-i18n-attr");
+      // Si data-i18n-attr est absent : une seule clé, propriété innerHTML
+      var keys = attrRaw
+        ? (nullSafeSplit(i18nRaw, " ") || [])
+        : (i18nRaw ? [i18nRaw.trim()] : []);
+      var properties = nullSafeSplit(attrRaw, " ") || ["innerHTML"];
 
       if (keys.length > 0 && keys.length !== properties.length) {
         console.error(
@@ -180,18 +202,55 @@ window.translator = translator;
 
 var lang = get_cookie("lang");
 
+// Langue utilisée pour le widget OpenTable (lue partout, mise à jour au changement)
+window.currentReservationLang = lang || "fr";
+
 // Assurez-vous qu'une langue est toujours chargée, même si le cookie n'existe pas
 if (lang) {
-  translator.load(lang);
+  translator.load(lang).then(function () {
+    window.currentReservationLang = lang;
+  });
 } else {
-  translator.load("fr");
+  translator.load("fr").then(function () {
+    window.currentReservationLang = "fr";
+  });
 }
 
-if (lang != null) {
-  document.getElementById('lang').value = lang;
+if (document.getElementById("lang")) {
+  document.getElementById("lang").value = lang || "fr";
 }
 
-document.getElementById('lang').addEventListener('change', function() {
-  document.cookie = "lang="+this.value;
-  translator.load(this.value);
-});
+function getOpenTableLang() {
+  var docLang =
+    window.currentReservationLang ||
+    (document.getElementById("lang") && document.getElementById("lang").value) ||
+    document.documentElement.getAttribute("lang") ||
+    "fr";
+  docLang = String(docLang).substr(0, 2);
+  var map = { fr: "fr-FR", en: "en-US", es: "es-ES" };
+  return map[docLang] || "fr-FR";
+}
+
+function updateReservationIframeLang() {
+  var overlay = document.getElementById("reservation-popup-overlay");
+  var iframe = document.getElementById("reservation-popup-iframe");
+  if (overlay && overlay.classList.contains("is-open") && iframe) {
+    var otLang = getOpenTableLang();
+    iframe.src =
+      "https://www.opentable.fr/widget/reservation/canvas?rid=342114&domain=fr&type=standard&theme=tall&lang=" +
+      otLang +
+      "&iframe=true&overlay=false&v=" +
+      Date.now();
+  }
+}
+
+if (document.getElementById("lang")) {
+  document.getElementById("lang").addEventListener("change", function () {
+    var newLang = this.value;
+    window.currentReservationLang = newLang;
+    document.cookie = "lang=" + newLang;
+    translator.load(newLang).then(function () {
+      updateReservationIframeLang();
+    });
+  });
+}

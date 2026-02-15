@@ -67,14 +67,6 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
-    <!-- Zenchef Widget SDK -->
-    <script>;(function (d, s, id) {const el = d.getElementsByTagName(s)[0]; if (d.getElementById(id) || el.parentNode == null) {return;} var js = d.createElement(s); js.id = id; js.async = true; js.src = 'https://sdk.zenchef.com/v1/sdk.min.js'; el.parentNode.insertBefore(js, el); })(document, 'script', 'zenchef-sdk')</script>
-    <div
-        class="zc-widget-config"
-        data-restaurant="372763"
-        data-lang="fr">
-    </div>
-    <!-- End Zenchef Widget SDK -->
     <style>
         /* Styles de fallback pour la modal si Bootstrap échoue */
         #cookie-consent-banner {
@@ -317,7 +309,7 @@
     </main>
 
     <!-- Cookie Consent Banner -->
-    <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; z-index: 9999; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
         <div>
             <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;" data-i18n="CookieConsent.Text">
                 Nous utilisons des cookies pour améliorer votre expérience.
@@ -534,7 +526,6 @@
     <script src="assets/js/core.js"></script>
     <script src="assets/js/main.js"></script>
     <script type="module" src="assets/js/index.js"></script>
-    <script type="module" src="assets/js/trad_zenchef.js"></script>
 
     <!-- Cookie Consent Script -->
     <script>
@@ -841,6 +832,25 @@
             }
         });
     </script>
+    <!-- OpenTable : chargé dans l'iframe de la popup -->
+    <script>
+        function openReservationPopup() { var overlay = document.getElementById('reservation-popup-overlay'); var iframe = document.getElementById('reservation-popup-iframe'); if (!overlay || !iframe) return; var docLang = (window.currentReservationLang || (document.cookie.match(/lang=([^;]+)/) && document.cookie.match(/lang=([^;]+)/)[1]) || (document.getElementById('lang') && document.getElementById('lang').value) || document.documentElement.getAttribute('lang') || 'fr').toString().substr(0, 2); var otLang = { fr: 'fr-FR', en: 'en-US', es: 'es-ES' }[docLang] || 'fr-FR'; iframe.src = 'https://www.opentable.fr/widget/reservation/canvas?rid=342114&domain=fr&type=standard&theme=tall&lang=' + otLang + '&iframe=true&overlay=false&v=' + Date.now(); overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; }
+        function closeReservationPopup() { var overlay = document.getElementById('reservation-popup-overlay'); var iframe = document.getElementById('reservation-popup-iframe'); if (!overlay) return; overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; if (iframe) iframe.src = 'about:blank'; }
+        document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { var o = document.getElementById('reservation-popup-overlay'); if (o && o.classList.contains('is-open')) closeReservationPopup(); } });
+    </script>
+    <button type="button" id="reservation-floating-btn" data-i18n="Reservation-btn Reservation-btn-label Reservation-btn-label" data-i18n-attr="innerHTML title aria-label" title="Réserver une table" aria-label="Ouvrir la réservation" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Réserver</button>
+    <div id="reservation-popup-overlay" class="reservation-popup-overlay" aria-hidden="true" onclick="if(event.target===this) closeReservationPopup();">
+        <div class="reservation-popup-box" role="dialog" aria-modal="true" aria-labelledby="reservation-popup-title">
+            <button type="button" class="reservation-popup-close" data-i18n="Reservation-popup-close" data-i18n-attr="aria-label" aria-label="Fermer" onclick="closeReservationPopup();">&times;</button>
+            <header class="reservation-popup-header">
+                <h3 id="reservation-popup-title" data-i18n="Reservation-popup-title">Réserver une table</h3>
+                <p data-i18n="Reservation-popup-subtitle">A Braccetto — Paris</p>
+            </header>
+            <div class="reservation-popup-body">
+                <iframe id="reservation-popup-iframe" src="about:blank" data-i18n="Reservation-iframe-title" data-i18n-attr="title" title="Réservation OpenTable"></iframe>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html> 
