@@ -1,10 +1,10 @@
 {
-    "Banner-Degustation-Titre": "Menú Degustación Pizza",
+    "Banner-Degustation-Titre": "Reserva brunch y degustación pizza",
     "Banner-Degustation-Texte": "Plazas limitadas — reserva obligatoria",
     "Banner-Degustation-Lien": "Reservar mi plaza",
-    "Banner-Degustation-Lien-Midi": "Reserva degustación mediodía",
-    "Banner-Degustation-Lien-Soir": "Reserva degustación noche",
-    "Banner-Degustation-Lien-Brunch": "Reserva brunch",
+    "Banner-Degustation-Lien-Midi": "Reserva menú degustación pizza mediodía",
+    "Banner-Degustation-Lien-Soir": "Reserva menú degustación pizza noche",
+    "Banner-Degustation-Lien-Brunch": "Reserva menú brunch",
     "Menu": "MENÚ",
     "Menu brunch": "BRUNCH",
     "Menu-nouvel-an": "MENÚ DE AÑO NUEVO",
@@ -76,8 +76,8 @@
     "Degustation-pizza-max-covers-text": "Posible para mesas de hasta 6 comensales.",
     "Degustation-pizza-effective-date": "Info: publicar a partir de este viernes.",
     "Degustation-pizza-reservation-link": "Reservar la degustación",
-    "Degustation-pizza-reservation-midi": "Reservar (mediodía)",
-    "Degustation-pizza-reservation-soir": "Reservar (noche)",
+    "Degustation-pizza-reservation-midi": "Reserva menú degustación pizza mediodía",
+    "Degustation-pizza-reservation-soir": "Reserva menú degustación pizza noche",
 
     "Reseaux": "Redes Sociales",
     "Form": {

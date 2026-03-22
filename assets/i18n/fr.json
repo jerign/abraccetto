@@ -1,10 +1,10 @@
 {
-    "Banner-Degustation-Titre": "Menu Dégustation Pizza",
+    "Banner-Degustation-Titre": "Réservation Brunch et Dégustation Pizza",
     "Banner-Degustation-Texte": "Places limitées — réservation obligatoire",
     "Banner-Degustation-Lien": "Réserver ma place",
-    "Banner-Degustation-Lien-Midi": "Réservation dégustation midi",
-    "Banner-Degustation-Lien-Soir": "Réservation dégustation soir",
-    "Banner-Degustation-Lien-Brunch": "Réservation brunch",
+    "Banner-Degustation-Lien-Midi": "Réservation menu dégustation pizza midi",
+    "Banner-Degustation-Lien-Soir": "Réservation menu dégustation pizza soir",
+    "Banner-Degustation-Lien-Brunch": "Réservation menu brunch",
     "Menu":"LA CARTE",
     "Menu brunch":"BRUNCH",
     "Menu-nouvel-an":"MENU NOUVEL AN",
@@ -74,8 +74,8 @@
     "Degustation-pizza-max-covers-text": "Possible pour des tables de 6 couverts maximum.",
     "Degustation-pizza-effective-date": "Info : à publier à partir de ce vendredi.",
     "Degustation-pizza-reservation-link": "Réserver la dégustation",
-    "Degustation-pizza-reservation-midi": "Réserver (midi)",
-    "Degustation-pizza-reservation-soir": "Réserver (soir)",
+    "Degustation-pizza-reservation-midi": "Réservation menu dégustation pizza midi",
+    "Degustation-pizza-reservation-soir": "Réservation menu dégustation pizza soir",
 
     "Reseaux": "Réseaux sociaux",
     "Form": {

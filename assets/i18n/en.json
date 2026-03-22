@@ -1,10 +1,10 @@
 {
-    "Banner-Degustation-Titre": "Pizza Tasting Experience",
+    "Banner-Degustation-Titre": "Brunch and pizza tasting reservations",
     "Banner-Degustation-Texte": "Limited seats — reservation required",
     "Banner-Degustation-Lien": "Book my seat",
-    "Banner-Degustation-Lien-Midi": "Book tasting (lunch)",
-    "Banner-Degustation-Lien-Soir": "Book tasting (dinner)",
-    "Banner-Degustation-Lien-Brunch": "Book brunch",
+    "Banner-Degustation-Lien-Midi": "Reservation pizza tasting menu lunch",
+    "Banner-Degustation-Lien-Soir": "Reservation pizza tasting menu dinner",
+    "Banner-Degustation-Lien-Brunch": "Reservation brunch menu",
     "Menu":"MENU",
     "Menu brunch":"BRUNCH",
     "Menu-nouvel-an":"NEW YEAR'S MENU",
@@ -77,8 +77,8 @@
     "Degustation-pizza-max-covers-text": "Available for tables up to 6 guests.",
     "Degustation-pizza-effective-date": "Info: to be published starting this Friday.",
     "Degustation-pizza-reservation-link": "Book the tasting",
-    "Degustation-pizza-reservation-midi": "Book (lunch)",
-    "Degustation-pizza-reservation-soir": "Book (dinner)",
+    "Degustation-pizza-reservation-midi": "Reservation pizza tasting menu lunch",
+    "Degustation-pizza-reservation-soir": "Reservation pizza tasting menu dinner",
 
     "Reseaux": "Social Networks",
     "Form": {
