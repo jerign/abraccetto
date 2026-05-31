@@ -1,0 +1,93 @@
+{
+  "index.html": {
+    "title": "A Braccetto — Restaurant Italien Paris 5e, près du Panthéon",
+    "description": "Bar-restaurant italien A Braccetto, 19 rue Soufflot Paris 5e, entre Panthéon et Jardin du Luxembourg. Pizzas, pâtes, cocktails, brunch. Réservation en ligne.",
+    "schemas": ["restaurant", "website", "organization", "faq"],
+    "priority": "1.0",
+    "indexable": true
+  },
+  "menu.html": {
+    "title": "La Carte — Pâtes Fraîches & Pizza, A Braccetto Paris 5e",
+    "description": "La carte d'A Braccetto : pâtes fraîches maison, pizzas artisanales, antipasti, cocktails et vins italiens, au cœur du Quartier Latin à Paris 5e.",
+    "schemas": ["breadcrumb"],
+    "breadcrumb": [["Accueil", "/index.html"], ["La Carte", "/menu.html"]],
+    "priority": "0.9",
+    "indexable": true
+  },
+  "menu_brunch.html": {
+    "title": "Brunch Italien — A Braccetto, Paris 5e (Quartier Latin)",
+    "description": "Le brunch italien d'A Braccetto à Paris 5e, près du Jardin du Luxembourg. Formule conviviale et généreuse. Réservation conseillée le week-end.",
+    "schemas": ["breadcrumb"],
+    "breadcrumb": [["Accueil", "/index.html"], ["Brunch", "/menu_brunch.html"]],
+    "priority": "0.8",
+    "indexable": true
+  },
+  "menu_degustation_pizza.html": {
+    "title": "Menu Dégustation Pizza dès 29€ — A Braccetto Paris 5e",
+    "description": "Menu dégustation pizza d'A Braccetto : sélection de pizzas artisanales à partager. 29€ le midi en semaine, 34€ le soir. Réservation jusqu'à 6 couverts.",
+    "schemas": ["breadcrumb"],
+    "breadcrumb": [["Accueil", "/index.html"], ["Dégustation Pizza", "/menu_degustation_pizza.html"]],
+    "priority": "0.8",
+    "indexable": true
+  },
+  "menu_nouvel_an.html": {
+    "title": "Menu Nouvel An — Réveillon Italien à A Braccetto Paris 5e",
+    "description": "Réveillon du Nouvel An chez A Braccetto, restaurant italien à Paris 5e près du Panthéon. Menu d'exception, places limitées, réservation obligatoire.",
+    "schemas": ["breadcrumb"],
+    "breadcrumb": [["Accueil", "/index.html"], ["Menu Nouvel An", "/menu_nouvel_an.html"]],
+    "priority": "0.6",
+    "indexable": true
+  },
+  "gallery.html": {
+    "title": "Galerie Photos — A Braccetto, Restaurant Italien Paris 5e",
+    "description": "Photos du restaurant italien A Braccetto à Paris 5e : salle, verrière, salon bar, plats et ambiance entre le Panthéon et le Jardin du Luxembourg.",
+    "schemas": ["breadcrumb"],
+    "breadcrumb": [["Accueil", "/index.html"], ["Galerie", "/gallery.html"]],
+    "priority": "0.7",
+    "indexable": true
+  },
+  "privatisation.html": {
+    "title": "Privatisation & Événements — A Braccetto Paris 5e",
+    "description": "Privatisez A Braccetto pour vos événements à Paris 5e : salons jusqu'à 70 personnes en cocktail. Dîners d'affaires, anniversaires et réceptions.",
+    "schemas": ["breadcrumb"],
+    "breadcrumb": [["Accueil", "/index.html"], ["Privatisation", "/privatisation.html"]],
+    "priority": "0.8",
+    "indexable": true
+  },
+  "contact.html": {
+    "title": "Contact & Accès — A Braccetto, 19 rue Soufflot Paris 5e",
+    "description": "A Braccetto, restaurant italien 19 rue Soufflot 75005 Paris, ouvert jusqu'à 2h. Horaires, accès RER B Luxembourg, réservation au Quartier Latin.",
+    "schemas": ["restaurant", "breadcrumb", "faq"],
+    "breadcrumb": [["Accueil", "/index.html"], ["Contact", "/contact.html"]],
+    "priority": "0.9",
+    "indexable": true
+  },
+  "legal-notice.html": {
+    "title": "Mentions légales — A Braccetto Paris",
+    "description": "Mentions légales du restaurant A Braccetto à Paris.",
+    "schemas": [],
+    "robots": "noindex, follow",
+    "indexable": false
+  },
+  "terms-of-use.html": {
+    "title": "Conditions Générales d'Utilisation — A Braccetto Paris",
+    "description": "Conditions générales d'utilisation du site du restaurant A Braccetto à Paris.",
+    "schemas": [],
+    "robots": "noindex, follow",
+    "indexable": false
+  },
+  "privacy-policy.html": {
+    "title": "Politique de confidentialité — A Braccetto Paris",
+    "description": "Politique de confidentialité et protection des données personnelles du restaurant A Braccetto à Paris.",
+    "schemas": [],
+    "robots": "noindex, follow",
+    "indexable": false
+  },
+  "cookie-policy.html": {
+    "title": "Politique de cookies — A Braccetto Paris",
+    "description": "Politique de cookies du restaurant A Braccetto à Paris. Découvrez comment nous utilisons les cookies pour améliorer votre expérience.",
+    "schemas": [],
+    "robots": "noindex, follow",
+    "indexable": false
+  }
+}
