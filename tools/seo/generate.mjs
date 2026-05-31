@@ -99,6 +99,13 @@ function restaurantNode() {
     })),
   };
   if (data.telephone && data.telephone.trim()) node.telephone = data.telephone.trim();
+  if (Array.isArray(data.amenities) && data.amenities.length) {
+    node.amenityFeature = data.amenities.map((name) => ({
+      "@type": "LocationFeatureSpecification",
+      name,
+      value: true,
+    }));
+  }
   if (data.acceptsReservations && data.reservationUrl) {
     node.potentialAction = {
       "@type": "ReserveAction",
@@ -398,6 +405,9 @@ function buildLlmsTxt() {
     `- **Email** : ${data.email}`,
     `- **Horaires** : ${hours} (service continu)`,
     `- **Cuisine** : ${data.servesCuisine.join(", ")}`,
+    Array.isArray(data.amenities) && data.amenities.length
+      ? `- **Services** : ${data.amenities.join(", ")}`
+      : null,
     `- **Gamme de prix** : ${data.priceRange}`,
     `- **Moyens de paiement** : ${data.paymentAccepted.join(", ")}`,
     `- **Réservation** : ${data.reservationUrl}`,

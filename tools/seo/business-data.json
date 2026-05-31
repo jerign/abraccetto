@@ -6,8 +6,8 @@
   "defaultLanguage": "fr",
   "languages": ["fr", "en", "es"],
   "description": "Bar-restaurant italien à Paris 5e, entre le Panthéon et le Jardin du Luxembourg. Cuisine italienne et méditerranéenne préparée à partir d'ingrédients frais, pizzas artisanales, pâtes, cocktails et brunch, dans un cadre design et chaleureux.",
-  "_comment_telephone": "TODO: renseigner le numéro réel (placeholder XXXXXXXXXX trouvé dans les mentions légales). Tant qu'il est vide, il est omis des données structurées.",
-  "telephone": "",
+  "_comment_telephone": "Source : fiche Google Business Profile (affichée publiquement).",
+  "telephone": "+33 1 42 01 01 07",
   "email": "contact@abraccettoparis.com",
   "image": "/assets/images/main-header-1.jpg",
   "logo": "/assets/favicon_io/android-chrome-512x512.png",
@@ -16,6 +16,8 @@
   "paymentAccepted": ["Carte Bancaire", "Sans contact", "Espèces", "Titres-restaurant", "American Express"],
   "currenciesAccepted": "EUR",
   "acceptsReservations": true,
+  "_comment_amenities": "Source : services affichés sur la fiche Google Business Profile.",
+  "amenities": ["Terrasse", "Cocktails", "Convient aux végétariens", "Réservation en ligne", "Accès PMR"],
   "reservationUrl": "https://www.opentable.fr/restref/client/?restref=342114&lang=fr-FR",
   "menuUrl": "https://abraccettoparis.com/menu.html",
   "address": {
@@ -83,6 +85,16 @@
       "id": "pates-pizza",
       "q": "Où manger des pâtes fraîches et de la pizza artisanale près du Jardin du Luxembourg ?",
       "a": "A Braccetto, à 100 mètres du Jardin du Luxembourg (RER B Luxembourg), propose des pâtes fraîches et des pizzas artisanales préparées sur place à partir d'ingrédients frais et d'exception, dans la tradition italienne et méditerranéenne."
+    },
+    {
+      "id": "terrasse",
+      "q": "A Braccetto dispose-t-il d'une terrasse ?",
+      "a": "Oui, A Braccetto dispose d'une terrasse à Paris 5e, idéale pour déjeuner, dîner ou prendre un cocktail dans le Quartier Latin, à deux pas du Panthéon et du Jardin du Luxembourg."
+    },
+    {
+      "id": "vegetarien",
+      "q": "A Braccetto propose-t-il des options végétariennes ?",
+      "a": "Oui, A Braccetto propose des plats végétariens dans sa cuisine italienne : pizzas, pâtes et antipasti adaptés. Le restaurant est reconnu comme convenant aux végétariens."
     }
   ]
 }

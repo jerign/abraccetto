@@ -9,9 +9,11 @@
 - **Adresse** : 19 rue Soufflot, 75005 Paris, France
 - **Quartier** : Quartier Latin, Paris 5e — entre le Panthéon et le Jardin du Luxembourg
 - **Coordonnées GPS** : 48.8465, 2.3417
+- **Téléphone** : +33 1 42 01 01 07
 - **Email** : contact@abraccettoparis.com
 - **Horaires** : Lundi, Mardi, Mercredi, Jeudi, Vendredi : 10h00–02h00 ; Samedi, Dimanche : 09h00–02h00 (service continu)
 - **Cuisine** : Italienne, Méditerranéenne, Pizza
+- **Services** : Terrasse, Cocktails, Convient aux végétariens, Réservation en ligne, Accès PMR
 - **Gamme de prix** : €€
 - **Moyens de paiement** : Carte Bancaire, Sans contact, Espèces, Titres-restaurant, American Express
 - **Réservation** : https://www.opentable.fr/restref/client/?restref=342114&lang=fr-FR
@@ -71,3 +73,11 @@ A Braccetto accueille les groupes et les repas conviviaux à Paris 5e, avec des 
 ### Où manger des pâtes fraîches et de la pizza artisanale près du Jardin du Luxembourg ?
 
 A Braccetto, à 100 mètres du Jardin du Luxembourg (RER B Luxembourg), propose des pâtes fraîches et des pizzas artisanales préparées sur place à partir d'ingrédients frais et d'exception, dans la tradition italienne et méditerranéenne.
+
+### A Braccetto dispose-t-il d'une terrasse ?
+
+Oui, A Braccetto dispose d'une terrasse à Paris 5e, idéale pour déjeuner, dîner ou prendre un cocktail dans le Quartier Latin, à deux pas du Panthéon et du Jardin du Luxembourg.
+
+### A Braccetto propose-t-il des options végétariennes ?
+
+Oui, A Braccetto propose des plats végétariens dans sa cuisine italienne : pizzas, pâtes et antipasti adaptés. Le restaurant est reconnu comme convenant aux végétariens.
