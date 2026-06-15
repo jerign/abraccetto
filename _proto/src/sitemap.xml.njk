@@ -1,0 +1,36 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- set pages = [
+  { path: "/", priority: "1.0" },
+  { path: "/menu.html", priority: "0.9" },
+  { path: "/menu_brunch.html", priority: "0.9" },
+  { path: "/menu_degustation_pizza.html", priority: "0.9" },
+  { path: "/menu_nouvel_an.html", priority: "0.7" },
+  { path: "/gallery.html", priority: "0.8" },
+  { path: "/privatisation.html", priority: "0.8" },
+  { path: "/contact.html", priority: "0.8" },
+  { path: "/faq.html", priority: "0.7" },
+  { path: "/legal-notice.html", priority: "0.3" },
+  { path: "/terms-of-use.html", priority: "0.3" },
+  { path: "/privacy-policy.html", priority: "0.3" },
+  { path: "/cookie-policy.html", priority: "0.3" }
+] -%}
+{%- set langs = ["fr", "en", "es"] -%}
+{%- for page in pages -%}
+{%- for lang in langs %}
+  <url>
+    <loc>{{ site.url }}{% if lang != "fr" %}/{{ lang }}{% endif %}{{ page.path }}</loc>
+    <priority>{{ page.priority }}</priority>
+    {%- for alt in langs %}
+    <xhtml:link rel="alternate" hreflang="{{ alt }}" href="{{ site.url }}{% if alt != 'fr' %}/{{ alt }}{% endif %}{{ page.path }}" />
+    {%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.path }}" />
+  </url>
+{%- endfor %}
+{%- endfor %}
+</urlset>

@@ -1,441 +1,461 @@
 {
-    "Banner-Degustation-Titre": "Réservation Brunch et Dégustation Pizza",
-    "Banner-Degustation-Texte": "Places limitées — réservation obligatoire",
-    "Banner-Degustation-Lien": "Réserver ma place",
-    "Banner-Degustation-Lien-Midi": "Réservation menu dégustation pizza midi",
-    "Banner-Degustation-Lien-Soir": "Réservation menu dégustation pizza soir",
-    "Banner-Degustation-Lien-Brunch": "Réservation menu brunch",
-    "Banner-Degustation-Lien-Carte": "Réservation carte classique",
-    "Menu":"LA CARTE",
-    "Menu brunch":"BRUNCH",
-    "Menu-nouvel-an":"MENU NOUVEL AN",
-    "Menu-degustation-pizza-nav": "DÉGUSTATION PIZZA",
-    "Galerie": "GALERIE",
-    "Contact": "CONTACT",
-    "Reservation-popup-title": "Réserver une table",
-    "Reservation-popup-subtitle": "A Braccetto — Paris",
-    "Reservation-popup-close": "Fermer",
-    "Reservation-btn": "Réserver",
-    "Reservation-btn-label": "Ouvrir la réservation",
-    "Reservation-iframe-title": "Réservation OpenTable",
-    "Reservez-Maintenant": "Réservez maintenant",
-    "Dolce-vita": "Dolce <em>vita</em> et art de <em> vivre</em> à la française",
-    "Infos-pratiques": "Infos pratiques",
-    "Cuisine": "Cuisine",
-    "Type-cuisine": "Italienne - Méditérranéenne",
-    "Service": "Service",
-    "Service-Brunch": "Brunch ~ Lundi Vendredi Samedi Dimanche ~ 12H00-17h00",
-    "Continu": "Brasserie ~ Continu",
-    "Type-restaurant": "Type de restaurant",
-    "Description-restaurant": "Bar - Café - Restaurant",
-    "Ouvertures":{
-        "Description": "Ouvertures",
-        "Lundi": "Lundi ~ 10h00 - 02h00",
-        "Mardi": "Mardi ~ 10h00 - 02h00",
-        "Mercredi": "Mercredi ~ 10h00 - 02h00",
-        "Jeudi": "Jeudi ~ 10h00 - 02h00",
-        "Vendredi": "Vendredi ~ 10h00 - 02h00",
-        "Samedi": "Samedi ~ 09h00 - 02h00",
-        "Dimanche": "Dimanche ~ 09h00 - 02h00"
+  "Banner-Degustation-Titre": "Réservation Brunch et Dégustation Pizza",
+  "Banner-Degustation-Texte": "Places limitées — réservation obligatoire",
+  "Banner-Degustation-Lien": "Réserver ma place",
+  "Banner-Degustation-Lien-Midi": "Réservation menu dégustation pizza midi",
+  "Banner-Degustation-Lien-Soir": "Réservation menu dégustation pizza soir",
+  "Banner-Degustation-Lien-Brunch": "Réservation menu brunch",
+  "Banner-Degustation-Lien-Carte": "Réservation carte classique",
+  "Menu": "LA CARTE",
+  "Menu brunch": "BRUNCH",
+  "Menu-nouvel-an": "MENU NOUVEL AN",
+  "Menu-degustation-pizza-nav": "DÉGUSTATION PIZZA",
+  "Galerie": "GALERIE",
+  "Contact": "CONTACT",
+  "Reservation-popup-title": "Réserver une table",
+  "Reservation-popup-subtitle": "A Braccetto — Paris",
+  "Reservation-popup-close": "Fermer",
+  "Reservation-btn": "Réserver",
+  "Reservation-btn-label": "Ouvrir la réservation",
+  "Reservation-iframe-title": "Réservation OpenTable",
+  "Reservez-Maintenant": "Réservez maintenant",
+  "Dolce-vita": "Dolce <em>vita</em> et art de <em> vivre</em> à la française",
+  "Infos-pratiques": "Infos pratiques",
+  "Cuisine": "Cuisine",
+  "Type-cuisine": "Italienne - Méditérranéenne",
+  "Service": "Service",
+  "Service-Brunch": "Brunch ~ Lundi Vendredi Samedi Dimanche ~ 12H00-17h00",
+  "Continu": "Brasserie ~ Continu",
+  "Type-restaurant": "Type de restaurant",
+  "Description-restaurant": "Bar - Café - Restaurant",
+  "Ouvertures": {
+    "Description": "Ouvertures",
+    "Lundi": "Lundi ~ 10h00 - 02h00",
+    "Mardi": "Mardi ~ 10h00 - 02h00",
+    "Mercredi": "Mercredi ~ 10h00 - 02h00",
+    "Jeudi": "Jeudi ~ 10h00 - 02h00",
+    "Vendredi": "Vendredi ~ 10h00 - 02h00",
+    "Samedi": "Samedi ~ 09h00 - 02h00",
+    "Dimanche": "Dimanche ~ 09h00 - 02h00"
+  },
+  "Paiement": {
+    "Description": "Paiement",
+    "Sans-contact": "Sans contact",
+    "Carte-Bancaire": "Carte Bancaire",
+    "Especes": "Espèces",
+    "Titres-restaurant": "Titres restaurant",
+    "Amex": "Amex"
+  },
+  "Acces": {
+    "Description": "Accès",
+    "Rer": "RER B - Luxembourg (~100m)",
+    "Bus": "BUS - Luxembourg (~100m) - Panthéon (~150m)",
+    "Lignes": "Lignes 21, 27, 24, 82, 84, 89, 38, N21, N14, N122 - 75",
+    "Metro": " Metro - Cluny-La Sorbonne (~500m) - Odéon (~600m)",
+    "Velib": "Velib - Le Goff - Gay-Lussac (~50m) - Cujas - Saint-Michel (~50m)"
+  },
+  "Rejoignez": "Rejoignez les <em>membres priviligiés</em> de la famille abraccetto",
+  "Ne-Ratez": "Ne ratez aucune soirée ou évenement en vous abonnant à la newsletter.",
+  "Entrer": "Entrer",
+  "Cliquer-menu": "Cliquez ci dessus pour télécharger le menu",
+  "Cliquer-menu-brunch": "Cliquez ci dessus pour télécharger le menu brunch",
+  "Cliquer-carte-vins": "Cliquez ci dessus pour télécharger",
+  "Cliquer-carte-et-spiritueux": "la carte des vins et spiritueux",
+  "Cliquer-menu-nouvel-an": "Cliquez ci dessus pour télécharger le menu du nouvel an",
+  "Cliquer-menu-degustation-pizza": "Cliquez ci-dessus pour télécharger le menu",
+  "Menu-degustation-pizza": "Menu Dégustation Pizza",
+  "Degustation-pizza-description": "Cette formule de dégustation est pensée pour un moment de découverte et de partage. Découvrez une sélection de nos pizzas artisanales préparées avec soin à partir d'ingrédients frais et d'exception.",
+  "Degustation-pizza-disponibilite": "Disponibilité :",
+  "Degustation-pizza-disponibilite-text": "Du lundi au vendredi midi, de 12h00 à 16h00 : 29€ par personne.",
+  "Degustation-pizza-reservations": "Soir :",
+  "Degustation-pizza-reservations-text": "Tous les soirs sauf le samedi : 34€ par personne.",
+  "Degustation-pizza-max-covers-label": "Réservation :",
+  "Degustation-pizza-max-covers-text": "Possible pour des tables de 6 couverts maximum.",
+  "Degustation-pizza-effective-date": "Info : à publier à partir de ce vendredi.",
+  "Degustation-pizza-reservation-link": "Réserver la dégustation",
+  "Degustation-pizza-reservation-midi": "Réservation menu dégustation pizza midi",
+  "Degustation-pizza-reservation-soir": "Réservation menu dégustation pizza soir",
+  "Reseaux": "Réseaux sociaux",
+  "Form": {
+    "Nom": "Nom",
+    "Email": "Email",
+    "Objet": {
+      "Retour": "Retour d'experience",
+      "Objets-perdus": "Objets perdus",
+      "Evenementiel": "Evénementiel - Groupes",
+      "Recrutement": "Recrutement",
+      "Presse": "Demande presse"
     },
-    "Paiement": {
-        "Description": "Paiement",
-        "Sans-contact" : "Sans contact",
-        "Carte-Bancaire": "Carte Bancaire",
-        "Especes": "Espèces",
-        "Titres-restaurant": "Titres restaurant",
-        "Amex": "Amex"
-    },
-    "Acces": {
-        "Description" : "Accès",
-        "Rer" : "RER B - Luxembourg (~100m)",
-        "Bus" : "BUS - Luxembourg (~100m) - Panthéon (~150m)",
-        "Lignes" : "Lignes 21, 27, 24, 82, 84, 89, 38, N21, N14, N122 - 75",
-        "Metro" : " Metro - Cluny-La Sorbonne (~500m) - Odéon (~600m)",
-        "Velib" : "Velib - Le Goff - Gay-Lussac (~50m) - Cujas - Saint-Michel (~50m)"
-    },
-    "Rejoignez":"Rejoignez les <em>membres priviligiés</em> de la famille abraccetto",
-    "Ne-Ratez": "Ne ratez aucune soirée ou évenement en vous abonnant à la newsletter.",
-    "Entrer": "Entrer",
-
-    "Cliquer-menu": "&#8593; Cliquez ci dessus pour télécharger le menu &#8593;",
-    "Cliquer-menu-brunch": "&#8593; Cliquez ci dessus pour télécharger le menu brunch &#8593;",
-    "Cliquer-carte-vins": "&#8593; Cliquez ci dessus pour télécharger",
-    "Cliquer-carte-et-spiritueux": "la carte des vins et spiritueux &#8593;",
-    "Cliquer-menu-nouvel-an": "&#8593; Cliquez ci dessus pour télécharger le menu du nouvel an &#8593;",
-    "Cliquer-menu-degustation-pizza": "&#8593; Cliquez ci-dessus pour télécharger le menu &#8593;",
-    
-    "Menu-degustation-pizza": "Menu Dégustation Pizza",
-    "Degustation-pizza-description": "Cette formule de dégustation est pensée pour un moment de découverte et de partage. Découvrez une sélection de nos pizzas artisanales préparées avec soin à partir d'ingrédients frais et d'exception.",
-    "Degustation-pizza-disponibilite": "Disponibilité :",
-    "Degustation-pizza-disponibilite-text": "Du lundi au vendredi midi, de 12h00 à 16h00 : 29€ par personne.",
-    "Degustation-pizza-reservations": "Soir :",
-    "Degustation-pizza-reservations-text": "Les lundi, mardi, mercredi, jeudi et dimanche soir : 34€ par personne.",
-    "Degustation-pizza-max-covers-label": "Réservation :",
-    "Degustation-pizza-max-covers-text": "Possible pour des tables de 6 couverts maximum.",
-    "Degustation-pizza-effective-date": "Info : à publier à partir de ce vendredi.",
-    "Degustation-pizza-reservation-link": "Réserver la dégustation",
-    "Degustation-pizza-reservation-midi": "Réservation menu dégustation pizza midi",
-    "Degustation-pizza-reservation-soir": "Réservation menu dégustation pizza soir",
-
-    "Reseaux": "Réseaux sociaux",
-    "Form": {
-        "Nom": "Nom",
-        "Email": "Email",
-        "Objet": {
-            "Retour": "Retour d'experience",
-            "Objets-perdus": "Objets perdus",
-            "Evenementiel": "Evénementiel - Groupes",
-            "Recrutement": "Recrutement",
-            "Presse": "Demande presse"
-        },
-        "Envoyer": "Envoyer",
-        "ObjetPrivatisation":{
-            "Petitdejeuner":"Petit-déjeuner",
-            "Dejeuner":"Déjeuner",
-            "Diner":"Diner",
-            "Cocktail":"Cocktail"
-        }
-    },
-    "p1": "Abraccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients frais.",
-    "p2": "Notre aventure culinaire est le fruit d'une collaboration harmonieuse entre une équipe franco-italienne dévouée et passionnée, toujours désireuse d'aller plus loin pour satisfaire notre clientèle.",
-    "p3": "Que ce soit pour un dîner romantique, un déjeuner d'affaires ou un rassemblement en famille, notre restaurant offre un environnement convivial et sophistiqué, où la dolce vita rencontre l'art de vivre à la française. Nous vous invitons à découvrir notre passion pour la cuisine, notre service attentionné et notre ambiance chaleureuse.",
-    "Ils-parlent": "Ils parlent de nous",
-    "p4": "Situé dans le cinquième arrondissement de Paris, le restaurant Abracetto est parfait pour les événements corporatifs. Réputé pour sa cuisine italienne, il offre une expérience culinaire mémorable sous la direction d'un chef créatif.",
-    "p5": "Avec ses vastes espaces, Abracetto accueille confortablement des groupes pour dîners d'affaires et célébrations. Son ambiance chaleureuse et son service attentionné garantissent la satisfaction de vos convives. Pour les réunions informelles, le cadre accueillant et le service personnalisé offrent une expérience sur mesure.",
-    "p6": "Découvrez comment Abracetto peut sublimer votre prochain événement avec une cuisine exquise et une ambiance inoubliable.",
-    "Event" : "Évènements & Privatisations",
-    "Titre-Privatisation": "Ma demande de Privatisation",
-    "titre-image-4":"Salon Bar",
-    "titre-image-1":"Capacité de 30 places assises / Cocktail 60 personnes",
-    "titre-image-3":"Verrière",
-    "titre-image-2":"Capacité de 55 places assises / Cocktail 70 personnes",
-    "Privatisation": "PRIVATISATION",
-    "Menu-nouvel-an-petit": "Menu du Nouvel An",
-    "Menu-nouvel-an-desc": "Venez célébrer avec nous et découvrez nos plats d'exception pour le réveillon !",
-    "Voir-menu": "Voir le menu",
-    
-    "CookieConsent": {
-        "Text": "Nous utilisons des cookies pour améliorer votre expérience.",
-        "AcceptAll": "Accepter",
-        "AcceptNecessary": "Nécessaires",
-        "Preferences": "Préférences"
-    },
-    "CookiePreferences": {
-        "Title": "Préférences de cookies",
-        "Description": "Personnalisez vos préférences de cookies ci-dessous :",
-        "Necessary": "Cookies nécessaires (obligatoires)",
-        "NecessaryDescription": "Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés.",
-        "Analytics": "Cookies analytiques",
-        "AnalyticsDescription": "Ces cookies nous permettent d'analyser l'utilisation du site web pour en améliorer les performances et l'expérience utilisateur.",
-        "Marketing": "Cookies marketing",
-        "MarketingDescription": "Ces cookies sont utilisés pour vous montrer des publicités pertinentes sur d'autres sites.",
-        "Cancel": "Annuler",
-        "Save": "Enregistrer les préférences"
-    },
-    "LegalNotice": {
-        "Title": "Mentions légales",
-        "LastUpdated": "Dernière mise à jour",
-        "SiteEditor": {
-            "Title": "1. Éditeur du site",
-            "P1": "Le site www.abraccettoparis.com est édité par :",
-            "Company": "Société",
-            "LegalForm": "Forme juridique",
-            "Siren": "SIREN",
-            "Siret": "SIRET",
-            "Vat": "TVA Intracommunautaire",
-            "ShareCapital": "Capital social",
-            "Address": "Adresse",
-            "Email": "Email",
-            "PublicationDirector": "Directeur de la publication"
-        },
-        "Host": {
-            "Title": "2. Hébergeur",
-            "P1": "Ce site est hébergé par :",
-            "Rcs": "RCS",
-            "ApeCode": "Code APE",
-            "VatNumber": "N° TVA",
-            "Phone": "Téléphone"
-        },
-        "IntellectualProperty": {
-            "Title": "3. Propriété intellectuelle",
-            "P1": "L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.",
-            "P2": "La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication."
-        },
-        "PersonalData": {
-            "Title": "4. Données personnelles",
-            "P1": "Pour plus d'informations sur la manière dont nous traitons vos données personnelles, veuillez consulter notre Politique de confidentialité."
-        },
-        "Cookies": {
-            "Title": "5. Cookies",
-            "P1": "Pour plus d'informations sur l'utilisation des cookies sur notre site, veuillez consulter notre Politique de cookies."
-        },
-        "Liability": {
-            "Title": "6. Limitation de responsabilité",
-            "P1": "ABRACCETTO s'efforce d'assurer au mieux de ses possibilités, l'exactitude et la mise à jour des informations diffusées sur ce site, dont elle se réserve le droit de corriger, à tout moment et sans préavis, le contenu. Toutefois, ABRACCETTO ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à la disposition sur ce site.",
-            "P2": "En conséquence, ABRACCETTO décline toute responsabilité pour toute interruption du site, problèmes techniques, pour toute inexactitude ou omission sur des informations disponibles sur le site, pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à la disposition sur le site."
-        },
-        "ApplicableLaw": {
-            "Title": "7. Droit applicable",
-            "P1": "Le présent site et ses mentions légales sont soumis au droit français."
-        }
-    },
-    "PrivacyPolicyLink": "Politique de confidentialité",
-    "CookiePolicyLink": "Politique de cookies",
-    "TermsOfUse": {
-        "Title": "Conditions Générales d'Utilisation",
-        "LastUpdated": "Dernière mise à jour",
-        "P1": "Les présentes conditions générales d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique des modalités de mise à disposition du site et des services par ABRACCETTO et de définir les conditions d'accès et d'utilisation des services par « l'Utilisateur ».",
-        "P2": "Les présentes CGU sont accessibles sur le site à la rubrique «CGU».",
-        "P3": "Toute inscription ou utilisation du site implique l'acceptation sans aucune réserve ni restriction des présentes CGU par l'utilisateur. Lors de l'inscription sur le site via le Formulaire d'inscription, chaque utilisateur accepte expressément les présentes CGU en cochant la case précédant le texte suivant : « Je reconnais avoir lu et compris les CGU et je les accepte ». En cas de non-acceptation des CGU stipulées dans le présent contrat, l'Utilisateur se doit de renoncer à l'accès des services proposés par le site. ABRACCETTO se réserve le droit de modifier unilatéralement et à tout moment le contenu des présentes CGU.",
-        "Article1": {
-            "Title": "ARTICLE 1 : Les mentions légales",
-            "P1": "L'édition du site www.abraccettoparis.com est assurée par la Société ABRACCETTO SAS au capital de 155 000 euros, immatriculée au RCS de Paris sous le numéro 401 200 134, dont le siège social est situé au 19 rue Soufflot, 75005 Paris.",
-            "P2": "Numéro de téléphone : XXXXXXXXXX",
-            "P3": "Adresse e-mail : contact@abraccettoparis.com.",
-            "P4": "Le Directeur de la publication est : XXXXXXXX",
-            "P5": "L'hébergeur du site www.abraccettoparis.com est la société OVH SAS, dont le siège social est situé au 2 rue Kellermann - 59100 Roubaix - France, avec le numéro de téléphone : 1007."
-        },
-        "Article2": {
-            "Title": "ARTICLE 2 : Accès au site",
-            "P1": "Le site www.abraccettoparis.com permet à l'Utilisateur un accès gratuit aux services suivants : informations sur le restaurant, menu, réservation en ligne, privatisation, contact.",
-            "P2": "Le site est accessible gratuitement en tout lieu à tout Utilisateur ayant un accès à Internet. Tous les frais supportés par l'Utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.",
-            "P3": "L'Utilisateur non membre n'a pas accès aux services réservés. Pour cela, il doit s'inscrire en remplissant le formulaire. En acceptant de s'inscrire aux services réservés, l'Utilisateur membre s'engage à fournir des informations sincères et exactes concernant son état civil et ses coordonnées, notamment son adresse email.",
-            "P4": "Pour accéder aux services, l'Utilisateur devra s'identifier à l'aide de son nom d'utilisateur et de son mot de passe qui lui seront communiqués après son inscription. Tout Utilisateur membre régulièrement inscrit pourra également solliciter sa désinscription en se rendant à la page dédiée sur son espace personnel. Celle-ci sera effective dans un délai raisonnable.",
-            "P5": "Tout événement dû à un cas de force majeure ayant pour conséquence un dysfonctionnement du site ou serveur et sous réserve de toute interruption ou modification en cas de maintenance, n'engage pas la responsabilité de ABRACCETTO. Dans ces cas, l'Utilisateur accepte ainsi ne pas tenir rigueur à l'éditeur de toute interruption ou suspension de service, même sans préavis.",
-            "P6": "L'Utilisateur a la possibilité de contacter le site par messagerie électronique à l'adresse email de l'éditeur communiqué à l'ARTICLE 1."
-        },
-        "Article3": {
-            "Title": "ARTICLE 3 : Collecte des données",
-            "P1": "Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés. Le site est déclaré à la CNIL sous le numéro [numéro CNIL].",
-            "P2": "En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit :",
-            "ListItem1": "par mail à l'adresse email contact@abraccettoparis.com",
-            "ListItem2": "par voie postale au 19 rue Soufflot, 75005 Paris;",
-            "ListItem3": "via un formulaire de contact;",
-            "ListItem4": "via son espace personnel."
-        },
-        "Article4": {
-            "Title": "ARTICLE 4 : Propriété intellectuelle",
-            "P1": "Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.",
-            "P2": "La marque ABRACCETTO est une marque déposée par ABRACCETTO SAS. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale de cette marque, de quelque nature que ce soit, est totalement prohibée.",
-            "P3": "L'Utilisateur doit solliciter l'autorisation préalable du site pour toute reproduction, publication, copie des différents contenus. Il s'engage à une utilisation des contenus du site dans un cadre strictement privé, toute utilisation à des fins commerciales et publicitaires est strictement interdite.",
-            "P4": "Toute représentation totale ou partielle de ce site par quelque procédé que ce soit, sans l'autorisation expresse de l'exploitant du site Internet constituerait une contrefaçon sanctionnée par l'article L 335-2 et suivants du Code de la propriété intellectuelle.",
-            "P5": "Il est rappelé conformément à l'article L122-5 du Code de propriété intellectuelle que l'Utilisateur qui reproduit, copie ou publie le contenu protégé doit citer l'auteur et sa source."
-        },
-        "Article5": {
-            "Title": "ARTICLE 5 : Responsabilité",
-            "P1": "Les sources des informations diffusées sur le site www.abraccettoparis.com sont réputées fiables mais le site ne garantit pas qu'il soit exempt de défauts, d'erreurs ou d'omissions.",
-            "P2": "Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site www.abraccettoparis.com ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenu responsable de l'utilisation et de l'interprétation de l'information contenue dans ce site.",
-            "P3": "L'Utilisateur s'assure de garder son mot de passe secret. Toute divulgation du mot de passe, quelle que soit sa forme, est interdite. Il assume les risques liés à l'utilisation de son identifiant et mot de passe. Le site décline toute responsabilité.",
-            "P4": "Le site www.abraccettoparis.com ne peut être tenu pour responsable d'éventuels virus qui pourraient infecter l'ordinateur ou tout matériel informatique de l'Internaute, suite à une utilisation, à l'accès, ou au téléchargement provenant de ce site.",
-            "P5": "La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un tiers."
-        },
-        "Article6": {
-            "Title": "ARTICLE 6 : Liens hypertextes",
-            "P1": "Des liens hypertextes peuvent être présents sur le site. L'Utilisateur est informé qu'en cliquant sur ces liens, il sortira du site www.abraccettoparis.com. Ce dernier n'a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu."
-        },
-        "Article7": {
-            "Title": "ARTICLE 7 : Cookies",
-            "P1": "L'Utilisateur est informé que lors de ses visites sur le site, un cookie peut s'installer automatiquement sur son logiciel de navigation.",
-            "P2": "Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l'ordinateur de l'Utilisateur par votre navigateur et qui sont nécessaires à l'utilisation du site www.abraccettoparis.com. Les cookies ne contiennent pas d'information personnelle et ne peuvent pas être utilisés pour identifier quelqu'un. Un cookie contient un identifiant unique, généré aléatoirement et donc anonyme. Certains cookies expirent à la fin de la visite de l'Utilisateur, d'autres restent.",
-            "P3": "L'information contenue dans les cookies est utilisée pour améliorer le site www.abraccettoparis.com.",
-            "P4": "En naviguant sur le site, L'Utilisateur les accepte.",
-            "P5": "L'Utilisateur pourra désactiver ces cookies par l'intermédiaire des paramètres figurant au sein de son logiciel de navigation.",
-            "P6": "Pour plus d'informations sur l'utilisation des cookies sur notre site, veuillez consulter notre Politique de cookies."
-        },
-        "Article8": {
-            "Title": "ARTICLE 8 : Droit applicable et juridiction compétente",
-            "P1": "La législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né entre les parties, les tribunaux français seront seuls compétents pour en connaître.",
-            "P2": "Pour toute question relative à l'application des présentes CGU, vous pouvez joindre l'éditeur aux coordonnées inscrites à l'ARTICLE 1."
-        }
-    },
-    "CookiePolicy": {
-        "Title": "Politique de Cookies",
-        "LastUpdated": "Dernière mise à jour",
-        "P1": "La présente politique en matière de cookies explique ce que sont les cookies et comment nous les utilisons. Vous devez lire cette politique pour comprendre ce que sont les cookies, comment nous les utilisons, les types de cookies que nous utilisons, c'est-à-dire les informations que nous collectons à l'aide des cookies et comment ces informations sont utilisées, et comment contrôler les préférences en matière de cookies. Pour plus d'informations sur la manière dont nous utilisons, stockons et protégeons vos données personnelles, consultez notre Politique de confidentialité.",
-        "P2": "Vous pouvez à tout moment modifier ou retirer votre consentement à la Déclaration relative aux cookies sur notre site web.",
-        "P3": "Apprenez-en davantage sur qui nous sommes, comment vous pouvez nous contacter et comment nous traitons les données personnelles dans notre Politique de confidentialité.",
-        "P4": "Votre consentement s'applique aux domaines suivants : www.abraccettoparis.com",
-        "WhatAreCookies": {
-            "Title": "Que sont les cookies ?",
-            "P1": "Les cookies sont de petits fichiers texte qui sont utilisés pour stocker de petites informations. Les cookies sont stockés sur votre appareil lorsque le site web est chargé sur votre navigateur. Ces cookies nous aident à faire fonctionner le site web correctement, à le rendre plus sûr, à offrir une meilleure expérience utilisateur et à comprendre comment le site web fonctionne et à analyser ce qui fonctionne et où il doit être amélioré."
-        },
-        "HowWeUseCookies": {
-            "Title": "Comment utilisons-nous les cookies ?",
-            "P1": "Comme la plupart des services en ligne, notre site web utilise des cookies propriétaires et des cookies tiers à plusieurs fins. Les cookies propriétaires sont principalement nécessaires au bon fonctionnement du site web et ne collectent aucune de vos données personnelles identifiables.",
-            "P2": "Les cookies tiers utilisés sur nos sites web le sont principalement pour comprendre comment le site web fonctionne, comment vous interagissez avec notre site web, assurer la sécurité de nos services, fournir des publicités pertinentes pour vous et, dans l'ensemble, vous offrir une expérience utilisateur meilleure et améliorée et aider à accélérer vos interactions futures avec notre site web."
-        },
-        "TypesOfCookies": {
-            "Title": "Quels types de cookies utilisons-nous ?",
-            "P1": "Les cookies utilisés sur notre site sont regroupés dans les catégories suivantes.",
-            "Necessary": {
-                "Title": "Nécessaires",
-                "P1": "Les cookies nécessaires sont absolument essentiels au bon fonctionnement du site web. Ces cookies assurent les fonctionnalités de base et les dispositifs de sécurité du site web, de manière anonyme."
-            },
-            "Analytics": {
-                "Title": "Analytiques",
-                "P1": "Les cookies analytiques sont utilisés pour comprendre comment les visiteurs interagissent avec le site web. Ces cookies aident à fournir des informations sur les mesures du nombre de visiteurs, du taux de rebond, de la source du trafic, etc."
-            },
-            "Marketing": {
-                "Title": "Marketing",
-                "P1": "Les cookies marketing sont utilisés pour fournir aux visiteurs des publicités et des campagnes marketing pertinentes. Ces cookies suivent les visiteurs sur les sites web et collectent des informations pour fournir des publicités personnalisées."
-            }
-        },
-        "ManagePreferences": {
-            "Title": "Comment puis-je contrôler les préférences en matière de cookies ?",
-            "P1": "Vous pouvez gérer vos préférences en matière de cookies en cliquant sur le bouton « Préférences » et en activant ou désactivant les catégories de cookies dans la fenêtre contextuelle selon vos préférences.",
-            "P2": "Si vous décidez de modifier vos préférences ultérieurement au cours de votre session de navigation, vous pouvez cliquer sur l'onglet « Gérer votre consentement » sur votre écran. Cela affichera à nouveau l'avis de consentement vous permettant de modifier vos préférences ou de retirer votre consentement entièrement.",
-            "P3": "En outre, différents navigateurs proposent différentes méthodes pour bloquer et supprimer les cookies utilisés par les sites web. Vous pouvez modifier les paramètres de votre navigateur pour bloquer/supprimer les cookies. Pour en savoir plus sur la gestion et la suppression des cookies, visitez wikipedia.org, www.allaboutcookies.org."
-        }
-    },
-    "FooterLinks": {
-        "LegalNotice": "Mentions légales",
-        "TermsOfUse": "CGU",
-        "PrivacyPolicy": "Politique de confidentialité",
-        "CookiePolicy": "Politique de cookies"
-    },
-    "privacyPolicy": {
-        "mainTitle": "Politique de confidentialité",
-        "title": "Politique de Confidentialité",
-        "effectiveDateTitle": "Date d'entrée en vigueur :",
-        "effectiveDate": "23 juillet 2024",
-        "introduction": {
-            "title": "1. Introduction",
-            "text1": "Bienvenue sur Abraccetto (\"nous\", \"notre\", \"nos\"). Nous nous engageons à protéger votre vie privée. Cette politique de confidentialité explique comment nous recueillons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web [adresse du site web] (le \"Site\"). Veuillez lire attentivement cette politique de confidentialité. Si vous n'êtes pas d'accord avec les termes de cette politique de confidentialité, veuillez ne pas accéder au site.",
-            "text2": "Nous nous réservons le droit d'apporter des modifications à cette politique de confidentialité à tout moment et pour quelque raison que ce soit. Nous vous alerterons de tout changement en mettant à jour la date de \"dernière mise à jour\" de cette politique de confidentialité. Vous êtes encouragé à consulter régulièrement cette politique de confidentialité pour rester informé des mises à jour. Il sera considéré que vous avez été informé des changements, que vous y serez soumis et que vous les aurez acceptés si vous continuez à utiliser le Site après la date de publication de la politique de confidentialité révisée."
-        },
-        "collectionOfInformation": {
-            "title": "2. Collecte de Vos Informations",
-            "text1": "Nous pouvons recueillir des informations vous concernant de différentes manières. Les informations que nous pouvons recueillir sur le Site comprennent :",
-            "personalData": {
-                "title": "Données Personnelles",
-                "text": "Les informations personnellement identifiables, telles que votre nom, votre adresse de livraison, votre adresse e-mail et votre numéro de téléphone, ainsi que les informations démographiques, telles que votre âge, votre sexe, votre ville natale et vos centres d'intérêt, que vous nous communiquez volontairement lorsque vous vous inscrivez sur le Site ou lorsque vous choisissez de participer à diverses activités liées au Site, telles que le chat en ligne et les babillards électroniques."
-            },
-            "derivativeData": {
-                "title": "Données Dérivées",
-                "text": "Les informations que nos serveurs recueillent automatiquement lorsque vous accédez au Site, telles que votre adresse IP, votre type de navigateur, votre système d'exploitation, vos heures d'accès et les pages que vous avez consultées directement avant et après avoir accédé au Site."
-            },
-            "financialData": {
-                "title": "Données Financières",
-                "text": "Les informations financières, telles que les données relatives à votre mode de paiement (par exemple, numéro de carte de crédit valide, marque de la carte, date d'expiration) que nous pouvons recueillir lorsque vous achetez, commandez, retournez, échangez ou demandez des informations sur nos services à partir du Site. Nous stockons très peu, voire aucune, information financière que nous recueillons. Sinon, toutes les informations financières sont stockées par notre processeur de paiement, Stripe, et vous êtes encouragé à consulter leur politique de confidentialité et à les contacter directement pour obtenir des réponses à vos questions."
-            },
-            "mobileDeviceData": {
-                "title": "Données sur les Appareils Mobiles",
-                "text": "Les informations sur les appareils, telles que l'identifiant, le modèle et le fabricant de votre appareil mobile, ainsi que les informations sur l'emplacement de votre appareil, si vous accédez au Site à partir d'un appareil mobile."
-            }
-        },
-        "useOfInformation": {
-            "title": "3. Utilisation de Vos Informations",
-            "text1": "Disposer d'informations exactes à votre sujet nous permet de vous offrir une expérience fluide, efficace et personnalisée. Plus précisément, nous pouvons utiliser les informations recueillies à votre sujet via le Site pour :",
-            "listItem1": "Créer et gérer votre compte.",
-            "listItem2": "Vous envoyer des e-mails concernant votre compte ou votre commande.",
-            "listItem3": "Exécuter et gérer les achats, les commandes, les paiements et autres transactions liés au Site.",
-            "listItem4": "Améliorer l'efficacité et le fonctionnement du Site.",
-            "listItem5": "Surveiller et analyser l'utilisation et les tendances afin d'améliorer votre expérience avec le Site.",
-            "listItem6": "Vous informer des mises à jour du Site.",
-            "listItem7": "Vous proposer de nouveaux produits, services et/ou recommandations.",
-            "listItem8": "Effectuer d'autres activités commerciales si nécessaire.",
-            "listItem9": "Prévenir les transactions frauduleuses, surveiller le vol et protéger contre les activités criminelles.",
-            "listItem10": "Traiter les paiements et les remboursements.",
-            "listItem11": "Demander des commentaires et vous contacter au sujet de votre utilisation du Site.",
-            "listItem12": "Résoudre les litiges et régler les problèmes.",
-            "listItem13": "Répondre aux demandes de produits et de service client.",
-            "listItem14": "Vous envoyer une newsletter.",
-            "listItem15": "Solliciter un soutien pour le Site."
-        },
-        "disclosureOfInformation": {
-            "title": "4. Divulgation de Vos Informations",
-            "text1": "Nous pouvons partager les informations que nous avons recueillies à votre sujet dans certaines situations. Vos informations peuvent être divulguées comme suit :",
-            "byLaw": {
-                "title": "Par la Loi ou pour Protéger des Droits",
-                "text": "Si nous estimons que la divulgation de vos informations est nécessaire pour répondre à une procédure judiciaire, pour enquêter sur des violations potentielles de nos politiques ou pour y remédier, ou pour protéger les droits, la propriété et la sécurité d'autrui, nous pouvons partager vos informations comme le permet ou l'exige toute loi, règle ou réglementation applicable. Cela inclut l'échange d'informations avec d'autres entités à des fins de protection contre la fraude et de réduction du risque de crédit."
-            },
-            "thirdPartyServiceProviders": {
-                "title": "Fournisseurs de Services Tiers",
-                "text": "Nous pouvons partager vos informations avec des tiers qui fournissent des services pour nous ou en notre nom, y compris le traitement des paiements, l'analyse des données, la livraison d'e-mails, les services d'hébergement, le service client et l'assistance marketing."
-            },
-            "marketingCommunications": {
-                "title": "Communications Marketing",
-                "text": "Avec votre consentement, ou avec la possibilité pour vous de retirer votre consentement, nous pouvons partager vos informations avec des tiers à des fins de marketing, comme le permet la loi."
-            },
-            "onlinePostings": {
-                "title": "Publications en Ligne",
-                "text": "Lorsque vous publiez des commentaires, des contributions ou tout autre contenu sur le Site, vos publications peuvent être vues par tous les utilisateurs et peuvent être distribuées publiquement en dehors du Site à perpétuité."
-            },
-            "thirdPartyAdvertisers": {
-                "title": "Annonceurs Tiers",
-                "text": "Nous pouvons utiliser des sociétés de publicité tierces pour diffuser des publicités lorsque vous visitez le Site. Ces sociétés peuvent utiliser des informations sur vos visites sur le Site et d'autres sites web contenues dans les cookies web afin de fournir des publicités sur des biens et services qui vous intéressent."
-            },
-            "affiliates": {
-                "title": "Affiliés",
-                "text": "Nous pouvons partager vos informations avec nos affiliés, auquel cas nous exigerons de ces affiliés qu'ils respectent cette politique de confidentialité. Les affiliés comprennent notre société mère et toutes les filiales, les partenaires de coentreprise ou les autres sociétés que nous contrôlons ou qui sont sous contrôle commun avec nous."
-            },
-            "businessPartners": {
-                "title": "Partenaires Commerciaux",
-                "text": "Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer certains produits, services ou promotions."
-            },
-            "otherThirdParties": {
-                "title": "Autres Tiers",
-                "text": "Nous pouvons partager vos informations avec des annonceurs et des investisseurs dans le but de mener une analyse commerciale générale. Nous pouvons également partager vos informations avec ces tiers à des fins de marketing, comme le permet la loi."
-            },
-            "saleOrBankruptcy": {
-                "title": "Vente ou Faillite",
-                "text": "Si nous réorganisons ou vendons tout ou partie de nos actifs, si nous fusionnons ou si nous sommes rachetés par une autre entité, nous pouvons transférer vos informations à l'entité qui lui succède. Si nous cessons nos activités ou si nous faisons faillite, vos informations seraient un actif transféré ou acquis par un tiers. Vous reconnaissez que de tels transferts peuvent se produire et que le cessionnaire peut refuser d'honorer les engagements que nous avons pris dans cette politique de confidentialité."
-            }
-        },
-        "trackingTechnologies": {
-            "title": "5. Technologies de Suivi",
-            "cookiesAndWebBeacons": {
-                "title": "Cookies et Balises Web",
-                "text1": "Nous pouvons utiliser des cookies, des balises web, des pixels de suivi et d'autres technologies de suivi sur le Site pour aider à personnaliser le Site et à améliorer votre expérience. Lorsque vous accédez au Site, vos informations personnelles ne sont pas collectées par le biais de l'utilisation de technologies de suivi. La plupart des navigateurs sont configurés pour accepter les cookies par défaut. Vous pouvez supprimer ou refuser les cookies, mais sachez qu'une telle action pourrait affecter la disponibilité et la fonctionnalité du Site. Vous ne pouvez pas refuser les balises web. Cependant, elles peuvent être rendues inefficaces en refusant tous les cookies ou en modifiant les paramètres de votre navigateur web pour vous avertir chaque fois qu'un cookie est proposé, vous permettant d'accepter ou de refuser les cookies sur une base individuelle.",
-                "text2": "Pour plus d'informations sur la façon dont nous utilisons les cookies, veuillez consulter notre politique en matière de cookies publiée sur le Site, qui est intégrée à cette politique de confidentialité. En utilisant le Site, vous acceptez d'être lié par notre politique en matière de cookies."
-            },
-            "internetBasedAdvertising": {
-                "title": "Publicité Basée sur Internet",
-                "text": "De plus, nous pouvons utiliser des logiciels tiers pour diffuser des publicités sur le Site, mettre en œuvre des campagnes de marketing par e-mail et gérer d'autres initiatives de marketing interactif. Ce logiciel tiers peut utiliser des cookies ou des technologies de suivi similaires pour aider à gérer et à optimiser votre expérience en ligne avec nous. Pour plus d'informations sur la désactivation des publicités basées sur les centres d'intérêt, visitez l'outil de désactivation de la Network Advertising Initiative ou l'outil de désactivation de la Digital Advertising Alliance."
-            },
-            "websiteAnalytics": {
-                "title": "Analyse de Site Web",
-                "text": "Nous pouvons également nous associer à des fournisseurs tiers sélectionnés, tels que Google Analytics, pour permettre des technologies de suivi et des services de remarketing sur le Site par l'utilisation de cookies propriétaires et de cookies tiers, afin, entre autres, d'analyser et de suivre l'utilisation du Site par les utilisateurs, de déterminer la popularité de certains contenus et de mieux comprendre l'activité en ligne. En accédant au Site, vous consentez à la collecte et à l'utilisation de vos informations par ces fournisseurs tiers. Nous vous encourageons à consulter leur politique de confidentialité et à les contacter directement pour obtenir des réponses à vos questions. Nous ne transférons pas d'informations personnelles à ces fournisseurs tiers. Cependant, si vous ne souhaitez pas que des informations soient collectées et utilisées par les technologies de suivi, vous pouvez visiter le fournisseur tiers ou l'outil de désactivation de la Network Advertising Initiative ou l'outil de désactivation de la Digital Advertising Alliance."
-            }
-        },
-        "thirdPartyWebsites": {
-            "title": "6. Sites Web de Tiers",
-            "text": "Le Site peut contenir des liens vers des sites web de tiers et des applications d'intérêt, y compris des publicités et des services externes, qui ne sont pas affiliés à nous. Une fois que vous avez utilisé ces liens pour quitter le Site, toute information que vous fournissez à ces tiers n'est pas couverte par cette politique de confidentialité, et nous ne pouvons garantir la sécurité et la confidentialité de vos informations. Avant de visiter et de fournir des informations à des sites web de tiers, vous devez vous informer des politiques et pratiques de confidentialité (le cas échéant) du tiers responsable de ce site web, et vous devez prendre les mesures nécessaires pour, à votre discrétion, protéger la confidentialité de vos informations. Nous ne sommes pas responsables du contenu ou des pratiques et politiques de confidentialité et de sécurité des tiers, y compris les autres sites, services ou applications qui peuvent être liés au Site ou à partir de celui-ci."
-        },
-        "securityOfInformation": {
-            "title": "7. Sécurité de Vos Informations",
-            "text": "Nous utilisons des mesures de sécurité administratives, techniques et physiques pour aider à protéger vos informations personnelles. Bien que nous ayons pris des mesures raisonnables pour sécuriser les informations personnelles que vous nous fournissez, veuillez noter qu'aucune mesure de sécurité n'est parfaite ou impénétrable, et qu'aucune méthode de transmission de données ne peut être garantie contre toute interception ou autre type d'utilisation abusive. Toute information divulguée en ligne est vulnérable à l'interception et à l'utilisation abusive par des parties non autorisées. Par conséquent, nous ne pouvons garantir une sécurité totale si vous fournissez des informations personnelles."
-        },
-        "policyForChildren": {
-            "title": "8. Politique Concernant les Enfants",
-            "text": "Nous ne sollicitons pas sciemment d'informations auprès d'enfants de moins de 13 ans et ne commercialisons pas sciemment auprès d'eux. Si vous apprenez que nous avons recueilli des informations auprès d'enfants de moins de 13 ans, veuillez nous contacter en utilisant les coordonnées fournies ci-dessous."
-        },
-        "controlsForDoNotTrack": {
-            "title": "9. Contrôles pour les Fonctionnalités \"Ne Pas Suivre\"",
-            "text": "La plupart des navigateurs web et certains systèmes d'exploitation mobiles incluent une fonctionnalité ou un paramètre \"Ne Pas Suivre\" (\"DNT\") que vous pouvez activer pour signaler votre préférence en matière de confidentialité afin que les données relatives à vos activités de navigation en ligne ne soient pas surveillées et collectées. Aucune norme technologique uniforme pour la reconnaissance et la mise en œuvre des signaux DNT n'a été finalisée. Par conséquent, nous ne répondons actuellement pas aux signaux de navigateur DNT ou à tout autre mécanisme qui communique automatiquement votre choix de ne pas être suivi en ligne. Si une norme de suivi en ligne est adoptée à l'avenir et que nous devons la suivre, nous vous informerons de cette pratique dans une version révisée de cette politique de confidentialité."
-        },
-        "optionsRegardingInformation": {
-            "title": "10. Options Concernant Vos Informations",
-            "accountInformation": {
-                "title": "Informations sur le Compte",
-                "text": "Vous pouvez à tout moment consulter ou modifier les informations de votre compte ou résilier votre compte en :",
-                "listItem1": "Vous connectant aux paramètres de votre compte et en mettant à jour votre compte.",
-                "listItem2": "Nous contactant en utilisant les coordonnées fournies ci-dessous.",
-                "text2": "Sur votre demande de résiliation de votre compte, nous désactiverons ou supprimerons votre compte et vos informations de nos bases de données actives. Cependant, certaines informations peuvent être conservées dans nos fichiers pour prévenir la fraude, régler les problèmes, aider aux enquêtes, faire respecter nos conditions d'utilisation et/ou se conformer aux exigences légales."
-            },
-            "emailsAndCommunications": {
-                "title": "E-mails et Communications",
-                "text": "Si vous ne souhaitez plus recevoir de correspondance, d'e-mails ou d'autres communications de notre part, vous pouvez vous désinscrire en :",
-                "listItem1": "Notant vos préférences au moment où vous enregistrez votre compte sur le Site.",
-                "listItem2": "Vous connectant aux paramètres de votre compte et en mettant à jour vos préférences.",
-                "listItem3": "Nous contactant en utilisant les coordonnées fournies ci-dessous.",
-                "text2": "Si vous ne souhaitez plus recevoir de correspondance, d'e-mails ou d'autres communications de tiers, vous êtes responsable de contacter directement le tiers."
-            }
-        },
-        "contactUs": {
-            "title": "11. Nous Contacter",
-            "text": "Si vous avez des questions ou des commentaires concernant cette politique de confidentialité, veuillez nous contacter à :"
-        }
+    "Envoyer": "Envoyer",
+    "ObjetPrivatisation": {
+      "Petitdejeuner": "Petit-déjeuner",
+      "Dejeuner": "Déjeuner",
+      "Diner": "Diner",
+      "Cocktail": "Cocktail"
     }
+  },
+  "p1": "Abraccetto, niché entre le Panthéon et le Jardin du Luxembourg, vous convie à une expérience empreinte d'élégance. Dans un cadre raffiné, les saveurs authentiques de l'Italie s'épanouissent à travers des plats préparés avec soin à partir d'ingrédients frais.",
+  "p2": "Notre aventure culinaire est le fruit d'une collaboration harmonieuse entre une équipe franco-italienne dévouée et passionnée, toujours désireuse d'aller plus loin pour satisfaire notre clientèle.",
+  "p3": "Que ce soit pour un dîner romantique, un déjeuner d'affaires ou un rassemblement en famille, notre restaurant offre un environnement convivial et sophistiqué, où la dolce vita rencontre l'art de vivre à la française. Nous vous invitons à découvrir notre passion pour la cuisine, notre service attentionné et notre ambiance chaleureuse.",
+  "Ils-parlent": "Ils parlent de nous",
+  "p4": "Situé dans le cinquième arrondissement de Paris, le restaurant Abracetto est parfait pour les événements corporatifs. Réputé pour sa cuisine italienne, il offre une expérience culinaire mémorable sous la direction d'un chef créatif.",
+  "p5": "Avec ses vastes espaces, Abracetto accueille confortablement des groupes pour dîners d'affaires et célébrations. Son ambiance chaleureuse et son service attentionné garantissent la satisfaction de vos convives. Pour les réunions informelles, le cadre accueillant et le service personnalisé offrent une expérience sur mesure.",
+  "p6": "Découvrez comment Abracetto peut sublimer votre prochain événement avec une cuisine exquise et une ambiance inoubliable.",
+  "Event": "Évènements & Privatisations",
+  "Titre-Privatisation": "Ma demande de Privatisation",
+  "titre-image-4": "Salon Bar",
+  "titre-image-1": "Capacité de 30 places assises / Cocktail 60 personnes",
+  "titre-image-3": "Verrière",
+  "titre-image-2": "Capacité de 55 places assises / Cocktail 70 personnes",
+  "Privatisation": "PRIVATISATION",
+  "Menu-nouvel-an-petit": "Menu du Nouvel An",
+  "Menu-nouvel-an-desc": "Venez célébrer avec nous et découvrez nos plats d'exception pour le réveillon !",
+  "Voir-menu": "Voir le menu",
+  "CookieConsent": {
+    "Text": "Nous utilisons des cookies pour améliorer votre expérience.",
+    "AcceptAll": "Accepter",
+    "AcceptNecessary": "Nécessaires",
+    "Preferences": "Préférences"
+  },
+  "CookiePreferences": {
+    "Title": "Préférences de cookies",
+    "Description": "Personnalisez vos préférences de cookies ci-dessous :",
+    "Necessary": "Cookies nécessaires (obligatoires)",
+    "NecessaryDescription": "Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés.",
+    "Analytics": "Cookies analytiques",
+    "AnalyticsDescription": "Ces cookies nous permettent d'analyser l'utilisation du site web pour en améliorer les performances et l'expérience utilisateur.",
+    "Marketing": "Cookies marketing",
+    "MarketingDescription": "Ces cookies sont utilisés pour vous montrer des publicités pertinentes sur d'autres sites.",
+    "Cancel": "Annuler",
+    "Save": "Enregistrer les préférences"
+  },
+  "LegalNotice": {
+    "Title": "Mentions légales",
+    "LastUpdated": "Dernière mise à jour",
+    "SiteEditor": {
+      "Title": "1. Éditeur du site",
+      "P1": "Le site www.abraccettoparis.com est édité par :",
+      "Company": "Société",
+      "LegalForm": "Forme juridique",
+      "Siren": "SIREN",
+      "Siret": "SIRET",
+      "Vat": "TVA Intracommunautaire",
+      "ShareCapital": "Capital social",
+      "Address": "Adresse",
+      "Email": "Email",
+      "PublicationDirector": "Directeur de la publication"
+    },
+    "Host": {
+      "Title": "2. Hébergeur",
+      "P1": "Ce site est hébergé par :",
+      "Rcs": "RCS",
+      "ApeCode": "Code APE",
+      "VatNumber": "N° TVA",
+      "Phone": "Téléphone"
+    },
+    "IntellectualProperty": {
+      "Title": "3. Propriété intellectuelle",
+      "P1": "L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.",
+      "P2": "La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication."
+    },
+    "PersonalData": {
+      "Title": "4. Données personnelles",
+      "P1": "Pour plus d'informations sur la manière dont nous traitons vos données personnelles, veuillez consulter notre Politique de confidentialité."
+    },
+    "Cookies": {
+      "Title": "5. Cookies",
+      "P1": "Pour plus d'informations sur l'utilisation des cookies sur notre site, veuillez consulter notre Politique de cookies."
+    },
+    "Liability": {
+      "Title": "6. Limitation de responsabilité",
+      "P1": "ABRACCETTO s'efforce d'assurer au mieux de ses possibilités, l'exactitude et la mise à jour des informations diffusées sur ce site, dont elle se réserve le droit de corriger, à tout moment et sans préavis, le contenu. Toutefois, ABRACCETTO ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à la disposition sur ce site.",
+      "P2": "En conséquence, ABRACCETTO décline toute responsabilité pour toute interruption du site, problèmes techniques, pour toute inexactitude ou omission sur des informations disponibles sur le site, pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à la disposition sur le site."
+    },
+    "ApplicableLaw": {
+      "Title": "7. Droit applicable",
+      "P1": "Le présent site et ses mentions légales sont soumis au droit français."
+    }
+  },
+  "PrivacyPolicyLink": "Politique de confidentialité",
+  "CookiePolicyLink": "Politique de cookies",
+  "TermsOfUse": {
+    "Title": "Conditions Générales d'Utilisation",
+    "LastUpdated": "Dernière mise à jour",
+    "P1": "Les présentes conditions générales d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique des modalités de mise à disposition du site et des services par ABRACCETTO et de définir les conditions d'accès et d'utilisation des services par « l'Utilisateur ».",
+    "P2": "Les présentes CGU sont accessibles sur le site à la rubrique «CGU».",
+    "P3": "Toute inscription ou utilisation du site implique l'acceptation sans aucune réserve ni restriction des présentes CGU par l'utilisateur. Lors de l'inscription sur le site via le Formulaire d'inscription, chaque utilisateur accepte expressément les présentes CGU en cochant la case précédant le texte suivant : « Je reconnais avoir lu et compris les CGU et je les accepte ». En cas de non-acceptation des CGU stipulées dans le présent contrat, l'Utilisateur se doit de renoncer à l'accès des services proposés par le site. ABRACCETTO se réserve le droit de modifier unilatéralement et à tout moment le contenu des présentes CGU.",
+    "Article1": {
+      "Title": "ARTICLE 1 : Les mentions légales",
+      "P1": "L'édition du site www.abraccettoparis.com est assurée par la Société ABRACCETTO SAS au capital de 155 000 euros, immatriculée au RCS de Paris sous le numéro 401 200 134, dont le siège social est situé au 19 rue Soufflot, 75005 Paris.",
+      "P2": "Numéro de téléphone : XXXXXXXXXX",
+      "P3": "Adresse e-mail : contact@abraccettoparis.com.",
+      "P4": "Le Directeur de la publication est : XXXXXXXX",
+      "P5": "L'hébergeur du site www.abraccettoparis.com est la société OVH SAS, dont le siège social est situé au 2 rue Kellermann - 59100 Roubaix - France, avec le numéro de téléphone : 1007."
+    },
+    "Article2": {
+      "Title": "ARTICLE 2 : Accès au site",
+      "P1": "Le site www.abraccettoparis.com permet à l'Utilisateur un accès gratuit aux services suivants : informations sur le restaurant, menu, réservation en ligne, privatisation, contact.",
+      "P2": "Le site est accessible gratuitement en tout lieu à tout Utilisateur ayant un accès à Internet. Tous les frais supportés par l'Utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.",
+      "P3": "L'Utilisateur non membre n'a pas accès aux services réservés. Pour cela, il doit s'inscrire en remplissant le formulaire. En acceptant de s'inscrire aux services réservés, l'Utilisateur membre s'engage à fournir des informations sincères et exactes concernant son état civil et ses coordonnées, notamment son adresse email.",
+      "P4": "Pour accéder aux services, l'Utilisateur devra s'identifier à l'aide de son nom d'utilisateur et de son mot de passe qui lui seront communiqués après son inscription. Tout Utilisateur membre régulièrement inscrit pourra également solliciter sa désinscription en se rendant à la page dédiée sur son espace personnel. Celle-ci sera effective dans un délai raisonnable.",
+      "P5": "Tout événement dû à un cas de force majeure ayant pour conséquence un dysfonctionnement du site ou serveur et sous réserve de toute interruption ou modification en cas de maintenance, n'engage pas la responsabilité de ABRACCETTO. Dans ces cas, l'Utilisateur accepte ainsi ne pas tenir rigueur à l'éditeur de toute interruption ou suspension de service, même sans préavis.",
+      "P6": "L'Utilisateur a la possibilité de contacter le site par messagerie électronique à l'adresse email de l'éditeur communiqué à l'ARTICLE 1."
+    },
+    "Article3": "L'utilisation du site implique l'acceptation pleine et entière des conditions générales décrites ci-dessus.",
+    "Article4": {
+      "Title": "ARTICLE 4 : Propriété intellectuelle",
+      "P1": "Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.",
+      "P2": "La marque ABRACCETTO est une marque déposée par ABRACCETTO SAS. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale de cette marque, de quelque nature que ce soit, est totalement prohibée.",
+      "P3": "L'Utilisateur doit solliciter l'autorisation préalable du site pour toute reproduction, publication, copie des différents contenus. Il s'engage à une utilisation des contenus du site dans un cadre strictement privé, toute utilisation à des fins commerciales et publicitaires est strictement interdite.",
+      "P4": "Toute représentation totale ou partielle de ce site par quelque procédé que ce soit, sans l'autorisation expresse de l'exploitant du site Internet constituerait une contrefaçon sanctionnée par l'article L 335-2 et suivants du Code de la propriété intellectuelle.",
+      "P5": "Il est rappelé conformément à l'article L122-5 du Code de propriété intellectuelle que l'Utilisateur qui reproduit, copie ou publie le contenu protégé doit citer l'auteur et sa source."
+    },
+    "Article5": {
+      "Title": "ARTICLE 5 : Responsabilité",
+      "P1": "Les sources des informations diffusées sur le site www.abraccettoparis.com sont réputées fiables mais le site ne garantit pas qu'il soit exempt de défauts, d'erreurs ou d'omissions.",
+      "P2": "Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site www.abraccettoparis.com ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenu responsable de l'utilisation et de l'interprétation de l'information contenue dans ce site.",
+      "P3": "L'Utilisateur s'assure de garder son mot de passe secret. Toute divulgation du mot de passe, quelle que soit sa forme, est interdite. Il assume les risques liés à l'utilisation de son identifiant et mot de passe. Le site décline toute responsabilité.",
+      "P4": "Le site www.abraccettoparis.com ne peut être tenu pour responsable d'éventuels virus qui pourraient infecter l'ordinateur ou tout matériel informatique de l'Internaute, suite à une utilisation, à l'accès, ou au téléchargement provenant de ce site.",
+      "P5": "La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un tiers."
+    },
+    "Article6": {
+      "Title": "ARTICLE 6 : Liens hypertextes",
+      "P1": "Des liens hypertextes peuvent être présents sur le site. L'Utilisateur est informé qu'en cliquant sur ces liens, il sortira du site www.abraccettoparis.com. Ce dernier n'a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu."
+    },
+    "Article7": {
+      "Title": "ARTICLE 7 : Cookies",
+      "P1": "L'Utilisateur est informé que lors de ses visites sur le site, un cookie peut s'installer automatiquement sur son logiciel de navigation.",
+      "P2": "Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l'ordinateur de l'Utilisateur par votre navigateur et qui sont nécessaires à l'utilisation du site www.abraccettoparis.com. Les cookies ne contiennent pas d'information personnelle et ne peuvent pas être utilisés pour identifier quelqu'un. Un cookie contient un identifiant unique, généré aléatoirement et donc anonyme. Certains cookies expirent à la fin de la visite de l'Utilisateur, d'autres restent.",
+      "P3": "L'information contenue dans les cookies est utilisée pour améliorer le site www.abraccettoparis.com.",
+      "P4": "En naviguant sur le site, L'Utilisateur les accepte.",
+      "P5": "L'Utilisateur pourra désactiver ces cookies par l'intermédiaire des paramètres figurant au sein de son logiciel de navigation.",
+      "P6": "Pour plus d'informations sur l'utilisation des cookies sur notre site, veuillez consulter notre Politique de cookies."
+    },
+    "Article8": {
+      "Title": "ARTICLE 8 : Droit applicable et juridiction compétente",
+      "P1": "La législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né entre les parties, les tribunaux français seront seuls compétents pour en connaître.",
+      "P2": "Pour toute question relative à l'application des présentes CGU, vous pouvez joindre l'éditeur aux coordonnées inscrites à l'ARTICLE 1."
+    }
+  },
+  "CookiePolicy": {
+    "Title": "Politique de Cookies",
+    "LastUpdated": "Dernière mise à jour",
+    "P1": "La présente politique en matière de cookies explique ce que sont les cookies et comment nous les utilisons. Vous devez lire cette politique pour comprendre ce que sont les cookies, comment nous les utilisons, les types de cookies que nous utilisons, c'est-à-dire les informations que nous collectons à l'aide des cookies et comment ces informations sont utilisées, et comment contrôler les préférences en matière de cookies. Pour plus d'informations sur la manière dont nous utilisons, stockons et protégeons vos données personnelles, consultez notre Politique de confidentialité.",
+    "P2": "Vous pouvez à tout moment modifier ou retirer votre consentement à la Déclaration relative aux cookies sur notre site web.",
+    "P3": "Apprenez-en davantage sur qui nous sommes, comment vous pouvez nous contacter et comment nous traitons les données personnelles dans notre Politique de confidentialité.",
+    "P4": "Votre consentement s'applique aux domaines suivants : www.abraccettoparis.com",
+    "WhatAreCookies": {
+      "Title": "Que sont les cookies ?",
+      "P1": "Les cookies sont de petits fichiers texte qui sont utilisés pour stocker de petites informations. Les cookies sont stockés sur votre appareil lorsque le site web est chargé sur votre navigateur. Ces cookies nous aident à faire fonctionner le site web correctement, à le rendre plus sûr, à offrir une meilleure expérience utilisateur et à comprendre comment le site web fonctionne et à analyser ce qui fonctionne et où il doit être amélioré."
+    },
+    "HowWeUseCookies": {
+      "Title": "Comment utilisons-nous les cookies ?",
+      "P1": "Comme la plupart des services en ligne, notre site web utilise des cookies propriétaires et des cookies tiers à plusieurs fins. Les cookies propriétaires sont principalement nécessaires au bon fonctionnement du site web et ne collectent aucune de vos données personnelles identifiables.",
+      "P2": "Les cookies tiers utilisés sur nos sites web le sont principalement pour comprendre comment le site web fonctionne, comment vous interagissez avec notre site web, assurer la sécurité de nos services, fournir des publicités pertinentes pour vous et, dans l'ensemble, vous offrir une expérience utilisateur meilleure et améliorée et aider à accélérer vos interactions futures avec notre site web."
+    },
+    "TypesOfCookies": {
+      "Title": "Quels types de cookies utilisons-nous ?",
+      "P1": "Les cookies utilisés sur notre site sont regroupés dans les catégories suivantes.",
+      "Necessary": {
+        "Title": "Nécessaires",
+        "P1": "Les cookies nécessaires sont absolument essentiels au bon fonctionnement du site web. Ces cookies assurent les fonctionnalités de base et les dispositifs de sécurité du site web, de manière anonyme."
+      },
+      "Analytics": {
+        "Title": "Analytiques",
+        "P1": "Les cookies analytiques sont utilisés pour comprendre comment les visiteurs interagissent avec le site web. Ces cookies aident à fournir des informations sur les mesures du nombre de visiteurs, du taux de rebond, de la source du trafic, etc."
+      },
+      "Marketing": {
+        "Title": "Marketing",
+        "P1": "Les cookies marketing sont utilisés pour fournir aux visiteurs des publicités et des campagnes marketing pertinentes. Ces cookies suivent les visiteurs sur les sites web et collectent des informations pour fournir des publicités personnalisées."
+      }
+    },
+    "ManagePreferences": {
+      "Title": "Comment puis-je contrôler les préférences en matière de cookies ?",
+      "P1": "Vous pouvez gérer vos préférences en matière de cookies en cliquant sur le bouton « Préférences » et en activant ou désactivant les catégories de cookies dans la fenêtre contextuelle selon vos préférences.",
+      "P2": "Si vous décidez de modifier vos préférences ultérieurement au cours de votre session de navigation, vous pouvez cliquer sur l'onglet « Gérer votre consentement » sur votre écran. Cela affichera à nouveau l'avis de consentement vous permettant de modifier vos préférences ou de retirer votre consentement entièrement.",
+      "P3": "En outre, différents navigateurs proposent différentes méthodes pour bloquer et supprimer les cookies utilisés par les sites web. Vous pouvez modifier les paramètres de votre navigateur pour bloquer/supprimer les cookies. Pour en savoir plus sur la gestion et la suppression des cookies, visitez wikipedia.org, www.allaboutcookies.org."
+    }
+  },
+  "FooterLinks": {
+    "LegalNotice": "Mentions légales",
+    "TermsOfUse": "CGU",
+    "PrivacyPolicy": "Politique de confidentialité",
+    "CookiePolicy": "Politique de cookies",
+    "FAQ": "FAQ",
+    "AllRightsReserved": "Tous droits réservés",
+    "Copyright": "© A Braccetto 2026"
+  },
+  "privacyPolicy": {
+    "mainTitle": "Politique de confidentialité",
+    "title": "Politique de Confidentialité",
+    "effectiveDateTitle": "Date d'entrée en vigueur :",
+    "effectiveDate": "23 juillet 2024",
+    "introduction": {
+      "title": "1. Introduction",
+      "text1": "Bienvenue sur Abraccetto (\"nous\", \"notre\", \"nos\"). Nous nous engageons à protéger votre vie privée. Cette politique de confidentialité explique comment nous recueillons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web [adresse du site web] (le \"Site\"). Veuillez lire attentivement cette politique de confidentialité. Si vous n'êtes pas d'accord avec les termes de cette politique de confidentialité, veuillez ne pas accéder au site.",
+      "text2": "Nous nous réservons le droit d'apporter des modifications à cette politique de confidentialité à tout moment et pour quelque raison que ce soit. Nous vous alerterons de tout changement en mettant à jour la date de \"dernière mise à jour\" de cette politique de confidentialité. Vous êtes encouragé à consulter régulièrement cette politique de confidentialité pour rester informé des mises à jour. Il sera considéré que vous avez été informé des changements, que vous y serez soumis et que vous les aurez acceptés si vous continuez à utiliser le Site après la date de publication de la politique de confidentialité révisée."
+    },
+    "collectionOfInformation": {
+      "title": "2. Collecte de Vos Informations",
+      "text1": "Nous pouvons recueillir des informations vous concernant de différentes manières. Les informations que nous pouvons recueillir sur le Site comprennent :",
+      "personalData": {
+        "title": "Données Personnelles",
+        "text": "Les informations personnellement identifiables, telles que votre nom, votre adresse de livraison, votre adresse e-mail et votre numéro de téléphone, ainsi que les informations démographiques, telles que votre âge, votre sexe, votre ville natale et vos centres d'intérêt, que vous nous communiquez volontairement lorsque vous vous inscrivez sur le Site ou lorsque vous choisissez de participer à diverses activités liées au Site, telles que le chat en ligne et les babillards électroniques."
+      },
+      "derivativeData": {
+        "title": "Données Dérivées",
+        "text": "Les informations que nos serveurs recueillent automatiquement lorsque vous accédez au Site, telles que votre adresse IP, votre type de navigateur, votre système d'exploitation, vos heures d'accès et les pages que vous avez consultées directement avant et après avoir accédé au Site."
+      },
+      "financialData": {
+        "title": "Données Financières",
+        "text": "Les informations financières, telles que les données relatives à votre mode de paiement (par exemple, numéro de carte de crédit valide, marque de la carte, date d'expiration) que nous pouvons recueillir lorsque vous achetez, commandez, retournez, échangez ou demandez des informations sur nos services à partir du Site. Nous stockons très peu, voire aucune, information financière que nous recueillons. Sinon, toutes les informations financières sont stockées par notre processeur de paiement, Stripe, et vous êtes encouragé à consulter leur politique de confidentialité et à les contacter directement pour obtenir des réponses à vos questions."
+      },
+      "mobileDeviceData": {
+        "title": "Données sur les Appareils Mobiles",
+        "text": "Les informations sur les appareils, telles que l'identifiant, le modèle et le fabricant de votre appareil mobile, ainsi que les informations sur l'emplacement de votre appareil, si vous accédez au Site à partir d'un appareil mobile."
+      }
+    },
+    "useOfInformation": {
+      "title": "3. Utilisation de Vos Informations",
+      "text1": "Disposer d'informations exactes à votre sujet nous permet de vous offrir une expérience fluide, efficace et personnalisée. Plus précisément, nous pouvons utiliser les informations recueillies à votre sujet via le Site pour :",
+      "listItem1": "Créer et gérer votre compte.",
+      "listItem2": "Vous envoyer des e-mails concernant votre compte ou votre commande.",
+      "listItem3": "Exécuter et gérer les achats, les commandes, les paiements et autres transactions liés au Site.",
+      "listItem4": "Améliorer l'efficacité et le fonctionnement du Site.",
+      "listItem5": "Surveiller et analyser l'utilisation et les tendances afin d'améliorer votre expérience avec le Site.",
+      "listItem6": "Vous informer des mises à jour du Site.",
+      "listItem7": "Vous proposer de nouveaux produits, services et/ou recommandations.",
+      "listItem8": "Effectuer d'autres activités commerciales si nécessaire.",
+      "listItem9": "Prévenir les transactions frauduleuses, surveiller le vol et protéger contre les activités criminelles.",
+      "listItem10": "Traiter les paiements et les remboursements.",
+      "listItem11": "Demander des commentaires et vous contacter au sujet de votre utilisation du Site.",
+      "listItem12": "Résoudre les litiges et régler les problèmes.",
+      "listItem13": "Répondre aux demandes de produits et de service client.",
+      "listItem14": "Vous envoyer une newsletter.",
+      "listItem15": "Solliciter un soutien pour le Site."
+    },
+    "disclosureOfInformation": {
+      "title": "4. Divulgation de Vos Informations",
+      "text1": "Nous pouvons partager les informations que nous avons recueillies à votre sujet dans certaines situations. Vos informations peuvent être divulguées comme suit :",
+      "byLaw": {
+        "title": "Par la Loi ou pour Protéger des Droits",
+        "text": "Si nous estimons que la divulgation de vos informations est nécessaire pour répondre à une procédure judiciaire, pour enquêter sur des violations potentielles de nos politiques ou pour y remédier, ou pour protéger les droits, la propriété et la sécurité d'autrui, nous pouvons partager vos informations comme le permet ou l'exige toute loi, règle ou réglementation applicable. Cela inclut l'échange d'informations avec d'autres entités à des fins de protection contre la fraude et de réduction du risque de crédit."
+      },
+      "thirdPartyServiceProviders": {
+        "title": "Fournisseurs de Services Tiers",
+        "text": "Nous pouvons partager vos informations avec des tiers qui fournissent des services pour nous ou en notre nom, y compris le traitement des paiements, l'analyse des données, la livraison d'e-mails, les services d'hébergement, le service client et l'assistance marketing."
+      },
+      "marketingCommunications": {
+        "title": "Communications Marketing",
+        "text": "Avec votre consentement, ou avec la possibilité pour vous de retirer votre consentement, nous pouvons partager vos informations avec des tiers à des fins de marketing, comme le permet la loi."
+      },
+      "onlinePostings": {
+        "title": "Publications en Ligne",
+        "text": "Lorsque vous publiez des commentaires, des contributions ou tout autre contenu sur le Site, vos publications peuvent être vues par tous les utilisateurs et peuvent être distribuées publiquement en dehors du Site à perpétuité."
+      },
+      "thirdPartyAdvertisers": {
+        "title": "Annonceurs Tiers",
+        "text": "Nous pouvons utiliser des sociétés de publicité tierces pour diffuser des publicités lorsque vous visitez le Site. Ces sociétés peuvent utiliser des informations sur vos visites sur le Site et d'autres sites web contenues dans les cookies web afin de fournir des publicités sur des biens et services qui vous intéressent."
+      },
+      "affiliates": {
+        "title": "Affiliés",
+        "text": "Nous pouvons partager vos informations avec nos affiliés, auquel cas nous exigerons de ces affiliés qu'ils respectent cette politique de confidentialité. Les affiliés comprennent notre société mère et toutes les filiales, les partenaires de coentreprise ou les autres sociétés que nous contrôlons ou qui sont sous contrôle commun avec nous."
+      },
+      "businessPartners": {
+        "title": "Partenaires Commerciaux",
+        "text": "Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer certains produits, services ou promotions."
+      },
+      "otherThirdParties": {
+        "title": "Autres Tiers",
+        "text": "Nous pouvons partager vos informations avec des annonceurs et des investisseurs dans le but de mener une analyse commerciale générale. Nous pouvons également partager vos informations avec ces tiers à des fins de marketing, comme le permet la loi."
+      },
+      "saleOrBankruptcy": {
+        "title": "Vente ou Faillite",
+        "text": "Si nous réorganisons ou vendons tout ou partie de nos actifs, si nous fusionnons ou si nous sommes rachetés par une autre entité, nous pouvons transférer vos informations à l'entité qui lui succède. Si nous cessons nos activités ou si nous faisons faillite, vos informations seraient un actif transféré ou acquis par un tiers. Vous reconnaissez que de tels transferts peuvent se produire et que le cessionnaire peut refuser d'honorer les engagements que nous avons pris dans cette politique de confidentialité."
+      }
+    },
+    "trackingTechnologies": {
+      "title": "5. Technologies de Suivi",
+      "cookiesAndWebBeacons": {
+        "title": "Cookies et Balises Web",
+        "text1": "Nous pouvons utiliser des cookies, des balises web, des pixels de suivi et d'autres technologies de suivi sur le Site pour aider à personnaliser le Site et à améliorer votre expérience. Lorsque vous accédez au Site, vos informations personnelles ne sont pas collectées par le biais de l'utilisation de technologies de suivi. La plupart des navigateurs sont configurés pour accepter les cookies par défaut. Vous pouvez supprimer ou refuser les cookies, mais sachez qu'une telle action pourrait affecter la disponibilité et la fonctionnalité du Site. Vous ne pouvez pas refuser les balises web. Cependant, elles peuvent être rendues inefficaces en refusant tous les cookies ou en modifiant les paramètres de votre navigateur web pour vous avertir chaque fois qu'un cookie est proposé, vous permettant d'accepter ou de refuser les cookies sur une base individuelle.",
+        "text2": "Pour plus d'informations sur la façon dont nous utilisons les cookies, veuillez consulter notre politique en matière de cookies publiée sur le Site, qui est intégrée à cette politique de confidentialité. En utilisant le Site, vous acceptez d'être lié par notre politique en matière de cookies."
+      },
+      "internetBasedAdvertising": {
+        "title": "Publicité Basée sur Internet",
+        "text": "De plus, nous pouvons utiliser des logiciels tiers pour diffuser des publicités sur le Site, mettre en œuvre des campagnes de marketing par e-mail et gérer d'autres initiatives de marketing interactif. Ce logiciel tiers peut utiliser des cookies ou des technologies de suivi similaires pour aider à gérer et à optimiser votre expérience en ligne avec nous. Pour plus d'informations sur la désactivation des publicités basées sur les centres d'intérêt, visitez l'outil de désactivation de la Network Advertising Initiative ou l'outil de désactivation de la Digital Advertising Alliance."
+      },
+      "websiteAnalytics": {
+        "title": "Analyse de Site Web",
+        "text": "Nous pouvons également nous associer à des fournisseurs tiers sélectionnés, tels que Google Analytics, pour permettre des technologies de suivi et des services de remarketing sur le Site par l'utilisation de cookies propriétaires et de cookies tiers, afin, entre autres, d'analyser et de suivre l'utilisation du Site par les utilisateurs, de déterminer la popularité de certains contenus et de mieux comprendre l'activité en ligne. En accédant au Site, vous consentez à la collecte et à l'utilisation de vos informations par ces fournisseurs tiers. Nous vous encourageons à consulter leur politique de confidentialité et à les contacter directement pour obtenir des réponses à vos questions. Nous ne transférons pas d'informations personnelles à ces fournisseurs tiers. Cependant, si vous ne souhaitez pas que des informations soient collectées et utilisées par les technologies de suivi, vous pouvez visiter le fournisseur tiers ou l'outil de désactivation de la Network Advertising Initiative ou l'outil de désactivation de la Digital Advertising Alliance."
+      }
+    },
+    "thirdPartyWebsites": {
+      "title": "6. Sites Web de Tiers",
+      "text": "Le Site peut contenir des liens vers des sites web de tiers et des applications d'intérêt, y compris des publicités et des services externes, qui ne sont pas affiliés à nous. Une fois que vous avez utilisé ces liens pour quitter le Site, toute information que vous fournissez à ces tiers n'est pas couverte par cette politique de confidentialité, et nous ne pouvons garantir la sécurité et la confidentialité de vos informations. Avant de visiter et de fournir des informations à des sites web de tiers, vous devez vous informer des politiques et pratiques de confidentialité (le cas échéant) du tiers responsable de ce site web, et vous devez prendre les mesures nécessaires pour, à votre discrétion, protéger la confidentialité de vos informations. Nous ne sommes pas responsables du contenu ou des pratiques et politiques de confidentialité et de sécurité des tiers, y compris les autres sites, services ou applications qui peuvent être liés au Site ou à partir de celui-ci."
+    },
+    "securityOfInformation": {
+      "title": "7. Sécurité de Vos Informations",
+      "text": "Nous utilisons des mesures de sécurité administratives, techniques et physiques pour aider à protéger vos informations personnelles. Bien que nous ayons pris des mesures raisonnables pour sécuriser les informations personnelles que vous nous fournissez, veuillez noter qu'aucune mesure de sécurité n'est parfaite ou impénétrable, et qu'aucune méthode de transmission de données ne peut être garantie contre toute interception ou autre type d'utilisation abusive. Toute information divulguée en ligne est vulnérable à l'interception et à l'utilisation abusive par des parties non autorisées. Par conséquent, nous ne pouvons garantir une sécurité totale si vous fournissez des informations personnelles."
+    },
+    "policyForChildren": {
+      "title": "8. Politique Concernant les Enfants",
+      "text": "Nous ne sollicitons pas sciemment d'informations auprès d'enfants de moins de 13 ans et ne commercialisons pas sciemment auprès d'eux. Si vous apprenez que nous avons recueilli des informations auprès d'enfants de moins de 13 ans, veuillez nous contacter en utilisant les coordonnées fournies ci-dessous."
+    },
+    "controlsForDoNotTrack": {
+      "title": "9. Contrôles pour les Fonctionnalités \"Ne Pas Suivre\"",
+      "text": "La plupart des navigateurs web et certains systèmes d'exploitation mobiles incluent une fonctionnalité ou un paramètre \"Ne Pas Suivre\" (\"DNT\") que vous pouvez activer pour signaler votre préférence en matière de confidentialité afin que les données relatives à vos activités de navigation en ligne ne soient pas surveillées et collectées. Aucune norme technologique uniforme pour la reconnaissance et la mise en œuvre des signaux DNT n'a été finalisée. Par conséquent, nous ne répondons actuellement pas aux signaux de navigateur DNT ou à tout autre mécanisme qui communique automatiquement votre choix de ne pas être suivi en ligne. Si une norme de suivi en ligne est adoptée à l'avenir et que nous devons la suivre, nous vous informerons de cette pratique dans une version révisée de cette politique de confidentialité."
+    },
+    "optionsRegardingInformation": {
+      "title": "10. Options Concernant Vos Informations",
+      "accountInformation": {
+        "title": "Informations sur le Compte",
+        "text": "Vous pouvez à tout moment consulter ou modifier les informations de votre compte ou résilier votre compte en :",
+        "listItem1": "Vous connectant aux paramètres de votre compte et en mettant à jour votre compte.",
+        "listItem2": "Nous contactant en utilisant les coordonnées fournies ci-dessous.",
+        "text2": "Sur votre demande de résiliation de votre compte, nous désactiverons ou supprimerons votre compte et vos informations de nos bases de données actives. Cependant, certaines informations peuvent être conservées dans nos fichiers pour prévenir la fraude, régler les problèmes, aider aux enquêtes, faire respecter nos conditions d'utilisation et/ou se conformer aux exigences légales."
+      },
+      "emailsAndCommunications": {
+        "title": "E-mails et Communications",
+        "text": "Si vous ne souhaitez plus recevoir de correspondance, d'e-mails ou d'autres communications de notre part, vous pouvez vous désinscrire en :",
+        "listItem1": "Notant vos préférences au moment où vous enregistrez votre compte sur le Site.",
+        "listItem2": "Vous connectant aux paramètres de votre compte et en mettant à jour vos préférences.",
+        "listItem3": "Nous contactant en utilisant les coordonnées fournies ci-dessous.",
+        "text2": "Si vous ne souhaitez plus recevoir de correspondance, d'e-mails ou d'autres communications de tiers, vous êtes responsable de contacter directement le tiers."
+      }
+    },
+    "contactUs": {
+      "title": "11. Nous Contacter",
+      "text": "Si vous avez des questions ou des commentaires concernant cette politique de confidentialité, veuillez nous contacter à :"
+    }
+  },
+  "Faq-titre": "Questions fréquentes",
+  "Faq-voir-toutes": "Voir toutes les questions →",
+  "Faq-q-lieu": "Où se situe le restaurant A Braccetto ?",
+  "Faq-a-lieu": "A Braccetto se situe au 19 rue Soufflot, 75005 Paris, dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La station RER B Luxembourg se trouve à environ 100 mètres.",
+  "Faq-q-horaires": "Quels sont les horaires d'ouverture d'A Braccetto ?",
+  "Faq-a-horaires": "A Braccetto est ouvert tous les jours en service continu, du lundi au vendredi de 10h00 à 02h00, et le samedi et dimanche de 09h00 à 02h00.",
+  "Faq-q-cuisine": "Quel type de cuisine propose A Braccetto ?",
+  "Faq-a-cuisine": "A Braccetto propose une cuisine italienne et méditerranéenne : pizzas artisanales, pâtes fraîches, antipasti, cocktails et vins italiens, préparés à partir d ingrédients frais.",
+  "Faq-q-reserver": "Comment réserver une table chez A Braccetto ?",
+  "Faq-a-reserver": "La réservation se fait en ligne depuis le site abraccettoparis.com. Des formules spécifiques sont également proposées pour le brunch et le menu dégustation pizza.",
+  "Faq-q-brunch": "A Braccetto propose-t-il un brunch ?",
+  "Faq-a-brunch": "Oui, A Braccetto propose un brunch italien le midi. La réservation est conseillée, notamment le week-end.",
+  "Faq-q-privatisation": "Peut-on privatiser le restaurant A Braccetto pour un événement ?",
+  "Faq-a-privatisation": "Oui. A Braccetto peut être privatisé pour des événements à Paris 5e : le salon bar accueille jusqu à 60 personnes en cocktail et la verrière jusqu à 70 personnes en cocktail.",
+  "Faq-q-tard": "Y a-t-il un restaurant italien ouvert tard le soir dans le Quartier Latin ?",
+  "Faq-a-tard": "Oui, A Braccetto, restaurant italien au 19 rue Soufflot (Paris 5e), sert en continu jusqu'à 2h00 du matin tous les jours. C'est une adresse pratique pour dîner tard, prendre un cocktail ou un aperitivo près du Panthéon et de la Sorbonne.",
+  "Faq-q-romantique": "Quel restaurant italien pour un dîner romantique à Paris 5e ?",
+  "Faq-a-romantique": "A Braccetto offre un cadre design et chaleureux, idéal pour un dîner romantique dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La cuisine italienne y est préparée à partir d ingrédients frais, avec une carte de vins et cocktails italiens.",
+  "Faq-q-groupe": "Où aller à plusieurs ou en groupe pour un repas italien à Paris 5e ?",
+  "Faq-a-groupe": "A Braccetto accueille les groupes et les repas conviviaux à Paris 5e, avec des espaces pouvant recevoir jusqu'à 70 personnes en cocktail. Le menu dégustation pizza à partager (dès 29€ le midi) est particulièrement adapté aux tablées.",
+  "Faq-q-pates-pizza": "Où manger des pâtes fraîches et de la pizza artisanale près du Jardin du Luxembourg ?",
+  "Faq-a-pates-pizza": "A Braccetto, à 100 mètres du Jardin du Luxembourg (RER B Luxembourg), propose des pâtes fraîches et des pizzas artisanales préparées sur place à partir d'ingrédients frais et d'exception, dans la tradition italienne et méditerranéenne.",
+  "Faq-q-terrasse": "A Braccetto dispose-t-il d une terrasse ?",
+  "Faq-a-terrasse": "Oui, A Braccetto dispose d une terrasse à Paris 5e, idéale pour déjeuner, dîner ou prendre un cocktail dans le Quartier Latin, à deux pas du Panthéon et du Jardin du Luxembourg.",
+  "Faq-q-vegetarien": "A Braccetto propose-t-il des options végétariennes ?",
+  "Faq-a-vegetarien": "Oui, A Braccetto propose des plats végétariens dans sa cuisine italienne : pizzas, pâtes et antipasti adaptés. Le restaurant est reconnu comme convenant aux végétariens.",
+  "Faq-intro": "Tout savoir sur A Braccetto avant de venir.",
+  "Faq-retour": "← Retour à l'accueil",
+  "brunch": "Brunch"
 }

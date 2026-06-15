@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+    
+    <head>
+    <meta charset="utf-8">
+    <!-- Google Tag Manager & Pixel FB : charges apres consentement RGPD (voir enableAnalytics/enableMarketing) -->
+    <script>window.dataLayer = window.dataLayer || [];</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  -->
+    <!--    Document Title-->
+    <!-- =============================================-->
+    <title>{{ title }}</title>
+    <!--  -->
+    <!--    Favicons-->
+    <!--    =============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
+    <link rel="manifest" href="/assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  -->
+    <!--    Stylesheets-->
+    <!--    =============================================-->
+    <!-- Default stylesheets-->
+    <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="/assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="/assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/lib/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+    <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
+    <!-- SEO-GEO:START (généré par tools/seo/generate.mjs — ne pas éditer à la main) -->
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="{{ site.url }}{{ canonicalPath }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ canonicalPath | replace("/" + lang, "") if lang != "fr" else canonicalPath }}">
+    <link rel="alternate" hreflang="fr" href="{{ site.url }}/contact.html">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/contact.html">
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/es/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="A Braccetto">
+    <meta property="og:locale" content="{{ ogLocale }}">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ site.url }}{{ canonicalPath }}">
+    <meta property="og:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta property="og:image:alt" content="A Braccetto — restaurant italien Paris 5e">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta name="geo.region" content="FR-75">
+    <meta name="geo.placename" content="Paris">
+    <meta name="geo.position" content="48.8465;2.3417">
+    <meta name="ICBM" content="48.8465, 2.3417">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Restaurant",
+      "@id": "https://abraccettoparis.com/#restaurant",
+      "name": "A Braccetto",
+      "alternateName": "Abraccetto Paris",
+      "legalName": "ABRACCETTO SAS",
+      "url": "https://abraccettoparis.com/",
+      "image": "https://abraccettoparis.com/assets/images/main-header-1.jpg",
+      "logo": "https://abraccettoparis.com/assets/favicon_io/android-chrome-512x512.png",
+      "description": "Bar-restaurant italien à Paris 5e, entre le Panthéon et le Jardin du Luxembourg. Cuisine italienne et méditerranéenne préparée à partir d'ingrédients frais, pizzas artisanales, pâtes, cocktails et brunch, dans un cadre design et chaleureux.",
+      "servesCuisine": [
+        "Italienne",
+        "Méditerranéenne",
+        "Pizza"
+      ],
+      "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Carte Bancaire, Sans contact, Espèces, Titres-restaurant, American Express",
+      "acceptsReservations": true,
+      "email": "contact@abraccettoparis.com",
+      "hasMap": "https://goo.gl/maps/MacCEm5QgS1EkpDs8",
+      "hasMenu": "https://abraccettoparis.com/menu.html",
+      "sameAs": [
+        "https://instagram.com/abraccettoparis"
+      ],
+      "areaServed": [
+        "Paris 5e",
+        "Paris 6e",
+        "Quartier Latin",
+        "Panthéon",
+        "Jardin du Luxembourg"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "19 rue Soufflot",
+        "postalCode": "75005",
+        "addressLocality": "Paris",
+        "addressRegion": "Île-de-France",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.8465,
+        "longitude": 2.3417
+      },
+      "parentOrganization": {
+        "@id": "https://abraccettoparis.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://abraccettoparis.com/#website"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "10:00",
+          "closes": "02:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "09:00",
+          "closes": "02:00"
+        }
+      ],
+      "telephone": "+33 1 42 01 01 07",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Terrasse",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Cocktails",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Convient aux végétariens",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Réservation en ligne",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Accès PMR",
+          "value": true
+        }
+      ],
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.opentable.fr/restref/client/?restref=342114&lang=fr-FR",
+          "inLanguage": "{{ lang }}",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Réserver une table"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://abraccettoparis.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://abraccettoparis.com/contact.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://abraccettoparis.com/contact.html#faq",
+      "mainEntityOfPage": "https://abraccettoparis.com/contact.html",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Où se situe le restaurant A Braccetto ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Braccetto se situe au 19 rue Soufflot, 75005 Paris, dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La station RER B Luxembourg se trouve à environ 100 mètres."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les horaires d'ouverture d'A Braccetto ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Braccetto est ouvert tous les jours en service continu, du lundi au vendredi de 10h00 à 02h00, et le samedi et dimanche de 09h00 à 02h00."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quel type de cuisine propose A Braccetto ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Braccetto propose une cuisine italienne et méditerranéenne : pizzas artisanales, pâtes fraîches, antipasti, cocktails et vins italiens, préparés à partir d'ingrédients frais."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment réserver une table chez A Braccetto ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La réservation se fait en ligne depuis le site abraccettoparis.com. Des formules spécifiques sont également proposées pour le brunch et le menu dégustation pizza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A Braccetto propose-t-il un brunch ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, A Braccetto propose un brunch italien le midi. La réservation est conseillée, notamment le week-end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on privatiser le restaurant A Braccetto pour un événement ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. A Braccetto peut être privatisé pour des événements à Paris 5e : le salon bar accueille jusqu'à 60 personnes en cocktail et la verrière jusqu'à 70 personnes en cocktail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Y a-t-il un restaurant italien ouvert tard le soir dans le Quartier Latin ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, A Braccetto, restaurant italien au 19 rue Soufflot (Paris 5e), sert en continu jusqu'à 2h00 du matin tous les jours. C'est une adresse pratique pour dîner tard, prendre un cocktail ou un aperitivo près du Panthéon et de la Sorbonne."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quel restaurant italien pour un dîner romantique à Paris 5e ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Braccetto offre un cadre design et chaleureux, idéal pour un dîner romantique dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La cuisine italienne y est préparée à partir d'ingrédients frais, avec une carte de vins et cocktails italiens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où aller à plusieurs ou en groupe pour un repas italien à Paris 5e ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Braccetto accueille les groupes et les repas conviviaux à Paris 5e, avec des espaces pouvant recevoir jusqu'à 70 personnes en cocktail. Le menu dégustation pizza à partager (dès 29€ le midi) est particulièrement adapté aux tablées."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où manger des pâtes fraîches et de la pizza artisanale près du Jardin du Luxembourg ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Braccetto, à 100 mètres du Jardin du Luxembourg (RER B Luxembourg), propose des pâtes fraîches et des pizzas artisanales préparées sur place à partir d'ingrédients frais et d'exception, dans la tradition italienne et méditerranéenne."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A Braccetto dispose-t-il d'une terrasse ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, A Braccetto dispose d'une terrasse à Paris 5e, idéale pour déjeuner, dîner ou prendre un cocktail dans le Quartier Latin, à deux pas du Panthéon et du Jardin du Luxembourg."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A Braccetto propose-t-il des options végétariennes ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, A Braccetto propose des plats végétariens dans sa cuisine italienne : pizzas, pâtes et antipasti adaptés. Le restaurant est reconnu comme convenant aux végétariens."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <!-- SEO-GEO:END -->
+</head>
+
+<body data-spy="scroll" data-target=".inner-link" data-offset="60">
+    <main>
+        <div class="loading" id="preloader">
+            <div class="h-100vh d-flex align-items-center justify-content-center background-1">
+                <div class="loader">
+                    <div class="line-scale-pulse-out">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include "nav.njk" %}
+        <section class="py-0 overflow-hidden">
+            <div class="background-holder overlay overlay-2 parallax"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1669.jpg);"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row align-items-center justify-content-center text-center pt-8 pb-6"
+                    style="height: 50vh; min-height: 300px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="Contact">Contact</h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <!-- Widget OpenTable - Réservation A Braccetto (rid=342114) -->
+        <section class="py-5 background-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center mb-4 color-primary" data-i18n="Reservez-Maintenant">Réserver une table</h2>
+                        <p class="text-center mb-4">Réservez au restaurant <strong>A Braccetto</strong>, 19 Rue Soufflot, 75005 Paris.</p>
+                        <div id="ot-reservation-widget" class="d-flex justify-content-center"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="https://www.opentable.fr/widget/reservation/loader?rid=342114&restref=342114&type=standard&theme=tall&domain=fr&lang=fr-FR&newtab=false&ot_source=Site%20A%20Braccetto"></script>
+        <section class="py-9">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 pr-lg-6">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-12 mb-4">
+                                <div class="col-xl-6">
+                                    <h6 class="fs-0 mb-4 color-primary">A Braccetto, 19 Rue Soufflot, 75005 Paris</h6>
+                                    <div class="p-2">
+                                        <div class="row">
+                                            <div class="col">
+                                                <iframe
+                                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10502.338347191275!2d2.34147!3d48.847062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6711c8a4c56cf%3A0xa0b7c199efab329!2sA%20Braccetto!5e0!3m2!1sfr!2sfr!4v1684340572402!5m2!1sfr!2sfr"
+                                                    style="border:0;" allowfullscreen="" loading="lazy"
+                                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-12">
+                                <h4 class="mb-2" data-i18n="Reseaux">Réseaux sociaux</h4>
+                                <a class="d-inline-block mt-2" href="https://instagram.com/abraccettoparis">
+                                    <span class="fa fa-instagram fs-2 mx-2 color-primary"></span>
+                                </a>
+                                <a class="d-inline-block mt-2" href="https://goo.gl/maps/MacCEm5QgS1EkpDs8">
+                                    <span class="fa fa-map-marker fs-2 ml-2 color-primary"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg mt-4 mt-lg-0">
+                        <form class="zform">
+                            <div class="row">
+                                <div class="col-12">
+                                    <input class="form-control" type="hidden" name="to"
+                                        value="contact@abraccettoparis.com" />
+                                    <input class="form-control" type="text" id="name" name="name" placeholder="Nom et prénom" required="required"/>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <input class="form-control" type="email" id="email" name="from" placeholder="Email" required="required" />
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <select class="" id="select-contact" type="text" name="subject" placeholder="Objet" required="required">
+                                        <option value="Retour d'experience" data-i18n="Form.Objet.Retour">Retour d'experience</option>
+                                        <option value="Objets perdus" data-i18n="Form.Objet.Objets-perdus">Objets perdus</option>
+                                        <!-- <option value="Evénementiel - Groupes" data-i18n="Form.Objet.Evenementiel">Evénementiel - Groupes</option> -->
+                                        <option value="Recrutement" data-i18n="Form.Objet.Recrutement">Recrutement</option>
+                                        <option value="Demande presse" data-i18n="Form.Objet.Presse">Demande presse</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <textarea class="form-control" name="contenu" rows="6" id="text" placeholder="Entrez votre demande ici..."
+                                        required="required"></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <button class="btn btn-md-lg btn-primary" type="Submit">
+                                                <span class="color-white fw-600" data-i18n="Form.Envoyer">Envoyer</span>
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <div class="zform-feedback"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="text-center pb-3">
+            <div class="background-holder overlay overlay-2"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;">
+            </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h4 data-i18n="Ils-parlent" style="color: white;"><strong>Ils parlent de nous </strong></h4>
+                        <div class="flexslider flexslider-simple" style="background-color: transparent;">
+                            <ul class="slides" style="list-style-type: none;">
+                                <li>
+                                    <div class="container text-center">
+                                        <div class="row align-itmes-center">
+                                            <div class="col">
+                                                <br>
+                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto" target="_blank"><img src="/assets/images/logo_gm.png" style="height:auto; max-width: fit-content; margin: auto;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-6 fs--1">
+                    <div class="col-lg">
+                        <div class="color-8">&copy;A Braccetto 2026 all right reserved
+                            <div class="footer-links mt-2">
+                                <a href="faq.html" class="mr-3 color-white" data-i18n="FooterLinks.FAQ">FAQ</a>
+                                <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
+                                <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
+                                <a href="privacy-policy.html" class="mr-3 color-white" data-i18n="FooterLinks.PrivacyPolicy">Politique de confidentialité</a>
+                                <a href="cookie-policy.html" class="color-white" data-i18n="FooterLinks.CookiePolicy">Politique de cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+<!-- SEO-GEO-FAQ:START (généré par tools/seo/generate.mjs — ne pas éditer à la main) -->
+    <section class="seo-faq" aria-labelledby="seo-faq-title">
+      <div class="container">
+        <h2 id="seo-faq-title" class="seo-faq__title" data-i18n="Faq-titre">Questions fréquentes</h2>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-lieu">Où se situe le restaurant A Braccetto ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-lieu">A Braccetto se situe au 19 rue Soufflot, 75005 Paris, dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La station RER B Luxembourg se trouve à environ 100 mètres.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-horaires">Quels sont les horaires d'ouverture d'A Braccetto ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-horaires">A Braccetto est ouvert tous les jours en service continu, du lundi au vendredi de 10h00 à 02h00, et le samedi et dimanche de 09h00 à 02h00.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-cuisine">Quel type de cuisine propose A Braccetto ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-cuisine">A Braccetto propose une cuisine italienne et méditerranéenne : pizzas artisanales, pâtes fraîches, antipasti, cocktails et vins italiens, préparés à partir d'ingrédients frais.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-reserver">Comment réserver une table chez A Braccetto ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-reserver">La réservation se fait en ligne depuis le site abraccettoparis.com. Des formules spécifiques sont également proposées pour le brunch et le menu dégustation pizza.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-brunch">A Braccetto propose-t-il un brunch ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-brunch">Oui, A Braccetto propose un brunch italien le midi. La réservation est conseillée, notamment le week-end.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-privatisation">Peut-on privatiser le restaurant A Braccetto pour un événement ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-privatisation">Oui. A Braccetto peut être privatisé pour des événements à Paris 5e : le salon bar accueille jusqu'à 60 personnes en cocktail et la verrière jusqu'à 70 personnes en cocktail.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-tard">Y a-t-il un restaurant italien ouvert tard le soir dans le Quartier Latin ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-tard">Oui, A Braccetto, restaurant italien au 19 rue Soufflot (Paris 5e), sert en continu jusqu'à 2h00 du matin tous les jours. C'est une adresse pratique pour dîner tard, prendre un cocktail ou un aperitivo près du Panthéon et de la Sorbonne.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-romantique">Quel restaurant italien pour un dîner romantique à Paris 5e ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-romantique">A Braccetto offre un cadre design et chaleureux, idéal pour un dîner romantique dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La cuisine italienne y est préparée à partir d'ingrédients frais, avec une carte de vins et cocktails italiens.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-groupe">Où aller à plusieurs ou en groupe pour un repas italien à Paris 5e ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-groupe">A Braccetto accueille les groupes et les repas conviviaux à Paris 5e, avec des espaces pouvant recevoir jusqu'à 70 personnes en cocktail. Le menu dégustation pizza à partager (dès 29€ le midi) est particulièrement adapté aux tablées.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-pates-pizza">Où manger des pâtes fraîches et de la pizza artisanale près du Jardin du Luxembourg ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-pates-pizza">A Braccetto, à 100 mètres du Jardin du Luxembourg (RER B Luxembourg), propose des pâtes fraîches et des pizzas artisanales préparées sur place à partir d'ingrédients frais et d'exception, dans la tradition italienne et méditerranéenne.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-terrasse">A Braccetto dispose-t-il d'une terrasse ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-terrasse">Oui, A Braccetto dispose d'une terrasse à Paris 5e, idéale pour déjeuner, dîner ou prendre un cocktail dans le Quartier Latin, à deux pas du Panthéon et du Jardin du Luxembourg.</div>
+        </details>
+        <details class="seo-faq__item">
+          <summary class="seo-faq__q" data-i18n="Faq-q-vegetarien">A Braccetto propose-t-il des options végétariennes ?</summary>
+          <div class="seo-faq__a" data-i18n="Faq-a-vegetarien">Oui, A Braccetto propose des plats végétariens dans sa cuisine italienne : pizzas, pâtes et antipasti adaptés. Le restaurant est reconnu comme convenant aux végétariens.</div>
+        </details>
+      </div>
+    </section>
+    <!-- SEO-GEO-FAQ:END -->
+    </main>
+
+        {% include "scripts.njk" %}
+    {% include "cookie-reservation.njk" %}
+</body>
+
+</html>

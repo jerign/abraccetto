@@ -1,0 +1,40 @@
+{# Helper local : chemin vers une page selon la langue #}
+{% set langPrefix = "" if lang == "fr" else "/" + lang %}
+
+<div class="znav-container znav-transparent" id="topnav">
+  <nav id="navbarfade" class="navbar navbar-expand-lg">
+    <a class="navbar-brand overflow-hidden pr-3 fs-3 tanlib" href="{{ langPrefix }}/">
+      <img class="logo" src="/assets/images/chozen/resize/logo_det-resize.png" alt="a braccetto">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="hamburger hamburger--emphatic">
+        <div class="hamburger-box"><div class="hamburger-inner"></div></div>
+      </div>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav font-2 fs-0">
+        <li><a href="{{ langPrefix }}/menu.html">{{ "Menu" | t(lang) }}</a></li>
+        <li><a href="{{ langPrefix }}/menu_brunch.html">{{ "Menu brunch" | t(lang) }}</a></li>
+        <li><a href="{{ langPrefix }}/menu_degustation_pizza.html">{{ "Menu-degustation-pizza-nav" | t(lang) }}</a></li>
+        <li><a href="{{ langPrefix }}/gallery.html">{{ "Galerie" | t(lang) }}</a></li>
+        <li><a href="{{ langPrefix }}/privatisation.html">{{ "Privatisation" | t(lang) }}</a></li>
+        <li><a href="{{ langPrefix }}/contact.html">{{ "Contact" | t(lang) }}</a></li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="text-center">
+          {# Sélecteur de langue : liens HTML directs, plus de JS runtime #}
+          <a class="pl-3 pl-lg-1 d-inline-block" href="/">FR</a>
+          <a class="pl-3 pl-lg-1 d-inline-block" href="/en/">EN</a>
+          <a class="pl-3 pl-lg-1 d-inline-block" href="/es/">ES</a>
+          <a class="pl-3 pl-lg-1 d-inline-block" href="https://instagram.com/abraccettoparis">
+            <span class="fa fa-instagram"></span>
+          </a>
+          <a class="pl-3 pl-lg-1 d-inline-block" href="https://goo.gl/maps/MacCEm5QgS1EkpDs8">
+            <span class="fa fa-map-marker"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

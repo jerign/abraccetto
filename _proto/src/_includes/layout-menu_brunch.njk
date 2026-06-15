@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+    <head>
+    <meta charset="utf-8">
+    <!-- Google Tag Manager & Pixel FB : charges apres consentement RGPD (voir enableAnalytics/enableMarketing) -->
+    <script>window.dataLayer = window.dataLayer || [];</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  -->
+    <!--    Document Title-->
+    <!-- =============================================-->
+    <title>{{ title }}</title>
+    <!--  -->
+    <!--    Favicons-->
+    <!--    =============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
+    <link rel="manifest" href="/assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  -->
+    <!--    Stylesheets-->
+    <!--    =============================================-->
+    <!-- Default stylesheets-->
+    <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="/assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="/assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/lib/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+    <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
+    <!-- SEO-GEO:START (généré par tools/seo/generate.mjs — ne pas éditer à la main) -->
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="{{ site.url }}{{ canonicalPath }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ canonicalPath | replace("/" + lang, "") if lang != "fr" else canonicalPath }}">
+    <link rel="alternate" hreflang="fr" href="{{ site.url }}/menu_brunch.html">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/menu_brunch.html">
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/es/menu_brunch.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="A Braccetto">
+    <meta property="og:locale" content="{{ ogLocale }}">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ site.url }}{{ canonicalPath }}">
+    <meta property="og:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta property="og:image:alt" content="A Braccetto — restaurant italien Paris 5e">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta name="geo.region" content="FR-75">
+    <meta name="geo.placename" content="Paris">
+    <meta name="geo.position" content="48.8465;2.3417">
+    <meta name="ICBM" content="48.8465, 2.3417">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://abraccettoparis.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brunch",
+          "item": "https://abraccettoparis.com/menu_brunch.html"
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <!-- SEO-GEO:END -->
+</head>
+
+<body data-spy="scroll" data-target=".inner-link" data-offset="60">
+    <main>
+        <div class="loading" id="preloader">
+            <div class="h-100vh d-flex align-items-center justify-content-center background-1">
+                <div class="loader">
+                    <div class="line-scale-pulse-out">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include "nav.njk" %}
+        <section class="py-0 overflow-hidden">
+            <div class="background-holder overlay overlay-2 parallax"
+                style="background-image:url(/assets/images/v2/logo-brunch.jpg);"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div id="brunch-logo" class="row align-items-center justify-content-center text-center pt-8 pb-6"
+                    data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="Menu brunch"></h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="text-center text-lg-left py-9 background-white" id="target-down-indicator">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div  style="align-items:center; text-align: center;">
+                            <h4 data-i18n="Service-Brunch" >Brunch ~ Lundi Vendredi Samedi Dimanche - 12H00~17h00</h4>
+                        </div>
+                        <a href="/assets/pdf/MENU_BRUNCH_2026.pdf" target="_blank">
+                            <div class="hoverbox">
+                                <img src="/assets/images/menu_brunch_2026.png" alt="" />
+                                <div
+                                    class="hoverbox-primary-content as-hoverbox-content d-flex align-items-center justify-content-center h-100">
+                                    <!-- <h3 class="color-white">Télécharger le Menu</h3> -->
+                                </div>
+                                <div class="hoverbox-content p-4">
+                                    <div class="hoverbox-bg d-flex align-items-center justify-content-center h-100">
+                                    </div>
+                                </div>
+                                
+                                <h3 class="color-black d-flex align-items-center justify-content-center h-100" data-i18n="Cliquer-menu-brunch">&#8593; Cliquez ci dessus
+                                    pour télécharger le menu brunch &#8593; </h3>
+                            </div>
+                        </a>
+                        <p class="mt-4 text-center">
+                            <a href="https://www.opentable.com/booking/experiences-availability?rid=342114&restref=342114&experienceId=671373&utm_source=external&utm_medium=referral&utm_campaign=shared" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" data-i18n="Banner-Degustation-Lien-Brunch">Réservation menu brunch</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="text-center pb-3">
+            <div class="background-holder overlay overlay-2"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;">
+            </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h4 data-i18n="Ils-parlent" style="color: white;"><strong>Ils parlent de nous </strong></h4>
+                        <div class="flexslider flexslider-simple" style="background-color: transparent;">
+                            <ul class="slides" style="list-style-type: none;">
+                                <li>
+                                    <div class="container text-center">
+                                        <div class="row align-itmes-center">
+                                            <div class="col">
+                                                <br>
+                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto" target="_blank"><img src="/assets/images/logo_gm.png" style="height:auto; max-width: fit-content; margin: auto;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-6 fs--1">
+                    <div class="col-lg">
+                        <div class="color-8">&copy;A Braccetto 2026 all right reserved
+                            <div class="footer-links mt-2">
+                                <a href="faq.html" class="mr-3 color-white" data-i18n="FooterLinks.FAQ">FAQ</a>
+                                <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
+                                <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
+                                <a href="privacy-policy.html" class="mr-3 color-white" data-i18n="FooterLinks.PrivacyPolicy">Politique de confidentialité</a>
+                                <a href="cookie-policy.html" class="color-white" data-i18n="FooterLinks.CookiePolicy">Politique de cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+    </main>
+
+        {% include "scripts.njk" %}
+    {% include "cookie-reservation.njk" %}
+</body>
+</html>

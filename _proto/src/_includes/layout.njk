@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  {% include "head.njk" %}
+</head>
+<body>
+  {% include "nav.njk" %}
+
+  <main style="padding-top:120px; min-height:60vh;">
+    <section class="text-center py-5">
+      <h1 class="display-3">{{ heroTitle }}</h1>
+      <p class="lead">{{ heroSubtitle }}</p>
+      <p><a class="btn btn-primary" href="#">{{ "Reservez-Maintenant" | t(lang) }}</a></p>
+    </section>
+
+    <section class="container py-5">
+      <h2>{{ "Infos-pratiques" | t(lang) }}</h2>
+      <ul>
+        <li><strong>{{ "Cuisine" | t(lang) }} :</strong> {{ "Type-cuisine" | t(lang) }}</li>
+        <li><strong>{{ "Service" | t(lang) }} :</strong> {{ "Continu" | t(lang) }}</li>
+        <li><strong>{{ "Ouvertures.Description" | t(lang) }} :</strong>
+          <ul>
+            <li>{{ "Ouvertures.Lundi" | t(lang) }}</li>
+            <li>{{ "Ouvertures.Samedi" | t(lang) }}</li>
+            <li>{{ "Ouvertures.Dimanche" | t(lang) }}</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    {{ content | safe }}
+  </main>
+
+  {% include "footer.njk" %}
+</body>
+</html>

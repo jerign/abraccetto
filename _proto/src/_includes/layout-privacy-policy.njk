@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Initialize dataLayer before GTM -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KKWRCBNB');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '769331374559096');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=769331374559096&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  -->
+    <!--    Document Title-->
+    <!-- =============================================-->
+    <title>{{ title }}</title>
+    <!--  -->
+    <!--    Favicons-->
+    <!--    =============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
+    <link rel="manifest" href="/assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  -->
+    <!--    Stylesheets-->
+    <!--    =============================================-->
+    <!-- Default stylesheets-->
+    <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="/assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="/assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/lib/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+    <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
+    <!-- SEO-GEO:START (généré par tools/seo/generate.mjs — ne pas éditer à la main) -->
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="{{ site.url }}{{ canonicalPath }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ canonicalPath | replace("/" + lang, "") if lang != "fr" else canonicalPath }}">
+    <link rel="alternate" hreflang="fr" href="{{ site.url }}/privacy-policy.html">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/privacy-policy.html">
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/es/privacy-policy.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="A Braccetto">
+    <meta property="og:locale" content="{{ ogLocale }}">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ site.url }}{{ canonicalPath }}">
+    <meta property="og:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta property="og:image:alt" content="A Braccetto — restaurant italien Paris 5e">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta name="geo.region" content="FR-75">
+    <meta name="geo.placename" content="Paris">
+    <meta name="geo.position" content="48.8465;2.3417">
+    <meta name="ICBM" content="48.8465, 2.3417">
+    <!-- SEO-GEO:END -->
+</head>
+
+<body data-spy="scroll" data-target=".inner-link" data-offset="60">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKWRCBNB"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <main>
+        <div class="loading" id="preloader">
+            <div class="h-100vh d-flex align-items-center justify-content-center background-1">
+                <div class="loader">
+                    <div class="line-scale-pulse-out">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include "nav.njk" %}
+        
+        <section class="py-0 overflow-hidden">
+            <div class="background-holder overlay overlay-2 parallax"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1669.jpg);"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row align-items-center justify-content-center text-center pt-8 pb-6"
+                    style="height: 30vh; min-height: 200px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="privacyPolicy.mainTitle">Politique de confidentialité</h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+
+        <section class="py-5 background-white">
+            <div class="container">
+                <h1 data-i18n="privacyPolicy.title">Politique de Confidentialité</h1>
+
+    <p><strong data-i18n="privacyPolicy.effectiveDateTitle">Date d'entrée en vigueur :</strong> <span data-i18n="privacyPolicy.effectiveDate">23 juillet 2024</span></p>
+
+    <h2 data-i18n="privacyPolicy.introduction.title">1. Introduction</h2>
+    <p data-i18n="privacyPolicy.introduction.text1">Bienvenue sur Abraccetto ("nous", "notre", "nos"). Nous nous engageons à protéger votre vie privée. Cette politique de confidentialité explique comment nous recueillons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web [adresse du site web] (le "Site"). Veuillez lire attentivement cette politique de confidentialité. Si vous n'êtes pas d'accord avec les termes de cette politique de confidentialité, veuillez ne pas accéder au site.</p>
+    <p data-i18n="privacyPolicy.introduction.text2">Nous nous réservons le droit d'apporter des modifications à cette politique de confidentialité à tout moment et pour quelque raison que ce soit. Nous vous alerterons de tout changement en mettant à jour la date de "dernière mise à jour" de cette politique de confidentialité. Vous êtes encouragé à consulter régulièrement cette politique de confidentialité pour rester informé des mises à jour. Il sera considéré que vous avez été informé des changements, que vous y serez soumis et que vous les aurez acceptés si vous continuez à utiliser le Site après la date de publication de la politique de confidentialité révisée.</p>
+
+    <h2 data-i18n="privacyPolicy.collectionOfInformation.title">2. Collecte de Vos Informations</h2>
+    <p data-i18n="privacyPolicy.collectionOfInformation.text1">Nous pouvons recueillir des informations vous concernant de différentes manières. Les informations que nous pouvons recueillir sur le Site comprennent :</p>
+    <h3 data-i18n="privacyPolicy.collectionOfInformation.personalData.title">Données Personnelles</h3>
+    <p data-i18n="privacyPolicy.collectionOfInformation.personalData.text">Les informations personnellement identifiables, telles que votre nom, votre adresse de livraison, votre adresse e-mail et votre numéro de téléphone, ainsi que les informations démographiques, telles que votre âge, votre sexe, votre ville natale et vos centres d'intérêt, que vous nous communiquez volontairement lorsque vous vous inscrivez sur le Site ou lorsque vous choisissez de participer à diverses activités liées au Site, telles que le chat en ligne et les babillards électroniques.</p>
+    <h3 data-i18n="privacyPolicy.collectionOfInformation.derivativeData.title">Données Dérivées</h3>
+    <p data-i18n="privacyPolicy.collectionOfInformation.derivativeData.text">Les informations que nos serveurs recueillent automatiquement lorsque vous accédez au Site, telles que votre adresse IP, votre type de navigateur, votre système d'exploitation, vos heures d'accès et les pages que vous avez consultées directement avant et après avoir accédé au Site.</p>
+    <h3 data-i18n="privacyPolicy.collectionOfInformation.financialData.title">Données Financières</h3>
+    <p data-i18n="privacyPolicy.collectionOfInformation.financialData.text">Les informations financières, telles que les données relatives à votre mode de paiement (par exemple, numéro de carte de crédit valide, marque de la carte, date d'expiration) que nous pouvons recueillir lorsque vous achetez, commandez, retournez, échangez ou demandez des informations sur nos services à partir du Site. Nous stockons très peu, voire aucune, information financière que nous recueillons. Sinon, toutes les informations financières sont stockées par notre processeur de paiement, Stripe, et vous êtes encouragé à consulter leur politique de confidentialité et à les contacter directement pour obtenir des réponses à vos questions.</p>
+    <h3 data-i18n="privacyPolicy.collectionOfInformation.mobileDeviceData.title">Données sur les Appareils Mobiles</h3>
+    <p data-i18n="privacyPolicy.collectionOfInformation.mobileDeviceData.text">Les informations sur les appareils, telles que l'identifiant, le modèle et le fabricant de votre appareil mobile, ainsi que les informations sur l'emplacement de votre appareil, si vous accédez au Site à partir d'un appareil mobile.</p>
+
+    <h2 data-i18n="privacyPolicy.useOfInformation.title">3. Utilisation de Vos Informations</h2>
+    <p data-i18n="privacyPolicy.useOfInformation.text1">Disposer d'informations exactes à votre sujet nous permet de vous offrir une expérience fluide, efficace et personnalisée. Plus précisément, nous pouvons utiliser les informations recueillies à votre sujet via le Site pour :</p>
+    <ul>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem1">Créer et gérer votre compte.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem2">Vous envoyer des e-mails concernant votre compte ou votre commande.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem3">Exécuter et gérer les achats, les commandes, les paiements et autres transactions liés au Site.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem4">Améliorer l'efficacité et le fonctionnement du Site.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem5">Surveiller et analyser l'utilisation et les tendances afin d'améliorer votre expérience avec le Site.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem6">Vous informer des mises à jour du Site.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem7">Vous proposer de nouveaux produits, services et/ou recommandations.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem8">Effectuer d'autres activités commerciales si nécessaire.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem9">Prévenir les transactions frauduleuses, surveiller le vol et protéger contre les activités criminelles.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem10">Traiter les paiements et les remboursements.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem11">Demander des commentaires et vous contacter au sujet de votre utilisation du Site.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem12">Résoudre les litiges et régler les problèmes.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem13">Répondre aux demandes de produits et de service client.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem14">Vous envoyer une newsletter.</li>
+        <li data-i18n="privacyPolicy.useOfInformation.listItem15">Solliciter un soutien pour le Site.</li>
+                        </ul>
+
+    <h2 data-i18n="privacyPolicy.disclosureOfInformation.title">4. Divulgation de Vos Informations</h2>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.text1">Nous pouvons partager les informations que nous avons recueillies à votre sujet dans certaines situations. Vos informations peuvent être divulguées comme suit :</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.byLaw.title">Par la Loi ou pour Protéger des Droits</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.byLaw.text">Si nous estimons que la divulgation de vos informations est nécessaire pour répondre à une procédure judiciaire, pour enquêter sur des violations potentielles de nos politiques ou pour y remédier, ou pour protéger les droits, la propriété et la sécurité d'autrui, nous pouvons partager vos informations comme le permet ou l'exige toute loi, règle ou réglementation applicable. Cela inclut l'échange d'informations avec d'autres entités à des fins de protection contre la fraude et de réduction du risque de crédit.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.thirdPartyServiceProviders.title">Fournisseurs de Services Tiers</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.thirdPartyServiceProviders.text">Nous pouvons partager vos informations avec des tiers qui fournissent des services pour nous ou en notre nom, y compris le traitement des paiements, l'analyse des données, la livraison d'e-mails, les services d'hébergement, le service client et l'assistance marketing.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.marketingCommunications.title">Communications Marketing</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.marketingCommunications.text">Avec votre consentement, ou avec la possibilité pour vous de retirer votre consentement, nous pouvons partager vos informations avec des tiers à des fins de marketing, comme le permet la loi.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.onlinePostings.title">Publications en Ligne</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.onlinePostings.text">Lorsque vous publiez des commentaires, des contributions ou tout autre contenu sur le Site, vos publications peuvent être vues par tous les utilisateurs et peuvent être distribuées publiquement en dehors du Site à perpétuité.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.thirdPartyAdvertisers.title">Annonceurs Tiers</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.thirdPartyAdvertisers.text">Nous pouvons utiliser des sociétés de publicité tierces pour diffuser des publicités lorsque vous visitez le Site. Ces sociétés peuvent utiliser des informations sur vos visites sur le Site et d'autres sites web contenues dans les cookies web afin de fournir des publicités sur des biens et services qui vous intéressent.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.affiliates.title">Affiliés</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.affiliates.text">Nous pouvons partager vos informations avec nos affiliés, auquel cas nous exigerons de ces affiliés qu'ils respectent cette politique de confidentialité. Les affiliés comprennent notre société mère et toutes les filiales, les partenaires de coentreprise ou les autres sociétés que nous contrôlons ou qui sont sous contrôle commun avec nous.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.businessPartners.title">Partenaires Commerciaux</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.businessPartners.text">Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer certains produits, services ou promotions.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.otherThirdParties.title">Autres Tiers</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.otherThirdParties.text">Nous pouvons partager vos informations avec des annonceurs et des investisseurs dans le but de mener une analyse commerciale générale. Nous pouvons également partager vos informations avec ces tiers à des fins de marketing, comme le permet la loi.</p>
+    <h3 data-i18n="privacyPolicy.disclosureOfInformation.saleOrBankruptcy.title">Vente ou Faillite</h3>
+    <p data-i18n="privacyPolicy.disclosureOfInformation.saleOrBankruptcy.text">Si nous réorganisons ou vendons tout ou partie de nos actifs, si nous fusionnons ou si nous sommes rachetés par une autre entité, nous pouvons transférer vos informations à l'entité qui lui succède. Si nous cessons nos activités ou si nous faisons faillite, vos informations seraient un actif transféré ou acquis par un tiers. Vous reconnaissez que de tels transferts peuvent se produire et que le cessionnaire peut refuser d'honorer les engagements que nous avons pris dans cette politique de confidentialité.</p>
+
+    <h2 data-i18n="privacyPolicy.trackingTechnologies.title">5. Technologies de Suivi</h2>
+    <h3 data-i18n="privacyPolicy.trackingTechnologies.cookiesAndWebBeacons.title">Cookies et Balises Web</h3>
+    <p data-i18n="privacyPolicy.trackingTechnologies.cookiesAndWebBeacons.text1">Nous pouvons utiliser des cookies, des balises web, des pixels de suivi et d'autres technologies de suivi sur le Site pour aider à personnaliser le Site et à améliorer votre expérience. Lorsque vous accédez au Site, vos informations personnelles ne sont pas collectées par le biais de l'utilisation de technologies de suivi. La plupart des navigateurs sont configurés pour accepter les cookies par défaut. Vous pouvez supprimer ou refuser les cookies, mais sachez qu'une telle action pourrait affecter la disponibilité et la fonctionnalité du Site. Vous ne pouvez pas refuser les balises web. Cependant, elles peuvent être rendues inefficaces en refusant tous les cookies ou en modifiant les paramètres de votre navigateur web pour vous avertir chaque fois qu'un cookie est proposé, vous permettant d'accepter ou de refuser les cookies sur une base individuelle.</p>
+    <p data-i18n="privacyPolicy.trackingTechnologies.cookiesAndWebBeacons.text2">Pour plus d'informations sur la façon dont nous utilisons les cookies, veuillez consulter notre politique en matière de cookies publiée sur le Site, qui est intégrée à cette politique de confidentialité. En utilisant le Site, vous acceptez d'être lié par notre politique en matière de cookies.</p>
+    <h3 data-i18n="privacyPolicy.trackingTechnologies.internetBasedAdvertising.title">Publicité Basée sur Internet</h3>
+    <p data-i18n="privacyPolicy.trackingTechnologies.internetBasedAdvertising.text">De plus, nous pouvons utiliser des logiciels tiers pour diffuser des publicités sur le Site, mettre en œuvre des campagnes de marketing par e-mail et gérer d'autres initiatives de marketing interactif. Ce logiciel tiers peut utiliser des cookies ou des technologies de suivi similaires pour aider à gérer et à optimiser votre expérience en ligne avec nous. Pour plus d'informations sur la désactivation des publicités basées sur les centres d'intérêt, visitez l'outil de désactivation de la Network Advertising Initiative ou l'outil de désactivation de la Digital Advertising Alliance.</p>
+    <h3 data-i18n="privacyPolicy.trackingTechnologies.websiteAnalytics.title">Analyse de Site Web</h3>
+    <p data-i18n="privacyPolicy.trackingTechnologies.websiteAnalytics.text">Nous pouvons également nous associer à des fournisseurs tiers sélectionnés, tels que Google Analytics, pour permettre des technologies de suivi et des services de remarketing sur le Site par l'utilisation de cookies propriétaires et de cookies tiers, afin, entre autres, d'analyser et de suivre l'utilisation du Site par les utilisateurs, de déterminer la popularité de certains contenus et de mieux comprendre l'activité en ligne. En accédant au Site, vous consentez à la collecte et à l'utilisation de vos informations par ces fournisseurs tiers. Nous vous encourageons à consulter leur politique de confidentialité et à les contacter directement pour obtenir des réponses à vos questions. Nous ne transférons pas d'informations personnelles à ces fournisseurs tiers. Cependant, si vous ne souhaitez pas que des informations soient collectées et utilisées par les technologies de suivi, vous pouvez visiter le fournisseur tiers ou l'outil de désactivation de la Network Advertising Initiative ou l'outil de désactivation de la Digital Advertising Alliance.</p>
+
+    <h2 data-i18n="privacyPolicy.thirdPartyWebsites.title">6. Sites Web de Tiers</h2>
+    <p data-i18n="privacyPolicy.thirdPartyWebsites.text">Le Site peut contenir des liens vers des sites web de tiers et des applications d'intérêt, y compris des publicités et des services externes, qui ne sont pas affiliés à nous. Une fois que vous avez utilisé ces liens pour quitter le Site, toute information que vous fournissez à ces tiers n'est pas couverte par cette politique de confidentialité, et nous ne pouvons garantir la sécurité et la confidentialité de vos informations. Avant de visiter et de fournir des informations à des sites web de tiers, vous devez vous informer des politiques et pratiques de confidentialité (le cas échéant) du tiers responsable de ce site web, et vous devez prendre les mesures nécessaires pour, à votre discrétion, protéger la confidentialité de vos informations. Nous ne sommes pas responsables du contenu ou des pratiques et politiques de confidentialité et de sécurité des tiers, y compris les autres sites, services ou applications qui peuvent être liés au Site ou à partir de celui-ci.</p>
+
+    <h2 data-i18n="privacyPolicy.securityOfInformation.title">7. Sécurité de Vos Informations</h2>
+    <p data-i18n="privacyPolicy.securityOfInformation.text">Nous utilisons des mesures de sécurité administratives, techniques et physiques pour aider à protéger vos informations personnelles. Bien que nous ayons pris des mesures raisonnables pour sécuriser les informations personnelles que vous nous fournissez, veuillez noter qu'aucune mesure de sécurité n'est parfaite ou impénétrable, et qu'aucune méthode de transmission de données ne peut être garantie contre toute interception ou autre type d'utilisation abusive. Toute information divulguée en ligne est vulnérable à l'interception et à l'utilisation abusive par des parties non autorisées. Par conséquent, nous ne pouvons garantir une sécurité totale si vous fournissez des informations personnelles.</p>
+
+    <h2 data-i18n="privacyPolicy.policyForChildren.title">8. Politique Concernant les Enfants</h2>
+    <p data-i18n="privacyPolicy.policyForChildren.text">Nous ne sollicitons pas sciemment d'informations auprès d'enfants de moins de 13 ans et ne commercialisons pas sciemment auprès d'eux. Si vous apprenez que nous avons recueilli des informations auprès d'enfants de moins de 13 ans, veuillez nous contacter en utilisant les coordonnées fournies ci-dessous.</p>
+
+    <h2 data-i18n="privacyPolicy.controlsForDoNotTrack.title">9. Contrôles pour les Fonctionnalités "Ne Pas Suivre"</h2>
+    <p data-i18n="privacyPolicy.controlsForDoNotTrack.text">La plupart des navigateurs web et certains systèmes d'exploitation mobiles incluent une fonctionnalité ou un paramètre "Ne Pas Suivre" ("DNT") que vous pouvez activer pour signaler votre préférence en matière de confidentialité afin que les données relatives à vos activités de navigation en ligne ne soient pas surveillées et collectées. Aucune norme technologique uniforme pour la reconnaissance et la mise en œuvre des signaux DNT n'a été finalisée. Par conséquent, nous ne répondons actuellement pas aux signaux de navigateur DNT ou à tout autre mécanisme qui communique automatiquement votre choix de ne pas être suivi en ligne. Si une norme de suivi en ligne est adoptée à l'avenir et que nous devons la suivre, nous vous informerons de cette pratique dans une version révisée de cette politique de confidentialité.</p>
+
+    <h2 data-i18n="privacyPolicy.optionsRegardingInformation.title">10. Options Concernant Vos Informations</h2>
+    <h3 data-i18n="privacyPolicy.optionsRegardingInformation.accountInformation.title">Informations sur le Compte</h3>
+    <p data-i18n="privacyPolicy.optionsRegardingInformation.accountInformation.text">Vous pouvez à tout moment consulter ou modifier les informations de votre compte ou résilier votre compte en :</p>
+    <ul>
+        <li data-i18n="privacyPolicy.optionsRegardingInformation.accountInformation.listItem1">Vous connectant aux paramètres de votre compte et en mettant à jour votre compte.</li>
+        <li data-i18n="privacyPolicy.optionsRegardingInformation.accountInformation.listItem2">Nous contactant en utilisant les coordonnées fournies ci-dessous.</li>
+                        </ul>
+    <p data-i18n="privacyPolicy.optionsRegardingInformation.accountInformation.text2">Sur votre demande de résiliation de votre compte, nous désactiverons ou supprimerons votre compte et vos informations de nos bases de données actives. Cependant, certaines informations peuvent être conservées dans nos fichiers pour prévenir la fraude, régler les problèmes, aider aux enquêtes, faire respecter nos conditions d'utilisation et/ou se conformer aux exigences légales.</p>
+    <h3 data-i18n="privacyPolicy.optionsRegardingInformation.emailsAndCommunications.title">E-mails et Communications</h3>
+    <p data-i18n="privacyPolicy.optionsRegardingInformation.emailsAndCommunications.text">Si vous ne souhaitez plus recevoir de correspondance, d'e-mails ou d'autres communications de notre part, vous pouvez vous désinscrire en :</p>
+    <ul>
+        <li data-i18n="privacyPolicy.optionsRegardingInformation.emailsAndCommunications.listItem1">Notant vos préférences au moment où vous enregistrez votre compte sur le Site.</li>
+        <li data-i18n="privacyPolicy.optionsRegardingInformation.emailsAndCommunications.listItem2">Vous connectant aux paramètres de votre compte et en mettant à jour vos préférences.</li>
+        <li data-i18n="privacyPolicy.optionsRegardingInformation.emailsAndCommunications.listItem3">Nous contactant en utilisant les coordonnées fournies ci-dessous.</li>
+                        </ul>
+    <p data-i18n="privacyPolicy.optionsRegardingInformation.emailsAndCommunications.text2">Si vous ne souhaitez plus recevoir de correspondance, d'e-mails ou d'autres communications de tiers, vous êtes responsable de contacter directement le tiers.</p>
+
+    <h2 data-i18n="privacyPolicy.contactUs.title">11. Nous Contacter</h2>
+    <p data-i18n="privacyPolicy.contactUs.text">Si vous avez des questions ou des commentaires concernant cette politique de confidentialité, veuillez nous contacter à :</p>
+    <p>Abraccetto<br>
+        [Adresse Postale]<br>
+        [Ville, Code Postal]<br>
+        [Pays]<br>
+        [Numéro de Téléphone]<br>
+        [Adresse E-mail]
+    </p>
+            </div>
+        </section>
+
+        <section class="text-center pb-3">
+            <div class="background-holder overlay overlay-2"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;">
+            </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row mt-6 fs--1">
+                    <div class="col-lg">
+                        <div class="color-8">
+                            &copy;A Braccetto <span id="current-year">2025</span> <span data-i18n="FooterLinks.AllRightsReserved">all right reserved</span>
+                            <div class="footer-links mt-2">
+                                <a href="faq.html" class="mr-3 color-white" data-i18n="FooterLinks.FAQ">FAQ</a>
+                                <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
+                                <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
+                                <a href="privacy-policy.html" class="mr-3 color-white" data-i18n="FooterLinks.PrivacyPolicy">Politique de confidentialité</a>
+                                <a href="cookie-policy.html" class="color-white" data-i18n="FooterLinks.CookiePolicy">Politique de cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+    </main>
+
+        {% include "scripts.njk" %}
+    {% include "cookie-reservation.njk" %}
+</body>
+
+</html> 

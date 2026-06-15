@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Initialize dataLayer before GTM -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KKWRCBNB');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '769331374559096');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=769331374559096&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  -->
+    <!--    Document Title-->
+    <!-- =============================================-->
+    <title>{{ title }}</title>
+    <!--  -->
+    <!--    Favicons-->
+    <!--    =============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
+    <link rel="manifest" href="/assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  -->
+    <!--    Stylesheets-->
+    <!--    =============================================-->
+    <!-- Default stylesheets-->
+    <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="/assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="/assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/lib/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+    <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <style>
+        /* Styles de fallback pour la modal si Bootstrap échoue */
+        #cookie-consent-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 15px;
+            z-index: 9999;
+            text-align: center;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        
+        #cookie-consent-banner p {
+            margin-bottom: 10px;
+        }
+        
+        #cookie-consent-banner button {
+            margin: 5px;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        #cookie-consent-banner .btn-dark {
+            background-color: #333;
+            color: white;
+        }
+        
+        #cookie-consent-banner .btn-light {
+            background-color: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+        
+        #cookie-consent-banner .btn-link {
+            background: none;
+            color: #007bff;
+            text-decoration: underline;
+        }
+        
+        #cookie-preferences-modal.modal-fallback {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 10000;
+        }
+        
+        .modal-fallback .modal-dialog {
+            position: relative;
+            width: 90%;
+            max-width: 500px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            #cookie-consent-banner button {
+                display: block;
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+
+        /* Styles pour le sélecteur de langue */
+        .navbar-nav.ml-auto {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-item.dropdown {
+            position: relative;
+        }
+
+        .nav-link.dropdown-toggle {
+            color: #333;
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-link.dropdown-toggle i {
+            font-size: 1.2rem;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            min-width: 160px;
+            padding: 0.5rem 0;
+            margin: 0;
+            background-color: #fff;
+            border: 1px solid rgba(0,0,0,.15);
+            border-radius: 0.25rem;
+            box-shadow: 0 0.5rem 1rem rgba(0,0,0,.175);
+            z-index: 1000;
+        }
+
+        .dropdown-menu.show {
+            display: block;
+        }
+
+        .dropdown-item {
+            display: block;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            clear: both;
+            font-weight: 400;
+            color: #212529;
+            text-align: inherit;
+            white-space: nowrap;
+            background-color: transparent;
+            border: 0;
+            text-decoration: none;
+        }
+
+        .dropdown-item:hover {
+            color: #16181b;
+            text-decoration: none;
+            background-color: #f8f9fa;
+        }
+
+        /* Styles pour le sélecteur de langue sur mobile */
+        @media (max-width: 991.98px) {
+            .navbar-nav.ml-auto {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .dropdown-menu {
+                position: static;
+                float: none;
+                width: auto;
+                margin-top: 0;
+                background-color: transparent;
+                border: 0;
+                box-shadow: none;
+            }
+        }
+
+        /* Styles pour le sélecteur de langue */
+        #lang {
+            background-color: transparent;
+            border: none;
+            color: #333;
+            font-size: 1rem;
+            padding: 0.5rem;
+            cursor: pointer;
+            outline: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 0.5rem center;
+            background-size: 1em;
+            padding-right: 2.5rem;
+        }
+
+        #lang option {
+            background-color: white;
+            color: #333;
+            padding: 0.5rem;
+        }
+
+        @media (max-width: 991.98px) {
+            #lang {
+                margin: 0.5rem 0;
+                width: 100%;
+                max-width: 200px;
+            }
+            
+            .navbar-nav.ml-auto {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+    <!-- SEO-GEO:START (généré par tools/seo/generate.mjs — ne pas éditer à la main) -->
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="{{ site.url }}{{ canonicalPath }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ canonicalPath | replace("/" + lang, "") if lang != "fr" else canonicalPath }}">
+    <link rel="alternate" hreflang="fr" href="{{ site.url }}/terms-of-use.html">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/terms-of-use.html">
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/es/terms-of-use.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="A Braccetto">
+    <meta property="og:locale" content="{{ ogLocale }}">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ site.url }}{{ canonicalPath }}">
+    <meta property="og:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta property="og:image:alt" content="A Braccetto — restaurant italien Paris 5e">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
+    <meta name="geo.region" content="FR-75">
+    <meta name="geo.placename" content="Paris">
+    <meta name="geo.position" content="48.8465;2.3417">
+    <meta name="ICBM" content="48.8465, 2.3417">
+    <!-- SEO-GEO:END -->
+</head>
+
+<body data-spy="scroll" data-target=".inner-link" data-offset="60">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKWRCBNB"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <main>
+        <div class="loading" id="preloader">
+            <div class="h-100vh d-flex align-items-center justify-content-center background-1">
+                <div class="loader">
+                    <div class="line-scale-pulse-out">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include "nav.njk" %}
+        
+        <section class="py-0 overflow-hidden">
+            <div class="background-holder overlay overlay-2 parallax"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1669.jpg);"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row align-items-center justify-content-center text-center pt-8 pb-6"
+                    style="height: 30vh; min-height: 200px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}' data-i18n="TermsOfUse.Title">Conditions Générales d'Utilisation</h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+
+        <section class="py-5 background-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-4" data-i18n="TermsOfUse.Title">Conditions Générales d'Utilisation</h2>
+                        <p><span data-i18n="TermsOfUse.LastUpdated">Dernière mise à jour</span> : <span id="current-date">1 Juillet 2025</span></p>
+                        <script>
+                            document.getElementById('current-date').textContent = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+                        </script>
+
+                        <p data-i18n="TermsOfUse.P1">Les présentes conditions générales d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique des modalités de mise à disposition du site et des services par ABRACCETTO et de définir les conditions d'accès et d'utilisation des services par « l'Utilisateur ».</p>
+                        <p data-i18n="TermsOfUse.P2">Les présentes CGU sont accessibles sur le site à la rubrique «CGU».</p>
+                        <p data-i18n="TermsOfUse.P3">Toute inscription ou utilisation du site implique l'acceptation sans aucune réserve ni restriction des présentes CGU par l'utilisateur. Lors de l'inscription sur le site via le Formulaire d'inscription, chaque utilisateur accepte expressément les présentes CGU en cochant la case précédant le texte suivant : « Je reconnais avoir lu et compris les CGU et je les accepte ». En cas de non-acceptation des CGU stipulées dans le présent contrat, l'Utilisateur se doit de renoncer à l'accès des services proposés par le site. ABRACCETTO se réserve le droit de modifier unilatéralement et à tout moment le contenu des présentes CGU.</p>
+
+                        <h3 class="mt-5" data-i18n="TermsOfUse.Article1.Title">ARTICLE 1 : Les mentions légales</h3>
+                        <p data-i18n="TermsOfUse.Article1.P1">L'édition du site www.abraccettoparis.com est assurée par la Société ABRACCETTO SAS au capital de 155 000 euros, immatriculée au RCS de Paris sous le numéro 401 200 134, dont le siège social est situé au 19 rue Soufflot, 75005 Paris.</p>
+                        <p data-i18n="TermsOfUse.Article1.P2">Numéro de téléphone : XXXXXXXXXX</p>
+                        <p data-i18n="TermsOfUse.Article1.P3">Adresse e-mail : contact@abraccettoparis.com.</p>
+                        <p data-i18n="TermsOfUse.Article1.P4">Le Directeur de la publication est : XXXXXXXX</p>
+                        <p data-i18n="TermsOfUse.Article1.P5">L'hébergeur du site www.abraccettoparis.com est la société OVH SAS, dont le siège social est situé au 2 rue Kellermann - 59100 Roubaix - France, avec le numéro de téléphone : 1007.</p>
+
+                        <h3 class="mt-4" data-i18n="TermsOfUse.Article2.Title">ARTICLE 2 : Accès au site</h3>
+                        <p data-i18n="TermsOfUse.Article2.P1">Le site www.abraccettoparis.com permet à l'Utilisateur un accès gratuit aux services suivants : informations sur le restaurant, menu, réservation en ligne, privatisation, contact.</p>
+                        <p data-i18n="TermsOfUse.Article2.P2">Le site est accessible gratuitement en tout lieu à tout Utilisateur ayant un accès à Internet. Tous les frais supportés par l'Utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.</p>
+                        <p data-i18n="TermsOfUse.Article2.P3">L'Utilisateur non membre n'a pas accès aux services réservés. Pour cela, il doit s'inscrire en remplissant le formulaire. En acceptant de s'inscrire aux services réservés, l'Utilisateur membre s'engage à fournir des informations sincères et exactes concernant son état civil et ses coordonnées, notamment son adresse email.</p>
+                        <p data-i18n="TermsOfUse.Article2.P4">Pour accéder aux services, l'Utilisateur devra s'identifier à l'aide de son nom d'utilisateur et de son mot de passe qui lui seront communiqués après son inscription. Tout Utilisateur membre régulièrement inscrit pourra également solliciter sa désinscription en se rendant à la page dédiée sur son espace personnel. Celle-ci sera effective dans un délai raisonnable.</p>
+                        <p data-i18n="TermsOfUse.Article2.P5">Tout événement dû à un cas de force majeure ayant pour conséquence un dysfonctionnement du site ou serveur et sous réserve de toute interruption ou modification en cas de maintenance, n'engage pas la responsabilité de ABRACCETTO. Dans ces cas, l'Utilisateur accepte ainsi ne pas tenir rigueur à l'éditeur de toute interruption ou suspension de service, même sans préavis.</p>
+                        <p data-i18n="TermsOfUse.Article2.P6">L'Utilisateur a la possibilité de contacter le site par messagerie électronique à l'adresse email de l'éditeur communiqué à l'ARTICLE 1.</p>
+
+                        <h3 class="mt-4" data-i18n="TermsOfUse.Article3.Title">ARTICLE 3 : Collecte des données</h3>
+                        <p data-i18n="TermsOfUse.Article3.P1">Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés. Le site est déclaré à la CNIL sous le numéro [numéro CNIL].</p>
+                        <p data-i18n="TermsOfUse.Article3.P2">En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit :</p>
+                        <ul>
+                            <li data-i18n="TermsOfUse.Article3.ListItem1">par mail à l'adresse email contact@abraccettoparis.com</li>
+                            <li data-i18n="TermsOfUse.Article3.ListItem2">par voie postale au 19 rue Soufflot, 75005 Paris;</li>
+                            <li data-i18n="TermsOfUse.Article3.ListItem3">via un formulaire de contact;</li>
+                            <li data-i18n="TermsOfUse.Article3.ListItem4">via son espace personnel.</li>
+                        </ul>
+                        <p data-i18n="TermsOfUse.Article3.P3">Pour plus d'informations sur la manière dont nous traitons vos données personnelles, veuillez consulter notre <a href="privacy-policy.html" data-i18n="PrivacyPolicyLink">Politique de confidentialité</a>.</p>
+
+                        <h3 class="mt-4" data-i18n="TermsOfUse.Article4.Title">ARTICLE 4 : Propriété intellectuelle</h3>
+                        <p data-i18n="TermsOfUse.Article4.P1">Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.</p>
+                        <p data-i18n="TermsOfUse.Article4.P2">La marque ABRACCETTO est une marque déposée par ABRACCETTO SAS. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale de cette marque, de quelque nature que ce soit, est totalement prohibée.</p>
+                        <p data-i18n="TermsOfUse.Article4.P3">L'Utilisateur doit solliciter l'autorisation préalable du site pour toute reproduction, publication, copie des différents contenus. Il s'engage à une utilisation des contenus du site dans un cadre strictement privé, toute utilisation à des fins commerciales et publicitaires est strictement interdite.</p>
+                        <p data-i18n="TermsOfUse.Article4.P4">Toute représentation totale ou partielle de ce site par quelque procédé que ce soit, sans l'autorisation expresse de l'exploitant du site Internet constituerait une contrefaçon sanctionnée par l'article L 335-2 et suivants du Code de la propriété intellectuelle.</p>
+                        <p data-i18n="TermsOfUse.Article4.P5">Il est rappelé conformément à l'article L122-5 du Code de propriété intellectuelle que l'Utilisateur qui reproduit, copie ou publie le contenu protégé doit citer l'auteur et sa source.</p>
+
+                        <h3 class="mt-4" data-i18n="TermsOfUse.Article5.Title">ARTICLE 5 : Responsabilité</h3>
+                        <p data-i18n="TermsOfUse.Article5.P1">Les sources des informations diffusées sur le site www.abraccettoparis.com sont réputées fiables mais le site ne garantit pas qu'il soit exempt de défauts, d'erreurs ou d'omissions.</p>
+                        <p data-i18n="TermsOfUse.Article5.P2">Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site www.abraccettoparis.com ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenu responsable de l'utilisation et de l'interprétation de l'information contenue dans ce site.</p>
+                        <p data-i18n="TermsOfUse.Article5.P3">L'Utilisateur s'assure de garder son mot de passe secret. Toute divulgation du mot de passe, quelle que soit sa forme, est interdite. Il assume les risques liés à l'utilisation de son identifiant et mot de passe. Le site décline toute responsabilité.</p>
+                        <p data-i18n="TermsOfUse.Article5.P4">Le site www.abraccettoparis.com ne peut être tenu pour responsable d'éventuels virus qui pourraient infecter l'ordinateur ou tout matériel informatique de l'Internaute, suite à une utilisation, à l'accès, ou au téléchargement provenant de ce site.</p>
+                        <p data-i18n="TermsOfUse.Article5.P5">La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un tiers.</p>
+
+                        <h3 class="mt-4" data-i18n="TermsOfUse.Article6.Title">ARTICLE 6 : Liens hypertextes</h3>
+                        <p data-i18n="TermsOfUse.Article6.P1">Des liens hypertextes peuvent être présents sur le site. L'Utilisateur est informé qu'en cliquant sur ces liens, il sortira du site www.abraccettoparis.com. Ce dernier n'a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu.</p>
+
+                        <h3 class="mt-4" data-i18n="TermsOfUse.Article7.Title">ARTICLE 7 : Cookies</h3>
+                        <p data-i18n="TermsOfUse.Article7.P1">L'Utilisateur est informé que lors de ses visites sur le site, un cookie peut s'installer automatiquement sur son logiciel de navigation.</p>
+                        <p data-i18n="TermsOfUse.Article7.P2">Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l'ordinateur de l'Utilisateur par votre navigateur et qui sont nécessaires à l'utilisation du site www.abraccettoparis.com. Les cookies ne contiennent pas d'information personnelle et ne peuvent pas être utilisés pour identifier quelqu'un. Un cookie contient un identifiant unique, généré aléatoirement et donc anonyme. Certains cookies expirent à la fin de la visite de l'Utilisateur, d'autres restent.</p>
+                        <p data-i18n="TermsOfUse.Article7.P3">L'information contenue dans les cookies est utilisée pour améliorer le site www.abraccettoparis.com.</p>
+                        <p data-i18n="TermsOfUse.Article7.P4">En naviguant sur le site, L'Utilisateur les accepte.</p>
+                        <p data-i18n="TermsOfUse.Article7.P5">L'Utilisateur pourra désactiver ces cookies par l'intermédiaire des paramètres figurant au sein de son logiciel de navigation.</p>
+                        <p data-i18n="TermsOfUse.Article7.P6">Pour plus d'informations sur l'utilisation des cookies sur notre site, veuillez consulter notre <a href="cookie-policy.html" data-i18n="CookiePolicyLink">Politique de cookies</a>.</p>
+
+                        <h3 class="mt-4" data-i18n="TermsOfUse.Article8.Title">ARTICLE 8 : Droit applicable et juridiction compétente</h3>
+                        <p data-i18n="TermsOfUse.Article8.P1">La législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né entre les parties, les tribunaux français seront seuls compétents pour en connaître.</p>
+                        <p data-i18n="TermsOfUse.Article8.P2">Pour toute question relative à l'application des présentes CGU, vous pouvez joindre l'éditeur aux coordonnées inscrites à l'ARTICLE 1.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center pb-3">
+            <div class="background-holder overlay overlay-2"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;">
+            </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row mt-8 fs--1">
+                    <div class="col-lg">
+                        <div class="color-8">
+                            &copy;A Braccetto <span id="current-year">2025</span> <span data-i18n="FooterLinks.Copyright">- Tous droits réservés</span>
+                            <script>
+                                document.getElementById('current-year').textContent = new Date().getFullYear();
+                            </script>
+                            <div class="footer-links mt-2">
+                                <a href="faq.html" class="mr-3 color-white" data-i18n="FooterLinks.FAQ">FAQ</a>
+                                <a href="legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
+                                <a href="terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
+                                <a href="privacy-policy.html" class="mr-3 color-white" data-i18n="FooterLinks.PrivacyPolicy">Politique de confidentialité</a>
+                                <a href="cookie-policy.html" class="color-white" data-i18n="FooterLinks.CookiePolicy">Politique de cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+    </main>
+
+        {% include "scripts.njk" %}
+    {% include "cookie-reservation.njk" %}
+</body>
+
+</html> 

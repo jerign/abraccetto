@@ -1011,3 +1011,111 @@ section.text-center.pb-3 {
     line-height: 1.6;
     opacity: 0.9;
 }
+
+/* Mise en évidence des miniatures de menu (PDF cliquable) */
+a[href$=".pdf"] > .hoverbox,
+a[href$=".pdf"] .hoverbox {
+    position: relative;
+    max-width: 420px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+a[href$=".pdf"]:hover .hoverbox,
+a[href$=".pdf"]:focus .hoverbox {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
+}
+a[href$=".pdf"] .hoverbox::after {
+    content: "\f1c1  PDF";  /* font-awesome file-pdf-o glyph */
+    font-family: "FontAwesome", sans-serif;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(0, 0, 0, 0.78);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    z-index: 2;
+    pointer-events: none;
+}
+a[href$=".pdf"] .hoverbox img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+a[href$=".pdf"]:hover .hoverbox img,
+a[href$=".pdf"]:focus .hoverbox img {
+    transform: scale(1.03);
+}
+
+/* CTA "Télécharger le menu" sous la miniature : icône FA + chip */
+a[href$=".pdf"] {
+    text-decoration: none !important;
+}
+a[href$=".pdf"] .hoverbox h3.color-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    width: fit-content;
+    max-width: calc(100% - 2rem);
+    margin: 1rem auto;
+    padding: 0.6rem 1.4rem;
+    border-radius: 999px;
+    background: #351606;
+    color: #fff !important;
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none !important;
+    box-shadow: 0 6px 16px rgba(53, 22, 6, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+a[href$=".pdf"] .hoverbox h3.color-black::before {
+    content: "\f019";
+    font-family: "FontAwesome";
+    font-size: 0.95rem;
+    flex-shrink: 0;
+}
+a[href$=".pdf"]:hover .hoverbox h3.color-black,
+a[href$=".pdf"]:focus .hoverbox h3.color-black {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(53, 22, 6, 0.35);
+}
+
+/* Réduire l'espace vertical autour des sections de téléchargement PDF */
+section:has(> .container > .row > .col-lg-6 > a[href$=".pdf"]),
+section:has(> .container > .row > .col-lg-6 > div > a[href$=".pdf"]) {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+@media (min-width: 992px) {
+    section:has(> .container > .row > .col-lg-6 > a[href$=".pdf"]),
+    section:has(> .container > .row > .col-lg-6 > div > a[href$=".pdf"]) {
+        padding-top: 3.5rem !important;
+        padding-bottom: 3.5rem !important;
+    }
+}
+/* Réduit la marge du chip (texte d'invitation sous l'image) */
+a[href$=".pdf"] .hoverbox h3.color-black {
+    margin: 0.85rem auto 0.4rem !important;
+}
+/* Compact le h4 "Service-Brunch" au-dessus de la miniature */
+a[href$=".pdf"] + div h4,
+.col-lg-6 > div > h4[data-i18n^="Service"] {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
