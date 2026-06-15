@@ -567,7 +567,7 @@ $(document).ready(function(){
 
                 $.ajax({
                     type: 'post',
-                    url: 'assets/php/form-processor2.php',
+                    url: '/assets/php/form-processor2.php',
                     data: $(this).serialize(), // again, keep generic so this applies to any form
                     success: function (result) {
                         $form.find(".zform-feedback").html(result);
