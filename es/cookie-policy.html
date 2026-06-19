@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
-    <!-- Google Tag Manager & Pixel FB : charges apres consentement RGPD (voir enableAnalytics/enableMarketing) -->
-    <script>window.dataLayer = window.dataLayer || [];</script>
+    <!-- Initialize dataLayer before GTM -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KKWRCBNB');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '769331374559096');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=769331374559096&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--  -->
     <!--    Document Title-->
     <!-- =============================================-->
-    <title>La Carte — A Braccetto, Restaurant Italien Paris 5e</title>
+    <title>Política de cookies — A Braccetto</title>
     <!--  -->
     <!--    Favicons-->
     <!--    =============================================-->
@@ -38,91 +65,114 @@
     <!-- Main stylesheet and color file-->
     <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/custom.css" rel="stylesheet">
-    <!-- Les styles pour le cookie consent et le footer sont maintenant dans assets/css/custom.css -->
     <style>
-        .hoverbox {
-            max-width: 400px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .hoverbox img {
-            width: 100%;
-            max-width: 400px;
-            height: auto;
-            object-fit: contain;
-            display: block;
-        }
-        
-        .hoverbox h3 {
-            margin-top: 1rem;
-            padding: 0.5rem;
+        /* Styles de fallback pour la modal si Bootstrap échoue */
+        #cookie-consent-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 15px;
+            z-index: 9999;
             text-align: center;
-            white-space: normal;
-            word-wrap: break-word;
-            line-height: 1.5;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            display: none;
         }
         
-        .menu-section .row > div {
-            display: flex;
-            justify-content: center;
+        #cookie-consent-banner p {
+            margin-bottom: 10px;
+        }
+        
+        #cookie-consent-banner button {
+            margin: 5px;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        #cookie-consent-banner .btn-dark {
+            background-color: #333;
+            color: white;
+        }
+        
+        #cookie-consent-banner .btn-light {
+            background-color: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+        
+        #cookie-consent-banner .btn-link {
+            background: none;
+            color: #007bff;
+            text-decoration: underline;
+        }
+        
+        #cookie-preferences-modal.modal-fallback {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 10000;
+        }
+        
+        .modal-fallback .modal-dialog {
+            position: relative;
+            width: 90%;
+            max-width: 500px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            #cookie-consent-banner button {
+                display: block;
+                width: 100%;
+                margin: 5px 0;
+            }
         }
     </style>
     <!-- SEO-GEO:START (généré par tools/seo/generate.mjs — ne pas éditer à la main) -->
-    <meta name="description" content="Découvrez la carte d A Braccetto : pizzas artisanales, pâtes fraîches, antipasti et plats italiens à Paris 5e, près du Panthéon.">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
-    <link rel="canonical" href="https://abraccettoparis.com/menu.html">
-    <link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu.html">
-    <link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu.html">
-    <link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu.html">
-    <link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu.html">
+    <meta name="description" content="Política de cookies del sitio abraccettoparis.com — A Braccetto.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://abraccettoparis.com/es/cookie-policy.html">
+    <link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/cookie-policy.html">
+    <link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/cookie-policy.html">
+    <link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/cookie-policy.html">
+    <link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/cookie-policy.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="A Braccetto">
-    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale" content="es_ES">
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:title" content="La Carte — A Braccetto, Restaurant Italien Paris 5e">
-    <meta property="og:description" content="Découvrez la carte d A Braccetto : pizzas artisanales, pâtes fraîches, antipasti et plats italiens à Paris 5e, près du Panthéon.">
-    <meta property="og:url" content="https://abraccettoparis.com/menu.html">
+    <meta property="og:title" content="Política de cookies — A Braccetto">
+    <meta property="og:description" content="Política de cookies del sitio abraccettoparis.com — A Braccetto.">
+    <meta property="og:url" content="https://abraccettoparis.com/es/cookie-policy.html">
     <meta property="og:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
     <meta property="og:image:alt" content="A Braccetto — restaurant italien Paris 5e">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="La Carte — A Braccetto, Restaurant Italien Paris 5e">
-    <meta name="twitter:description" content="Découvrez la carte d A Braccetto : pizzas artisanales, pâtes fraîches, antipasti et plats italiens à Paris 5e, près du Panthéon.">
+    <meta name="twitter:title" content="Política de cookies — A Braccetto">
+    <meta name="twitter:description" content="Política de cookies del sitio abraccettoparis.com — A Braccetto.">
     <meta name="twitter:image" content="https://abraccettoparis.com/assets/images/main-header-1.jpg">
     <meta name="geo.region" content="FR-75">
     <meta name="geo.placename" content="Paris">
     <meta name="geo.position" content="48.8465;2.3417">
     <meta name="ICBM" content="48.8465, 2.3417">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Accueil",
-          "item": "https://abraccettoparis.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "La Carte",
-          "item": "https://abraccettoparis.com/menu.html"
-        }
-      ]
-    }
-  ]
-}
-    </script>
     <!-- SEO-GEO:END -->
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKWRCBNB"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <main>
         <div class="loading" id="preloader">
             <div class="h-100vh d-flex align-items-center justify-content-center background-1">
@@ -142,7 +192,7 @@
 
 <div class="znav-container znav-transparent" id="topnav">
   <nav id="navbarfade" class="navbar navbar-expand-lg">
-    <a class="navbar-brand overflow-hidden pr-3 fs-3 tanlib" href="/">
+    <a class="navbar-brand overflow-hidden pr-3 fs-3 tanlib" href="/es/">
       <img class="logo" src="/assets/images/chozen/resize/logo_det-resize.png" alt="a braccetto">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -153,22 +203,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav font-2 fs-0">
-        <li><a href="/menu.html">LA CARTE</a></li>
-        <li><a href="/menu_brunch.html">BRUNCH</a></li>
-        <li><a href="/menu_degustation_pizza.html">DÉGUSTATION PIZZA</a></li>
-        <li><a href="/gallery.html">GALERIE</a></li>
-        <li><a href="/privatisation.html">PRIVATISATION</a></li>
-        <li><a href="/contact.html">CONTACT</a></li>
+        <li><a href="/es/menu.html">MENÚ</a></li>
+        <li><a href="/es/menu_brunch.html">BRUNCH</a></li>
+        <li><a href="/es/menu_degustation_pizza.html">DEGUSTACIÓN PIZZA</a></li>
+        <li><a href="/es/gallery.html">GALERÍA</a></li>
+        <li><a href="/es/privatisation.html">PRIVATIZACIÓN</a></li>
+        <li><a href="/es/contact.html">CONTACTO</a></li>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="text-center">
           
           
           
+            
+          
           <select class="pl-2 pr-2 pl-lg-1 mr-3 d-inline-block lang-select" id="lang" aria-label="Langue / Language / Idioma" onchange="if(this.value)window.location.href=this.value;">
-            <option value="/menu.html" selected>Français</option>
-            <option value="/en/menu.html">English</option>
-            <option value="/es/menu.html">Español</option>
+            <option value="/cookie-policy.html">Français</option>
+            <option value="/en/cookie-policy.html">English</option>
+            <option value="/es/cookie-policy.html" selected>Español</option>
           </select>
           <a class="pl-3 pl-lg-1 d-inline-block" href="https://instagram.com/abraccettoparis">
             <span class="fa fa-instagram"></span>
@@ -182,16 +234,17 @@
   </nav>
 </div>
 
+        
         <section class="py-0 overflow-hidden">
             <div class="background-holder overlay overlay-2 parallax"
                 style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1669.jpg);"> </div>
             <!--/.background-holder-->
             <div class="container">
                 <div class="row align-items-center justify-content-center text-center pt-8 pb-6"
-                    style="height: 50vh; min-height: 300px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    style="height: 30vh; min-height: 200px;" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="col">
                         <div class="overflow-hidden">
-                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>LA CARTE</h1>
+                            <h1 class="color-white fs-5 fs-lg-7" data-zanim='{"delay":0.1}'>Política de Cookies</h1>
                         </div>
                     </div>
                 </div>
@@ -199,64 +252,69 @@
             </div>
             <!--/.container-->
         </section>
-        <section class="text-center text-lg-left py-9 background-white menu-section" id="target-down-indicator">
+
+        <section class="py-5 background-white">
             <div class="container">
-                <div class="row justify-content-center align-items-start">
-                    <div class="col-lg-6 mb-4 mb-lg-0">
-                        <a href="/assets/pdf/MENU_ETE_2026.pdf" target="_blank">
-                            <div class="hoverbox">
-                                <img src="/assets/images/menu_ete_2026.png" alt="" />
-                                <div
-                                    class="hoverbox-primary-content as-hoverbox-content d-flex align-items-center justify-content-center h-100">
-                                    <!-- <h3 class="color-white">Télécharger le Menu</h3> -->
-                                </div>
-                                <div class="hoverbox-content p-4">
-                                    <div class="hoverbox-bg d-flex align-items-center justify-content-center h-100">
-                                    </div>
-                                </div>
-                                
-                                <h3 class="color-black">Cliquez ci dessus pour télécharger le menu</h3>
-                            </div>
-                        </a>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-4">Política de Cookies</h2>
+                        <p><span>Última actualización</span> : <span id="current-date">1 Juillet 2025</span></p>
+                        <script>
+                            document.getElementById('current-date').textContent = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+                        </script>
+
+                        <p>Esta política de cookies explica qué son las cookies y cómo las utilizamos. Debe leer esta política para entender qué son las cookies, cómo las utilizamos, los tipos de cookies que utilizamos, es decir, la información que recopilamos mediante cookies y cómo se utiliza esa información, y cómo controlar las preferencias de cookies. Para más información sobre cómo utilizamos, almacenamos y protegemos sus datos personales, consulte nuestra Política de Privacidad.</p>
+                        <p>Puede en cualquier momento cambiar o retirar su consentimiento de la Declaración de Cookies en nuestro sitio web.</p>
+                        <p>Aprenda más sobre quiénes somos, cómo puede contactarnos y cómo procesamos los datos personales en nuestra Política de Privacidad.</p>
+                        <p>Su consentimiento se aplica a los siguientes dominios: www.abraccettoparis.com</p>
+
+                        <h3 class="mt-5">¿Qué son las cookies?</h3>
+                        <p>Las cookies son pequeños archivos de texto que se utilizan para almacenar pequeñas piezas de información. Las cookies se almacenan en su dispositivo cuando se carga el sitio web en su navegador. Estas cookies nos ayudan a hacer que el sitio web funcione correctamente, a hacerlo más seguro, a proporcionar una mejor experiencia de usuario y a entender cómo funciona el sitio web y analizar qué funciona y dónde necesita mejorar.</p>
+
+                        <h3 class="mt-4">¿Cómo utilizamos las cookies?</h3>
+                        <p>Como la mayoría de los servicios en línea, nuestro sitio web utiliza cookies propias y de terceros para varios propósitos. Las cookies propias son principalmente necesarias para que el sitio web funcione correctamente y no recopilan ninguno de sus datos personales identificables.</p>
+                        <p>Las cookies de terceros utilizadas en nuestros sitios web se utilizan principalmente para entender cómo funciona el sitio web, cómo interactúa con nuestro sitio web, para mantener nuestros servicios seguros, para proporcionar anuncios relevantes para usted y, en general, para proporcionarle una mejor experiencia de usuario mejorada y ayudar a acelerar sus futuras interacciones con nuestro sitio web.</p>
+
+                        <h3 class="mt-4">¿Qué tipos de cookies utilizamos?</h3>
+                        <p>Las cookies utilizadas en nuestro sitio se agrupan en las siguientes categorías.</p>
+                        
+                        <h4 class="mt-3">Necesarias</h4>
+                        <p>Las cookies necesarias son absolutamente esenciales para que el sitio web funcione correctamente. Estas cookies garantizan funcionalidades básicas y características de seguridad del sitio web, de forma anónima.</p>
+
+                        <h4 class="mt-3">Analíticas</h4>
+                        <p>Las cookies analíticas se utilizan para entender cómo los visitantes interactúan con el sitio web. Estas cookies ayudan a proporcionar información sobre métricas como el número de visitantes, la tasa de rebote, la fuente de tráfico, etc.</p>
+
+                        <h4 class="mt-3">Marketing</h4>
+                        <p>Las cookies de marketing se utilizan para proporcionar a los visitantes anuncios y campañas de marketing relevantes. Estas cookies rastrean a los visitantes en los sitios web y recopilan información para proporcionar anuncios personalizados.</p>
+
+                        <h3 class="mt-4">¿Cómo puedo controlar las preferencias de cookies?</h3>
+                        <p>Puede gestionar sus preferencias de cookies haciendo clic en el botón "Preferencias" y activando o desactivando las categorías de cookies en la ventana emergente según sus preferencias.</p>
+                        <p>Si decide cambiar sus preferencias más adelante durante su sesión de navegación, puede hacer clic en la pestaña "Gestione su consentimiento" en su pantalla. Esto mostrará de nuevo el aviso de consentimiento permitiéndole cambiar sus preferencias o retirar su consentimiento por completo.</p>
+                        <p>Además, diferentes navegadores proporcionan diferentes métodos para bloquear y eliminar las cookies utilizadas por los sitios web. Puede cambiar la configuración de su navegador para bloquear/eliminar las cookies. Para obtener más información sobre la gestión y eliminación de cookies, visite wikipedia.org, www.allaboutcookies.org.</p>
                     </div>
                 </div>
             </div>
-            <!--/.container-->
         </section>
+
         <section class="text-center pb-3">
             <div class="background-holder overlay overlay-2"
                 style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;">
             </div>
             <!--/.background-holder-->
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <h4 style="color: white;">Ils parlent de nous</h4>
-                        <div class="flexslider flexslider-simple" style="background-color: transparent;">
-                            <ul class="slides" style="list-style-type: none;">
-                                <li>
-                                    <div class="container text-center">
-                                        <div class="row align-itmes-center">
-                                            <div class="col">
-                                                <br>
-                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto" target="_blank"><img src="/assets/images/logo_gm.png" style="height:auto; max-width: fit-content; margin: auto;"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-6 fs--1">
+                <div class="row mt-8 fs--1">
                     <div class="col-lg">
-                        <div class="color-8">&copy;A Braccetto 2026 all right reserved
+                        <div class="color-8">
+                            &copy;A Braccetto <span id="current-year">2025</span> <span>© A Braccetto 2026</span>
+                            <script>
+                                document.getElementById('current-year').textContent = new Date().getFullYear();
+                            </script>
                             <div class="footer-links mt-2">
                                 <a href="faq.html" class="mr-3 color-white">FAQ</a>
-                                <a href="legal-notice.html" class="mr-3 color-white">Mentions légales</a>
-                                <a href="terms-of-use.html" class="mr-3 color-white">CGU</a>
-                                <a href="privacy-policy.html" class="mr-3 color-white">Politique de confidentialité</a>
-                                <a href="cookie-policy.html" class="color-white">Politique de cookies</a>
+                                <a href="legal-notice.html" class="mr-3 color-white">Aviso Legal</a>
+                                <a href="terms-of-use.html" class="mr-3 color-white">Condiciones de Uso</a>
+                                <a href="privacy-policy.html" class="mr-3 color-white">Política de Privacidad</a>
+                                <a href="cookie-policy.html" class="color-white">Política de Cookies</a>
                             </div>
                         </div>
                     </div>
@@ -291,12 +349,12 @@
         <!-- Cookie Consent Banner (en premier dans le DOM pour que le bouton Réserver soit au-dessus) -->
     <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
         <div>
-            <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;">Nous utilisons des cookies pour améliorer votre expérience.</p>
+            <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;">Utilizamos cookies para mejorar su experiencia.</p>
             <div style="display: flex; flex-direction: column; gap: 6px;">
-                <button id="accept-all-cookies" class="btn btn-sm btn-primary" style="font-size: 14px; padding: 8px 10px; margin-bottom: 5px; font-weight: bold; width: 100%;">Accepter</button>
+                <button id="accept-all-cookies" class="btn btn-sm btn-primary" style="font-size: 14px; padding: 8px 10px; margin-bottom: 5px; font-weight: bold; width: 100%;">Aceptar Todo</button>
                 <div style="display: flex; justify-content: space-between;">
-                    <button id="accept-necessary-cookies" class="btn btn-sm btn-outline-secondary" style="font-size: 11px; padding: 3px 6px; margin-right: 5px;">Nécessaires</button>
-                    <button id="cookie-preferences" class="btn btn-link btn-sm text-primary" style="font-size: 11px; padding: 3px 6px;">Préférences</button>
+                    <button id="accept-necessary-cookies" class="btn btn-sm btn-outline-secondary" style="font-size: 11px; padding: 3px 6px; margin-right: 5px;">Solo Necesarias</button>
+                    <button id="cookie-preferences" class="btn btn-link btn-sm text-primary" style="font-size: 11px; padding: 3px 6px;">Preferencias</button>
                 </div>
             </div>
         </div>
@@ -328,18 +386,18 @@
     </script>
 
     <!-- Module flottant Réservation : onclick direct pour fiabilité maximale -->
-    <button type="button" id="reservation-floating-btn" title="Ouvrir la réservation" aria-label="Ouvrir la réservation" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Réserver</button>
+    <button type="button" id="reservation-floating-btn" title="Abrir reserva" aria-label="Abrir reserva" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Reservar</button>
 
     <!-- Popup réservation OpenTable -->
     <div id="reservation-popup-overlay" class="reservation-popup-overlay" aria-hidden="true" onclick="if(event.target===this) closeReservationPopup();">
         <div class="reservation-popup-box" role="dialog" aria-modal="true" aria-labelledby="reservation-popup-title">
-            <button type="button" class="reservation-popup-close" aria-label="Fermer" onclick="closeReservationPopup();">&times;</button>
+            <button type="button" class="reservation-popup-close" aria-label="Cerrar" onclick="closeReservationPopup();">&times;</button>
             <header class="reservation-popup-header">
-                <h3 id="reservation-popup-title">Réserver une table</h3>
+                <h3 id="reservation-popup-title">Reservar una mesa</h3>
                 <p>A Braccetto — Paris</p>
             </header>
             <div class="reservation-popup-body">
-                <iframe id="reservation-popup-iframe" src="about:blank" title="Réservation OpenTable"></iframe>
+                <iframe id="reservation-popup-iframe" src="about:blank" title="Reserva OpenTable"></iframe>
             </div>
         </div>
     </div>
@@ -357,13 +415,13 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="cookiePreferencesModalLabel">Préférences de cookies</h5>
+                    <h5 class="modal-title" id="cookiePreferencesModalLabel">Preferencias de Cookies</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Personnalisez vos préférences de cookies ci-dessous :</p>
+                    <p>Personalice sus preferencias de cookies a continuación:</p>
                     
                     <style>
                     /* Styles pour les checkboxes */
@@ -504,8 +562,8 @@
                                 <input type="checkbox" class="cookie-checkbox" id="necessary-cookies" checked disabled>
                             </div>
                             <div class="cookie-content">
-                                <div class="cookie-option-header">Cookies nécessaires (obligatoires)</div>
-                                <p class="cookie-option-description">Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés.</p>
+                                <div class="cookie-option-header">Cookies necesarias (obligatorias)</div>
+                                <p class="cookie-option-description">Estas cookies son esenciales para el funcionamiento del sitio web y no pueden ser desactivadas.</p>
                             </div>
                         </div>
                         
@@ -514,8 +572,8 @@
                                 <input type="checkbox" class="cookie-checkbox" id="analytics-cookies">
                             </div>
                             <div class="cookie-content">
-                                <div class="cookie-option-header">Cookies analytiques</div>
-                                <p class="cookie-option-description">Ces cookies nous permettent d'analyser l'utilisation du site web pour en améliorer les performances et l'expérience utilisateur.</p>
+                                <div class="cookie-option-header">Cookies analíticas</div>
+                                <p class="cookie-option-description">Estas cookies nos permiten analizar el uso del sitio para mejorar el rendimiento y la experiencia del usuario.</p>
                             </div>
                         </div>
                         
@@ -524,15 +582,15 @@
                                 <input type="checkbox" class="cookie-checkbox" id="marketing-cookies">
                             </div>
                             <div class="cookie-content">
-                                <div class="cookie-option-header">Cookies marketing</div>
-                                <p class="cookie-option-description">Ces cookies sont utilisés pour vous montrer des publicités pertinentes sur d'autres sites.</p>
+                                <div class="cookie-option-header">Cookies de marketing</div>
+                                <p class="cookie-option-description">Estas cookies se utilizan para mostrarle publicidad relevante en otros sitios.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-cancel" data-dismiss="modal">Annuler</button>
-                    <button type="button" class="btn btn-save" id="save-preferences">Enregistrer les préférences</button>
+                    <button type="button" class="btn btn-cancel" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-save" id="save-preferences">Guardar preferencias</button>
                 </div>
             </div>
         </div>
@@ -717,4 +775,5 @@
     </script>
 
 </body>
-</html>
+
+</html> 

@@ -1,43 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abraccettoparis.com/</loc>
-    <lastmod>2026-05-31</lastmod>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/" />
   </url>
   <url>
     <loc>https://abraccettoparis.com/menu.html</loc>
-    <lastmod>2026-05-31</lastmod>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/menu.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/menu.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu.html" />
   </url>
   <url>
     <loc>https://abraccettoparis.com/menu_brunch.html</loc>
-    <lastmod>2026-05-31</lastmod>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_brunch.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/menu_brunch.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_brunch.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/menu_brunch.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_brunch.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_brunch.html" />
   </url>
   <url>
     <loc>https://abraccettoparis.com/menu_degustation_pizza.html</loc>
-    <lastmod>2026-05-31</lastmod>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_degustation_pizza.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/menu_degustation_pizza.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_degustation_pizza.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/menu_degustation_pizza.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_degustation_pizza.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_degustation_pizza.html" />
   </url>
   <url>
     <loc>https://abraccettoparis.com/menu_nouvel_an.html</loc>
-    <lastmod>2026-05-31</lastmod>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_nouvel_an.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/menu_nouvel_an.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_nouvel_an.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/menu_nouvel_an.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/menu_nouvel_an.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/menu_nouvel_an.html" />
   </url>
   <url>
     <loc>https://abraccettoparis.com/gallery.html</loc>
-    <lastmod>2026-05-31</lastmod>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/gallery.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/gallery.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/gallery.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/gallery.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/gallery.html" />
   </url>
   <url>
     <loc>https://abraccettoparis.com/privatisation.html</loc>
-    <lastmod>2026-05-31</lastmod>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/privatisation.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/privatisation.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/privatisation.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/privatisation.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/privatisation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/privatisation.html" />
   </url>
   <url>
     <loc>https://abraccettoparis.com/contact.html</loc>
-    <lastmod>2026-05-31</lastmod>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/contact.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/contact.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/contact.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/contact.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/contact.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/faq.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/faq.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/faq.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/faq.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/faq.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/faq.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/legal-notice.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/legal-notice.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/legal-notice.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/legal-notice.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/legal-notice.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/legal-notice.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/terms-of-use.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/terms-of-use.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/terms-of-use.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/terms-of-use.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/terms-of-use.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/terms-of-use.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/terms-of-use.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/privacy-policy.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/privacy-policy.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/privacy-policy.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/cookie-policy.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/cookie-policy.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/cookie-policy.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/cookie-policy.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/cookie-policy.html</loc>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/cookie-policy.html" />
   </url>
 </urlset>

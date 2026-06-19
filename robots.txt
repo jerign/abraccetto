@@ -1,8 +1,9 @@
-# robots.txt — A Braccetto (généré par tools/seo/generate.mjs)
+# robots.txt — A Braccetto (cuit par 11ty au build)
 User-agent: *
 Allow: /
 Disallow: /assets/php/
 Disallow: /tools/
+Disallow: /_proto/
 
 # Crawlers IA / moteurs génératifs explicitement autorisés (visibilité GEO)
 User-agent: GPTBot

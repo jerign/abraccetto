@@ -1,83 +1,54 @@
-# A Braccetto
+# A Braccetto — Restaurant Italien Paris 5e
 
-> Bar-restaurant italien à Paris 5e, entre le Panthéon et le Jardin du Luxembourg. Cuisine italienne et méditerranéenne préparée à partir d'ingrédients frais, pizzas artisanales, pâtes, cocktails et brunch, dans un cadre design et chaleureux.
+> Bar-restaurant italien à Paris 5e, entre le Panthéon et le Jardin du Luxembourg.
+> Cuisine italienne et méditerranéenne, pizzas artisanales, pâtes fraîches, cocktails, brunch.
+> Adresse : 19 rue Soufflot, 75005 Paris. Téléphone : 01 42 01 01 07.
+> Ouvert tous les jours en service continu (10h-02h en semaine, 09h-02h le week-end).
+> Réservation : OpenTable (https://www.opentable.fr/restref/client/?restref=342114).
 
-## Informations clés
+## Languages / Langues / Idiomas
 
-- **Nom** : A Braccetto (ABRACCETTO SAS)
-- **Type** : Bar, café, restaurant italien et méditerranéen
-- **Adresse** : 19 rue Soufflot, 75005 Paris, France
-- **Quartier** : Quartier Latin, Paris 5e — entre le Panthéon et le Jardin du Luxembourg
-- **Coordonnées GPS** : 48.8465, 2.3417
-- **Téléphone** : +33 1 42 01 01 07
-- **Email** : contact@abraccettoparis.com
-- **Horaires** : Lundi, Mardi, Mercredi, Jeudi, Vendredi : 10h00–02h00 ; Samedi, Dimanche : 09h00–02h00 (service continu)
-- **Cuisine** : Italienne, Méditerranéenne, Pizza
-- **Services** : Terrasse, Cocktails, Convient aux végétariens, Réservation en ligne, Accès PMR
-- **Gamme de prix** : €€
-- **Moyens de paiement** : Carte Bancaire, Sans contact, Espèces, Titres-restaurant, American Express
-- **Réservation** : https://www.opentable.fr/restref/client/?restref=342114&lang=fr-FR
-- **Accès** : RER B Luxembourg (~100 m) ; Bus Luxembourg/Panthéon ; Métro Cluny-La Sorbonne / Odéon
-- **Langues du site** : fr, en, es
-- **Instagram** : https://instagram.com/abraccettoparis
+- Français (canonique) : https://abraccettoparis.com/
+- English : https://abraccettoparis.com/en/
+- Español : https://abraccettoparis.com/es/
 
-## Pages
+## Pages principales
 
-- [A Braccetto — Restaurant Italien Paris 5e, près du Panthéon](https://abraccettoparis.com/) : Bar-restaurant italien A Braccetto, 19 rue Soufflot Paris 5e, entre Panthéon et Jardin du Luxembourg. Pizzas, pâtes, cocktails, brunch. Réservation en ligne.
-- [La Carte — Pâtes Fraîches & Pizza, A Braccetto Paris 5e](https://abraccettoparis.com/menu.html) : La carte d'A Braccetto : pâtes fraîches maison, pizzas artisanales, antipasti, cocktails et vins italiens, au cœur du Quartier Latin à Paris 5e.
-- [Brunch Italien — A Braccetto, Paris 5e (Quartier Latin)](https://abraccettoparis.com/menu_brunch.html) : Le brunch italien d'A Braccetto à Paris 5e, près du Jardin du Luxembourg. Formule conviviale et généreuse. Réservation conseillée le week-end.
-- [Menu Dégustation Pizza dès 29€ — A Braccetto Paris 5e](https://abraccettoparis.com/menu_degustation_pizza.html) : Menu dégustation pizza d'A Braccetto : sélection de pizzas artisanales à partager. 29€ le midi en semaine, 34€ le soir. Réservation jusqu'à 6 couverts.
-- [Menu Nouvel An — Réveillon Italien à A Braccetto Paris 5e](https://abraccettoparis.com/menu_nouvel_an.html) : Réveillon du Nouvel An chez A Braccetto, restaurant italien à Paris 5e près du Panthéon. Menu d'exception, places limitées, réservation obligatoire.
-- [Galerie Photos — A Braccetto, Restaurant Italien Paris 5e](https://abraccettoparis.com/gallery.html) : Photos du restaurant italien A Braccetto à Paris 5e : salle, verrière, salon bar, plats et ambiance entre le Panthéon et le Jardin du Luxembourg.
-- [Privatisation & Événements — A Braccetto Paris 5e](https://abraccettoparis.com/privatisation.html) : Privatisez A Braccetto pour vos événements à Paris 5e : salons jusqu'à 70 personnes en cocktail. Dîners d'affaires, anniversaires et réceptions.
-- [Contact & Accès — A Braccetto, 19 rue Soufflot Paris 5e](https://abraccettoparis.com/contact.html) : A Braccetto, restaurant italien 19 rue Soufflot 75005 Paris, ouvert jusqu'à 2h. Horaires, accès RER B Luxembourg, réservation au Quartier Latin.
+### Français
+- Accueil : https://abraccettoparis.com/
+- Carte : https://abraccettoparis.com/menu.html
+- Brunch : https://abraccettoparis.com/menu_brunch.html
+- Dégustation pizza : https://abraccettoparis.com/menu_degustation_pizza.html
+- Galerie : https://abraccettoparis.com/gallery.html
+- Privatisation : https://abraccettoparis.com/privatisation.html
+- Contact : https://abraccettoparis.com/contact.html
+- FAQ : https://abraccettoparis.com/faq.html
 
-## Questions fréquentes
+### English
+- Home : https://abraccettoparis.com/en/
+- Menu : https://abraccettoparis.com/en/menu.html
+- Brunch : https://abraccettoparis.com/en/menu_brunch.html
+- Pizza tasting : https://abraccettoparis.com/en/menu_degustation_pizza.html
+- Gallery : https://abraccettoparis.com/en/gallery.html
+- Private events : https://abraccettoparis.com/en/privatisation.html
+- Contact : https://abraccettoparis.com/en/contact.html
+- FAQ : https://abraccettoparis.com/en/faq.html
 
-### Où se situe le restaurant A Braccetto ?
+### Español
+- Inicio : https://abraccettoparis.com/es/
+- Menú : https://abraccettoparis.com/es/menu.html
+- Brunch : https://abraccettoparis.com/es/menu_brunch.html
+- Degustación pizza : https://abraccettoparis.com/es/menu_degustation_pizza.html
+- Galería : https://abraccettoparis.com/es/gallery.html
+- Privatización : https://abraccettoparis.com/es/privatisation.html
+- Contacto : https://abraccettoparis.com/es/contact.html
+- FAQ : https://abraccettoparis.com/es/faq.html
 
-A Braccetto se situe au 19 rue Soufflot, 75005 Paris, dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La station RER B Luxembourg se trouve à environ 100 mètres.
+## Informations utiles pour les moteurs IA
 
-### Quels sont les horaires d'ouverture d'A Braccetto ?
-
-A Braccetto est ouvert tous les jours en service continu, du lundi au vendredi de 10h00 à 02h00, et le samedi et dimanche de 09h00 à 02h00.
-
-### Quel type de cuisine propose A Braccetto ?
-
-A Braccetto propose une cuisine italienne et méditerranéenne : pizzas artisanales, pâtes fraîches, antipasti, cocktails et vins italiens, préparés à partir d'ingrédients frais.
-
-### Comment réserver une table chez A Braccetto ?
-
-La réservation se fait en ligne depuis le site abraccettoparis.com. Des formules spécifiques sont également proposées pour le brunch et le menu dégustation pizza.
-
-### A Braccetto propose-t-il un brunch ?
-
-Oui, A Braccetto propose un brunch italien le midi. La réservation est conseillée, notamment le week-end.
-
-### Peut-on privatiser le restaurant A Braccetto pour un événement ?
-
-Oui. A Braccetto peut être privatisé pour des événements à Paris 5e : le salon bar accueille jusqu'à 60 personnes en cocktail et la verrière jusqu'à 70 personnes en cocktail.
-
-### Y a-t-il un restaurant italien ouvert tard le soir dans le Quartier Latin ?
-
-Oui, A Braccetto, restaurant italien au 19 rue Soufflot (Paris 5e), sert en continu jusqu'à 2h00 du matin tous les jours. C'est une adresse pratique pour dîner tard, prendre un cocktail ou un aperitivo près du Panthéon et de la Sorbonne.
-
-### Quel restaurant italien pour un dîner romantique à Paris 5e ?
-
-A Braccetto offre un cadre design et chaleureux, idéal pour un dîner romantique dans le Quartier Latin, entre le Panthéon et le Jardin du Luxembourg. La cuisine italienne y est préparée à partir d'ingrédients frais, avec une carte de vins et cocktails italiens.
-
-### Où aller à plusieurs ou en groupe pour un repas italien à Paris 5e ?
-
-A Braccetto accueille les groupes et les repas conviviaux à Paris 5e, avec des espaces pouvant recevoir jusqu'à 70 personnes en cocktail. Le menu dégustation pizza à partager (dès 29€ le midi) est particulièrement adapté aux tablées.
-
-### Où manger des pâtes fraîches et de la pizza artisanale près du Jardin du Luxembourg ?
-
-A Braccetto, à 100 mètres du Jardin du Luxembourg (RER B Luxembourg), propose des pâtes fraîches et des pizzas artisanales préparées sur place à partir d'ingrédients frais et d'exception, dans la tradition italienne et méditerranéenne.
-
-### A Braccetto dispose-t-il d'une terrasse ?
-
-Oui, A Braccetto dispose d'une terrasse à Paris 5e, idéale pour déjeuner, dîner ou prendre un cocktail dans le Quartier Latin, à deux pas du Panthéon et du Jardin du Luxembourg.
-
-### A Braccetto propose-t-il des options végétariennes ?
-
-Oui, A Braccetto propose des plats végétariens dans sa cuisine italienne : pizzas, pâtes et antipasti adaptés. Le restaurant est reconnu comme convenant aux végétariens.
+- Type : Bar - Café - Restaurant italien / méditerranéen
+- Quartier : Quartier Latin, Paris 5e, près du Panthéon et du Jardin du Luxembourg
+- Accès : RER B Luxembourg (~100m), Metro Cluny-La Sorbonne (~500m), Velib à proximité
+- Réservation acceptée, options végétariennes, terrasse, accès PMR, cocktails, brunch
+- Privatisation possible jusqu'à 70 personnes (verrière) ou 60 personnes (salon bar)
+- Service continu, ouvert tard le soir jusqu'à 02h00 tous les jours
