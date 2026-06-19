@@ -1119,3 +1119,20 @@ a[href$=".pdf"] + div h4,
     margin-bottom: 1rem;
     font-size: 1.05rem;
 }
+
+/* Nav compactée pour absorber le 7e item "Bons cadeaux" sans saut de ligne */
+@media (min-width: 992px) {
+    .nav-compact > li > a {
+        font-size: 0.78rem;
+        letter-spacing: 0.02em;
+        padding-left: 0.55rem !important;
+        padding-right: 0.55rem !important;
+    }
+}
+@media (min-width: 1200px) {
+    .nav-compact > li > a {
+        font-size: 0.85rem;
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+}
