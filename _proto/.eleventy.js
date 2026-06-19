@@ -20,11 +20,10 @@ function translate(key, lang) {
   return value === undefined ? null : value;
 }
 
-function langFromOutputPath(outputPath) {
-  if (!outputPath) return "fr";
-  const rel = outputPath.replace(/.*_site\//, "");
-  if (rel.startsWith("en/")) return "en";
-  if (rel.startsWith("es/")) return "es";
+function langFromUrl(url) {
+  if (!url) return "fr";
+  if (url.startsWith("/en/")) return "en";
+  if (url.startsWith("/es/")) return "es";
   return "fr";
 }
 
@@ -72,7 +71,11 @@ function cookI18n(html, lang) {
 }
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ "../assets": "assets" });
+  // En mode déploiement, le build écrit à la racine du repo où `assets/` existe déjà —
+  // pas besoin de le recopier (et ce serait copier sur lui-même).
+  if (process.env.ELEVENTY_DEPLOY !== "1") {
+    eleventyConfig.addPassthroughCopy({ "../assets": "assets" });
+  }
 
   eleventyConfig.addGlobalData("site", {
     url: "https://abraccettoparis.com",
@@ -89,7 +92,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addTransform("i18n-cook", function (content) {
     if (!this.page?.outputPath?.endsWith(".html")) return content;
-    const lang = langFromOutputPath(this.page.outputPath);
+    const lang = langFromUrl(this.page.url);
     return cookI18n(content, lang);
   });
 

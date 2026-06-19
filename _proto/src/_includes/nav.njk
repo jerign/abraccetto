@@ -23,10 +23,17 @@
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="text-center">
-          {# Sélecteur de langue : liens HTML directs, plus de JS runtime #}
-          <a class="pl-3 pl-lg-1 d-inline-block" href="/">FR</a>
-          <a class="pl-3 pl-lg-1 d-inline-block" href="/en/">EN</a>
-          <a class="pl-3 pl-lg-1 d-inline-block" href="/es/">ES</a>
+          {# Sélecteur de langue : <select> qui navigue vers la même page dans la langue choisie.
+             page.url ressemble à "/menu.html" (FR) ou "/en/menu.html" — on extrait la partie commune. #}
+          {% set pagePath = page.url %}
+          {% if pagePath.startsWith("/en/") or pagePath.startsWith("/es/") %}
+            {% set pagePath = pagePath.substring(3) %}
+          {% endif %}
+          <select class="pl-2 pr-2 pl-lg-1 mr-3 d-inline-block lang-select" id="lang" aria-label="Langue / Language / Idioma" onchange="if(this.value)window.location.href=this.value;">
+            <option value="{{ pagePath }}"{% if lang == "fr" %} selected{% endif %}>Français</option>
+            <option value="/en{{ pagePath }}"{% if lang == "en" %} selected{% endif %}>English</option>
+            <option value="/es{{ pagePath }}"{% if lang == "es" %} selected{% endif %}>Español</option>
+          </select>
           <a class="pl-3 pl-lg-1 d-inline-block" href="https://instagram.com/abraccettoparis">
             <span class="fa fa-instagram"></span>
           </a>

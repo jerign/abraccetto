@@ -189,36 +189,12 @@ function get_cookie ( cookie_name ){
     return null;
 }
 
-var translator = new Translator({
-  persist: false,
-  languages: ["fr", "en", "es"],
-  defaultLanguage: "fr",
-  detectLanguage: true,
-  filesLocation: "assets/i18n"
-});
-
-// Rendre le traducteur accessible globalement
-window.translator = translator;
-
-var lang = get_cookie("lang");
-
-// Langue utilisée pour le widget OpenTable (lue partout, mise à jour au changement)
-window.currentReservationLang = lang || "fr";
-
-// Assurez-vous qu'une langue est toujours chargée, même si le cookie n'existe pas
-if (lang) {
-  translator.load(lang).then(function () {
-    window.currentReservationLang = lang;
-  });
-} else {
-  translator.load("fr").then(function () {
-    window.currentReservationLang = "fr";
-  });
-}
-
-if (document.getElementById("lang")) {
-  document.getElementById("lang").value = lang || "fr";
-}
+// i18n cuite au build par Eleventy : plus de Translator runtime ni de fetch JSON.
+// On dérive la langue courante de <html lang> (posé par le layout) pour OpenTable.
+var lang = (document.documentElement.getAttribute("lang") || get_cookie("lang") || "fr")
+  .toString()
+  .substr(0, 2);
+window.currentReservationLang = lang;
 
 function getOpenTableLang() {
   var docLang =
@@ -244,13 +220,3 @@ function updateReservationIframeLang() {
   }
 }
 
-if (document.getElementById("lang")) {
-  document.getElementById("lang").addEventListener("change", function () {
-    var newLang = this.value;
-    window.currentReservationLang = newLang;
-    document.cookie = "lang=" + newLang;
-    translator.load(newLang).then(function () {
-      updateReservationIframeLang();
-    });
-  });
-}

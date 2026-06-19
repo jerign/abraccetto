@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "build:prod": "ELEVENTY_DEPLOY=1 eleventy --output=.."
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
