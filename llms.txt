@@ -21,6 +21,7 @@
 - Dégustation pizza : https://abraccettoparis.com/menu_degustation_pizza.html
 - Galerie : https://abraccettoparis.com/gallery.html
 - Privatisation : https://abraccettoparis.com/privatisation.html
+- Bons cadeaux : https://abraccettoparis.com/bons-cadeaux.html
 - Contact : https://abraccettoparis.com/contact.html
 - FAQ : https://abraccettoparis.com/faq.html
 
@@ -31,6 +32,7 @@
 - Pizza tasting : https://abraccettoparis.com/en/menu_degustation_pizza.html
 - Gallery : https://abraccettoparis.com/en/gallery.html
 - Private events : https://abraccettoparis.com/en/privatisation.html
+- Gift cards : https://abraccettoparis.com/en/bons-cadeaux.html
 - Contact : https://abraccettoparis.com/en/contact.html
 - FAQ : https://abraccettoparis.com/en/faq.html
 
@@ -41,6 +43,7 @@
 - Degustación pizza : https://abraccettoparis.com/es/menu_degustation_pizza.html
 - Galería : https://abraccettoparis.com/es/gallery.html
 - Privatización : https://abraccettoparis.com/es/privatisation.html
+- Tarjetas regalo : https://abraccettoparis.com/es/bons-cadeaux.html
 - Contacto : https://abraccettoparis.com/es/contact.html
 - FAQ : https://abraccettoparis.com/es/faq.html
 

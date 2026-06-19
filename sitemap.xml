@@ -170,6 +170,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/privatisation.html" />
   </url>
   <url>
+    <loc>https://abraccettoparis.com/bons-cadeaux.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/bons-cadeaux.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/en/bons-cadeaux.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/bons-cadeaux.html" />
+  </url>
+  <url>
+    <loc>https://abraccettoparis.com/es/bons-cadeaux.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abraccettoparis.com/en/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://abraccettoparis.com/es/bons-cadeaux.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abraccettoparis.com/bons-cadeaux.html" />
+  </url>
+  <url>
     <loc>https://abraccettoparis.com/contact.html</loc>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://abraccettoparis.com/contact.html" />
