@@ -22,6 +22,7 @@
         rel="stylesheet">
     <link href="/assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
     <link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/custom.css" rel="stylesheet">
     <meta name="description" content="Regale una tarjeta A Braccetto: cena italiana, brunch o menú de degustación de pizza en nuestro restaurante del 5º distrito de París.">
@@ -140,10 +141,12 @@
         </section>
         <section class="pb-6">
             <div class="container">
-                <iframe id="bonkdo-iframe" title="Boutique bons cadeaux A Braccetto"
-                    style="width:100%; border:0; min-height:900px;"
-                    src="https://abraccettoparis.bonkdo.com?embed=true&hide_main_title_description=false&hide_footer=false&hide_whychooseus=false&hide_create_money_pot=false&hide_group_payment=false&hide_shared_gifts_header=false&hide_whole_shared_gifts=false&hide_giftcards=false&hide_vouchers=false"
-                    loading="lazy"></iframe>
+                <div class="bonkdo-wrap" style="position:relative; overflow:hidden; width:100%;">
+                    <iframe id="bonkdo-iframe" title="Boutique bons cadeaux A Braccetto"
+                        style="width:100%; border:0; display:block;"
+                        src="https://abraccettoparis.bonkdo.com?embed=true&hide_main_title_description=false&hide_footer=false&hide_whychooseus=false&hide_create_money_pot=false&hide_group_payment=false&hide_shared_gifts_header=false&hide_whole_shared_gifts=false&hide_giftcards=false&hide_vouchers=false"
+                        loading="lazy" scrolling="auto" height="1600"></iframe>
+                </div>
                 <noscript>
                     <p style="text-align:center; margin-top:1rem;">
                         <a href="https://abraccettoparis.shop.bonkdo.com/fr/bons-cadeaux" rel="noopener">Abrir la tienda de tarjetas regalo</a>
@@ -151,23 +154,82 @@
                 </noscript>
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="row mt-6 fs--1">
-            <div class="col-lg">
-                <div class="color-8">&copy;Abraccetto 2026 all right reserved</div>
+        <section class="text-center pb-3">
+            <div class="background-holder overlay overlay-2"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h4 style="color: white;">Hablan de nosotros</h4>
+                        <div class="flexslider flexslider-simple" style="background-color: transparent;">
+                            <ul class="slides" style="list-style-type: none;">
+                                <li>
+                                    <div class="container text-center">
+                                        <div class="row align-itmes-center">
+                                            <div class="col">
+                                                <br>
+                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto" target="_blank"><img src="/assets/images/logo_gm.png" style="height:auto; max-width: fit-content; margin: auto;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-6 fs--1">
+                    <div class="col-lg">
+                        <div class="color-8">&copy;A Braccetto 2026 all right reserved
+                            <div class="footer-links mt-2">
+                                <a href="/es/faq.html" class="mr-3 color-white">FAQ</a>
+                                <a href="/es/legal-notice.html" class="mr-3 color-white">Aviso Legal</a>
+                                <a href="/es/terms-of-use.html" class="mr-3 color-white">Condiciones de Uso</a>
+                                <a href="/es/privacy-policy.html" class="mr-3 color-white">Política de Privacidad</a>
+                                <a href="/es/cookie-policy.html" class="color-white">Política de Cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        </section>
+    </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="/assets/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="/assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/js/googlemap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoK8GIrOHzHwnzHCyqrdtmTpUWcdrTTD8&callback=initMap" async></script>
+    <script src="/assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/lib/jquery-menu-aim/jquery.menu-aim.js"></script>
+    <script src="/assets/lib/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="/assets/lib/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/assets/lib/CustomEase.min.js"></script>
+    <script src="/assets/js/config.js"></script>
+    <script src="/assets/lib/rellax/rellax.min.js"></script>
+    <script src="/assets/js/zanimation.js"></script>
+    <script src="/assets/js/inertia.js"></script>
+    <script src="/assets/lib/lightbox2/dist/js/lightbox.js"></script>
+    <script src="/assets/lib/flexslider/jquery.flexslider-min.js"></script>
+    <script src="/assets/js/core.js"></script>
+    <script src="/assets/js/main.js"></script>
+
     <script type="module" src="/assets/js/index.js"></script>
     <script src="https://abraccettoparis.bonkdo.com/static/js/iframeResizer.min.js"></script>
     <script>
-        if (typeof iFrameResize === "function") {
-            iFrameResize({ checkOrigin: false, heightCalculationMethod: "lowestElement" }, "#bonkdo-iframe");
-        }
+        (function () {
+            var iframe = document.getElementById('bonkdo-iframe');
+            if (!iframe) return;
+            if (typeof iFrameResize === 'function') {
+                iFrameResize({
+                    checkOrigin: false,
+                    heightCalculationMethod: 'lowestElement',
+                    log: false,
+                    minHeight: 1200,
+                    sizeWidth: false
+                }, '#bonkdo-iframe');
+            }
+        })();
     </script>
         <!-- Cookie Consent Banner (en premier dans le DOM pour que le bouton Réserver soit au-dessus) -->
     <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">

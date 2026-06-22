@@ -22,6 +22,7 @@
         rel="stylesheet">
     <link href="/assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
     <link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/custom.css" rel="stylesheet">
     <meta name="description" content="{{ description }}">
@@ -93,10 +94,12 @@
         </section>
         <section class="pb-6">
             <div class="container">
-                <iframe id="bonkdo-iframe" title="Boutique bons cadeaux A Braccetto"
-                    style="width:100%; border:0; min-height:900px;"
-                    src="https://abraccettoparis.bonkdo.com?embed=true&hide_main_title_description=false&hide_footer=false&hide_whychooseus=false&hide_create_money_pot=false&hide_group_payment=false&hide_shared_gifts_header=false&hide_whole_shared_gifts=false&hide_giftcards=false&hide_vouchers=false"
-                    loading="lazy"></iframe>
+                <div class="bonkdo-wrap" style="position:relative; overflow:hidden; width:100%;">
+                    <iframe id="bonkdo-iframe" title="Boutique bons cadeaux A Braccetto"
+                        style="width:100%; border:0; display:block;"
+                        src="https://abraccettoparis.bonkdo.com?embed=true&hide_main_title_description=false&hide_footer=false&hide_whychooseus=false&hide_create_money_pot=false&hide_group_payment=false&hide_shared_gifts_header=false&hide_whole_shared_gifts=false&hide_giftcards=false&hide_vouchers=false"
+                        loading="lazy" scrolling="auto" height="1600"></iframe>
+                </div>
                 <noscript>
                     <p style="text-align:center; margin-top:1rem;">
                         <a href="https://abraccettoparis.shop.bonkdo.com/fr/bons-cadeaux" rel="noopener" data-i18n="Bons-cadeaux-fallback">Accéder à la boutique de bons cadeaux</a>
@@ -104,23 +107,62 @@
                 </noscript>
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="row mt-6 fs--1">
-            <div class="col-lg">
-                <div class="color-8">&copy;Abraccetto 2026 all right reserved</div>
+        <section class="text-center pb-3">
+            <div class="background-holder overlay overlay-2"
+                style="background-image:url(/assets/images/chozen/resize/A_BRACCETTO_1552\ 1.jpg);background-position: top;"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h4 data-i18n="Ils-parlent" style="color: white;"><strong>Ils parlent de nous </strong></h4>
+                        <div class="flexslider flexslider-simple" style="background-color: transparent;">
+                            <ul class="slides" style="list-style-type: none;">
+                                <li>
+                                    <div class="container text-center">
+                                        <div class="row align-itmes-center">
+                                            <div class="col">
+                                                <br>
+                                                <a href="https://fr.gaultmillau.com/restaurants/a-bracetto" target="_blank"><img src="/assets/images/logo_gm.png" style="height:auto; max-width: fit-content; margin: auto;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-6 fs--1">
+                    <div class="col-lg">
+                        <div class="color-8">&copy;A Braccetto 2026 all right reserved
+                            <div class="footer-links mt-2">
+                                <a href="{% if lang != 'fr' %}/{{ lang }}{% endif %}/faq.html" class="mr-3 color-white" data-i18n="FooterLinks.FAQ">FAQ</a>
+                                <a href="{% if lang != 'fr' %}/{{ lang }}{% endif %}/legal-notice.html" class="mr-3 color-white" data-i18n="FooterLinks.LegalNotice">Mentions légales</a>
+                                <a href="{% if lang != 'fr' %}/{{ lang }}{% endif %}/terms-of-use.html" class="mr-3 color-white" data-i18n="FooterLinks.TermsOfUse">CGU</a>
+                                <a href="{% if lang != 'fr' %}/{{ lang }}{% endif %}/privacy-policy.html" class="mr-3 color-white" data-i18n="FooterLinks.PrivacyPolicy">Politique de confidentialité</a>
+                                <a href="{% if lang != 'fr' %}/{{ lang }}{% endif %}/cookie-policy.html" class="color-white" data-i18n="FooterLinks.CookiePolicy">Politique de cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="/assets/lib/jquery/dist/jquery.min.js"></script>
-    <script src="/assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        </section>
+    </main>
+    {% include "scripts.njk" %}
     <script type="module" src="/assets/js/index.js"></script>
     <script src="https://abraccettoparis.bonkdo.com/static/js/iframeResizer.min.js"></script>
     <script>
-        if (typeof iFrameResize === "function") {
-            iFrameResize({ checkOrigin: false, heightCalculationMethod: "lowestElement" }, "#bonkdo-iframe");
-        }
+        (function () {
+            var iframe = document.getElementById('bonkdo-iframe');
+            if (!iframe) return;
+            if (typeof iFrameResize === 'function') {
+                iFrameResize({
+                    checkOrigin: false,
+                    heightCalculationMethod: 'lowestElement',
+                    log: false,
+                    minHeight: 1200,
+                    sizeWidth: false
+                }, '#bonkdo-iframe');
+            }
+        })();
     </script>
     {% include "cookie-reservation.njk" %}
 </body>
