@@ -1120,19 +1120,34 @@ a[href$=".pdf"] + div h4,
     font-size: 1.05rem;
 }
 
-/* Nav compactée pour absorber le 7e item "Bons cadeaux" sans saut de ligne */
+/* Nav compactée pour absorber le 7e item "Bons cadeaux" sans saut de ligne.
+   !important requis : .znav-transparent.znav-container .navbar-nav > li > a:not(.btn)
+   (style.css) a une spécificité supérieure et imposerait font-size: large. */
 @media (min-width: 992px) {
+    /* Le thème pose margin-left: -1.2rem sur .navbar-nav, or #navbarNavDropdown
+       est en overflow:auto : les 19px de débord rognaient le "L" de "LA CARTE". */
+    .nav-compact {
+        margin-left: 0 !important;
+    }
     .nav-compact > li > a {
-        font-size: 0.78rem;
+        font-size: 0.8rem !important;
         letter-spacing: 0.02em;
-        padding-left: 0.55rem !important;
-        padding-right: 0.55rem !important;
+        padding-left: 0.45rem !important;
+        padding-right: 0.45rem !important;
+        white-space: nowrap;
     }
 }
 @media (min-width: 1200px) {
     .nav-compact > li > a {
-        font-size: 0.85rem;
-        padding-left: 0.75rem !important;
-        padding-right: 0.75rem !important;
+        font-size: 0.95rem !important;
+        padding-left: 0.65rem !important;
+        padding-right: 0.65rem !important;
+    }
+}
+@media (min-width: 1400px) {
+    .nav-compact > li > a {
+        font-size: 1.15rem !important;
+        padding-left: 0.9rem !important;
+        padding-right: 0.9rem !important;
     }
 }
