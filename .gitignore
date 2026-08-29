@@ -6,3 +6,5 @@ assets/images/gallery2
 _proto/node_modules/
 _proto/_site/
 _proto/package-lock.json
+# Captures de debug Playwright MCP
+.playwright-mcp/
