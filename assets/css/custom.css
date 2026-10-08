@@ -7,8 +7,8 @@
 .degustation-banner {
     position: absolute;
     top: 130px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* À gauche pour laisser voir le luminaire de la photo d'accueil */
+    left: 5vw;
     z-index: 10;
     background: rgba(10, 10, 10, 0.82);
     color: #fff;
