@@ -269,7 +269,7 @@
     <script src="/assets/js/main.js"></script>
 
         <!-- Cookie Consent Banner (en premier dans le DOM pour que le bouton Réserver soit au-dessus) -->
-    <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 20px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
         <div>
             <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;">We use cookies to improve your experience.</p>
             <div style="display: flex; flex-direction: column; gap: 6px;">
@@ -307,8 +307,6 @@
         }
     </script>
 
-    <!-- Module flottant Réservation : onclick direct pour fiabilité maximale -->
-    <button type="button" id="reservation-floating-btn" title="Open reservation" aria-label="Open reservation" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Book</button>
 
     <!-- Popup réservation OpenTable -->
     <div id="reservation-popup-overlay" class="reservation-popup-overlay" aria-hidden="true" onclick="if(event.target===this) closeReservationPopup();">

@@ -401,7 +401,6 @@
         function closeReservationPopup() { var overlay = document.getElementById('reservation-popup-overlay'); var iframe = document.getElementById('reservation-popup-iframe'); if (!overlay) return; overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; if (iframe) iframe.src = 'about:blank'; }
         document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { var o = document.getElementById('reservation-popup-overlay'); if (o && o.classList.contains('is-open')) closeReservationPopup(); } });
     </script>
-    <button type="button" id="reservation-floating-btn" data-i18n="Reservation-btn Reservation-btn-label Reservation-btn-label" data-i18n-attr="innerHTML title aria-label" title="Réserver une table" aria-label="Ouvrir la réservation" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Réserver</button>
     <div id="reservation-popup-overlay" class="reservation-popup-overlay" aria-hidden="true" onclick="if(event.target===this) closeReservationPopup();">
         <div class="reservation-popup-box" role="dialog" aria-modal="true" aria-labelledby="reservation-popup-title">
             <button type="button" class="reservation-popup-close" data-i18n="Reservation-popup-close" data-i18n-attr="aria-label" aria-label="Fermer" onclick="closeReservationPopup();">&times;</button>

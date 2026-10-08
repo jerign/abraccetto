@@ -1,5 +1,5 @@
     <!-- Cookie Consent Banner (en premier dans le DOM pour que le bouton Réserver soit au-dessus) -->
-    <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 20px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
         <div>
             <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;" data-i18n="CookieConsent.Text">
                 Nous utilisons des cookies pour améliorer votre expérience.
@@ -39,8 +39,6 @@
         }
     </script>
 
-    <!-- Module flottant Réservation : onclick direct pour fiabilité maximale -->
-    <button type="button" id="reservation-floating-btn" data-i18n="Reservation-btn Reservation-btn-label Reservation-btn-label" data-i18n-attr="innerHTML title aria-label" title="Réserver une table" aria-label="Ouvrir la réservation" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Réserver</button>
 
     <!-- Popup réservation OpenTable -->
     <div id="reservation-popup-overlay" class="reservation-popup-overlay" aria-hidden="true" onclick="if(event.target===this) closeReservationPopup();">

@@ -812,50 +812,6 @@ section.text-center.pb-3 {
     object-position: center;
 }
 
-/* Module flottant réservation : toujours au-dessus du bandeau cookies, cliquable */
-#reservation-floating-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 10001 !important;
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    background-color: #e3d8ce;
-    color: #333333;
-    border: 2px solid rgba(0,0,0,0.08);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-align: center;
-    line-height: 1.2;
-    padding: 0 6px;
-    cursor: pointer;
-    pointer-events: auto !important;
-    transition: transform 0.2s, box-shadow 0.2s;
-    font-family: inherit;
-}
-#reservation-floating-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-    color: #333333;
-}
-#reservation-floating-btn:active {
-    transform: scale(0.98);
-}
-@media (max-width: 576px) {
-    #reservation-floating-btn {
-        bottom: 16px;
-        right: 16px;
-        width: 64px;
-        height: 64px;
-        font-size: 0.8rem;
-    }
-}
-
 /* Popup réservation OpenTable - centrage absolu + padding overlay */
 .reservation-popup-overlay {
     position: fixed;

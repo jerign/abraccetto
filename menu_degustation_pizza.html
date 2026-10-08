@@ -454,7 +454,6 @@
         function closeReservationPopup() { var overlay = document.getElementById('reservation-popup-overlay'); var iframe = document.getElementById('reservation-popup-iframe'); if (!overlay) return; overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; if (iframe) iframe.src = 'about:blank'; }
         document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { var o = document.getElementById('reservation-popup-overlay'); if (o && o.classList.contains('is-open')) closeReservationPopup(); } });
     </script>
-    <button type="button" id="reservation-floating-btn" title="Ouvrir la réservation" aria-label="Ouvrir la réservation" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Réserver</button>
     <div id="reservation-popup-overlay" class="reservation-popup-overlay" aria-hidden="true" onclick="if(event.target===this) closeReservationPopup();">
         <div class="reservation-popup-box" role="dialog" aria-modal="true" aria-labelledby="reservation-popup-title">
             <button type="button" class="reservation-popup-close" aria-label="Fermer" onclick="closeReservationPopup();">&times;</button>
@@ -468,7 +467,7 @@
         </div>
     </div>
         <!-- Cookie Consent Banner (en premier dans le DOM pour que le bouton Réserver soit au-dessus) -->
-    <div id="cookie-consent-banner" style="position: fixed; bottom: 110px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 20px; right: 10px; max-width: 280px; background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px; display: none; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); font-size: 11px;">
         <div>
             <p style="font-size: 11px; margin-bottom: 8px; font-weight: bold;">Nous utilisons des cookies pour améliorer votre expérience.</p>
             <div style="display: flex; flex-direction: column; gap: 6px;">
@@ -506,8 +505,6 @@
         }
     </script>
 
-    <!-- Module flottant Réservation : onclick direct pour fiabilité maximale -->
-    <button type="button" id="reservation-floating-btn" title="Ouvrir la réservation" aria-label="Ouvrir la réservation" style="z-index: 99998;" onclick="openReservationPopup(); return false;">Réserver</button>
 
     <!-- Popup réservation OpenTable -->
     <div id="reservation-popup-overlay" class="reservation-popup-overlay" aria-hidden="true" onclick="if(event.target===this) closeReservationPopup();">
