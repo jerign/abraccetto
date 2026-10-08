@@ -65,6 +65,48 @@
     }
 }
 
+/* Logos presse - pied de page "Ils parlent de nous" */
+.press-logos {
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 3rem;
+}
+/* Hauteurs ajustées par logo : leurs proportions diffèrent trop pour une hauteur commune */
+.press-logo {
+    display: block;
+    height: 40px;
+    width: auto;
+    transition: opacity 0.2s;
+}
+.press-logo--tall {
+    height: 64px;
+}
+.press-logo--thin {
+    height: 26px;
+}
+.press-logos a:hover .press-logo {
+    opacity: 0.75;
+}
+@media (max-width: 576px) {
+    .press-logos {
+        gap: 1.5rem 2rem;
+    }
+    .press-logo {
+        height: 32px;
+    }
+    .press-logo--tall {
+        height: 52px;
+    }
+    .press-logo--thin {
+        height: 20px;
+    }
+}
+
 @font-face {
     font-family: tanlib2;
     src: url('../font/TAN_LIEBE.ttf');
